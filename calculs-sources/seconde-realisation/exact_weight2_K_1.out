@@ -1,0 +1,13 @@
+choice [1, 0, 0, 1, 1, 0, 1, 0] : rank_Q of the Weil restriction of U_2 = 480 -> rank_K U_2 = 120.0  (10s)
+  u = e done (14s), failures so far: 0
+  u = x done (30s), failures so far: 0
+  u = (0, 4) done (34s), failures so far: 0
+  u = (1, 1) done (42s), failures so far: 0
+  u = (1, 3) done (48s), failures so far: 0
+  u = (1, 5) done (50s), failures so far: 0
+  u = (1, 7) done (51s), failures so far: 0
+  u = (2, 2) done (56s), failures so far: 0
+  u = (2, 6) done (57s), failures so far: 0
+  u = (3, 3) done (57s), failures so far: 0
+EXACT weight-two closure over K: tests = 681 ; failures = 0 []
+time 57s

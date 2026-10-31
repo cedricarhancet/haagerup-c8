@@ -1,0 +1,26 @@
+== A11+A139 (announced)
+A11+A139 (announced), form x4y2: rank 3; consistency conditions (must vanish): [0, 0, 0]
+A11+A139 (announced), form x2y4: rank 3; consistency conditions (must vanish): [0, 0, 0]
+   R_d4: 1 joint structures
+   R_d5: 1 joint structures
+   R_d6: 1 joint structures
+   small sectors {'d4': ((0, 4),), 'd5': ((1, 3), (0, 4)), 'd6': ((1, 1), (0, 6), (0, 2))} -> COMPATIBLE 
+A11+A139 (announced) R_d1: 1 structure(s)
+      {(0, 6): 1}
+A11+A139 (announced) R_d2: 1 structure(s)
+      {(1, 7): 1, (1, 1): 1, (0, 8): 1, (0, 6): 1, (0, 4): 1, (0, 0): 1}
+A11+A139 (announced) R_d3: 1 structure(s)
+      {(1, 9): 1, (1, 7): 1, (1, 5): 1, (1, 3): 1, (1, 1): 1, (0, 12): 1, (0, 8): 2, (0, 6): 2, (0, 4): 2, (0, 2): 1, (0, 0): 1}
+== A13+A113
+A13+A113, form x4y2: rank 3; consistency conditions (must vanish): [0, 0, 0]
+A13+A113, form x2y4: rank 3; consistency conditions (must vanish): [0, 0, 0]
+   R_d4: 1 joint structures
+   R_d5: 1 joint structures
+   R_d6: 1 joint structures
+   small sectors {'d4': ((1, 1), (0, 0)), 'd5': ((1, 3), (0, 4)), 'd6': ((2, 0), (1, 3), (0, 2))} -> COMPATIBLE 
+A13+A113 R_d1: 1 structure(s)
+      {(1, 1): 1, (0, 2): 1}
+A13+A113 R_d2: 1 structure(s)
+      {(2, 2): 1, (1, 5): 1, (1, 3): 1, (1, 1): 1, (0, 4): 1, (0, 2): 1, (0, 0): 1}
+A13+A113 R_d3: 1 structure(s)
+      {(3, 3): 1, (2, 4): 1, (2, 2): 2, (1, 5): 2, (1, 3): 2, (1, 1): 2, (0, 6): 1, (0, 4): 2, (0, 2): 1, (0, 0): 2}

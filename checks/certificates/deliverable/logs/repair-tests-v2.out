@@ -1,0 +1,16 @@
+f4_tests_2_6 present 845 missing 3 groups 1 13.4
+recovered ('u(0)s', '(2, 6)') 3 14.6
+RECOVERY COMPLETE f4_tests_2_6 956 15.7
+f4_tests_1_7 present 850 missing 0 groups 0 19.1
+RECOVERY COMPLETE f4_tests_1_7 956 20.4
+f4_tests_1_5 present 904 missing 12 groups 1 26.6
+recovered ('u(0)s', '(1, 5)') 12 30.9
+RECOVERY COMPLETE f4_tests_1_5 956 33.3
+f4_tests_2_2 present 918 missing 4 groups 1 41.4
+recovered ('u(0)s', '(2, 2)') 4 43.9
+RECOVERY COMPLETE f4_tests_2_2 956 47.3
+f4_tests_1_3 present 924 missing 19 groups 1 57.1
+recovered ('u(0)s', '(1, 3)') 19 68.4
+RECOVERY COMPLETE f4_tests_1_3 956 71.8
+f4_tests_0_4 present 870 missing 0 groups 0 78.6
+RECOVERY COMPLETE f4_tests_0_4 956 81.5

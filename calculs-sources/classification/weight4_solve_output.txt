@@ -1,0 +1,18 @@
+=== gamma = 0 : 9 weight-four relations, rank in the unknowns (Q1..Q6, T4) = 5
+    Q1 = -(-13*Q6 + 14*T - 2*T4 + 26*tau6 + 27*u**2 - 144*u + 38)/65
+    Q2 = -(273*Q6 - 4*T - 18*T4 - 91*tau6 + 243*u**2 - 126*u - 373)/65
+    Q3 = 3*(442*Q6 + 12*T - 102*T4 - 182*tau6 + 1377*u**2 - 1026*u + 989)/130
+    Q4 = -(26*Q6 + 16*T - 6*T4 - 26*tau6 + 81*u**2 - 198*u + 127)/130
+    Q5 = -(-12*T - 2*T4 + 27*u**2 + 90*u - 105)/26
+    Q6 = (free)
+    T4 = (free)
+   consistency conditions (must vanish): [0, 0, 0, 0]
+=== gamma = 1 : 8 weight-four relations, rank in the unknowns (Q1..Q6, T4) = 4
+    Q1 = (182*Q5 + 78*Q6 + 14*T - 2*T4 - 182*tau5 - 156*tau6 + 27*u**2 - 144*u + 675)/390
+    Q2 = -(48906*Q5 + 29484*Q6 - 1268*T - 5706*T4 - 21736*tau5 - 9828*tau6 + 77031*u**2 - 39942*u - 44115)/7020
+    Q3 = -(234*Q5 + 22*T - 18*T4 - 130*tau5 + 243*u**2 - 360*u + 147)/1404
+    Q4 = -(-858*Q5 + 468*Q6 + 112*T - 42*T4 + 572*tau5 - 468*tau6 + 567*u**2 - 1386*u + 993)/2340
+    Q5 = (free)
+    Q6 = (free)
+    T4 = (free)
+   consistency conditions (must vanish): [0, 0, 0, 0]

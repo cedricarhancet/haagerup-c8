@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "basis": [
+    "1",
+    "sqrt(13)",
+    "sqrt(-3)",
+    "sqrt(-39)"
+  ],
+  "coefficient": [
+    "0",
+    "507/5",
+    "3549/5",
+    "0"
+  ],
+  "seven_pair_coefficients": [
+    "26/5",
+    "104/5",
+    "26/5",
+    "104/5",
+    "13",
+    "13",
+    "117/5"
+  ],
+  "other_pairs_positive_inner_product": 42,
+  "cartan_norms": [
+    6,
+    26
+  ],
+  "minimal_positive_mode_energy": "40/13",
+  "compared_with_exact_engine": true
+}

@@ -1,0 +1,482 @@
+[
+ [
+  1,
+  {
+   "c": [
+    "10/7",
+    "76/35"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "eigen": [
+      {
+       "xi": "4/9",
+       "dimE": 0,
+       "h1": "36/35",
+       "h2": "4/7",
+       "verdict": "none",
+       "why": "E = 0"
+      },
+      {
+       "xi": "35/18",
+       "dimE": 1,
+       "h1": "87/70",
+       "h2": "5/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "-59/9",
+       "dimE": 1,
+       "h1": "1/35",
+       "h2": "11/7",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "-55/18",
+       "dimE": 1,
+       "h1": "37/70",
+       "h2": "15/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "71/18",
+       "dimE": 2,
+       "h1": "107/70",
+       "h2": "1/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "eigen": [
+      {
+       "xi": "5",
+       "dimE": 1,
+       "h1": "9/5",
+       "h2": "0",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "-11/2",
+       "dimE": 1,
+       "h1": "3/10",
+       "h2": "3/2",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "-1",
+       "dimE": 2,
+       "h1": "33/35",
+       "h2": "6/7",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      },
+      {
+       "xi": "-9/2",
+       "dimE": 1,
+       "h1": "31/70",
+       "h2": "19/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "5/2",
+       "dimE": 2,
+       "h1": "101/70",
+       "h2": "5/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "eigen": [
+      {
+       "xi": "-14/9",
+       "dimE": 2,
+       "h1": "26/35",
+       "h2": "6/7",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      },
+      {
+       "xi": "-55/18",
+       "dimE": 1,
+       "h1": "37/70",
+       "h2": "15/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "-91/18",
+       "dimE": 1,
+       "h1": "17/70",
+       "h2": "19/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "71/18",
+       "dimE": 2,
+       "h1": "107/70",
+       "h2": "1/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      },
+      {
+       "xi": "35/18",
+       "dimE": 2,
+       "h1": "87/70",
+       "h2": "5/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "eigen": [
+      {
+       "xi": "68/27",
+       "dimE": 2,
+       "h1": "118/105",
+       "h2": "1/7",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      },
+      {
+       "xi": "-53/54",
+       "dimE": 2,
+       "h1": "131/210",
+       "h2": "9/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      },
+      {
+       "xi": "-215/54",
+       "dimE": 1,
+       "h1": "41/210",
+       "h2": "15/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "163/54",
+       "dimE": 2,
+       "h1": "251/210",
+       "h2": "1/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "eigen": [
+      {
+       "xi": "31/18",
+       "dimE": 1,
+       "h1": "51/70",
+       "h2": "1/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "11/9",
+       "dimE": 2,
+       "h1": "23/35",
+       "h2": "1/7",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      },
+      {
+       "xi": "-41/18",
+       "dimE": 2,
+       "h1": "11/70",
+       "h2": "9/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "eigen": [
+      {
+       "xi": "193/54",
+       "dimE": 1,
+       "h1": "293/210",
+       "h2": "1/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0,
+        1
+       ]
+      },
+      {
+       "xi": "-52/27",
+       "dimE": 2,
+       "h1": "64/105",
+       "h2": "6/7",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      },
+      {
+       "xi": "-293/54",
+       "dimE": 1,
+       "h1": "23/210",
+       "h2": "19/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "85/54",
+       "dimE": 2,
+       "h1": "233/210",
+       "h2": "5/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "eigen": [
+      {
+       "xi": "31/18",
+       "dimE": 1,
+       "h1": "51/70",
+       "h2": "1/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "11/9",
+       "dimE": 2,
+       "h1": "23/35",
+       "h2": "1/7",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      },
+      {
+       "xi": "-41/18",
+       "dimE": 2,
+       "h1": "11/70",
+       "h2": "9/14",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        2,
+        2
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "eigen": [
+      {
+       "xi": "-11/9",
+       "dimE": 1,
+       "h1": "3/7",
+       "h2": "4/7",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "41/18",
+       "dimE": 1,
+       "h1": "13/14",
+       "h2": "1/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      },
+      {
+       "xi": "5/18",
+       "dimE": 1,
+       "h1": "9/14",
+       "h2": "5/14",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        1,
+        1
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    }
+   },
+   "excluded_by": [
+    "(0, 4)",
+    "(1, 1)",
+    "(1, 3)",
+    "(1, 5)",
+    "(1, 7)",
+    "(2, 2)",
+    "(2, 6)",
+    "(3, 3)"
+   ]
+  }
+ ]
+]

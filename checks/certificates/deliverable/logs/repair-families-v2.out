@@ -1,0 +1,113 @@
+f4_families present 13791 missing 4403 groups 110 81.0
+recovered ('L(-1)S3',) 15 82.3
+recovered ('y(-1)S3', 0) 76 82.9
+recovered ('y(-1)S3', 1) 38 83.2
+recovered ('y(-1)S3', 2) 165 84.7
+recovered ('y(-1)S3', 3) 165 87.1
+recovered ('y(-1)S3', 4) 162 95.3
+recovered ('y(-1)S3', 5) 197 106.6
+recovered ('y(-2)U2', 0) 42 106.7
+recovered ('y(-3)U1', 0) 2 106.8
+recovered ('y(-2)U2', 1) 21 106.9
+recovered ('y(-3)U1', 1) 1 107.0
+recovered ('y(-2)U2', 2) 34 107.1
+recovered ('y(-3)U1', 2) 3 107.2
+recovered ('y(-2)U2', 3) 42 107.4
+recovered ('y(-3)U1', 3) 2 107.5
+recovered ('y(-2)U2', 4) 42 108.6
+recovered ('y(-3)U1', 4) 3 108.7
+recovered ('y(-2)U2', 5) 35 109.4
+recovered ('y(-3)U1', 5) 2 109.5
+recovered ('m(-1)U2', '(0, 4)', 0) 39 114.5
+recovered ('m(-1)U2', '(0, 4)', 1) 42 121.8
+recovered ('m(-1)U2', '(0, 4)', 2) 46 129.4
+recovered ('m(-1)U2', '(0, 4)', 3) 40 135.7
+recovered ('m(-1)U2', '(0, 4)', 4) 27 139.6
+recovered ('m(-1)U2', '(1, 1)', 0) 51 147.8
+recovered ('m(-1)U2', '(1, 1)', 1) 37 153.9
+recovered ('m(-1)U2', '(1, 1)', 2) 50 161.8
+recovered ('m(-1)U2', '(1, 1)', 3) 47 169.7
+recovered ('m(-1)U2', '(1, 3)', 0) 48 177.1
+recovered ('m(-1)U2', '(1, 3)', 1) 51 185.4
+recovered ('m(-1)U2', '(1, 3)', 2) 37 191.2
+recovered ('m(-1)U2', '(1, 3)', 3) 23 194.7
+recovered ('m(-1)U2', '(1, 3)', 4) 39 200.8
+recovered ('m(-1)U2', '(1, 3)', 5) 50 208.9
+recovered ('m(-1)U2', '(1, 3)', 6) 47 216.7
+recovered ('m(-1)U2', '(1, 3)', 7) 35 222.2
+recovered ('m(-1)U2', '(1, 5)', 0) 39 225.9
+recovered ('m(-1)U2', '(1, 5)', 1) 48 232.5
+recovered ('m(-1)U2', '(1, 5)', 2) 51 239.4
+recovered ('m(-1)U2', '(1, 5)', 3) 37 244.4
+recovered ('m(-1)U2', '(1, 5)', 4) 23 247.7
+recovered ('m(-1)U2', '(1, 5)', 5) 14 248.9
+recovered ('m(-1)U2', '(1, 5)', 6) 26 251.7
+recovered ('m(-1)U2', '(1, 5)', 7) 39 258.3
+recovered ('m(-1)U2', '(1, 5)', 8) 50 266.5
+recovered ('m(-1)U2', '(1, 5)', 9) 47 273.7
+recovered ('m(-1)U2', '(1, 5)', 10) 35 278.6
+recovered ('m(-1)U2', '(1, 5)', 11) 29 281.1
+recovered ('m(-1)U2', '(1, 7)', 0) 21 282.2
+recovered ('m(-1)U2', '(1, 7)', 1) 39 286.0
+recovered ('m(-1)U2', '(1, 7)', 2) 48 292.5
+recovered ('m(-1)U2', '(1, 7)', 3) 51 299.1
+recovered ('m(-1)U2', '(1, 7)', 4) 37 304.3
+recovered ('m(-1)U2', '(1, 7)', 5) 23 307.5
+recovered ('m(-1)U2', '(1, 7)', 6) 14 308.7
+recovered ('m(-1)U2', '(1, 7)', 7) 7 309.0
+recovered ('m(-1)U2', '(1, 7)', 8) 14 309.8
+recovered ('m(-1)U2', '(1, 7)', 9) 26 312.4
+recovered ('m(-1)U2', '(1, 7)', 10) 39 318.7
+recovered ('m(-1)U2', '(1, 7)', 11) 50 325.7
+recovered ('m(-1)U2', '(1, 7)', 12) 47 332.3
+recovered ('m(-1)U2', '(1, 7)', 13) 35 337.0
+recovered ('m(-1)U2', '(1, 7)', 14) 29 339.5
+recovered ('m(-1)U2', '(1, 7)', 15) 14 340.2
+recovered ('m(-1)U2', '(2, 2)', 0) 40 344.1
+recovered ('m(-1)U2', '(2, 2)', 1) 37 347.2
+recovered ('m(-1)U2', '(2, 2)', 2) 23 349.2
+recovered ('m(-1)U2', '(2, 2)', 3) 50 356.9
+recovered ('m(-1)U2', '(2, 2)', 4) 51 363.7
+recovered ('m(-1)U2', '(2, 2)', 5) 40 369.8
+recovered ('m(-1)U2', '(2, 2)', 6) 35 373.2
+recovered ('m(-1)U2', '(2, 2)', 7) 36 376.4
+recovered ('m(-1)U2', '(2, 2)', 8) 41 381.0
+recovered ('m(-1)U2', '(2, 6)', 0) 23 382.3
+recovered ('m(-1)U2', '(2, 6)', 1) 39 385.0
+recovered ('m(-1)U2', '(2, 6)', 2) 40 388.6
+recovered ('m(-1)U2', '(2, 6)', 3) 38 391.5
+recovered ('m(-1)U2', '(2, 6)', 4) 24 393.6
+recovered ('m(-1)U2', '(2, 6)', 5) 15 394.9
+recovered ('m(-1)U2', '(2, 6)', 6) 6 395.3
+recovered ('m(-1)U2', '(2, 6)', 7) 28 397.7
+recovered ('m(-1)U2', '(2, 6)', 8) 48 403.1
+recovered ('m(-1)U2', '(2, 6)', 9) 58 412.0
+recovered ('m(-1)U2', '(2, 6)', 10) 67 421.9
+recovered ('m(-1)U2', '(2, 6)', 11) 51 429.9
+recovered ('m(-1)U2', '(2, 6)', 12) 33 433.9
+recovered ('m(-1)U2', '(2, 6)', 13) 18 435.4
+recovered ('m(-1)U2', '(2, 6)', 14) 14 436.2
+recovered ('m(-1)U2', '(2, 6)', 15) 29 438.8
+recovered ('m(-1)U2', '(2, 6)', 16) 47 443.2
+recovered ('m(-1)U2', '(2, 6)', 17) 52 447.9
+recovered ('m(-1)U2', '(2, 6)', 18) 47 452.7
+recovered ('m(-1)U2', '(2, 6)', 19) 36 455.5
+recovered ('m(-1)U2', '(2, 6)', 20) 19 456.8
+recovered ('m(-1)U2', '(3, 3)', 0) 29 457.9
+recovered ('m(-1)U2', '(3, 3)', 1) 30 459.1
+recovered ('m(-1)U2', '(3, 3)', 2) 24 459.8
+recovered ('m(-1)U2', '(3, 3)', 3) 13 460.3
+recovered ('m(-1)U2', '(3, 3)', 4) 57 465.3
+recovered ('m(-1)U2', '(3, 3)', 5) 63 470.6
+recovered ('m(-1)U2', '(3, 3)', 6) 54 474.3
+recovered ('m(-1)U2', '(3, 3)', 7) 32 476.5
+recovered ('m(-1)U2', '(3, 3)', 8) 49 480.5
+recovered ('m(-1)U2', '(3, 3)', 9) 63 485.4
+recovered ('m(-1)U2', '(3, 3)', 10) 62 490.2
+recovered ('m(-1)U2', '(3, 3)', 11) 49 494.2
+recovered ('m(-1)U2', '(3, 3)', 12) 20 495.0
+recovered ('m(-1)U2', '(3, 3)', 13) 29 496.0
+recovered ('m(-1)U2', '(3, 3)', 14) 31 497.3
+recovered ('m(-1)U2', '(3, 3)', 15) 25 498.6
+RECOVERY COMPLETE f4_families 18368 545.0
+PIVOT RECONSTRUCTION COMPLETE 6010 656.1

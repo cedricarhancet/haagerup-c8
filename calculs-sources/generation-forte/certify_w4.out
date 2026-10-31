@@ -1,0 +1,18 @@
+S_3 basis 956  U_2 basis 120  V'_4 blocks 149 (11s)
+pivots of N'_4 reloaded from piv_w4 (phase already done) (11s)
+N'_4: 6010 independent words over K (pivots mod p); by family {'L(-1)S3': 956, 'y(-1)S3': 3867, 'm(-1)U2': 1187} (11s)
+  tests u(0)S_3, u = e (271s)
+  tests u(0)S_3, u = x (2490s)
+  tests u(0)S_3, u = (0, 4) (3165s)
+  tests u(0)S_3, u = (1, 1) (4497s)
+Traceback (most recent call last):
+  File "/home/claude/work/Calculs/generation-forte/certify_w4b.py", line 71, in <module>
+    for j, s in enumerate(S3list): E.kv_add(acc[j], E.apply_op(O, s))
+                                                    ~~~~~~~~~~^^^^^^
+  File "/home/claude/work/Calculs/generation-forte/exact_engine.py", line 59, in apply_op
+    for kk, b in img.items(): out[kk] = K.add(out.get(kk, K.Z), K.mul(a, b))
+                                                                ~~~~~^^^^^^
+  File "/home/claude/work/Calculs/generation-forte/Kfield.py", line 21, in mul
+    out[k] += c*a[i]*b[j]
+    ~~~^^^
+KeyboardInterrupt

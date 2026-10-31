@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Full exact F4 reconstruction and all-row memberships; independent re-evaluation of every zero input",
+  "pivot_words": 6010,
+  "cartan_blocks_checked": 131,
+  "family_inputs": 18368,
+  "family_nonzero": 18194,
+  "family_zero": 174,
+  "product_inputs": 9800,
+  "product_nonzero": 9088,
+  "product_zero": 712,
+  "independently_verified_zero_inputs": 886,
+  "source_manifest_sha256": "b52768e5df3eed38619ef55bec97cb7e75c6b2697e56c512366b0137c587e763",
+  "input_manifest_hashes": {
+    "f4_pivots": "6ada248c595be3297e2f1f9d131ce7c4dc2eeedcc0951fed65fb2e3e6e228e4a",
+    "f4_families": "5e9501dea184393e77b1554819ed0891100a505b693c230dee6016dfd36a31d0",
+    "f4_tests_e": "4457adfcb4b75e43aa6f0382e8d4a90be51c82bef17c5bbcda92c8c0b4a01731",
+    "f4_tests_x": "213bb5d0c132ba9dd0c669eaac9c35d50ccef890265999456b20aa80517d2f05",
+    "f4_tests_0_4": "2efd8b98122b9309016550669ee20920cd66e0f5ab93c7ef48bfbc72192f882b",
+    "f4_tests_1_1": "4df0449baf6ea97fa5f22290abab6b79e86f3d0268221368d13c54c9989916e2",
+    "f4_tests_1_3": "31cc40564837a1dda91c217fb0cc88b69cfad13dcb55dc0f8ebf2934ca4a0eed",
+    "f4_tests_1_5": "7a9a3126678d3cbc484152d2cbbebb35506a03e9d4417f86dd60c7be4571f428",
+    "f4_tests_1_7": "30c9f370a55925cb85f44ad9c54c41c970a9ef7374954f8a6cf30fd635cc63b2",
+    "f4_tests_2_2": "8f51d140af8e520a58d229752006f943ea32a84b7019ee67a2f62cc522300e25",
+    "f4_tests_2_6": "746b02009a016ff453603301d0f9c3a0cada29b5ff62ba109eb9fb9c5bb39a82",
+    "f4_tests_3_3": "6f250eea2dd1406fae8ae2c5efcf07b3642445ae955ee269381816f9a90b6c0b"
+  },
+  "zero_check_sha256": "80810f2c9c684df90c5841bd6ea3e49049a74d2e61cf3f138899cd183f255a59",
+  "parts": 2,
+  "errors": 0
+}

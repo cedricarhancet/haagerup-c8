@@ -1,0 +1,3404 @@
+{
+ "I": [
+  {
+   "c": [
+    "85/41 - 31*sqrt(385)/2255",
+    "31*sqrt(385)/2255 + 85/41"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 11,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[2.4156971040779886852155075958285910063",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.6545882352941176470588235294117647058",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.723729595177784669748653010440492885",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.1929060657660199638663000692640222976",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.946520633489753391097860537005061594",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.3350362508658056145313730217225269124",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.9403925992510314470784401128682256803",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.6455451327325321448837012938111544777",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.0297953745755736027882132954510959450",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-3.063143398495241272950163600978113062",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.200096547164995653978622946404301718",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(0, 8)": {
+     "dimPi": 11,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-2.344302575680743572042696626659093258",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.744941176470588235294117647058823529",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.474654526098474912776197950193365475",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.918459750428114078831890592738067981",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.516530323727750900392349944197057152",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.2418467123364773636517948019446951123",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.9684152868128291969259963327889577685",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.4748568706822309774078354924868834689",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.6647721731572984421879626560757184166",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.7082709347223461657599699039376578288",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.9063734335180189651683994559654359789",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(0, 12)": {
+     "dimPi": 5,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-1.172683975966641528918634438475568793",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.650579123154814258135614219040352985",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.1543061341028989721661036806402471753",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.0372013712755072626348836990117922065",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.7164614760959907287238495131580000441",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 1)": {
+     "dimPi": 4,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[2.1762878365226708731264526499162316817",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.975346660052082637832335002857408152",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.2817467508440696397889782414295343360",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.480805574373481404494860594370710806",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 5)": {
+     "dimPi": 8,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[1.7538227990828088737707802250834239900",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.4953899669299247924148491513430129473",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.955565707189204254420923494073495760",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.7581830367429828255541349362255240506",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.7475957025690631480703155972521890049",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.7304775610625654996059761128847661403",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.391830996686710206893845009016894887",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.515013538982018913395405166757349014",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 7)": {
+     "dimPi": 7,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-2.075104161552276115617685292077689040",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.496568060091192626387070464506371292",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.428987624720157845401171113814360141",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.274531180009123619831327636030033482",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.2728657729337775576746905911454624251",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.7436966015739505209912246382759985213",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.4454521812767868344536922181834635988",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 13)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-0.655058823529411764705882352941176470",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.3049411764705882352941176470588235294",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.4649411764705882352941176470588235294",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(0, 4)",
+    "(0, 8)",
+    "(0, 12)",
+    "(1, 1)",
+    "(1, 5)",
+    "(1, 7)",
+    "(1, 13)"
+   ]
+  },
+  {
+   "c": [
+    "3010/1517",
+    "80/37"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 8)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 12)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 4,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 7,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 13)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "4/5",
+    "686/205"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 8)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 12)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 4,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 7,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 13)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "85/41 - 31*sqrt(385)/2255",
+    "31*sqrt(385)/2255 + 85/41"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 11,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-36.23545656116983027823261393742886509",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-24.81882352941176470588235294117647058",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[10.855943927666770046229795156607393288",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.893590986490299457994501038960334464",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[44.197809502346300866467908055075923918",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-35.02554376298708421797059532583790368",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-29.10588898876547170617660169302338520",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-9.683176990987982173255519407167317165",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.446930618633604041823199431766439176",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[45.947150977428619094252454014671695932",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[33.001448207474934809679344196064525771",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(0, 8)": {
+     "dimPi": 11,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[35.164538635211153580640449399886398874",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[26.174117647058823529411764705882352941",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[22.119817891477123691642969252900482132",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[13.776896256421711182478358891071019726",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[7.7479548559162635058852491629558572949",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-28.59560150277028447752599183948153968",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-25.62406402083519248639954855906486743",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-24.97158259735947663281943984113577625",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-22.12285306023346466111753238730325203",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-14.52622930219243795388994499183436652",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-3.627700685047160454776922029170426685",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(0, 12)": {
+     "dimPi": 5,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[17.590259639499622933779516577133531906",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[9.7586868473222138720342132856052947803",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.314592011543484582491555209603707630",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-15.55802056913260893952325548517688309",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-10.74692214143986093085774269737000066",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 1)": {
+     "dimPi": 4,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-32.64431754784006309689678974874347522",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[14.630199900781239567485025042861122285",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-19.22620126266104459683467362144301504",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[37.212083615602221067422908915560662098",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 5)": {
+     "dimPi": 8,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-26.30734198624213310656170337625135985",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-7.430849503948871886222737270145194210",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[29.333485607838063816313852411102436413",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-26.37274555114474238331202404338286075",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-26.21393553853594722105473395878283507",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-10.95716341593848249408964169327149210",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[20.877464950300653103407675135253423309",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[37.725203084730283700931077501360235218",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 7)": {
+     "dimPi": 7,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[31.126562423284141734265279381165335601",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[22.448520901367889395806056967595569386",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[6.4348143708023676810175667072154021249",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[4.1179677001368542974699145404505022436",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-4.092986594006663365120358867181936377",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-26.15544902360925781486836957413997781",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-21.68178271915180251680538327275195398",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 13)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[9.8258823529411764705882352941176470588",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-4.574117647058823529411764705882352941",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-6.974117647058823529411764705882352941",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(0, 4)",
+    "(0, 8)",
+    "(0, 12)",
+    "(1, 1)",
+    "(1, 5)",
+    "(1, 7)",
+    "(1, 13)"
+   ]
+  },
+  {
+   "c": [
+    "252/185",
+    "21118/7585"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 8)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 12)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 4,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 7,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 13)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-5.091764705882352941176470588235294117",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-7.491764705882352941176470588235294117",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[12.241568627450980392156862745098039215",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(1, 13)"
+   ]
+  },
+  {
+   "c": [
+    "2400/1271",
+    "70/31"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 8)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 12)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 4,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 7,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 13)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "2400/1271",
+    "70/31"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 8)": {
+     "dimPi": 11,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(0, 12)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 4,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 7,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 13)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  }
+ ],
+ "II": [
+  {
+   "c": [
+    "6/5",
+    "12/5"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "10/7",
+    "76/35"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[2.2777777777777777777777777777777777777",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.222222222222222222222222222222222222",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.2777777777777777777777777777777777777",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(3, 3)"
+   ]
+  },
+  {
+   "c": [
+    "62/35",
+    "64/35"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-0.444444444444444444444444444444444444",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.3555555555555555555555555555555555555",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.444444444444444444444444444444444444",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(3, 3)"
+   ]
+  },
+  {
+   "c": [
+    "58/35",
+    "68/35"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "admissible_lines": 1,
+     "lines": [
+      {
+       "eigenvalue": "[0.1111111111111111111111111111111111111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.2111111111111111111111111111111111111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.288888888888888888888888888888888888",
+       "excluded": false,
+       "reasons": [],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.788888888888888888888888888888888888",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.6111111111111111111111111111111111111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "admissible_lines": 1,
+     "lines": [
+      {
+       "eigenvalue": "[0.6111111111111111111111111111111111111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.788888888888888888888888888888888888",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.2111111111111111111111111111111111111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.288888888888888888888888888888888888",
+       "excluded": false,
+       "reasons": [],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.1111111111111111111111111111111111111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[0.8888888888888888888888888888888888888",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.2888888888888888888888888888888888888",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.111111111111111111111111111111111111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(3, 3)"
+   ]
+  },
+  {
+   "c": [
+    "9/5 - 31*sqrt(409)/2045",
+    "31*sqrt(409)/2045 + 9/5"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[3.6839697138282750227539617948502251613",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[3.5748646428493044757681466837744462604",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.5735001848719668680940593487964484866",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.3579559642965834710998752012888434166",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.649690661062443058570249824986924677",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.324888155493500296356183370197178764",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.109523809523809523809523809523809523",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.760160190018751213230152271040701351",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.688884832604768602892790895818491864",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-2.720530343777075562083224190757241216",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.356590451795150413850781896787735357",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.4342636527150831187911489446878337174",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-3.030227072010813843831324293072827762",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.916830187445359040662105809918574919",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.012365991010985072611212271776954084",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.1911285691941238196155853206471770199",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.4168301874453590406621058099185749192",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[4.2800359223991036682555226727740333979",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-2.762322662612267015284423035496453513",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.626353996969168564471629619442384443",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.445176873111653346359454956249400576",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.197782568397739993043058190870955871",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.209523809523809523809523809523809523",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.566666666666666666666666666666666666",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.112051680460643506748785561316677372",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.4514509519231385431396763908446551506",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[3.5080116354742290889340642796904597111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[3.3172314859300533791760657396702737433",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.7073063779215495168525820003947653954",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.1358778064929780882811534289661939668",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[0.2031746031746031746031746031746031746",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.9057190763342479295509946988074638081",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.8053218698000275489679063176573457768",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.8013681246569871586724226496730416092",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.8133749217204497437958990166400420636",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.437217607031099859858895847649246851",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.427941298556470151773216921029686030",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.011637914648107591635068216806871147",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.037876061164923666608930586180978117",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-0.995710954954344553520427413503078813",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.886249751084578846636597977256264288",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.3112550328837307494614446302217455781",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.7178518610579909543180104898916615671",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.1147585740019636011394750325506978611",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-1.961136440131164871555289759062786441",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.197133306725143014499180113901588158",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.420730364615562768566032698921451733",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.361274631889803485106550254363019363",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.2530681323760889115786050568369725220",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.5008189798137045540949722987453261237",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.9723857430009145962176613654741304747",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.0870177611868390937088299782082895923",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[1.7178518610579909543180104898916615671",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.1147585740019636011394750325506978611",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.3112550328837307494614446302217455781",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.886249751084578846636597977256264288",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.995710954954344553520427413503078813",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-1.568953183520423345496305593718032331",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.0927627073299471550201151175275561407",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.4761904761904761904761904761904761904",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(0, 4)",
+    "(1, 1)",
+    "(1, 3)",
+    "(1, 5)",
+    "(1, 7)",
+    "(2, 2)",
+    "(2, 6)",
+    "(3, 3)"
+   ]
+  },
+  {
+   "c": [
+    "9/5 - 31*sqrt(409)/2045",
+    "31*sqrt(409)/2045 + 9/5"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[8.5959293322659750530925775213171920430",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[8.3413508333150437767923422621403746077",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[3.6715004313679226922194718138583798022",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.8352305833586947658997088030073013055",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.515944875812367136663916258302824246",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-3.091405696151500691497761197126750451",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-4.922222222222222222222222222222222222",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-6.440373776710419497537021965761636487",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-6.274064609411126740083178756909814350",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-6.347904135479842978194189778433562839",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.832044387522017632318491092504715834",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[5.6799485230018606105126808709382786739",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-7.070529834691898968939756683836598111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-6.805937104039171094878246889810008144",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-4.695520645692298502759495300812892863",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.7792999947862889124363657481767463798",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[3.3059371040391710948782468898100081448",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[9.9867504855979085592628862364727445953",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-6.445419546095289702330320416158391531",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-6.128159326261393317100469112032230367",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-5.705412703927191141505394897915268010",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-5.128159326261393317100469112032230367",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.822222222222222222222222222222222222",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.322222222222222222222222222222222222",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-0.261453921074834849080499643072247203",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.0533855544873232673259115786375286848",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[3.9837148818169488726560246675877859226",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[4.9837148818169488726560246675877859226",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[7.7402068005034578847441533925639720678",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[8.1853604827732012075128166526110726594",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[0.4740740740740740740740740740740740740",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[6.7800111781132451689523209638840822189",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[6.5457510295333976142584480745338068127",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[4.2031922908663033702356528492370970883",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.8978748173477160688570977054934314819",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-3.353507749739233006337423644514909320",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-3.331863029965097020804172815735934070",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-4.755044142718155222087504701088948940",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-4.693821800845584380481825839216032677",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-2.323325561560137291547663964840517231",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.067916085864017308818728613597950005",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.7262617433953717487433708038507396824",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[4.0083210091353122267420244764138769900",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.6011033393379150693254417426182950093",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-4.575985026972718033629009437813168362",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-5.648370850769646459987409630816720711",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-5.509640807742874798581950593513711848",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-5.126644382358667033831420265770372370",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[4.8697081094359578853206032824860090487",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[4.6022334003354673911745431861063044411",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)",
+        "e_2 u",
+        "x_2 u"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.5904923088775407936834117992862692181",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.1685776195653106262216020304057609554",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[4.0083210091353122267420244764138769900",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[2.6011033393379150693254417426182950093",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[0.7262617433953717487433708038507396824",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.067916085864017308818728613597950005",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-2.323325561560137291547663964840517231",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-3.660890761547654472824713052008742106",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[4.8831129837698766950469352742309643284",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[1.1111111111111111111111111111111111111",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(0, 4)",
+    "(1, 1)",
+    "(1, 3)",
+    "(1, 5)",
+    "(1, 7)",
+    "(2, 2)",
+    "(2, 6)",
+    "(3, 3)"
+   ]
+  },
+  {
+   "c": [
+    "6/7",
+    "96/35"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "34/35",
+    "92/35"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "10/7",
+    "76/35"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "admissible_lines": 0,
+     "lines": [
+      {
+       "eigenvalue": "[-13.66666666666666666666666666666666666",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[7.3333333333333333333333333333333333333",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      },
+      {
+       "eigenvalue": "[-1.666666666666666666666666666666666666",
+       "excluded": true,
+       "reasons": [
+        "(u,y0 u)",
+        "(u,y1 u)",
+        "(u,y2 u)"
+       ],
+       "norm_certified_nonzero": true
+      }
+     ]
+    }
+   },
+   "excluded_by": [
+    "(3, 3)"
+   ]
+  },
+  {
+   "c": [
+    "32/19",
+    "182/95"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "32/19",
+    "182/95"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "52/55",
+    "146/55"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "96/55",
+    "102/55"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "4/5",
+    "14/5"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  },
+  {
+   "c": [
+    "6/5",
+    "12/5"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 1)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 3)": {
+     "dimPi": 12,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 5)": {
+     "dimPi": 9,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(1, 7)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 2)": {
+     "dimPi": 8,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(2, 6)": {
+     "dimPi": 5,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    },
+    "(3, 3)": {
+     "dimPi": 3,
+     "status": "eig failed: failed to isolate eigenvalues (try higher prec, multiple=Tru"
+    }
+   },
+   "excluded_by": []
+  }
+ ]
+}

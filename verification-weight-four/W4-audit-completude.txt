@@ -1,0 +1,98 @@
+AUDIT DE COMPLÉTUDE DES CERTIFICATS DE POIDS QUATRE — 31 octobre 2026
+
+Conclusion
+Les 9088 tests exacts d'appartenance et les 18194 tests de la phase (d)
+n'ont pas été réexécutés ni nouvellement certifiés.
+Les résultats enregistrés sont cohérents avec les boucles des scripts, mais
+les données vectorielles nécessaires à leur vérification indépendante sont
+absentes du dossier Dropbox examiné. Aucun contre-exemple mathématique n'est
+déduit de cette absence.
+
+Un argument distinct, par borne de dimension et relance du rang modulo p,
+est décrit dans README-weight-four.txt. Il ne reconstruit pas ces anciens
+certificats ; il les rend inutiles dans les situations où la borne supérieure
+dim S4 <= 6010 est disponible.
+
+Pièces effectivement examinées
+La liste exhaustive de Calculs/generation-forte contient 83 fichiers et aucun
+sous-dossier. INDEX-scratch.txt indique explicitement que les fichiers piv_w4,
+tests_w4 et tests_w4_part n'ont pas été déposés : ils étaient restés dans un
+ancien conteneur éphémère. Il donne les volumes 560154018, 456978833 et
+452814872 octets, ainsi que trois empreintes agrégées. Ces empreintes ne
+permettent pas de reconstruire les fichiers.
+
+Le fichier exact_S3_basis.pkl a été chargé avec gmpy2 : il comporte 956
+vecteurs de S3 et 120 vecteurs de U2. Son empreinte SHA256 est
+53a5245c384daf86ee6ba8acda0dd3fda83b3e40fe77fcd8daaf4c316b1f1018,
+identique à celle de INDEX-scratch.txt. Ce contrôle porte sur l'identité et
+les dimensions du fichier, non sur la validité de ses vecteurs.
+
+Domaines exhaustifs des boucles
+1. Les dix plus hauts poids u donnent 10*956 = 9560 produits u(0)s.
+2. Les deux vecteurs e et x donnent 2*120 = 240 produits u(-1)w.
+   Au total, le domaine contient 9800 produits. Le compteur 9088 ne compte
+   que les produits non nuls, donc 712 produits nuls sont implicitement omis.
+3. Les huit modules primaires ont dimension totale 91. Les cinq familles
+   de N4' contiennent 956 + 6*956 + 6*120 + 36 + 91*120 = 18368 mots.
+   Le compteur 18194 ne compte que les mots non nuls : 174 zéros sont omis.
+4. Les 6010 pivots annoncés se répartissent en 956 + 3867 + 1187.
+
+Défauts du protocole de lecture
+solve_w4.py renvoie une liste vide pour un bloc absent, absorbe EOFError et
+UnpicklingError, et déduplique les labels sans comparer les vecteurs. Ainsi
+une absence, une troncature ou deux copies incompatibles peuvent masquer un
+défaut de couverture. Le fichier DONE.json ne fournit que trois compteurs
+globaux, pas un inventaire des blocs ni des labels.
+
+Dans phase_d_w4.py, la totalité des cinq familles est réellement régénérée.
+Le solveur exact vérifie ensuite les identités sur toutes les coordonnées.
+Le défaut de cet appel n'est donc pas le même : sans les pivots, il ne peut
+être relancé. Le résultat booléen de rang devrait être testé explicitement,
+même si l'échec de rang actuel conduit ensuite à une exception sur len(None).
+
+Le solveur exact_engine.solve_block utilise une restriction des scalaires
+sur Q, choisit des lignes par un mineur non nul modulo p, résout exactement,
+puis vérifie en entiers toutes les lignes de B*C=X. Ce mécanisme est un
+véritable test exact d'appartenance pour les vecteurs qui lui sont fournis.
+Il ne prouve pas que les vecteurs fournis couvrent le domaine annoncé.
+
+Éléments minimaux nécessaires à une fermeture indépendante
+- La base de poids trois et la base U2, dans un ordre fixé, avec empreintes.
+- Les coordonnées des générateurs, la base ambiante, la convention de
+  cocycle, les opérations exactes et les choix résiduels servant aux rangs.
+- Les blocs des 6010 pivots, un manifeste complet par bloc et la provenance
+  de chaque pivot comme mot de l'une des cinq familles de N4'.
+- Pour les 9800 produits : un label pour chaque entrée du domaine, y compris
+  un témoin de calcul exact des 712 zéros. Les seuls labels non nuls ne
+  suffisent pas à distinguer un zéro d'un enregistrement omis.
+- Pour les 18368 mots : la couverture analogue, incluant les 174 zéros,
+  ou une boucle exhaustive de régénération qui échoue sur toute exception.
+- Les solutions exactes d'appartenance, ou un solveur reproductible qui les
+  recalcule et vérifie toutes les coordonnées, jamais le seul sous-mineur.
+- Une fin d'exécution enregistrée atomiquement après tous les contrôles,
+  avec versions, nombres par famille, erreurs nulles et empreintes des blocs.
+
+Régénération
+Les journaux existants montrent quatre générateurs achevés par le calcul
+principal, interrompu ensuite, et six générateurs achevés par l'assistant
+partiel. Cela explique les dix noms de certify_w4.json sans prouver la
+couverture de chaque produit. Le README annonce environ 20 minutes pour
+les pivots, 4 à 37 minutes par générateur, huit minutes pour solve_w4 et
+45 minutes pour la phase d ; le journal de cette dernière donne en réalité
+4710 secondes. Une régénération complète ne constitue donc pas un contrôle
+léger de cette révision.
+
+Outils privés produits
+coverage-audit.json contient les dimensions, l'empreinte et les comptes
+combinatoires ci-dessus. strict_pickle_stream.py fournit un lecteur qui
+refuse les fichiers absents et les enregistrements tronqués, ainsi qu'un
+contrôle de labels complets et de doublons compatibles. Ce module est un
+durcissement de protocole, pas un nouveau certificat mathématique ; les
+labels de zéros doivent venir d'un calcul exact.
+
+Portée logique
+L'identification avec l'algèbre de Jiao, si démontrée à partir de la clôture
+au poids deux et du rang de génération i6, ne doit pas être artificiellement
+rendue dépendante de ce contrôle W4. La dépendance W4 concerne les conclusions
+qui utilisent effectivement la génération forte et les identités de degré
+quatre non encore certifiées par cette révision.

@@ -1,0 +1,293 @@
+{
+ "c": [
+  "2400/1271",
+  "70/31"
+ ],
+ "types": {
+  "(0, 4)": {
+   "dimPi": 11,
+   "eigen": [
+    {
+     "root": "[1.2590764 +/- 2.28e-8] + [+/-",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): K1"
+    },
+    {
+     "root": "[3.9419161 +/- 5.57e-8] + [+/-",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): K0, K1"
+    },
+    {
+     "root": "[-3.27137489 +/- 8.27e-9] + [+",
+     "dimE": 1,
+     "verdict": "exists",
+     "why": "not excluded numerically"
+    },
+    {
+     "root": "[-0.58853521 +/- 3.50e-9] + [+",
+     "dimE": 1,
+     "verdict": "exists",
+     "why": "not excluded numerically"
+    },
+    {
+     "root": "[-3.5866939 +/- 9.12e-8] + [+/",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[-2.6020083 +/- 6.69e-8] + [+/",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y1 u)"
+    },
+    {
+     "root": "[0.5526383 +/- 1.01e-8] + [+/-",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[2.7956294 +/- 4.56e-8] + [+/-",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[4.2245003 +/- 7.37e-8] + [+/-",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "xi": "228/1445 - 456*sqrt(13)/1445",
+     "dimE": 2,
+     "h1": "798/1271",
+     "h2": "38/31",
+     "verdict": "exists",
+     "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+    }
+   ],
+   "possible_eigenspaces": 3
+  },
+  "(0, 8)": {
+   "dimPi": 11,
+   "eigen": [
+    {
+     "root": "[-2.7205836 +/- 5.97e-8] + [+/",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y1 u)"
+    },
+    {
+     "root": "[-0.49181290 +/- 4.55e-9] + [+",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[0.39256442 +/- 7.60e-9] + [+/",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[3.4215998 +/- 6.39e-8] + [+/-",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "xi": "-52/1445 + 104*sqrt(13)/1445",
+     "dimE": 1,
+     "h1": "938/1271",
+     "h2": "24/31",
+     "verdict": "none",
+     "why": "d=1, some Q_y != 0"
+    },
+    {
+     "xi": "-528/1445 + 1056*sqrt(13)/1445",
+     "dimE": 2,
+     "h1": "1512/1271",
+     "h2": "10/31",
+     "verdict": "exists",
+     "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+    },
+    {
+     "xi": "112/289 - 224*sqrt(13)/289",
+     "dimE": 2,
+     "h1": "-761*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/4018902 - 761*sqrt(814928 - 61504*sqrt(13))/8037804 + 31/41",
+     "h2": "761*sqrt(814928 - 61504*sqrt(13))/8037804 + 761*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/4018902 + 31/41",
+     "verdict": "exists",
+     "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+    }
+   ],
+   "possible_eigenspaces": 2
+  },
+  "(0, 12)": {
+   "dimPi": 5,
+   "eigen": [
+    {
+     "root": "[-1.59109865 +/- 6.87e-9] + [+",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[1.72864555 +/- 4.99e-9] + [+/",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "xi": "-118/1445 + 236*sqrt(13)/1445",
+     "dimE": 1,
+     "h1": "707/1271",
+     "h2": "13/31",
+     "verdict": "none",
+     "why": "d=1, some Q_y != 0"
+    },
+    {
+     "xi": "24/289 - 48*sqrt(13)/289",
+     "dimE": 2,
+     "h1": "-100*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/2009451 - 50*sqrt(814928 - 61504*sqrt(13))/2009451 + 20/41",
+     "h2": "50*sqrt(814928 - 61504*sqrt(13))/2009451 + 100*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/2009451 + 20/41",
+     "verdict": "exists",
+     "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+    }
+   ],
+   "possible_eigenspaces": 1
+  },
+  "(1, 1)": {
+   "dimPi": 4,
+   "eigen": [
+    {
+     "xi": "-158/289 + 316*sqrt(13)/289",
+     "dimE": 1,
+     "h1": "1709*sqrt(814928 - 61504*sqrt(13))/16075608 + 1709*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/8037804 + 71/82",
+     "h2": "-1709*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/8037804 - 1709*sqrt(814928 - 61504*sqrt(13))/16075608 + 71/82",
+     "verdict": "none",
+     "why": "d=1, some Q_y != 0"
+    },
+    {
+     "xi": "-56/289 + 112*sqrt(13)/289",
+     "dimE": 1,
+     "h1": "479*sqrt(814928 - 61504*sqrt(13))/16075608 + 479*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/8037804 + 71/82",
+     "h2": "-479*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/8037804 - 479*sqrt(814928 - 61504*sqrt(13))/16075608 + 71/82",
+     "verdict": "none",
+     "why": "d=1, some Q_y != 0"
+    },
+    {
+     "xi": "672/1445 - 1344*sqrt(13)/1445",
+     "dimE": 2,
+     "h1": "192/1271",
+     "h2": "49/31",
+     "verdict": "exists",
+     "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+    }
+   ],
+   "possible_eigenspaces": 1
+  },
+  "(1, 5)": {
+   "dimPi": 8,
+   "eigen": [
+    {
+     "root": "[-2.41497599 +/- 7.56e-9] + [+",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[0.79020315 +/- 4.69e-9] + [+/",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[-2.85229320 +/- 7.43e-9] + [+",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[-0.23391554 +/- 4.56e-9] + [+",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "xi": "-156/289 + 312*sqrt(13)/289",
+     "dimE": 2,
+     "h1": "569*sqrt(814928 - 61504*sqrt(13))/5358536 + 569*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/2679268 + 63/82",
+     "h2": "-569*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/2679268 - 569*sqrt(814928 - 61504*sqrt(13))/5358536 + 63/82",
+     "verdict": "exists",
+     "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+    }
+   ],
+   "possible_eigenspaces": 1
+  },
+  "(1, 7)": {
+   "dimPi": 7,
+   "eigen": [
+    {
+     "root": "[-2.58219685 +/- 6.90e-9] + [+",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[2.74553380 +/- 5.38e-9] + [+/",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[-2.07215763 +/- 4.24e-9] + [+",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "root": "[1.65092023 +/- 7.74e-9] + [+/",
+     "dimE": 1,
+     "verdict": "none",
+     "why": "certified (Arb): (u,y0 u), (u,y1 u)"
+    },
+    {
+     "xi": "32/1445 - 64*sqrt(13)/1445",
+     "dimE": 3,
+     "h1": "752/1271",
+     "h2": "24/31",
+     "verdict": "exists",
+     "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+    }
+   ],
+   "possible_eigenspaces": 1
+  },
+  "(1, 13)": {
+   "dimPi": 3,
+   "eigen": [
+    {
+     "xi": "-254/1445 + 508*sqrt(13)/1445",
+     "dimE": 1,
+     "h1": "631/1271",
+     "h2": "2/31",
+     "verdict": "none",
+     "why": "d=1, some Q_y != 0"
+    },
+    {
+     "xi": "24/289 - 48*sqrt(13)/289",
+     "dimE": 2,
+     "h1": "-353*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/8037804 - 353*sqrt(814928 - 61504*sqrt(13))/16075608 + 23/82",
+     "h2": "353*sqrt(814928 - 61504*sqrt(13))/16075608 + 353*sqrt(13)*sqrt(814928 - 61504*sqrt(13))/8037804 + 23/82",
+     "verdict": "exists",
+     "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+    }
+   ],
+   "possible_eigenspaces": 1
+  }
+ },
+ "excluded_by": []
+}

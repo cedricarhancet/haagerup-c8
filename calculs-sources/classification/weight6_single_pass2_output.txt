@@ -1,0 +1,13 @@
+weight six: 6 exact relations; exact forms give rank 7 (sum 13)
+ideal (i1,i2)=(1, 0) level 1: rank in S = 3; free S: [S4, S5, S6]
+ideal (i1,i2)=(3, 0) level 3: rank in S = 3; free S: [S4, S5, S6]
+ideal (i1,i2)=(9, 4) level 13: rank in S = 3; free S: [S4, S5, S6]
+ideal (i1,i2)=(35, 4) level 39: rank in S = 3; free S: [S4, S5, S6]
+ideal (1, 0) level 1: structures R_d4 1, R_d5 1 ; compatible with the sextic relations: 1
+     {'d4': [], 'd5': [1, 1, 1, 1], 'd6': [1, 1], 'd1': [], 'd2': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'd3': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+ideal (3, 0) level 3: structures R_d4 1, R_d5 1 ; compatible with the sextic relations: 1
+     {'d4': [1, 1], 'd5': [1, 1, 1, 1], 'd6': [2, 1, 1, 1, 1], 'd1': [1, 1], 'd2': [2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'd3': [3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+ideal (9, 4) level 13: structures R_d4 1, R_d5 1 ; compatible with the sextic relations: 1
+     {'d4': [1, 1], 'd5': [4, 3, 3], 'd6': [3, 3, 2], 'd1': [2, 1, 1], 'd2': [5, 5, 4, 3, 3, 2, 2, 2, 2, 1, 1], 'd3': [6, 5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1]}
+ideal (35, 4) level 39: structures R_d4 1, R_d5 1 ; compatible with the sextic relations: 1
+     {'d4': [4], 'd5': [4, 3, 3], 'd6': [6, 2, 1, 1], 'd1': [6], 'd2': [8, 7, 7, 6, 4, 1, 1], 'd3': [12, 9, 9, 8, 8, 7, 7, 6, 6, 5, 5, 4, 4, 3, 3, 2, 1, 1]}

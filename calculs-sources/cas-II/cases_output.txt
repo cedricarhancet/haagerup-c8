@@ -1,0 +1,2 @@
+case I levels (1, 39) sl2 + sl2 relations, levels, commutation: True
+case II levels (3, 13) sl2 + sl2 relations, levels, commutation: True

@@ -1,0 +1,5 @@
+Kac coordinates (s0; s1..s8) = (0, 0, 1, 0, 0, 0, 0, 0, 0)  dim of fixed subalgebra = 80
+Kac coordinates (s0; s1..s8) = (0, 0, 0, 0, 0, 0, 0, 1, 0)  dim of fixed subalgebra = 86
+Kac coordinates (s0; s1..s8) = (1, 1, 0, 0, 0, 0, 0, 0, 0)  dim of fixed subalgebra = 92
+Kac coordinates (s0; s1..s8) = (1, 0, 0, 0, 0, 0, 0, 0, 1)  dim of fixed subalgebra = 134
+unique class with fixed dimension 86: [(0, 0, 0, 0, 0, 0, 0, 1, 0)]

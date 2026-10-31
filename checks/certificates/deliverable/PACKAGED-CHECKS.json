@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "source_files_matched": 72,
+  "new_verifier_sources_matched": 10,
+  "coordinate_files_in_archives": 986,
+  "archive_complete_manifests_matched": 12,
+  "complete_F4_sha256": "d5e4ad2f192c12d9eff68d516f15e957e74ff47f9fad626bcd7f8162bb2e7c1f",
+  "all_python_sources_parse": true
+}

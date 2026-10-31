@@ -1,0 +1,19 @@
+gamma = 1  MJ = 1  pi = ['0', 'b', 'a', 'c0', 'c2', 'c1', 'd5', 'd3', 'd2', 'd6', 'd1', 'd4']
+generators: 96  vanishing conditions: 43  admissible G (dim): 53  (0.6s)
+independent exact relations obtained: 8
+  0 = (1)*w0 + (1/78)*w_d2 + (317/1638)*w_d4 + (55/1638)*w_d5 + (-17/819)*w_d6
+  0 = (1)*w0p + (-3/2)*w_c2 + (73/156)*w_d2 + (9323/468)*w_d4 + (1309/468)*w_d5 + (-779/234)*w_d6
+  0 = (1)*w_b + (-3/2)*w_c2 + (-85/52)*w_d2 + (-5855/156)*w_d4 + (-913/156)*w_d5 + (407/78)*w_d6
+  0 = (1)*w_a + (3/2)*w_c2 + (-135/52)*w_d2 + (-14265/364)*w_d4 + (-2475/364)*w_d5 + (765/182)*w_d6
+  0 = (1)*w_c0 + (3/2)*w_c2 + (-135/52)*w_d2 + (-14265/364)*w_d4 + (-2475/364)*w_d5 + (765/182)*w_d6
+  0 = (1)*w_c1 + (1/6)*w_c2 + (-3/52)*w_d2 + (-317/364)*w_d4 + (-55/364)*w_d5 + (17/182)*w_d6
+  0 = (1)*w_d1 + (-1/6)*w_d2 + (-209/126)*w_d4 + (17/126)*w_d5 + (44/63)*w_d6
+  0 = (1)*w_d3 + (-5/21)*w_d4 + (-1/21)*w_d5 + (1/21)*w_d6
+rank v02 relations = 8  rank exact relations = 8  rank of union = 8
+=> the exact relations COINCIDE with the relations of v02
+exact elements of M_2(rho,mu) found (dim of span): 14  rank of the 13 functionals on them: 5
+relations evaluated on the exact forms: failures = 0
+=> exact: rank of the functionals on M_2(rho,mu) is 5 (lower bound from forms 5, upper bound from relations 5)
+total time 0.7s
+Part 3 (gamma = 1): admissible G: 54 ; some G pairs nontrivially with [q^Lam_d3] W_d3: True
+=> dim M_2(rho, mu) = 5

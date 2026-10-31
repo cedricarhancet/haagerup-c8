@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "prime": 8388571,
+  "blocks": 131,
+  "rank": 6010,
+  "method": "identity minors in reduced coordinate matrices",
+  "scope": "independence; generation in N4 is checked by the producer"
+}

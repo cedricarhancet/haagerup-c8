@@ -1,0 +1,2 @@
+candidate lines tested: 243  lines giving a symmetric multiset: []
+=> rank of a reductive subalgebra of e6 with self-dual 27 is at most 4

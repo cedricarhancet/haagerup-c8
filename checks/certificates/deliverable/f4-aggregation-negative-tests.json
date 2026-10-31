@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "aggregator_sha256": "65e6cc6141275ac0c1c48cc64bbe4935822e7919786dadac0b0574bbd94d387b",
+  "scope": "synthetic receipt tests only, no mathematical F4 verification",
+  "results": [
+    {
+      "case": "valid",
+      "accepted": true,
+      "expected_acceptance": true,
+      "returncode": 0
+    },
+    {
+      "case": "missing_part",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "duplicate_part_number",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "inconsistent_part_manifest_hash",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "missing_seen_label",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "duplicate_seen_label",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "missing_block_with_preserved_counts",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "failed_all_rows",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "duplicate_zero_record_with_preserved_count",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "missing_zero_manifest",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "changed_source_bytes",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    },
+    {
+      "case": "optimized_python",
+      "accepted": false,
+      "expected_acceptance": false,
+      "returncode": 1
+    }
+  ]
+}

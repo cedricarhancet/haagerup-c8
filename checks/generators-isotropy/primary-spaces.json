@@ -1,0 +1,407 @@
+{
+  "status": "PASS",
+  "elapsed_seconds": 19.47929883003235,
+  "all_eigenspaces": {
+    "c": [
+      "32/19",
+      "182/95"
+    ],
+    "types": {
+      "(0, 4)": {
+        "dimPi": 9,
+        "eigen": [
+          {
+            "root": "[-4.5157908 +/- 5.17e-8] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[-1.1950629 +/- 5.66e-8] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[4.0077203 +/- 2.84e-8] + [+/-",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "xi": "14*sqrt(13)/117 + 14/9",
+            "dimE": 2,
+            "h1": "-3*sqrt(2)*sqrt(361*sqrt(13) + 2527)/1805 + 3*sqrt(26)*sqrt(361*sqrt(13) + 2527)/1805 + 4/5",
+            "h2": "-3*sqrt(26)*sqrt(361*sqrt(13) + 2527)/1805 + 3*sqrt(2)*sqrt(361*sqrt(13) + 2527)/1805 + 4/5",
+            "verdict": "exists",
+            "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+          }
+        ],
+        "possible_eigenspaces": 1
+      },
+      "(1, 1)": {
+        "dimPi": 9,
+        "eigen": [
+          {
+            "root": "[-5.3907163 +/- 2.86e-8] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[-0.82631589 +/- 7.67e-9] + [+",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[4.6203445 +/- 5.78e-8] + [+/-",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "xi": "3*sqrt(13)/13 + 3",
+            "dimE": 1,
+            "h1": "-131*sqrt(2)*sqrt(361*sqrt(13) + 2527)/43320 + 9/10 + 131*sqrt(26)*sqrt(361*sqrt(13) + 2527)/43320",
+            "h2": "-131*sqrt(26)*sqrt(361*sqrt(13) + 2527)/43320 + 131*sqrt(2)*sqrt(361*sqrt(13) + 2527)/43320 + 9/10",
+            "verdict": "none",
+            "why": "d=1, some Q_y != 0"
+          },
+          {
+            "xi": "sqrt(13)/13 + 1",
+            "dimE": 2,
+            "h1": "-17*sqrt(2)*sqrt(361*sqrt(13) + 2527)/14440 + 17*sqrt(26)*sqrt(361*sqrt(13) + 2527)/14440 + 9/10",
+            "h2": "-17*sqrt(26)*sqrt(361*sqrt(13) + 2527)/14440 + 17*sqrt(2)*sqrt(361*sqrt(13) + 2527)/14440 + 9/10",
+            "verdict": "exists",
+            "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+          },
+          {
+            "xi": "-5/2 - 5*sqrt(13)/26",
+            "dimE": 1,
+            "h1": "-89*sqrt(26)*sqrt(361*sqrt(13) + 2527)/43320 + 89*sqrt(2)*sqrt(361*sqrt(13) + 2527)/43320 + 9/10",
+            "h2": "-89*sqrt(2)*sqrt(361*sqrt(13) + 2527)/43320 + 89*sqrt(26)*sqrt(361*sqrt(13) + 2527)/43320 + 9/10",
+            "verdict": "none",
+            "why": "d=1, some Q_y != 0"
+          }
+        ],
+        "possible_eigenspaces": 1
+      },
+      "(1, 3)": {
+        "dimPi": 12,
+        "eigen": [
+          {
+            "root": "[-3.59051421 +/- 8.89e-9] + [+",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[3.41310447 +/- 8.75e-9] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[-4.29718381 +/- 7.32e-9] + [+",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[1.56507388 +/- 7.79e-9] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "xi": "119*sqrt(13)/468 + 119/36",
+            "dimE": 2,
+            "h1": "-71*sqrt(2)*sqrt(361*sqrt(13) + 2527)/21660 + 4/5 + 71*sqrt(26)*sqrt(361*sqrt(13) + 2527)/21660",
+            "h2": "-71*sqrt(26)*sqrt(361*sqrt(13) + 2527)/21660 + 71*sqrt(2)*sqrt(361*sqrt(13) + 2527)/21660 + 4/5",
+            "verdict": "exists",
+            "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+          },
+          {
+            "xi": "-25/36 - 25*sqrt(13)/468",
+            "dimE": 2,
+            "h1": "-3*sqrt(26)*sqrt(361*sqrt(13) + 2527)/7220 + 3*sqrt(2)*sqrt(361*sqrt(13) + 2527)/7220 + 4/5",
+            "h2": "-3*sqrt(2)*sqrt(361*sqrt(13) + 2527)/7220 + 3*sqrt(26)*sqrt(361*sqrt(13) + 2527)/7220 + 4/5",
+            "verdict": "none",
+            "why": "Groebner = 1 in all charts"
+          }
+        ],
+        "possible_eigenspaces": 1
+      },
+      "(1, 5)": {
+        "dimPi": 9,
+        "eigen": [
+          {
+            "root": "[-1.64766083 +/- 5.46e-9] + [+",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[0.53696512 +/- 4.45e-9] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[2.63641944 +/- 9.99e-9] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "xi": "4*sqrt(13)/351 + 4/27",
+            "dimE": 1,
+            "h1": "-41*sqrt(2)*sqrt(361*sqrt(13) + 2527)/129960 + 41*sqrt(26)*sqrt(361*sqrt(13) + 2527)/129960 + 19/30",
+            "h2": "-41*sqrt(26)*sqrt(361*sqrt(13) + 2527)/129960 + 41*sqrt(2)*sqrt(361*sqrt(13) + 2527)/129960 + 19/30",
+            "verdict": "none",
+            "why": "d=1, some Q_y != 0"
+          },
+          {
+            "xi": "259*sqrt(13)/1404 + 259/108",
+            "dimE": 1,
+            "h1": "-311*sqrt(2)*sqrt(361*sqrt(13) + 2527)/129960 + 19/30 + 311*sqrt(26)*sqrt(361*sqrt(13) + 2527)/129960",
+            "h2": "-311*sqrt(26)*sqrt(361*sqrt(13) + 2527)/129960 + 311*sqrt(2)*sqrt(361*sqrt(13) + 2527)/129960 + 19/30",
+            "verdict": "none",
+            "why": "d=1, some Q_y != 0"
+          },
+          {
+            "xi": "-77/27 - 77*sqrt(13)/351",
+            "dimE": 2,
+            "h1": "-319*sqrt(26)*sqrt(361*sqrt(13) + 2527)/129960 + 319*sqrt(2)*sqrt(361*sqrt(13) + 2527)/129960 + 19/30",
+            "h2": "-319*sqrt(2)*sqrt(361*sqrt(13) + 2527)/129960 + 19/30 + 319*sqrt(26)*sqrt(361*sqrt(13) + 2527)/129960",
+            "verdict": "exists",
+            "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+          }
+        ],
+        "possible_eigenspaces": 1
+      },
+      "(1, 7)": {
+        "dimPi": 5,
+        "eigen": [
+          {
+            "root": "[-1.98418589 +/- 7.57e-9] + [+",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[2.05514979 +/- 8.64e-9] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "xi": "-35/36 - 35*sqrt(13)/468",
+            "dimE": 1,
+            "h1": "-17*sqrt(26)*sqrt(361*sqrt(13) + 2527)/21660 + 17*sqrt(2)*sqrt(361*sqrt(13) + 2527)/21660 + 2/5",
+            "h2": "-17*sqrt(2)*sqrt(361*sqrt(13) + 2527)/21660 + 17*sqrt(26)*sqrt(361*sqrt(13) + 2527)/21660 + 2/5",
+            "verdict": "none",
+            "why": "d=1, some Q_y != 0"
+          },
+          {
+            "xi": "7*sqrt(13)/117 + 7/9",
+            "dimE": 2,
+            "h1": "-3*sqrt(2)*sqrt(361*sqrt(13) + 2527)/3610 + 3*sqrt(26)*sqrt(361*sqrt(13) + 2527)/3610 + 2/5",
+            "h2": "-3*sqrt(26)*sqrt(361*sqrt(13) + 2527)/3610 + 3*sqrt(2)*sqrt(361*sqrt(13) + 2527)/3610 + 2/5",
+            "verdict": "exists",
+            "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+          }
+        ],
+        "possible_eigenspaces": 1
+      },
+      "(2, 2)": {
+        "dimPi": 8,
+        "eigen": [
+          {
+            "root": "[-4.1375690 +/- 3.93e-8] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[0.82554178 +/- 6.22e-9] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[3.6668467 +/- 4.54e-8] + [+/-",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "xi": "145*sqrt(13)/1404 + 145/108",
+            "dimE": 1,
+            "h1": "-47*sqrt(2)*sqrt(361*sqrt(13) + 2527)/32490 + 47*sqrt(26)*sqrt(361*sqrt(13) + 2527)/32490 + 11/15",
+            "h2": "-47*sqrt(26)*sqrt(361*sqrt(13) + 2527)/32490 + 47*sqrt(2)*sqrt(361*sqrt(13) + 2527)/32490 + 11/15",
+            "verdict": "none",
+            "why": "d=1, some Q_y != 0"
+          },
+          {
+            "xi": "-49/54 - 49*sqrt(13)/702",
+            "dimE": 2,
+            "h1": "-41*sqrt(26)*sqrt(361*sqrt(13) + 2527)/64980 + 41*sqrt(2)*sqrt(361*sqrt(13) + 2527)/64980 + 11/15",
+            "h2": "-41*sqrt(2)*sqrt(361*sqrt(13) + 2527)/64980 + 41*sqrt(26)*sqrt(361*sqrt(13) + 2527)/64980 + 11/15",
+            "verdict": "exists",
+            "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+          }
+        ],
+        "possible_eigenspaces": 1
+      },
+      "(2, 6)": {
+        "dimPi": 5,
+        "eigen": [
+          {
+            "root": "[-1.98418589 +/- 7.57e-9] + [+",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "root": "[2.05514979 +/- 8.64e-9] + [+/",
+            "dimE": 1,
+            "verdict": "none",
+            "why": "certified (Arb): (u,y0 u), (u,y1 u), (u,y2 u)"
+          },
+          {
+            "xi": "-35/36 - 35*sqrt(13)/468",
+            "dimE": 1,
+            "h1": "-17*sqrt(26)*sqrt(361*sqrt(13) + 2527)/21660 + 17*sqrt(2)*sqrt(361*sqrt(13) + 2527)/21660 + 2/5",
+            "h2": "-17*sqrt(2)*sqrt(361*sqrt(13) + 2527)/21660 + 17*sqrt(26)*sqrt(361*sqrt(13) + 2527)/21660 + 2/5",
+            "verdict": "none",
+            "why": "d=1, some Q_y != 0"
+          },
+          {
+            "xi": "7*sqrt(13)/117 + 7/9",
+            "dimE": 2,
+            "h1": "-3*sqrt(2)*sqrt(361*sqrt(13) + 2527)/3610 + 3*sqrt(26)*sqrt(361*sqrt(13) + 2527)/3610 + 2/5",
+            "h2": "-3*sqrt(26)*sqrt(361*sqrt(13) + 2527)/3610 + 3*sqrt(2)*sqrt(361*sqrt(13) + 2527)/3610 + 2/5",
+            "verdict": "exists",
+            "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+          }
+        ],
+        "possible_eigenspaces": 1
+      },
+      "(3, 3)": {
+        "dimPi": 3,
+        "eigen": [
+          {
+            "xi": "31*sqrt(13)/234 + 31/18",
+            "dimE": 1,
+            "h1": "17/19",
+            "h2": "2/19",
+            "verdict": "none",
+            "why": "d=1, some Q_y != 0"
+          },
+          {
+            "xi": "-7/9 - 7*sqrt(13)/117",
+            "dimE": 2,
+            "h1": "-5*sqrt(26)*sqrt(361*sqrt(13) + 2527)/8664 + 5*sqrt(2)*sqrt(361*sqrt(13) + 2527)/8664 + 1/2",
+            "h2": "-5*sqrt(2)*sqrt(361*sqrt(13) + 2527)/8664 + 5*sqrt(26)*sqrt(361*sqrt(13) + 2527)/8664 + 1/2",
+            "verdict": "exists",
+            "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)"
+          }
+        ],
+        "possible_eigenspaces": 1
+      }
+    },
+    "excluded_by": []
+  },
+  "surviving_spaces": [
+    {
+      "type": "(0, 4)",
+      "dimension": 2,
+      "h1": "2*(9*sqrt(26)*(sqrt(13) + 13) + 494*sqrt(sqrt(13) + 7))/(1235*sqrt(sqrt(13) + 7))",
+      "h2": "2*(-9*sqrt(26) - 9*sqrt(2) + 38*sqrt(sqrt(13) + 7))/(95*sqrt(sqrt(13) + 7))",
+      "norms": [
+        "-30420",
+        "-30420"
+      ],
+      "line_determinant": "5*sqrt(39)*I/12"
+    },
+    {
+      "type": "(1, 1)",
+      "dimension": 2,
+      "h1": "3*(17*sqrt(26)*(sqrt(13) + 13) + 1482*sqrt(sqrt(13) + 7))/(4940*sqrt(sqrt(13) + 7))",
+      "h2": "3*(-17*sqrt(26) - 17*sqrt(2) + 114*sqrt(sqrt(13) + 7))/(380*sqrt(sqrt(13) + 7))",
+      "norms": [
+        "-63*sqrt(13)/260 + 441/260 - 189*sqrt(-42 + 6*sqrt(13))/104 + 189*sqrt(-546 + 78*sqrt(13))/104",
+        "-63*sqrt(13)/260 + 441/260 - 189*sqrt(-546 + 78*sqrt(13))/104 + 189*sqrt(-42 + 6*sqrt(13))/104"
+      ],
+      "line_determinant": "15*sqrt(-42 + 6*sqrt(13))/104"
+    },
+    {
+      "type": "(1, 3)",
+      "dimension": 2,
+      "h1": "(71*sqrt(26)*(sqrt(13) + 13) + 1976*sqrt(sqrt(13) + 7))/(2470*sqrt(sqrt(13) + 7))",
+      "h2": "(-71*sqrt(26) - 71*sqrt(2) + 152*sqrt(sqrt(13) + 7))/(190*sqrt(sqrt(13) + 7))",
+      "norms": [
+        "-4160/49 + 16640*sqrt(3)*I/49",
+        "-4160/49 - 16640*sqrt(3)*I/49"
+      ],
+      "line_determinant": "4*sqrt(3)*I/7"
+    },
+    {
+      "type": "(1, 5)",
+      "dimension": 2,
+      "h1": "(-319*sqrt(26) - 319*sqrt(2) + 722*sqrt(sqrt(13) + 7))/(1140*sqrt(sqrt(13) + 7))",
+      "h2": "(319*sqrt(2) + 319*sqrt(26) + 722*sqrt(sqrt(13) + 7))/(1140*sqrt(sqrt(13) + 7))",
+      "norms": [
+        "-283920/121",
+        "-283920/121"
+      ],
+      "line_determinant": "5*sqrt(39)*I/132"
+    },
+    {
+      "type": "(1, 7)",
+      "dimension": 2,
+      "h1": "(9*sqrt(26)*(sqrt(13) + 13) + 494*sqrt(sqrt(13) + 7))/(1235*sqrt(sqrt(13) + 7))",
+      "h2": "(-9*sqrt(26) - 9*sqrt(2) + 38*sqrt(sqrt(13) + 7))/(95*sqrt(sqrt(13) + 7))",
+      "norms": [
+        "6473376/25 + 340704*sqrt(39)*I/25",
+        "6473376/25 - 340704*sqrt(39)*I/25"
+      ],
+      "line_determinant": "2*sqrt(39)*I/5"
+    },
+    {
+      "type": "(2, 2)",
+      "dimension": 2,
+      "h1": "(-41*sqrt(26) - 41*sqrt(2) + 418*sqrt(sqrt(13) + 7))/(570*sqrt(sqrt(13) + 7))",
+      "h2": "(41*sqrt(2) + 41*sqrt(26) + 418*sqrt(sqrt(13) + 7))/(570*sqrt(sqrt(13) + 7))",
+      "norms": [
+        "3744 - 3744*sqrt(3)*I",
+        "3744 + 3744*sqrt(3)*I"
+      ],
+      "line_determinant": "5*sqrt(3)*I/2"
+    },
+    {
+      "type": "(2, 6)",
+      "dimension": 2,
+      "h1": "(9*sqrt(26)*(sqrt(13) + 13) + 494*sqrt(sqrt(13) + 7))/(1235*sqrt(sqrt(13) + 7))",
+      "h2": "(-9*sqrt(26) - 9*sqrt(2) + 38*sqrt(sqrt(13) + 7))/(95*sqrt(sqrt(13) + 7))",
+      "norms": [
+        "18252 - 18252*sqrt(39)*I/5",
+        "18252 + 18252*sqrt(39)*I/5"
+      ],
+      "line_determinant": "sqrt(39)*I/2"
+    },
+    {
+      "type": "(3, 3)",
+      "dimension": 2,
+      "h1": "(-5*sqrt(26) - 5*sqrt(2) + 38*sqrt(sqrt(13) + 7))/(76*sqrt(sqrt(13) + 7))",
+      "h2": "(5*sqrt(2) + 5*sqrt(26) + 38*sqrt(sqrt(13) + 7))/(76*sqrt(sqrt(13) + 7))",
+      "norms": [
+        "29484/3125 + 12636*sqrt(39)*I/3125",
+        "29484/3125 - 12636*sqrt(39)*I/3125"
+      ],
+      "line_determinant": "3*sqrt(39)*I/650"
+    }
+  ]
+}

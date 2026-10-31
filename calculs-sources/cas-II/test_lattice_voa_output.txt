@@ -1,0 +1,8 @@
+L0 = weight: ok
+omega_3 omega = {((0, 0, 0, 0, 0, 0, 0, 0), ()): mpq(4,1)}  (expected 4 * vacuum)
+Virasoro commutators: 240 checks ok
+translation property ok
+Borcherds commutator: 60 random triples ok
+Sugawara(e6 + sl3, level 1) == omega: True
+<omega,omega> = 4 ; <a1(-1), a3(-1)> = 1
+ALL TESTS PASSED  time 3.1s

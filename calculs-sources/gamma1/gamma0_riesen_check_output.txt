@@ -1,0 +1,5 @@
+level 1 : observed (announced) tau = ['0', '10', '30', '0', '4', '2']
+        predicted from relations = ['0', '10', '30', '0', '4', '2']
+level 39 : observed (announced) tau = ['56/39', '122/13', '450/13', '20/39', '40/39', '62/39']
+        predicted from relations = ['56/39', '122/13', '450/13', '20/39', '40/39', '62/39']
+gamma = 0: the weight-two relations agree exactly with the announced lowest spaces

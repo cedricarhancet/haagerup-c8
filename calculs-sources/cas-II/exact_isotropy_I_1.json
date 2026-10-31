@@ -1,0 +1,370 @@
+[
+ [
+  1,
+  {
+   "c": [
+    "3010/1517",
+    "80/37"
+   ],
+   "types": {
+    "(0, 4)": {
+     "dimPi": 11,
+     "eigen": [
+      {
+       "xi": "-319/170",
+       "dimE": 1,
+       "h1": "17/37",
+       "h2": "2115/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "-304/85",
+       "dimE": 1,
+       "h1": "0",
+       "h2": "76/41",
+       "verdict": "exists",
+       "why": "all Q_y vanish on E",
+       "rankQ": [
+        0,
+        0
+       ]
+      },
+      {
+       "xi": "-81/170",
+       "dimE": 1,
+       "h1": "31/37",
+       "h2": "1541/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "-183/170",
+       "dimE": 2,
+       "h1": "25/37",
+       "h2": "1787/1517",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        0
+       ]
+      },
+      {
+       "xi": "274/85",
+       "dimE": 3,
+       "h1": "68/37",
+       "h2": "24/1517",
+       "verdict": "exists",
+       "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)",
+       "rankQ": [
+        3,
+        0
+       ]
+      }
+     ],
+     "possible_eigenspaces": 2
+    },
+    "(0, 8)": {
+     "dimPi": 11,
+     "eigen": [
+      {
+       "xi": "31/170",
+       "dimE": 1,
+       "h1": "31/37",
+       "h2": "1023/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "-71/170",
+       "dimE": 2,
+       "h1": "25/37",
+       "h2": "1269/1517",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        0
+       ]
+      },
+      {
+       "xi": "-207/170",
+       "dimE": 1,
+       "h1": "17/37",
+       "h2": "1597/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "-377/170",
+       "dimE": 2,
+       "h1": "7/37",
+       "h2": "2007/1517",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        0
+       ]
+      },
+      {
+       "xi": "211/85",
+       "dimE": 3,
+       "h1": "54/37",
+       "h2": "80/1517",
+       "verdict": "exists",
+       "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)",
+       "rankQ": [
+        3,
+        0
+       ]
+      }
+     ],
+     "possible_eigenspaces": 1
+    },
+    "(0, 12)": {
+     "dimPi": 5,
+     "eigen": [
+      {
+       "xi": "-31/170",
+       "dimE": 1,
+       "h1": "17/37",
+       "h2": "783/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "112/85",
+       "dimE": 2,
+       "h1": "32/37",
+       "h2": "168/1517",
+       "verdict": "exists",
+       "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)",
+       "rankQ": [
+        2,
+        0
+       ]
+      },
+      {
+       "xi": "-201/170",
+       "dimE": 2,
+       "h1": "7/37",
+       "h2": "1193/1517",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        0
+       ]
+      }
+     ],
+     "possible_eigenspaces": 1
+    },
+    "(1, 1)": {
+     "dimPi": 4,
+     "eigen": [
+      {
+       "xi": "52/17",
+       "dimE": 1,
+       "h1": "64/37",
+       "h2": "3/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "-49/34",
+       "dimE": 1,
+       "h1": "19/37",
+       "h2": "1848/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "-16/17",
+       "dimE": 2,
+       "h1": "24/37",
+       "h2": "1643/1517",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        0
+       ]
+      }
+     ],
+     "possible_eigenspaces": 0
+    },
+    "(1, 5)": {
+     "dimPi": 8,
+     "eigen": [
+      {
+       "xi": "-453/170",
+       "dimE": 1,
+       "h1": "3/37",
+       "h2": "2208/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "-48/85",
+       "dimE": 2,
+       "h1": "24/37",
+       "h2": "1347/1517",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        0
+       ]
+      },
+      {
+       "xi": "-181/170",
+       "dimE": 1,
+       "h1": "19/37",
+       "h2": "1552/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "224/85",
+       "dimE": 2,
+       "h1": "56/37",
+       "h2": "35/1517",
+       "verdict": "exists",
+       "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)",
+       "rankQ": [
+        2,
+        0
+       ]
+      }
+     ],
+     "possible_eigenspaces": 1
+    },
+    "(1, 7)": {
+     "dimPi": 7,
+     "eigen": [
+      {
+       "xi": "-4/17",
+       "dimE": 1,
+       "h1": "24/37",
+       "h2": "1088/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "77/34",
+       "dimE": 2,
+       "h1": "49/37",
+       "h2": "63/1517",
+       "verdict": "exists",
+       "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)",
+       "rankQ": [
+        2,
+        0
+       ]
+      },
+      {
+       "xi": "-25/34",
+       "dimE": 2,
+       "h1": "19/37",
+       "h2": "1293/1517",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        0
+       ]
+      },
+      {
+       "xi": "-397/170",
+       "dimE": 2,
+       "h1": "3/37",
+       "h2": "1949/1517",
+       "verdict": "none",
+       "why": "Groebner = 1 in all charts",
+       "rankQ": [
+        2,
+        0
+       ]
+      }
+     ],
+     "possible_eigenspaces": 1
+    },
+    "(1, 13)": {
+     "dimPi": 3,
+     "eigen": [
+      {
+       "xi": "-133/170",
+       "dimE": 1,
+       "h1": "3/37",
+       "h2": "728/1517",
+       "verdict": "none",
+       "why": "d=1, some Q_y != 0",
+       "rankQ": [
+        1,
+        0
+       ]
+      },
+      {
+       "xi": "44/85",
+       "dimE": 2,
+       "h1": "16/37",
+       "h2": "195/1517",
+       "verdict": "exists",
+       "why": "Groebner basis != 1 in chart 0 (dim>=0 solution with Q0 != 0)",
+       "rankQ": [
+        2,
+        0
+       ]
+      }
+     ],
+     "possible_eigenspaces": 1
+    }
+   },
+   "excluded_by": [
+    "(1, 1)"
+   ]
+  }
+ ]
+]

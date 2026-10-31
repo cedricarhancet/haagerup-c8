@@ -1,0 +1,3 @@
+Q5 = -(-12*T - 2*T4 + 27*u**2 + 90*u - 105)/26
+central h with p2(h) = 0 (u = 1, T = T4 = 0): Q5 = -6/13
+central elements in general: Q5 >= 0 forces u <= -5/3 + 2*sqrt(15)/3 = 0.915322 (and u >= 5/9 from weight two)

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "replayed_products": 310,
+  "all_reference_calls_within_weight_window": true,
+  "outside_window_rejected": true
+}

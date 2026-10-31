@@ -1,0 +1,49 @@
+{
+ "case": "I",
+ "Z_I rational": true,
+ "Z_I elementary abelian": true,
+ "c(z_1)": [
+  "4/5",
+  "-1",
+  "1/3",
+  "1",
+  "3",
+  "5/4",
+  "1",
+  "1"
+ ],
+ "c(z_1 z_A)": [
+  "4/5",
+  "-1",
+  "1/3",
+  "1",
+  "3",
+  "5/4",
+  "1",
+  "1"
+ ],
+ "psi_tau with a = z_1": {
+  "e": true,
+  "f": true,
+  "v": [
+   true,
+   "1"
+  ]
+ },
+ "psi_sigma with a = z_1 z_A (label (1,-1,1))": {
+  "e": true,
+  "f": true,
+  "v": [
+   true,
+   "-1"
+  ]
+ },
+ "psi_sigma with a = z_A (label (-1,1,1)) = z_1 (z_1 z_A)": {
+  "e": true,
+  "f": true,
+  "v": [
+   false,
+   "-(sqrt(39) + 9*I)**2/120"
+  ]
+ }
+}

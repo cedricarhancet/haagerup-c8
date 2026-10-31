@@ -1,0 +1,3 @@
+level 1 : announced Q = ['0', '5', '15', '0', '2', '1']  residuals of the 9 relations: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+level 39 : announced Q = ['784/1521', '2287/507', '13093/507', '136/1521', '218/1521', '61/117']  residuals of the 9 relations: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+weight-four relations AGREE with the announced lowest spaces

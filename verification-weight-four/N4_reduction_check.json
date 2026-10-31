@@ -1,0 +1,9 @@
+{
+  "p": 8388571,
+  "sqrt13_image": 1649360,
+  "sqrt_minus3_image": 2036966,
+  "sqrt6_sqrt_minus7_plus_sqrt13_image": 6799297,
+  "chosen_primary_line_coefficients_checked": 16,
+  "comparison": "Kfield exact four-coordinate expression versus modp.alg",
+  "all_equal": true
+}

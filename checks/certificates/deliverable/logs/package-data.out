@@ -1,0 +1,3 @@
+part closed Certificats-poids-quatre-v03-01.zip 420645698
+archive checked {'file': 'Certificats-poids-quatre-v03-01.zip', 'files': 521, 'raw_bytes': 2583752403, 'sha256': '8ea5903408d606eaaf3f98092293c2e5c7a9701bcbd7c11b645dcf3ac485ac17', 'bytes': 420645698}
+archive checked {'file': 'Certificats-poids-quatre-v03-02.zip', 'files': 465, 'raw_bytes': 562730152, 'sha256': 'fa121f49c768943bbc5af1a32b22402c6bdb3cee03480f79f8ebce3dfb34e1d2', 'bytes': 99768703}

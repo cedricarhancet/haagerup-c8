@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "system": "Linux",
+  "numpy": "2.3.5",
+  "sympy": "available through the documented verification runtime, not system metadata",
+  "python-flint": "available through the documented verification runtime, not system metadata",
+  "gmpy2": "available through the documented verification runtime, not system metadata",
+  "mpmath": "available through the documented verification runtime, not system metadata"
+}

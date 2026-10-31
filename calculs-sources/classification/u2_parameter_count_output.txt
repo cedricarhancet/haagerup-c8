@@ -1,0 +1,25 @@
+A11+A139 (announced) : total Grassmannian dimension 70
+    type (0, 0): mult in U_2 4, in V'_2 7, fixed 3 -> 3 parameters
+    type (0, 2): mult in U_2 1, in V'_2 10, fixed 1 -> 0 parameters
+    type (0, 4): mult in U_2 2, in V'_2 16, fixed 1 -> 14 parameters
+    type (0, 8): mult in U_2 2, in V'_2 14, fixed 0 -> 24 parameters
+    type (0, 12): mult in U_2 1, in V'_2 6, fixed 0 -> 5 parameters
+    type (1, 1): mult in U_2 1, in V'_2 5, fixed 0 -> 4 parameters
+    type (1, 5): mult in U_2 1, in V'_2 11, fixed 0 -> 10 parameters
+    type (1, 7): mult in U_2 1, in V'_2 9, fixed 0 -> 8 parameters
+    type (1, 13): mult in U_2 1, in V'_2 3, fixed 0 -> 2 parameters
+    type (2, 0): mult in U_2 1, in V'_2 1, fixed 1 -> 0 parameters
+    type (2, 2): mult in U_2 1, in V'_2 2, fixed 1 -> 0 parameters
+A13+A113 : total Grassmannian dimension 87
+    type (0, 0): mult in U_2 4, in V'_2 9, fixed 3 -> 5 parameters
+    type (0, 2): mult in U_2 1, in V'_2 14, fixed 1 -> 0 parameters
+    type (0, 4): mult in U_2 2, in V'_2 15, fixed 1 -> 13 parameters
+    type (1, 1): mult in U_2 1, in V'_2 14, fixed 0 -> 13 parameters
+    type (1, 3): mult in U_2 1, in V'_2 18, fixed 0 -> 17 parameters
+    type (1, 5): mult in U_2 1, in V'_2 13, fixed 0 -> 12 parameters
+    type (1, 7): mult in U_2 1, in V'_2 6, fixed 0 -> 5 parameters
+    type (2, 0): mult in U_2 1, in V'_2 5, fixed 1 -> 0 parameters
+    type (2, 2): mult in U_2 2, in V'_2 14, fixed 1 -> 12 parameters
+    type (2, 6): mult in U_2 1, in V'_2 6, fixed 0 -> 5 parameters
+    type (3, 3): mult in U_2 1, in V'_2 6, fixed 0 -> 5 parameters
+    type (4, 0): mult in U_2 1, in V'_2 1, fixed 1 -> 0 parameters

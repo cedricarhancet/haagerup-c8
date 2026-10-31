@@ -1,0 +1,8 @@
+p = 8388571 choice [0, 1, 1, 0, 0, 1, 0, 1] ; terms of highest weight vectors: {'e': 74, 'x': 150, '(0, 4)': 98, '(1, 1)': 201, '(1, 3)': 137, '(1, 5)': 55, '(1, 7)': 14, '(2, 2)': 100, '(2, 6)': 15, '(3, 3)': 15} (9s)
+dim U_1 = 5 ; dim U_2 = 120 (11s)
+S_3 before g-closure: 932 (42s)
+dim S_3 (generated, g-closed) = 956  (expected 956) (49s)
+(W3prime) extra rank of u_1 S_3 over S_3: {'e': 0, 'x': 0, '(0, 4)': 0, '(1, 1)': 0, '(1, 3)': 0, '(1, 5)': 0, '(1, 7)': 0, '(2, 2)': 0, '(2, 6)': 0, '(3, 3)': 0} (250s)
+dim R_b = 80  (expected 80) (250s)
+dim (M_b)_2 = 1250  (expected 1250) ; dim U_2 + (M_b)_2 = 1370  (dim V'_2 = 1370) (263s)
+dim (M_b)_3 = 10630  (expected 10630) ; dim S_3 + (M_b)_3 = 11586  (dim V'_3 = 11586) (302s)

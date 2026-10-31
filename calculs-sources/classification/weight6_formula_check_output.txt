@@ -1,0 +1,6 @@
+weight 4             A2     worst relative error 2.0e-30
+weight 4             Z(s6)  worst relative error 3.06e-30
+weight 6             A2     worst relative error 1.45e-30
+weight 6             Z(s6)  worst relative error 5.09e-30
+weight 6 (perturbed) A2     worst relative error 0.783
+weight 6 (perturbed) Z(s6)  worst relative error 1.74

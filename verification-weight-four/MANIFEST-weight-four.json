@@ -1,0 +1,97 @@
+[
+  {
+    "file": "N4_int64_bound.json",
+    "bytes": 223,
+    "sha256": "a25815cd2455311677d9879e15f38db062bd425b03e363b7b90e155b7c46b014"
+  },
+  {
+    "file": "N4_rank_block_names.json",
+    "bytes": 3422,
+    "sha256": "dda5689eba5c8d152acf0b88d0f6eb4c03112671c441d0aac231b69f45a74dcd"
+  },
+  {
+    "file": "N4_rank_blocks.npz",
+    "bytes": 29347566,
+    "sha256": "b86d81dd50131a391d9452f16de6d58d5e2096a46486f6a9bc19c096f01330df"
+  },
+  {
+    "file": "N4_rank_run.out",
+    "bytes": 608,
+    "sha256": "2ac2e3e6543c47b74ef0658d40f16271515869c1a193e60a8fa010d7fc9444fb"
+  },
+  {
+    "file": "N4_rank_summary.json",
+    "bytes": 2602,
+    "sha256": "0a58ee73364ea4d491b3ae50615af707cde102491fe6054317a3d9b51bbca8b9"
+  },
+  {
+    "file": "N4_reduction_check.json",
+    "bytes": 273,
+    "sha256": "fed4205f0b53c13d98ed809b782b673f21d21aa02cb1c36eac0e0b668077dd8f"
+  },
+  {
+    "file": "README-weight-four.txt",
+    "bytes": 5581,
+    "sha256": "d895cc41c27ceedbcb9750ce7000a58ccc8e7fd22fb6c38813401023b851d760"
+  },
+  {
+    "file": "W4-audit-completude.txt",
+    "bytes": 5847,
+    "sha256": "d3c1d7e78e7fe3133df5b04ac42136e20eafd03931ada440d2d42dcb2fea3a4d"
+  },
+  {
+    "file": "check_n4_inputs.json",
+    "bytes": 337,
+    "sha256": "89e28eade911acdb90bdc47696ca1c56ffd26f2038ba1cda05f7ad035100d42a"
+  },
+  {
+    "file": "check_n4_inputs.py",
+    "bytes": 2230,
+    "sha256": "61f521b12a9d76eca80a36127cd846fbb9372b0e3a87d6c2899f139cfbe97987"
+  },
+  {
+    "file": "check_n4_rank_blocks.json",
+    "bytes": 210,
+    "sha256": "c15986313aaf0665c74bc654847f7cede7b97716046a60404d976ccda0c3d8c5"
+  },
+  {
+    "file": "check_n4_rank_blocks.py",
+    "bytes": 2935,
+    "sha256": "c4bff0b662b2311339e7bc01146217dd9cfa031baf2a0afb9effb8c21ee2abf7"
+  },
+  {
+    "file": "closure_c2_modp_0_p8388571.json",
+    "bytes": 502,
+    "sha256": "c0fe1fcefae3f07076bdb713dabe588cd3e121665dfef701c6d56c7c0460493f"
+  },
+  {
+    "file": "closure_w4_rank_export.py",
+    "bytes": 15331,
+    "sha256": "009e5ee00b59986e2bb2371a605424a32a9a7cace12fdb387530a3aa1a6b90bd"
+  },
+  {
+    "file": "coverage-audit.json",
+    "bytes": 517,
+    "sha256": "aae72ac35b00faff54ecbb147a719f8814226a0d68b82a0a9776062a822854fc"
+  },
+  {
+    "file": "reader-checks.json",
+    "bytes": 210,
+    "sha256": "80a4ec194c45b59c4ef1ae42114a1a20583eefdef45d5e3320e9213285103dca"
+  },
+  {
+    "file": "requirements-weight-four.txt",
+    "bytes": 70,
+    "sha256": "aaa9084676c0b6ed5511e103d3b7c6c08aa502c2be17818bbe3f4aa8895c5480"
+  },
+  {
+    "file": "run_n4_rank.py",
+    "bytes": 3059,
+    "sha256": "ff60a4782b32ee20902cb5a195fbcd0e34f230281055babaf0b99102b02bbbb6"
+  },
+  {
+    "file": "strict_pickle_stream.py",
+    "bytes": 2265,
+    "sha256": "eb60d88cb01e9f9448455b967dd10aafde816f5fb852e4235a8eef75f51e9c41"
+  }
+]

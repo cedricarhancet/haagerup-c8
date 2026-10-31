@@ -1,0 +1,1561 @@
+{
+  "status": "PASS",
+  "actual_generator_products": 310,
+  "field_basis_products": 16,
+  "virasoro_expected_identities": 3,
+  "seconds": 25.45,
+  "input_sha256": "1d9f6f5bd9f98c4ff17ada25bc85bced7d8597559ebed19677f75692416710e6",
+  "records": [
+    {
+      "name": "current_0 / e",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_0 / e",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / e",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / e",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / x",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_0 / x",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / x",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / x",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (0, 4)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (0, 4)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (0, 4)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (0, 4)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 1)",
+      "mode": 0,
+      "support": 66
+    },
+    {
+      "name": "current_0 / (1, 1)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 1)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 1)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 3)",
+      "mode": 0,
+      "support": 47
+    },
+    {
+      "name": "current_0 / (1, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 5)",
+      "mode": 0,
+      "support": 23
+    },
+    {
+      "name": "current_0 / (1, 5)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 5)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 5)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 7)",
+      "mode": 0,
+      "support": 7
+    },
+    {
+      "name": "current_0 / (1, 7)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 7)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (1, 7)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (2, 2)",
+      "mode": 0,
+      "support": 34
+    },
+    {
+      "name": "current_0 / (2, 2)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (2, 2)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (2, 2)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (2, 6)",
+      "mode": 0,
+      "support": 7
+    },
+    {
+      "name": "current_0 / (2, 6)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (2, 6)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (2, 6)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (3, 3)",
+      "mode": 0,
+      "support": 9
+    },
+    {
+      "name": "current_0 / (3, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (3, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_0 / (3, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / e",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / e",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / e",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / e",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / x",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / x",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / x",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / x",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (0, 4)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (0, 4)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (0, 4)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (0, 4)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 1)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 1)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 1)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 1)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 3)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 5)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 5)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 5)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 5)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 7)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 7)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 7)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (1, 7)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (2, 2)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (2, 2)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (2, 2)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (2, 2)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (2, 6)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (2, 6)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (2, 6)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (2, 6)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (3, 3)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (3, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (3, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_1 / (3, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / e",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_2 / e",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / e",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / e",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / x",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_2 / x",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / x",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / x",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (0, 4)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (0, 4)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (0, 4)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (0, 4)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 1)",
+      "mode": 0,
+      "support": 66
+    },
+    {
+      "name": "current_2 / (1, 1)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 1)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 1)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 3)",
+      "mode": 0,
+      "support": 47
+    },
+    {
+      "name": "current_2 / (1, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 5)",
+      "mode": 0,
+      "support": 22
+    },
+    {
+      "name": "current_2 / (1, 5)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 5)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 5)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 7)",
+      "mode": 0,
+      "support": 7
+    },
+    {
+      "name": "current_2 / (1, 7)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 7)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (1, 7)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (2, 2)",
+      "mode": 0,
+      "support": 55
+    },
+    {
+      "name": "current_2 / (2, 2)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (2, 2)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (2, 2)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (2, 6)",
+      "mode": 0,
+      "support": 14
+    },
+    {
+      "name": "current_2 / (2, 6)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (2, 6)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (2, 6)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (3, 3)",
+      "mode": 0,
+      "support": 21
+    },
+    {
+      "name": "current_2 / (3, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (3, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_2 / (3, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / e",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_3 / e",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / e",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / e",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / x",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_3 / x",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / x",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / x",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (0, 4)",
+      "mode": 0,
+      "support": 42
+    },
+    {
+      "name": "current_3 / (0, 4)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (0, 4)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (0, 4)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 1)",
+      "mode": 0,
+      "support": 66
+    },
+    {
+      "name": "current_3 / (1, 1)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 1)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 1)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 3)",
+      "mode": 0,
+      "support": 47
+    },
+    {
+      "name": "current_3 / (1, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 5)",
+      "mode": 0,
+      "support": 23
+    },
+    {
+      "name": "current_3 / (1, 5)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 5)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 5)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 7)",
+      "mode": 0,
+      "support": 7
+    },
+    {
+      "name": "current_3 / (1, 7)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 7)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (1, 7)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (2, 2)",
+      "mode": 0,
+      "support": 34
+    },
+    {
+      "name": "current_3 / (2, 2)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (2, 2)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (2, 2)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (2, 6)",
+      "mode": 0,
+      "support": 7
+    },
+    {
+      "name": "current_3 / (2, 6)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (2, 6)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (2, 6)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (3, 3)",
+      "mode": 0,
+      "support": 9
+    },
+    {
+      "name": "current_3 / (3, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (3, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_3 / (3, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / e",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / e",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / e",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / e",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / x",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / x",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / x",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / x",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (0, 4)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (0, 4)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (0, 4)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (0, 4)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 1)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 1)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 1)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 1)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 3)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 5)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 5)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 5)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 5)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 7)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 7)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 7)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (1, 7)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (2, 2)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (2, 2)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (2, 2)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (2, 2)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (2, 6)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (2, 6)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (2, 6)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (2, 6)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (3, 3)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (3, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (3, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_4 / (3, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / e",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_5 / e",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / e",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / e",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / x",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "current_5 / x",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / x",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / x",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (0, 4)",
+      "mode": 0,
+      "support": 71
+    },
+    {
+      "name": "current_5 / (0, 4)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (0, 4)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (0, 4)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 1)",
+      "mode": 0,
+      "support": 66
+    },
+    {
+      "name": "current_5 / (1, 1)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 1)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 1)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 3)",
+      "mode": 0,
+      "support": 66
+    },
+    {
+      "name": "current_5 / (1, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 5)",
+      "mode": 0,
+      "support": 47
+    },
+    {
+      "name": "current_5 / (1, 5)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 5)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 5)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 7)",
+      "mode": 0,
+      "support": 23
+    },
+    {
+      "name": "current_5 / (1, 7)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 7)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (1, 7)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (2, 2)",
+      "mode": 0,
+      "support": 40
+    },
+    {
+      "name": "current_5 / (2, 2)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (2, 2)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (2, 2)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (2, 6)",
+      "mode": 0,
+      "support": 19
+    },
+    {
+      "name": "current_5 / (2, 6)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (2, 6)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (2, 6)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (3, 3)",
+      "mode": 0,
+      "support": 14
+    },
+    {
+      "name": "current_5 / (3, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (3, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "current_5 / (3, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "e / e",
+      "mode": -1,
+      "support": 2333
+    },
+    {
+      "name": "e / e",
+      "mode": 0,
+      "support": 212
+    },
+    {
+      "name": "e / e",
+      "mode": 1,
+      "support": 74
+    },
+    {
+      "name": "e / e",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "e / e",
+      "mode": 3,
+      "support": 1
+    },
+    {
+      "name": "x / x",
+      "mode": -1,
+      "support": 2674
+    },
+    {
+      "name": "x / x",
+      "mode": 0,
+      "support": 244
+    },
+    {
+      "name": "x / x",
+      "mode": 1,
+      "support": 78
+    },
+    {
+      "name": "x / x",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "x / x",
+      "mode": 3,
+      "support": 1
+    },
+    {
+      "name": "(0, 4) / (0, 4)",
+      "mode": -1,
+      "support": 365
+    },
+    {
+      "name": "(0, 4) / (0, 4)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(0, 4) / (0, 4)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(0, 4) / (0, 4)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "(0, 4) / (0, 4)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "(1, 1) / (1, 1)",
+      "mode": -1,
+      "support": 1572
+    },
+    {
+      "name": "(1, 1) / (1, 1)",
+      "mode": 0,
+      "support": 137
+    },
+    {
+      "name": "(1, 1) / (1, 1)",
+      "mode": 1,
+      "support": 34
+    },
+    {
+      "name": "(1, 1) / (1, 1)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "(1, 1) / (1, 1)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "(1, 3) / (1, 3)",
+      "mode": -1,
+      "support": 550
+    },
+    {
+      "name": "(1, 3) / (1, 3)",
+      "mode": 0,
+      "support": 44
+    },
+    {
+      "name": "(1, 3) / (1, 3)",
+      "mode": 1,
+      "support": 7
+    },
+    {
+      "name": "(1, 3) / (1, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "(1, 3) / (1, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "(1, 5) / (1, 5)",
+      "mode": -1,
+      "support": 47
+    },
+    {
+      "name": "(1, 5) / (1, 5)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(1, 5) / (1, 5)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(1, 5) / (1, 5)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "(1, 5) / (1, 5)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "(1, 7) / (1, 7)",
+      "mode": -1,
+      "support": 0
+    },
+    {
+      "name": "(1, 7) / (1, 7)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(1, 7) / (1, 7)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(1, 7) / (1, 7)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "(1, 7) / (1, 7)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "(2, 2) / (2, 2)",
+      "mode": -1,
+      "support": 172
+    },
+    {
+      "name": "(2, 2) / (2, 2)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(2, 2) / (2, 2)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(2, 2) / (2, 2)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "(2, 2) / (2, 2)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "(2, 6) / (2, 6)",
+      "mode": -1,
+      "support": 0
+    },
+    {
+      "name": "(2, 6) / (2, 6)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(2, 6) / (2, 6)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(2, 6) / (2, 6)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "(2, 6) / (2, 6)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "(3, 3) / (3, 3)",
+      "mode": -1,
+      "support": 0
+    },
+    {
+      "name": "(3, 3) / (3, 3)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(3, 3) / (3, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(3, 3) / (3, 3)",
+      "mode": 2,
+      "support": 0
+    },
+    {
+      "name": "(3, 3) / (3, 3)",
+      "mode": 3,
+      "support": 0
+    },
+    {
+      "name": "e / x",
+      "mode": 0,
+      "support": 240
+    },
+    {
+      "name": "e / x",
+      "mode": 1,
+      "support": 75
+    },
+    {
+      "name": "x / (0, 4)",
+      "mode": 0,
+      "support": 326
+    },
+    {
+      "name": "x / (0, 4)",
+      "mode": 1,
+      "support": 42
+    },
+    {
+      "name": "(0, 4) / (1, 1)",
+      "mode": 0,
+      "support": 200
+    },
+    {
+      "name": "(0, 4) / (1, 1)",
+      "mode": 1,
+      "support": 23
+    },
+    {
+      "name": "(1, 1) / (1, 3)",
+      "mode": 0,
+      "support": 174
+    },
+    {
+      "name": "(1, 1) / (1, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(1, 3) / (1, 5)",
+      "mode": 0,
+      "support": 21
+    },
+    {
+      "name": "(1, 3) / (1, 5)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(1, 5) / (1, 7)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(1, 5) / (1, 7)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(1, 7) / (2, 2)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(1, 7) / (2, 2)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(2, 2) / (2, 6)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(2, 2) / (2, 6)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(2, 6) / (3, 3)",
+      "mode": 0,
+      "support": 0
+    },
+    {
+      "name": "(2, 6) / (3, 3)",
+      "mode": 1,
+      "support": 0
+    },
+    {
+      "name": "(3, 3) / e",
+      "mode": 0,
+      "support": 83
+    },
+    {
+      "name": "(3, 3) / e",
+      "mode": 1,
+      "support": 9
+    }
+  ],
+  "limitation": "The input generator coefficients come from E.setup(0); only their products are independently reevaluated."
+}

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+release-assets/
+f4-replay*/
+f4-regenerated*/
+*.aux
+*.toc
+*.brf
+*.fls
+*.fdb_latexmk
+Haagerup-c8-article-I-v07-arxiv.log
+Haagerup-c8-article-I-v07-arxiv.out

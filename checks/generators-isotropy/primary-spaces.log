@@ -1,0 +1,8 @@
+(0, 4) PASS 2*(9*sqrt(26)*(sqrt(13) + 13) + 494*sqrt(sqrt(13) + 7))/(1235*sqrt(sqrt(13) + 7)) 2*(-9*sqrt(26) - 9*sqrt(2) + 38*sqrt(sqrt(13) + 7))/(95*sqrt(sqrt(13) + 7))
+(1, 1) PASS 3*(17*sqrt(26)*(sqrt(13) + 13) + 1482*sqrt(sqrt(13) + 7))/(4940*sqrt(sqrt(13) + 7)) 3*(-17*sqrt(26) - 17*sqrt(2) + 114*sqrt(sqrt(13) + 7))/(380*sqrt(sqrt(13) + 7))
+(1, 3) PASS (71*sqrt(26)*(sqrt(13) + 13) + 1976*sqrt(sqrt(13) + 7))/(2470*sqrt(sqrt(13) + 7)) (-71*sqrt(26) - 71*sqrt(2) + 152*sqrt(sqrt(13) + 7))/(190*sqrt(sqrt(13) + 7))
+(1, 5) PASS (-319*sqrt(26) - 319*sqrt(2) + 722*sqrt(sqrt(13) + 7))/(1140*sqrt(sqrt(13) + 7)) (319*sqrt(2) + 319*sqrt(26) + 722*sqrt(sqrt(13) + 7))/(1140*sqrt(sqrt(13) + 7))
+(1, 7) PASS (9*sqrt(26)*(sqrt(13) + 13) + 494*sqrt(sqrt(13) + 7))/(1235*sqrt(sqrt(13) + 7)) (-9*sqrt(26) - 9*sqrt(2) + 38*sqrt(sqrt(13) + 7))/(95*sqrt(sqrt(13) + 7))
+(2, 2) PASS (-41*sqrt(26) - 41*sqrt(2) + 418*sqrt(sqrt(13) + 7))/(570*sqrt(sqrt(13) + 7)) (41*sqrt(2) + 41*sqrt(26) + 418*sqrt(sqrt(13) + 7))/(570*sqrt(sqrt(13) + 7))
+(2, 6) PASS (9*sqrt(26)*(sqrt(13) + 13) + 494*sqrt(sqrt(13) + 7))/(1235*sqrt(sqrt(13) + 7)) (-9*sqrt(26) - 9*sqrt(2) + 38*sqrt(sqrt(13) + 7))/(95*sqrt(sqrt(13) + 7))
+(3, 3) PASS (-5*sqrt(26) - 5*sqrt(2) + 38*sqrt(sqrt(13) + 7))/(76*sqrt(sqrt(13) + 7)) (5*sqrt(2) + 5*sqrt(26) + 38*sqrt(sqrt(13) + 7))/(76*sqrt(sqrt(13) + 7))

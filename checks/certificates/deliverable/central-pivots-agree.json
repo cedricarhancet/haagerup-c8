@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "vectors": 280,
+  "auxiliary_basis_equals_full_regenerated_basis": true,
+  "auxiliary_sha256": "a3e602d7fe3bbbdc80c1b0986dc007d0bdcc91bb6e4ab5b13beda1dd900d50f1",
+  "full_block_sha256": "60d254f0a0d862176f235d49d1fdaf28a451009bd63814c257b20a50e863edba"
+}

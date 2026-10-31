@@ -1,0 +1,311 @@
+{
+  "case": "I",
+  "coefficient_field": "Q",
+  "candidates": {
+    "0": {
+      "primary_type": [
+        1,
+        13
+      ],
+      "dimension": 3,
+      "charts": [
+        {
+          "first_nonzero_coordinate": 0,
+          "variables": [
+            "u1",
+            "u2",
+            "z"
+          ],
+          "polynomials": [
+            "-467026560*u1**2 - 50563408896*u1*u2/817 - 166053888*u2**2/5 + 35867639808/215",
+            "-219191132160*u1*u2/817 - 934053120*u1 - 249080832*u2 + 52306974720/43",
+            "-4*u1**2/15 - 16*u1*u2/225 - 16*u1/25 + 16*u2/1125 + 32/75",
+            "-4*u1*u2/15 + u1/5 - 16*u2**2/225 - 16*u2/25 + 8/5",
+            "u1**2/5 + 8*u1/5 - 16*u2**2/1125 - 32*u2/75",
+            "-934053120*u1*u2*z - 2802159360*z - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 1,
+          "variables": [
+            "u2",
+            "z"
+          ],
+          "polynomials": [
+            "-166053888*u2**2/5 - 50563408896*u2/817 - 467026560",
+            "-219191132160*u2/817",
+            "-16*u2/225 - 4/15",
+            "-16*u2**2/225 - 4*u2/15",
+            "1/5 - 16*u2**2/1125",
+            "-934053120*u2*z - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 2,
+          "variables": [
+            "z"
+          ],
+          "polynomials": [
+            "-166053888/5",
+            "0",
+            "0",
+            "-16/225",
+            "-16/1125",
+            "-1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        }
+      ]
+    },
+    "1": {
+      "primary_type": [
+        1,
+        1
+      ],
+      "dimension": 4,
+      "charts": [
+        {
+          "first_nonzero_coordinate": 0,
+          "variables": [
+            "u1",
+            "u2",
+            "u3",
+            "z"
+          ],
+          "polynomials": [
+            "84*u1**2/625 - 252*u1*u2/625 - 84*u1*u3/125 + 84*u1/625 + 84*u2**2/625 + 84*u2*u3/125 + 84*u2/625 + 21*u3**2/25 + 168/125",
+            "14*u1**2/125 - 21*u1*u3/25 + 56*u1/25 - 14*u2**2/125 - 21*u2*u3/25 - 56*u2/25 - 112*u3/25",
+            "u1**2/5 + u1*u2/5 + 4*u1 + u3/2",
+            "u1*u2/5 + u2**2/5 + 4*u2 - u3/2",
+            "u1*u3/5 + u2*u3/5 + 9*u3/2",
+            "-u1*u3/2 - u2*u3/2",
+            "u1*u3/2 - u3**2/2",
+            "u2*u3/2 + u3**2/2",
+            "-21*u1**2*z/50 + 63*u1*u2*z/50 + 21*u1*u3*z/10 - 21*u1*z/50 - 21*u2**2*z/50 - 21*u2*u3*z/10 - 21*u2*z/50 - 3*u3**2*z/2 - 21*z/5 - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 1,
+          "variables": [
+            "u2",
+            "u3",
+            "z"
+          ],
+          "polynomials": [
+            "84*u2**2/625 + 84*u2*u3/125 - 252*u2/625 + 21*u3**2/25 - 84*u3/125 + 84/625",
+            "-14*u2**2/125 - 21*u2*u3/25 - 21*u3/25 + 14/125",
+            "u2/5 + 1/5",
+            "u2**2/5 + u2/5",
+            "u2*u3/5 + u3/5",
+            "-u2*u3/2 - u3/2",
+            "-u3**2/2 + u3/2",
+            "u2*u3/2 + u3**2/2",
+            "-21*u2**2*z/50 - 21*u2*u3*z/10 + 63*u2*z/50 - 3*u3**2*z/2 + 21*u3*z/10 - 21*z/50 - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 2,
+          "variables": [
+            "u3",
+            "z"
+          ],
+          "polynomials": [
+            "21*u3**2/25 + 84*u3/125 + 84/625",
+            "-21*u3/25 - 14/125",
+            "0",
+            "1/5",
+            "u3/5",
+            "-u3/2",
+            "-u3**2/2",
+            "u3**2/2 + u3/2",
+            "-3*u3**2*z/2 - 21*u3*z/10 - 21*z/50 - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 3,
+          "variables": [
+            "z"
+          ],
+          "polynomials": [
+            "21/25",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/2",
+            "1/2",
+            "-3*z/2 - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "primary_type": [
+        1,
+        13
+      ],
+      "dimension": 3,
+      "charts": [
+        {
+          "first_nonzero_coordinate": 0,
+          "variables": [
+            "u1",
+            "u2",
+            "z"
+          ],
+          "polynomials": [
+            "-467026560*u1**2 - 50563408896*u1*u2/817 - 166053888*u2**2/5 + 35867639808/215",
+            "219191132160*u1*u2/817 - 934053120*u1 - 249080832*u2 - 52306974720/43",
+            "-4*u1**2 - 16*u1*u2/15 + 48*u1/5 - 16*u2/75 + 32/5",
+            "-4*u1*u2 - 3*u1 - 16*u2**2/15 + 48*u2/5 + 24",
+            "-3*u1**2 + 24*u1 + 16*u2**2/75 - 32*u2/5",
+            "-934053120*u1*u2*z - 2802159360*z - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 1,
+          "variables": [
+            "u2",
+            "z"
+          ],
+          "polynomials": [
+            "-166053888*u2**2/5 - 50563408896*u2/817 - 467026560",
+            "219191132160*u2/817",
+            "-16*u2/15 - 4",
+            "-16*u2**2/15 - 4*u2",
+            "16*u2**2/75 - 3",
+            "-934053120*u2*z - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 2,
+          "variables": [
+            "z"
+          ],
+          "polynomials": [
+            "-166053888/5",
+            "0",
+            "0",
+            "-16/15",
+            "16/75",
+            "-1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "primary_type": [
+        1,
+        13
+      ],
+      "dimension": 3,
+      "charts": [
+        {
+          "first_nonzero_coordinate": 0,
+          "variables": [
+            "u1",
+            "u2",
+            "z"
+          ],
+          "polynomials": [
+            "-467026560*u1**2 - 7935003648*u1*u2/43 - 166053888*u2**2/5 + 155426439168/215",
+            "-934053120*u1 - 249080832*u2",
+            "-112*u1/15 + 592*u2/225",
+            "37*u1 - 112*u2/15",
+            "37*u1**2 - 592*u2**2/225",
+            "-934053120*u1*u2*z - 2802159360*z - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 1,
+          "variables": [
+            "u2",
+            "z"
+          ],
+          "polynomials": [
+            "-166053888*u2**2/5 - 7935003648*u2/43 - 467026560",
+            "0",
+            "0",
+            "0",
+            "37 - 592*u2**2/225",
+            "-934053120*u2*z - 1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        },
+        {
+          "first_nonzero_coordinate": 2,
+          "variables": [
+            "z"
+          ],
+          "polynomials": [
+            "-166053888/5",
+            "0",
+            "0",
+            "0",
+            "-592/225",
+            "-1"
+          ],
+          "unit": true,
+          "groebner_basis": [
+            "1"
+          ]
+        }
+      ]
+    }
+  },
+  "source_sha256": {
+    "primaries_I.pkl": "79aed0429cebd15c836ce8aef50953c10e5daec3918b9229ed749ebf67c056e0",
+    "griess_subalgebras.json": "3d9a4a9bec4b2194dd9509edc78432d364c93d847c0404cdb16ca00f4352ae5c",
+    "isotropy_test.py": "b7937c91b5d0f1fd4a46a2c2e62a3fba420caea2f4e293d20914a2aae84fa0f7",
+    "primaries.py": "f096bd5e62d92ea429374f1a955ef53f7e4ece7858fd9ad710e8aa5253f94120",
+    "griess_subalgebras.py": "eab57049b06f140104043e40509c539795f6173db88bb350c97e36d4835fefd2"
+  },
+  "verified_projective_charts": 13
+}

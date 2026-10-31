@@ -1,0 +1,25 @@
+--- Haagerup-c8-article-I-v06-arxiv.tex
++++ Haagerup-c8-article-I-v07-arxiv.tex
+@@ -2254,11 +2254,11 @@
+ Theorem \ref{thm:unitarity} & \texttt{unitary\_character.py}, \texttt{phi\_automorphism\_check.py}, \texttt{unitarity\_test.py}, \texttt{lattice\_voa.py} & exact \\
+ Proposition \ref{prop:symmetries} & \texttt{a3\_griess\_automorphisms.py}, \texttt{choice\_conjugation.py} & exact \\
+ Proposition \ref{prop:weight-three-four} & \texttt{closure\_w4\_modp.py}, \texttt{modp.py} & modulo $p$ \\
+-Theorem \ref{thm:strong-generation} & \path{verify_f4_strict.py}, \path{aggregate_f4.py}, \path{check_zero_products.py}; historical scripts retained & exact over $\K$; Proposition \ref{prop:weight-four-certificate} and alternative dimension proof \\
++Theorem \ref{thm:strong-generation} & \path{verify_f4_strict.py}, \path{aggregate_f4.py}, \path{check_zero_products.py} & exact over $\K$; Proposition \ref{prop:weight-four-certificate} and alternative dimension proof \\
+ Theorem \ref{thm:exact-weight-three} & \texttt{exact\_engine.py}, \texttt{certify\_w3.py}, \texttt{certify\_w4b.py} & all parts exact over $\K$ \\
+ Theorem \ref{thm:jiao-identification} & \texttt{i2\_weyl.py}, \texttt{i4\_torus.py}, \path{i5_membership_exact.py}, \path{i6_generation_certificate.py} & exact membership and rank lower bound modulo $p_3$ \\
+ Proposition \ref{prop:centralizer-two} & \texttt{j1\_centralizer.py}, \texttt{j5\_explicit\_automorphism.py} & root-theoretic proof and exact polynomial check \\
+-Proposition \ref{prop:commutant-biweights} & \texttt{c2\_exact\_C4.py}, \texttt{commutant\_dims.py}, \texttt{griess\_subalgebras.py} & exact over $\K$; regenerated witnesses \\
++Proposition \ref{prop:commutant-biweights} & \texttt{c2\_exact\_C4.py}, \texttt{commutant\_dims.py}, \texttt{griess\_subalgebras.py} & exact over $\K$ \\
+ Proposition \ref{prop:case-one-control} & \texttt{exact\_isotropy.py}, \texttt{isotropy\_test.py} & exact; certified (Arb) \\
+ Proposition \ref{prop:case-one-two} & \texttt{isotropic\_lines.py}, \texttt{r6\_certify\_sub2.py}, \texttt{r5\_sub2\_testb.py} & exact; certified (Arb) \\
+ Proposition \ref{prop:riesen-identification} & \texttt{r1\_identify\_riesen.py}, \texttt{r2\_locate\_riesen.py}, \texttt{griess\_subalgebras.py} & exact \\
+@@ -2297,7 +2297,7 @@
+ \paragraph{Competing interests.} The author declares that he has no competing interests.
+ 
+ \paragraph{Data availability.}
+-The source code, coordinate certificates, exact verification results and reproduction instructions are prepared for release at \url{https://github.com/cedricarhancet/haagerup-c8}. This is the intended address of the computational repository; it has not yet been made publicly accessible. The supplementary index and Table \ref{tab:scripts-statements} relate scripts to the numbered statements and record the scope of the verifications. The two weight-four coordinate archives needed to replay the full verification of \textup{(F4)} form separate supplementary files. No public deposit or DOI is claimed.
++The source code, certificates and reproduction instructions are available at \url{https://github.com/cedricarhancet/haagerup-c8}. The two complete weight-four coordinate archives are distributed as release assets. Table \ref{tab:scripts-statements} relates the computational scripts to the numbered statements.
+ 
+ \begin{thebibliography}{AHKZ26}
+ 

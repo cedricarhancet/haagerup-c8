@@ -1,0 +1,4 @@
+A11+A139 (announced), form x4y2: rank 3; consistency conditions (must vanish): [0, 0, 0]
+A11+A139 (announced), form x2y4: rank 3; consistency conditions (must vanish): [0, 0, 0]
+A13+A113, form x4y2: rank 3; consistency conditions (must vanish): [0, 0, 0]
+A13+A113, form x2y4: rank 3; consistency conditions (must vanish): [0, 0, 0]

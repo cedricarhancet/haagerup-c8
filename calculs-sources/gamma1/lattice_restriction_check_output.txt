@@ -1,0 +1,19 @@
+gamma=0 (0,0) leading exponent -1/3 : theta/eta^8 [1, 86, 1370, 11586, 71052]  vs  X_0+b [1, 86, 1370, 11586, 71052]  OK
+gamma=0 (1,1) leading exponent 2/3 : theta/eta^8 [81, 1377, 11583, 71037, 352512]  vs  X_a [81, 1377, 11583, 71037, 352512]  OK
+gamma=0 (2,2) leading exponent 2/3 : theta/eta^8 [81, 1377, 11583, 71037, 352512]  vs  X_a [81, 1377, 11583, 71037, 352512]  OK
+gamma=0 (1,2) leading exponent 2/3 : theta/eta^8 [81, 1377, 11583, 71037, 352512]  vs  X_c0 [81, 1377, 11583, 71037, 352512]  OK
+gamma=0 (2,1) leading exponent 2/3 : theta/eta^8 [81, 1377, 11583, 71037, 352512]  vs  X_c0 [81, 1377, 11583, 71037, 352512]  OK
+gamma=0 (0,1) leading exponent 0 : theta/eta^8 [3, 243, 2916, 21870, 123444]  vs  X_c1 [3, 243, 2916, 21870, 123444]  OK
+gamma=0 (0,2) leading exponent 0 : theta/eta^8 [3, 243, 2916, 21870, 123444]  vs  X_c1 [3, 243, 2916, 21870, 123444]  OK
+gamma=0 (1,0) leading exponent 1/3 : theta/eta^8 [27, 594, 5967, 39852, 210654]  vs  X_c2 [27, 594, 5967, 39852, 210654]  OK
+gamma=0 (2,0) leading exponent 1/3 : theta/eta^8 [27, 594, 5967, 39852, 210654]  vs  X_c2 [27, 594, 5967, 39852, 210654]  OK
+gamma=1 (0,0) leading exponent -1/3 : theta/eta^8 [1, 86, 1370, 11586, 71052]  vs  X_0+b [1, 86, 1370, 11586, 71052]  OK
+gamma=1 (1,1) leading exponent 2/3 : theta/eta^8 [81, 1377, 11583, 71037, 352512]  vs  X_a [81, 1377, 11583, 71037, 352512]  OK
+gamma=1 (2,2) leading exponent 2/3 : theta/eta^8 [81, 1377, 11583, 71037, 352512]  vs  X_a [81, 1377, 11583, 71037, 352512]  OK
+gamma=1 (1,2) leading exponent 2/3 : theta/eta^8 [81, 1377, 11583, 71037, 352512]  vs  X_c0 [81, 1377, 11583, 71037, 352512]  OK
+gamma=1 (2,1) leading exponent 2/3 : theta/eta^8 [81, 1377, 11583, 71037, 352512]  vs  X_c0 [81, 1377, 11583, 71037, 352512]  OK
+gamma=1 (0,1) leading exponent 0 : theta/eta^8 [3, 243, 2916, 21870, 123444]  vs  X_c1 [3, 243, 2916, 21870, 123444]  OK
+gamma=1 (0,2) leading exponent 0 : theta/eta^8 [3, 243, 2916, 21870, 123444]  vs  X_c1 [3, 243, 2916, 21870, 123444]  OK
+gamma=1 (1,0) leading exponent 1/3 : theta/eta^8 [27, 594, 5967, 39852, 210654]  vs  X_c2 [27, 594, 5967, 39852, 210654]  OK
+gamma=1 (2,0) leading exponent 1/3 : theta/eta^8 [27, 594, 5967, 39852, 210654]  vs  X_c2 [27, 594, 5967, 39852, 210654]  OK
+ALL OK

@@ -1,0 +1,14 @@
+{
+  "block": 53,
+  "weight": [
+    -1,
+    -13
+  ],
+  "ambient": 3,
+  "pivots": 1,
+  "family_nonzero": 4,
+  "tests_nonzero": 0,
+  "all_rows_verified": true,
+  "bad": 0,
+  "elapsed_seconds": 0.00018081199959851801
+}

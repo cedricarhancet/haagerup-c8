@@ -1,0 +1,15 @@
+p = 133217647 ; choice [0, 1, 1, 0, 0, 1, 0, 1] : rank U_2 mod p = 120 ; rank U_1 = 6
+(W2) weight-two closure failures mod p: [('(0, 4)', '(1, 1)', 4, 4), ('(0, 4)', '(1, 3)', 2, 0), ('(0, 4)', '(1, 5)', 4, 0), ('(1, 1)', '(1, 1)', 4, 0), ('(1, 1)', '(1, 3)', 8, 8), ('(1, 1)', '(1, 5)', 12, 10), ('(1, 1)', '(1, 7)', 16, 0), ('(1, 1)', '(2, 2)', 9, 8), ('(1, 1)', '(2, 6)', 20, 12), ('(1, 1)', '(3, 3)', 16, 12), ('(1, 3)', '(2, 2)', 2, 0), ('(1, 5)', '(2, 6)', 4, 0), ('(1, 7)', '(2, 6)', 2, 0), ('(2, 2)', '(3, 3)', 4, 0)]  (48s)
+weight-three generators: 8007 (135s)
+rank before g-closure: 1057
+  g-closure iteration 0 : rank 1324
+  g-closure iteration 1 : rank 1482
+  g-closure iteration 2 : rank 1544
+  g-closure iteration 3 : rank 1592
+  g-closure iteration 4 : rank 1624
+  g-closure iteration 5 : rank 1647
+  g-closure iteration 6 : rank 1659
+  g-closure iteration 7 : rank 1663
+  g-closure iteration 8 : rank 1663
+S_3^{gen} (g-closed) rank mod p = 1663  (dim U_3 = 956) (157s)
+time 157s

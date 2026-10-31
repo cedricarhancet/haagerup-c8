@@ -1,0 +1,5 @@
+weight six: 6 exact relations; exact forms give rank 7 (sum 13)
+ideal (i1,i2)=(1, 0) level 1: rank in S = 3; free S: [S4, S5, S6]
+ideal (i1,i2)=(3, 0) level 3: rank in S = 3; free S: [S4, S5, S6]
+ideal (i1,i2)=(9, 4) level 13: rank in S = 3; free S: [S4, S5, S6]
+ideal (i1,i2)=(35, 4) level 39: rank in S = 3; free S: [S4, S5, S6]

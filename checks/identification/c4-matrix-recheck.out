@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "basis_rank_modp": 7,
+  "commuting_matrices": true,
+  "sum_4I": true,
+  "annihilating_polynomials": true,
+  "spectral_multiplicities": true,
+  "VOA_products_recomputed": false
+}

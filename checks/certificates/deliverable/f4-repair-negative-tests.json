@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "repair_sha256": "33717082f98cfe2c6eb8c79db78254c2b68c309d6596ddfb41a81b8b2a17b867",
+  "store_sha256": "54e3d6dc3a79303c77479f8d8221d1345594c0cf4d7742f14d714ca23982908c",
+  "recovered": 2,
+  "rejected": 5,
+  "results": [
+    {
+      "case": "missing_records",
+      "recovered_exact_missing_labels": true,
+      "preserved": 2,
+      "recomputed": 2
+    },
+    {
+      "case": "truncated_record",
+      "recovered_exact_missing_labels": true,
+      "preserved": 2,
+      "recomputed": 2
+    },
+    {
+      "case": "duplicate_label",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "unexpected_label",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "wrong_block",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "changed_source",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "duplicate_manifest_label",
+      "rejected": true,
+      "exception": "AssertionError"
+    }
+  ],
+  "scope": "actual recovery control flow with mocked mode operator; not a VOA calculation"
+}

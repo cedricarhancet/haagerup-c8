@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "verifier_sha256": "8b2d891f6d7ddab521c4fc469543f2930ec2a58e062f26dd6bd8bb08fbace814",
+  "method": "unmodified reader function AST; temporary fixtures only",
+  "valid_fixtures": 1,
+  "rejected_fixtures": 13,
+  "results": [
+    {
+      "case": "valid",
+      "status": "accepted"
+    },
+    {
+      "case": "missing_block",
+      "status": "rejected",
+      "exception": "FileNotFoundError"
+    },
+    {
+      "case": "changed_hash",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "truncated_record_with_updated_hash",
+      "status": "rejected",
+      "exception": "ValueError"
+    },
+    {
+      "case": "duplicate_record_with_valid_hash",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "unannounced_record_label",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "extra_trailing_bytes_with_updated_hash",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "missing_second_record",
+      "status": "rejected",
+      "exception": "ValueError"
+    },
+    {
+      "case": "unexpected_block",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "extra_noncanonical_block_name",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "wrong_weight_coordinate",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "duplicate_manifest_label",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "overlap_zero_nonzero",
+      "status": "rejected",
+      "exception": "AssertionError"
+    },
+    {
+      "case": "wrong_source_hash",
+      "status": "rejected",
+      "exception": "AssertionError"
+    }
+  ]
+}

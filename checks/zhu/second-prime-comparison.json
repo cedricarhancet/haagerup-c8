@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "mode": "comparison of archived summaries, not rerun",
+  "first_prime": 8388571,
+  "second_prime": 4194277,
+  "blocks_compared_as_multisets": true
+}

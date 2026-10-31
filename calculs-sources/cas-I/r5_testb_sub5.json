@@ -1,0 +1,29 @@
+{
+ "lines_113": [
+  [
+   "1",
+   "1/30 - sqrt(39)*I/130"
+  ],
+  [
+   "1",
+   "1/30 + sqrt(39)*I/130"
+  ]
+ ],
+ "lines_11": [
+  [
+   "1",
+   "7248/55249 + 28104*sqrt(13)/55249 - 32*sqrt(39)*I*sqrt(5736*sqrt(13) + 58993)/55249"
+  ],
+  [
+   "1",
+   "7248/55249 + 28104*sqrt(13)/55249 + 32*sqrt(39)*I*sqrt(5736*sqrt(13) + 58993)/55249"
+  ]
+ ],
+ "test_b_casimir": {
+  "(1,13) line 0, (1,1) line 0": "passes",
+  "(1,13) line 0, (1,1) line 1": "FAILS (forbidden component)",
+  "(1,13) line 1, (1,1) line 0": "FAILS (forbidden component)",
+  "(1,13) line 1, (1,1) line 1": "passes"
+ },
+ "time": 8.027342557907104
+}

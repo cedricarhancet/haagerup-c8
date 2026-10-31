@@ -1,0 +1,6 @@
+gamma 0 weight 2: 9 relations, exact forms give rank 4 (sum 13)
+gamma 0 weight 4: 9 relations, exact forms give rank 4 (sum 13)
+gamma 0 weight 6: 6 relations, exact forms give rank 7 (sum 13)
+gamma 1 weight 2: 8 relations, exact forms give rank 5 (sum 13)
+gamma 1 weight 4: 8 relations, exact forms give rank 5 (sum 13)
+gamma 1 weight 6: 5 relations, exact forms give rank 8 (sum 13)

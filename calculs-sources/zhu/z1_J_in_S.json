@@ -1,0 +1,7 @@
+{
+ "block_dim": 1,
+ "n_pivots": 1,
+ "key": "((2, 2, 4, 5, 4, 2, 1, 1), ())",
+ "singular_tests": 26,
+ "nonzero": []
+}

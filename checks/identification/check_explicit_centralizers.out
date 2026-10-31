@@ -1,0 +1,7 @@
+I {'six_currents_fixed': {'zE': True, 'zA': True, 'rho': True}, 'involutions': {'zE': True, 'zA': True, 'rho': True}, 'commuting': {'zE zA': True, 'zE rho': True, 'zA rho': True}, 'group_order': 8}
+I descent {'sigma fixes e': True, 'sigma fixes f': True, 'sigma vprime = -vprime': True, 'tau fixes e': True, 'tau fixes f': True, 'tau vprime = -vprime': True}
+II {'six_currents_fixed': {'zE': True, 'zA': True, 'rho': True}, 'involutions': {'zE': True, 'zA': True, 'rho': True}, 'commuting': {'zE zA': True, 'zE rho': True, 'zA rho': True}, 'group_order': 8}
+II B {'zE=s': True, 'zA=s': True, 'rho=id': True}
+II descent sigma True
+II descent tau True
+PASS

@@ -1,0 +1,51 @@
+{
+ "dim_C4_exact": 7,
+ "npivots_block00": 280,
+ "rank_modp": 273,
+ "central_charges": [
+  "32/19",
+  "182/95"
+ ],
+ "L1+L2 == 4 (exact)": true,
+ "[L1,L2] == 0 (exact)": true,
+ "prod_lambda (L1 - lambda) == 0 (exact), lambda in ['0', '2', '4', '25/19', '50/19']": true,
+ "eigenspace dims of L1 (mod p upper bounds, sum = dim when diagonalisable)": {
+  "0": 2,
+  "2": 1,
+  "4": 2,
+  "25/19": 1,
+  "50/19": 1
+ },
+ "prod_lambda (L2 - lambda) == 0 (exact), lambda in ['0', '2', '4', '26/19', '51/19']": true,
+ "eigenspace dims of L2 (mod p upper bounds, sum = dim when diagonalisable)": {
+  "0": 2,
+  "2": 1,
+  "4": 2,
+  "26/19": 1,
+  "51/19": 1
+ },
+ "primaries_of_nonintegral_biweight": {
+  "(25/19, 51/19)": {
+   "checks": {
+    "L1(0) v = 25/19 v": true,
+    "L1(1) v = 0": true,
+    "L1(2) v = 0": true,
+    "L2(0) v = 51/19 v": true,
+    "L2(1) v = 0": true,
+    "L2(2) v = 0": true
+   },
+   "n_terms": 3036
+  },
+  "(50/19, 26/19)": {
+   "checks": {
+    "L1(0) v = 50/19 v": true,
+    "L1(1) v = 0": true,
+    "L1(2) v = 0": true,
+    "L2(0) v = 26/19 v": true,
+    "L2(1) v = 0": true,
+    "L2(2) v = 0": true
+   },
+   "n_terms": 3036
+  }
+ }
+}

@@ -1,0 +1,13 @@
+(1) tau_j:
+    tau1 = T/15 - 7*tau5/15 - 3*tau6/5 - 3*u/5 + 17/5
+    tau2 = 317*T/270 - 209*tau5/270 - 7*tau6/5 - 317*u/30 + 2009/90
+    tau3 = -T/54 + tau5/54 + u/6 - 1/18
+    tau4 = -7*T/90 - 11*tau5/90 + tau6/5 + 7*u/10 - 19/30
+    tau5 = tau5
+    tau6 = tau6
+(2) tau3 = 0  <=>  tau5 = T - 9*u + 3
+    tau1 >= 0, tau4 >= 0  =>  (-T + 9*u - 1)/5 >= 0 ;  tau5 >= 0  =>  T - 9*u + 3 >= 0
+    allowed simple ideals (type, i1, i2, level): [('A1', 1, 1, 2), ('A1', 1, 4, 5), ('A1', 2, 4, 6), ('A2', 1, 0, 1), ('B2', 1, 0, 1), ('G2', 1, 0, 1), ('A3', 1, 0, 1)]
+(3) centre: eliminating tau6 and tau5 gives (9*u - 1)/270 >= 0, i.e. u >= [1/9]
+(4) reductive s with dim 19 and rank p1(s) <= 4: NONE
+=> gamma = 1 is not realized (exact).

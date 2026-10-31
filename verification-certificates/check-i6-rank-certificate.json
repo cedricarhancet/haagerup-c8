@@ -1,0 +1,8 @@
+{
+  "certificate_sha256": "d06f03977748e6d8c938987b2c9a7e5f28d302aa961c6f42a4730fe422fad12b",
+  "prime": 8388571,
+  "rank": 120,
+  "all_denominators_invertible": true,
+  "word_DAG_well_founded": true,
+  "result": "PASS"
+}

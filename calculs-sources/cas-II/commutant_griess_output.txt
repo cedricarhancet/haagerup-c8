@@ -1,0 +1,8 @@
+case I : dim of the joint weight-zero space of V'_2 = 86 ; dim B = 4
+   basis of B with omega_C first; Griess products ...
+   omega_C . omega_C = ['2', '0', '0', '0'] ; <omega_C, omega_C> = 85/41 (c_C/2)
+   time 1.1s
+case II : dim of the joint weight-zero space of V'_2 = 86 ; dim B = 5
+   basis of B with omega_C first; Griess products ...
+   omega_C . omega_C = ['2', '0', '0', '0', '0'] ; <omega_C, omega_C> = 9/5 (c_C/2)
+   time 1.2s

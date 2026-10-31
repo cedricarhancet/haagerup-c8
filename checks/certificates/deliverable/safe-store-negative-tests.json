@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "source_sha256": "54e3d6dc3a79303c77479f8d8221d1345594c0cf4d7742f14d714ca23982908c",
+  "accepted": 1,
+  "rejected": 12,
+  "results": [
+    {
+      "case": "valid",
+      "accepted": true
+    },
+    {
+      "case": "missing_block",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "missing_record",
+      "rejected": true,
+      "exception": "EOFError"
+    },
+    {
+      "case": "duplicate_record",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "unexpected_label",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "wrong_block",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "truncated_record",
+      "rejected": true,
+      "exception": "UnpicklingError"
+    },
+    {
+      "case": "trailing_bytes",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "unexpected_block",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "replaced_with_prefix",
+      "rejected": true,
+      "exception": "EOFError"
+    },
+    {
+      "case": "duplicate_add",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "mixed_weight_add",
+      "rejected": true,
+      "exception": "AssertionError"
+    },
+    {
+      "case": "python_optimized",
+      "rejected": true,
+      "exception": "RuntimeError"
+    }
+  ],
+  "scope": "temporary I/O protocol fixtures only; no F4 mathematical identities"
+}

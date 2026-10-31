@@ -1,0 +1,7 @@
+{
+ "automorphism_tests": 5050,
+ "automorphism_failures": 0,
+ "positive_weight_1": true,
+ "positive_weight_2": true,
+ "positive_weight_3": true
+}

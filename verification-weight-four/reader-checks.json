@@ -1,0 +1,8 @@
+{
+  "two_complete_records": true,
+  "missing_rejected": true,
+  "truncated_rejected": true,
+  "coverage_with_exact_zero_label": true,
+  "missing_label_rejected": true,
+  "conflicting_duplicate_rejected": true
+}

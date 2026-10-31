@@ -1,0 +1,55 @@
+{
+  "I": {
+    "six_currents_fixed": {
+      "zE": true,
+      "zA": true,
+      "rho": true
+    },
+    "involutions": {
+      "zE": true,
+      "zA": true,
+      "rho": true
+    },
+    "commuting": {
+      "zE zA": true,
+      "zE rho": true,
+      "zA rho": true
+    },
+    "group_order": 8,
+    "descent": {
+      "sigma fixes e": true,
+      "sigma fixes f": true,
+      "sigma vprime = -vprime": true,
+      "tau fixes e": true,
+      "tau fixes f": true,
+      "tau vprime = -vprime": true
+    }
+  },
+  "II": {
+    "six_currents_fixed": {
+      "zE": true,
+      "zA": true,
+      "rho": true
+    },
+    "involutions": {
+      "zE": true,
+      "zA": true,
+      "rho": true
+    },
+    "commuting": {
+      "zE zA": true,
+      "zE rho": true,
+      "zA rho": true
+    },
+    "group_order": 8,
+    "B_action": {
+      "zE=s": true,
+      "zA=s": true,
+      "rho=id": true
+    },
+    "descent_membership": {
+      "sigma": true,
+      "tau": true
+    }
+  }
+}

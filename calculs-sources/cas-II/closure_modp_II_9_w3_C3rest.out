@@ -1,0 +1,21 @@
+p = 134217613 ; choice [0, 1, 1, 0, 0, 1, 0, 1] : rank U_2 mod p = 120 ; rank U_1 = 6
+(W2) weight-two closure failures mod p: none  (49s)
+weight-three generators: 8007 (135s)
+rank before g-closure: 932
+  g-closure iteration 0 : rank 953
+  g-closure iteration 1 : rank 955
+  g-closure iteration 2 : rank 956
+  g-closure iteration 3 : rank 956
+S_3^{gen} (g-closed) rank mod p = 956  (dim U_3 = 956) (146s)
+  u = (1, 3) : extra rank of u_2 S_3 over U_2 = 0 ; of u_3 S_3 over U_1 = 0  (163s)
+  u = (1, 5) : extra rank of u_2 S_3 over U_2 = 0 ; of u_3 S_3 over U_1 = 0  (172s)
+  u = (1, 7) : extra rank of u_2 S_3 over U_2 = 0 ; of u_3 S_3 over U_1 = 0  (175s)
+  u = (2, 2) : extra rank of u_2 S_3 over U_2 = 0 ; of u_3 S_3 over U_1 = 0  (187s)
+  u = (2, 6) : extra rank of u_2 S_3 over U_2 = 0 ; of u_3 S_3 over U_1 = 0  (190s)
+  y = U_1[0] : extra rank of y_1 S_3 over U_2 = 0 ; of y_2 S_3 over U_1 = 0
+  y = U_1[1] : extra rank of y_1 S_3 over U_2 = 0 ; of y_2 S_3 over U_1 = 0
+  y = U_1[2] : extra rank of y_1 S_3 over U_2 = 0 ; of y_2 S_3 over U_1 = 0
+  y = U_1[3] : extra rank of y_1 S_3 over U_2 = 0 ; of y_2 S_3 over U_1 = 0
+  y = U_1[4] : extra rank of y_1 S_3 over U_2 = 0 ; of y_2 S_3 over U_1 = 0
+  y = U_1[5] : extra rank of y_1 S_3 over U_2 = 0 ; of y_2 S_3 over U_1 = 0
+time 201s

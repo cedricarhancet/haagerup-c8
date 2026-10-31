@@ -1,0 +1,2 @@
+inclusions checked: 151
+{"status": "PASS", "prime": 8388571, "rules_by_length": {"2": 5221, "3": 438}, "inclusion_ambiguities": 151, "overlap_ambiguities": 131698, "nonresolving": 0, "normal_paths_by_length": [239, 506, 5, 0], "vertices": 12, "dimension": 762, "elapsed_seconds": 20.907}

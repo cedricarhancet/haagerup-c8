@@ -1,0 +1,5 @@
+{
+ "psi_R(omega_W) = omega": true,
+ "psi_R(omega_A) = Sugawara(A)": true,
+ "psi_R(e) + psi_R(f) = psi_R(omega_C)": true
+}

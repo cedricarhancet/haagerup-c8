@@ -1,0 +1,39 @@
+{
+ "case": "II",
+ "z, zprime rational": true,
+ "z^2 = 1": true,
+ "z'^2 = 1": true,
+ "z z' = z' z": true,
+ "c(z)": [
+  "4/5",
+  "1",
+  "-5/3",
+  "-1",
+  "-3/5",
+  "5/4",
+  "1",
+  "1"
+ ],
+ "c(z')": [
+  "1",
+  "1",
+  "1",
+  "1",
+  "1",
+  "1",
+  "1",
+  "1"
+ ],
+ "dim_K U_2": 120,
+ "psi_sigma(U_2) c U_2 (exact)": true,
+ "psi_tau(U_2) c U_2 (exact)": true,
+ "psi_sigma tau(U_2) c U_2 (exact)": true,
+ "Q-rank of the traces (mod p, lower bound)": 120,
+ "K-rank of the traces": 120,
+ "psi_sigma(f_1) = f_1": true,
+ "psi_tau(f_1) = f_1": true,
+ "psi_sigma tau(f_1) = f_1": true,
+ "psi_sigma(f_2) = f_2": true,
+ "psi_tau(f_2) = f_2": true,
+ "psi_sigma tau(f_2) = f_2": true
+}

@@ -1,0 +1,8 @@
+ideal (1, 0), weight 8: 3 relations, unknowns ['U2', 'U3'] -> CONSISTENT {'U2': '5/4', 'U3': '15/4'}
+ideal (3, 0), weight 8: 3 relations, unknowns ['U2', 'U3'] -> CONSISTENT {'U2': '65/54', 'U3': '404/9'}
+ideal (9, 4), weight 8: 3 relations, unknowns ['U2', 'U3'] -> CONSISTENT {'U2': '218579/57122', 'U3': '464676/28561'}
+ideal (35, 4), weight 8: 3 relations, unknowns ['U2', 'U3'] -> CONSISTENT {'U2': '5442967/3084588', 'U3': '4325439/114244'}
+ideal (1, 0), weight 10: 3 relations, unknowns ['U2', 'U2_8', 'U3', 'U3_8'] -> CONSISTENT {'U2': '15*U2_8/4 - U3/5 + 3*U3_8/4 - 13/2'}
+ideal (3, 0), weight 10: 3 relations, unknowns ['U2', 'U2_8', 'U3', 'U3_8'] -> CONSISTENT {'U2': '15*U2_8/4 - U3/5 + 3*U3_8/4 - 26629/1080'}
+ideal (9, 4), weight 10: 3 relations, unknowns ['U2', 'U2_8', 'U3', 'U3_8'] -> CONSISTENT {'U2': '15*U2_8/4 - U3/5 + 3*U3_8/4 - 22231867/1142440'}
+ideal (35, 4), weight 10: 3 relations, unknowns ['U2', 'U2_8', 'U3', 'U3_8'] -> CONSISTENT {'U2': '15*U2_8/4 - U3/5 + 3*U3_8/4 - 445000121/20049822'}

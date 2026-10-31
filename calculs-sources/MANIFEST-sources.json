@@ -1,0 +1,2337 @@
+[
+  {
+    "path": "calculs-sources/classification/u3_embedding_test_output.txt",
+    "bytes": 856,
+    "sha256": "0cb612c0b30f39821058f6543de640657a30c7bec3238084baefb92527eb51bf"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_single_pass2.json",
+    "bytes": 59,
+    "sha256": "e27f613adb38e2e60d19d206852508677bac7e6c772ef39d21c57a64b6642a18"
+  },
+  {
+    "path": "calculs-sources/classification/weight2_obstruction_certificate_gamma0.json",
+    "bytes": 17546,
+    "sha256": "5b22e8f18455191ac112d0353224f3177d71a663586a0d36f8e0d092b22afe8f"
+  },
+  {
+    "path": "calculs-sources/classification/weight4_solve_output.json",
+    "bytes": 982,
+    "sha256": "0507f1bdf3012739dc59d1004e58c56d1501b62fdd4fa5ca15cb33843d74f277"
+  },
+  {
+    "path": "calculs-sources/classification/weight4_relations_exact_gamma1.json",
+    "bytes": 1292,
+    "sha256": "d6b41b0390832db8d79e382056c2215407f8ac727ae63016f3c530dc859733d7"
+  },
+  {
+    "path": "calculs-sources/classification/weight2_obstruction_exact_gamma0_output.txt",
+    "bytes": 1331,
+    "sha256": "ea929cbaa379f0445018c9be6323544122b7b9550304fe0a3676f8f24ac72b08"
+  },
+  {
+    "path": "calculs-sources/classification/e6_centralizers_output.txt",
+    "bytes": 448,
+    "sha256": "c66c27eacb456e3ca14b058f15dff73b5f51aceda448f3333bf24ea04fd36355"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_relations_exact_gamma0.json",
+    "bytes": 1047,
+    "sha256": "d5aa564e05b51744e83f88198651cba49aa91d9df6f7b1f966a3d6c14ed0a81f"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_ideal_feasibility.json",
+    "bytes": 1635,
+    "sha256": "6d7843528a4516a50a6227a27d289df94147ad48f65b2cc00d8e12d36bc498b7"
+  },
+  {
+    "path": "calculs-sources/classification/u3_moments.json",
+    "bytes": 898,
+    "sha256": "2ed313c9e3139308d568de2042539f10fecdb2c1c0ae02bf90958aae506f64b2"
+  },
+  {
+    "path": "calculs-sources/classification/dump_relations_output.txt",
+    "bytes": 384,
+    "sha256": "645be409417bda7d777771f086f6d1aef60915e40055c7d0bc583683fbcb1fd6"
+  },
+  {
+    "path": "calculs-sources/classification/dump_relations.py",
+    "bytes": 917,
+    "sha256": "1d02e3d6b0693a98dadd59007c74f919ece86f3bc59042e3dd973db158adc639"
+  },
+  {
+    "path": "calculs-sources/classification/lattice_branching.py",
+    "bytes": 2901,
+    "sha256": "4de39c0cc9f8dad68c0819c36dc37ad072205c39e2e241b91683198e312c29d9"
+  },
+  {
+    "path": "calculs-sources/classification/u2_moments.py",
+    "bytes": 6616,
+    "sha256": "f1e9ee0b8158d9adf60c37b421642bdb148c05a5d212248ffda733a686f92c76"
+  },
+  {
+    "path": "calculs-sources/classification/sextic_joint_output.txt",
+    "bytes": 881,
+    "sha256": "1f5db374bbb9f167a3f31f50a9164d418dd67c9ee6b94d23602ac1b2d48e96b6"
+  },
+  {
+    "path": "calculs-sources/classification/known_sectors_table.json",
+    "bytes": 852,
+    "sha256": "cd01e6d611bb07ae90ac6a5951ac78261e87594adee0b7fce6903ee19d926ed5"
+  },
+  {
+    "path": "calculs-sources/classification/weight4_formula_check.py",
+    "bytes": 4548,
+    "sha256": "047fe33b5232c3a46bdea2b0d4eb921f51dc437fb6afc15ebdbebd2f007383dc"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_formula_check.py",
+    "bytes": 2389,
+    "sha256": "f9711e5fe2ad8a983985ae0f796fbe36ae23b2f996bf85ed907e959dfef01a8d"
+  },
+  {
+    "path": "calculs-sources/classification/run_all.sh",
+    "bytes": 2100,
+    "sha256": "fb329f1fee88d220e12b7cce762058ffb61ae2a64a1fd8b74975b9dd3d40da06"
+  },
+  {
+    "path": "calculs-sources/classification/cartan_conjugate.py",
+    "bytes": 1921,
+    "sha256": "418809e1afa71db352dd5a7b026812a9a820c8f3f1e8bd392bbab23da036b087"
+  },
+  {
+    "path": "calculs-sources/classification/u3_embedding_test.json",
+    "bytes": 947,
+    "sha256": "07a8d81fd40d3a8975d82b6e0c6da8b4f0a7ee55743910f1f5e12c61bae816b4"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_pair_exact.py",
+    "bytes": 5093,
+    "sha256": "d40d5296ca774fa255a7b20b1a5e68209f1e20937fc29d50735ed97ddd045837"
+  },
+  {
+    "path": "calculs-sources/classification/degree8_feasibility_output.txt",
+    "bytes": 1028,
+    "sha256": "cfbc381e35e79bee7077a1df009e5143a7e24b4698df8f32850374afd2db3913"
+  },
+  {
+    "path": "calculs-sources/classification/u2_parameter_count.py",
+    "bytes": 977,
+    "sha256": "e044af2f3eaebaee4fc73d84c0277677597094832ed6f38d201850df21a4ae79"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_ideal_feasibility_output.txt",
+    "bytes": 1643,
+    "sha256": "0b0af94f34988cb6ea4b93ad751000373f7e1110862c6ccbb2eeaa11f71fe1fc"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_single.json",
+    "bytes": 175,
+    "sha256": "13d08a16512df0fcb6caff94c5eb9787792283045b10dbf98296ea25b67194d0"
+  },
+  {
+    "path": "calculs-sources/classification/weight2_relations_exact_gamma0.json",
+    "bytes": 1380,
+    "sha256": "41d59a31c4ccdc0146b15a562052c9031de7d575339047aee8c6f8838ca13b94"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_pair_exact.json",
+    "bytes": 1694,
+    "sha256": "bb9f783f26ff432f55d4ce6db3f41214cad4bf9ae3096e38ddab1b6e177f0bd5"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_pair_feasibility.json",
+    "bytes": 835,
+    "sha256": "baeb1bca71681c87c64b191fb1b0acf89cd2667b1bf2cb1a694a5b53f490dcfc"
+  },
+  {
+    "path": "calculs-sources/classification/known_sectors_table.py",
+    "bytes": 1152,
+    "sha256": "2941af1500bdd7898b28a2d85f60d15fc11ec5f5be45a3945cafa1c00fbdc724"
+  },
+  {
+    "path": "calculs-sources/classification/vvmf_exact.py",
+    "bytes": 7893,
+    "sha256": "6672c0fe9673775f5202063901c46091162dfa80e0c1a3820d8fda4275bc37d1"
+  },
+  {
+    "path": "calculs-sources/classification/lattice_branching.json",
+    "bytes": 2231,
+    "sha256": "f8f9b745cf0225b48e25a579f2d92cf166ee475891245564699da17c31cfeb97"
+  },
+  {
+    "path": "calculs-sources/classification/weightn_single_check_output.txt",
+    "bytes": 1020,
+    "sha256": "2cbb17cd0b6c02227153dfacce2a8aa5604b0e0f9fad45822d07621549915a2f"
+  },
+  {
+    "path": "calculs-sources/classification/e6_centralizers.py",
+    "bytes": 6972,
+    "sha256": "8a4c6b1a8fbe63def7eee4aa1c1f009d197d58712cf0e191325adaf20cb05793"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_pair_feasibility_output.txt",
+    "bytes": 1462,
+    "sha256": "849600284998eaf3eb437a877671fb042992631e6f8f5228788b8e88c75bf910"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_ideal_feasibility.py",
+    "bytes": 6590,
+    "sha256": "f18d647863ec09a89a749361230f7dc04b4450fab7e384b8e2364f1f34cf2b23"
+  },
+  {
+    "path": "calculs-sources/classification/u2_embedding_test_output.txt",
+    "bytes": 2520,
+    "sha256": "0cffc4280419081da3d04e33803555d3e197ebde33bbb47ce977198068a7f517"
+  },
+  {
+    "path": "calculs-sources/classification/README-classification.txt",
+    "bytes": 5776,
+    "sha256": "e59309524284f01a77fd338a0414705022dd7d86e02b13c7a91dd02dd271da43"
+  },
+  {
+    "path": "calculs-sources/classification/u3_embedding_test.py",
+    "bytes": 2591,
+    "sha256": "cbfa2dd735f064ad276ed233d6c35a4310dcb0271e59824a8b1a9caef472aa5d"
+  },
+  {
+    "path": "calculs-sources/classification/weight4_solve_output.txt",
+    "bytes": 1060,
+    "sha256": "2d8df327db69054d34a624817e76811d91cb7678e3b418949024bfc7ba19905f"
+  },
+  {
+    "path": "calculs-sources/classification/sextic_joint.py",
+    "bytes": 9074,
+    "sha256": "e224279a1ad7f1267d9ff0bb8659aeba3b428a4a2808be082fea33d47c3741d5"
+  },
+  {
+    "path": "calculs-sources/classification/degree8_feasibility.json",
+    "bytes": 1016,
+    "sha256": "aad4e2fd4a61cc36de6be21921dd99c559d0d6c570432caec44c8a63f500f2b3"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_ideal_feasibility_level_output.txt",
+    "bytes": 1645,
+    "sha256": "80d1f522ba917829923310b3d9a7b672ddddcf7f087cecbffea62bc819a95b61"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_mixed_output.txt",
+    "bytes": 332,
+    "sha256": "715fad9efef5e9456e00729a0604c071bda3ad8bcd1793104476c5a4ffbe616b"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_pair_feasibility.py",
+    "bytes": 7786,
+    "sha256": "261e741090c66398c4a221d21ff90b0f70d25d1a3b16296b62ad34fbe53a2e3d"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_single.py",
+    "bytes": 10221,
+    "sha256": "e634fcbc82f157bc124b98cfd77bd1baf98e63dd0c37c11cd7d87bd3f44d1bc0"
+  },
+  {
+    "path": "calculs-sources/classification/weight2_relations_exact_gamma1.json",
+    "bytes": 1307,
+    "sha256": "bbff3505937a22a9cb6c4c6770be83300dbb6ae0dd67a3b67f1fd7c11956629b"
+  },
+  {
+    "path": "calculs-sources/classification/u3_moments.py",
+    "bytes": 3087,
+    "sha256": "b7a16515ec3c945a07a0a82b7bf0aa63dc61a4ff25e2d99f9f9ae01f80cf7085"
+  },
+  {
+    "path": "calculs-sources/classification/u2_moments.json",
+    "bytes": 418,
+    "sha256": "fab2f5ef32d2cf491b4b8e8c91f5191dc82d1cf3dc6f3e110895e936f55baf7c"
+  },
+  {
+    "path": "calculs-sources/classification/u3_moments_output.txt",
+    "bytes": 3094,
+    "sha256": "969deb422a9bbba9ced933bed09037e7af5630c13fac576347a27772afd9ccea"
+  },
+  {
+    "path": "calculs-sources/classification/sextic_joint.json",
+    "bytes": 996,
+    "sha256": "78bab50384997c1e25149810c2094c136fa6ebc5d2a428f97c8d8e9cfd5f79a9"
+  },
+  {
+    "path": "calculs-sources/classification/weight2_obstruction_exact_gamma1_output.txt",
+    "bytes": 1428,
+    "sha256": "1acf685516f012363d320f65d9541b90377638e87f18442145e1f224b357f529"
+  },
+  {
+    "path": "calculs-sources/classification/known_sectors_table_output.txt",
+    "bytes": 656,
+    "sha256": "7d91fdb9aa6fb956348629c362102037b8ed1341ef86f7586a9ddec73b25c8b8"
+  },
+  {
+    "path": "calculs-sources/classification/weight2_obstruction_exact.py",
+    "bytes": 8086,
+    "sha256": "844accf240149708ce8c79191ad237d38f83fa5abd421cc6e5d6d876c6962bd2"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_e6_superset.json",
+    "bytes": 4839,
+    "sha256": "4c8e48eb7b9eb7af655044ec0dad2e19309b065fbffc58f157b5857fa405c293"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_mixed.py",
+    "bytes": 4675,
+    "sha256": "8d99d328b86ce27e61c1f306baf23aaa07991ebd8d0689a6b65bc87cfc805952"
+  },
+  {
+    "path": "calculs-sources/classification/cartan_conjugate_output.txt",
+    "bytes": 192,
+    "sha256": "86b5ecd6c47da5fedd0020c50f8552cc1fef84f6e2f60b34e081d16e05ec5939"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_mixed.json",
+    "bytes": 1144,
+    "sha256": "a9959fe2f4a98acd126db687e71a4d9b6bd3b889c479880e61409f03a9d15488"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_single_output.txt",
+    "bytes": 331,
+    "sha256": "615baf2147d990cb9bd96b212ae3c8ee377e7b637bcc5f06063b54dea2622eae"
+  },
+  {
+    "path": "calculs-sources/classification/weight4_solve.py",
+    "bytes": 3751,
+    "sha256": "a05132a01d8da1a9988d3d6fe956d14777235033199143885c2a64463d3ea0f4"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_single_pass2_output.txt",
+    "bytes": 1509,
+    "sha256": "7d91a1bbead4628102428d9e3d0a36115047378d469705f35e925e0b61e00564"
+  },
+  {
+    "path": "calculs-sources/classification/u2_embedding_test.json",
+    "bytes": 1280,
+    "sha256": "32f66d256a46338376a7f31aa7097e33b2f412ca9d4fd56eb9e3a69277506893"
+  },
+  {
+    "path": "calculs-sources/classification/u2_embedding_test.py",
+    "bytes": 4158,
+    "sha256": "b87bfd2fee8d4553f5e2cc3a8efe83715907fac6262aabf948362bdd9fde8b71"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_formula_check_output.txt",
+    "bytes": 340,
+    "sha256": "92a9a5663b4944f044c5f85be010edadf2f64083f86008ed7f465e2d871e26a5"
+  },
+  {
+    "path": "calculs-sources/classification/joint_uniqueness_output.txt",
+    "bytes": 1421,
+    "sha256": "0a6a64f2b0237fef2445aecdcab49736e700a8870d57cac19bb39949e46370a7"
+  },
+  {
+    "path": "calculs-sources/classification/e8_joint.py",
+    "bytes": 11218,
+    "sha256": "03b769a657746263c6f8362c44fa4b9692ad18abaf82443417ddae2f35142c99"
+  },
+  {
+    "path": "calculs-sources/classification/weight4_formula_check_output.txt",
+    "bytes": 623,
+    "sha256": "1503f002485f30c4fd52130051c0344fa51841f48d0806f1d5e54b3fe1708da3"
+  },
+  {
+    "path": "calculs-sources/classification/obstruction.py",
+    "bytes": 5586,
+    "sha256": "abcfefe5e31f45cf3aa04dea2406acb77cc41848deb0cf2ae5cd0364fef47f88"
+  },
+  {
+    "path": "calculs-sources/classification/gamma1_exclusion_exact_output.txt",
+    "bytes": 729,
+    "sha256": "1ceeefd12cf7e26e4d908dc91028b983c9bf7fa253eb5081170f8f10538a2c67"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_e6_superset_output.txt",
+    "bytes": 2570,
+    "sha256": "3904a5373ce2424b3efe4e93cba6d8ff19655005c3434599c20ee788ab46b97e"
+  },
+  {
+    "path": "calculs-sources/classification/riesen_quartic_check.py",
+    "bytes": 2006,
+    "sha256": "2d16e3830449961576d52b884ac738f2ddf5b7cfa7ac96f172ef03861dd63012"
+  },
+  {
+    "path": "calculs-sources/classification/centre_gamma0_output.txt",
+    "bytes": 215,
+    "sha256": "4946f24ee6651d73c90a2460d1ae656708eb17caff18e2d663ef7336d89c0bcc"
+  },
+  {
+    "path": "calculs-sources/classification/centre_gamma0.py",
+    "bytes": 906,
+    "sha256": "04bc1e9770f0ef676cfb7d30ea5549394bc48d16ba6ff1e996b76c9c08d91341"
+  },
+  {
+    "path": "calculs-sources/classification/weightn_single_check.json",
+    "bytes": 176,
+    "sha256": "38654c6f5df575c51544980f4d299fbe9f1f3a243987d7a1346161664d4e96ea"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_ideal_feasibility_level.json",
+    "bytes": 1638,
+    "sha256": "735af7e1637217f4632924fc1b35de988b495f28a833f5c3f84b0014e95de6d2"
+  },
+  {
+    "path": "calculs-sources/classification/u2_parameter_count_output.txt",
+    "bytes": 1659,
+    "sha256": "821ddcbf51326c5124efae020afb16579515bfbea1f09673f839b070432da7eb"
+  },
+  {
+    "path": "calculs-sources/classification/lattice_branching_output.txt",
+    "bytes": 873,
+    "sha256": "3f31daf455651c7c3f17ef6f95da229ffb68c08d5ee5edd6ea6e6feec81a6963"
+  },
+  {
+    "path": "calculs-sources/classification/weight6_relations_exact_gamma1.json",
+    "bytes": 932,
+    "sha256": "12a5c4ff68aff4e3b536c76325f6112ebb77ec70df98deb38308b7c689613ba2"
+  },
+  {
+    "path": "calculs-sources/classification/gamma1_exclusion_exact.py",
+    "bytes": 4708,
+    "sha256": "626394f3fec1268baffe096783ac150b75302ce82d221a2fb34a82eeeed23330"
+  },
+  {
+    "path": "calculs-sources/classification/joint_uniqueness.json",
+    "bytes": 870,
+    "sha256": "91fda38178e6d5e3c8f61affcaa338dc045392d70aba788ff210f5496b615a1b"
+  },
+  {
+    "path": "calculs-sources/classification/weight2_obstruction_certificate_gamma1.json",
+    "bytes": 18239,
+    "sha256": "19287eaed220aae58ea6161bab40c7c9c8f683e46c4c287843c07a5353ace297"
+  },
+  {
+    "path": "calculs-sources/classification/degree8_feasibility.py",
+    "bytes": 2220,
+    "sha256": "d501cd731f5bad4614ab5a93bb341d2e03188b5d41634f05ecc8b685097e9513"
+  },
+  {
+    "path": "calculs-sources/classification/run_all_log.txt",
+    "bytes": 35,
+    "sha256": "de7bb60e5dd0abbe8b7835cf7b3047da304a7ae4290c55fe8769b29aa15433eb"
+  },
+  {
+    "path": "calculs-sources/classification/riesen_quartic_check_output.txt",
+    "bytes": 332,
+    "sha256": "ba719791c4a44c9b24154086b3db1837a2b580e05215d8f7a095b03dea8d07da"
+  },
+  {
+    "path": "calculs-sources/classification/weight4_relations_exact_gamma0.json",
+    "bytes": 1370,
+    "sha256": "70c3da12da134cc304f322d2788f73b70b5c921cabda71e45942c7303cb63b6f"
+  },
+  {
+    "path": "calculs-sources/classification/u2_moments_output.txt",
+    "bytes": 1595,
+    "sha256": "d91945a6ece4837b7bcf48e20357807de0b178a07dc6718b3de83abb7a2cb9dd"
+  },
+  {
+    "path": "calculs-sources/classification/cartan_conjugate.json",
+    "bytes": 272,
+    "sha256": "74b8726698d5e1a869ed7fd790584fbe62c4fe64523f647878255741e3479c8f"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_e6_superset.py",
+    "bytes": 2770,
+    "sha256": "4cd09bce1e4229e5baf7a9f97c7f51d744a0ca97a6e4cf3f7c59739013444949"
+  },
+  {
+    "path": "calculs-sources/classification/zh3_modular_data.py",
+    "bytes": 2315,
+    "sha256": "5350176f509c9176f7cf93b32a88fc8bbcd7c505e612bfc5df27ae37adc5e054"
+  },
+  {
+    "path": "calculs-sources/classification/e6_tools.py",
+    "bytes": 1789,
+    "sha256": "859073d6c518650510b2182c0a1715ab63a12458abc8a675afc3cff1ca7cd7e1"
+  },
+  {
+    "path": "calculs-sources/classification/weightn_single_check.py",
+    "bytes": 4917,
+    "sha256": "a88fc8767990880897b06b8988860583bb52f299afc72e13bf17399ffddd6b3d"
+  },
+  {
+    "path": "calculs-sources/classification/joint_uniqueness.py",
+    "bytes": 4592,
+    "sha256": "a654f70bbe19897594d942f2681c4f4f418703c434cb280abc1d030ec22c40ff"
+  },
+  {
+    "path": "calculs-sources/classification/e6_orbit_labels.py",
+    "bytes": 1390,
+    "sha256": "3a958b34735c54fce38bc99561fb2327a46ad03ee1ed7734f11ca1c9130f8084"
+  },
+  {
+    "path": "calculs-sources/classification/sl2_pair_exact_output.txt",
+    "bytes": 1746,
+    "sha256": "b14b796f117132e27701c7f38b3b17e43b6e2e8d7c08222e27ffcdfbcda67615"
+  },
+  {
+    "path": "calculs-sources/classification/xi_exact.py",
+    "bytes": 4171,
+    "sha256": "f2f28e5426de2fee09097b62a1fe936ca26fb8f95740a34ddb944d7169254685"
+  },
+  {
+    "path": "calculs-sources/classification/e6_orbit_labels_output.txt",
+    "bytes": 593,
+    "sha256": "648da2bf0137252fcb69cde85a1c650618257ffb33718338525e6ac71a7714a6"
+  },
+  {
+    "path": "calculs-sources/classification/e6_tools_output.txt",
+    "bytes": 53,
+    "sha256": "c52f57a8e8061a26f86ba2ca6643cccbc0b8dc5cb931c77ba2fe2d34a3d3173e"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_w5_modp_0_p8388571.json",
+    "bytes": 585,
+    "sha256": "3aa1d88f0f0c83cb03cac50d25e015ef042d0a6a00580d104e55826e224ca822"
+  },
+  {
+    "path": "calculs-sources/generation-forte/griess_B_II.json",
+    "bytes": 1343,
+    "sha256": "91f372b78bd335d730f224cdb9c74ecd0663c4ba79117534f38e1574b2edebf8"
+  },
+  {
+    "path": "calculs-sources/generation-forte/griess_subalgebras.py",
+    "bytes": 4577,
+    "sha256": "eab57049b06f140104043e40509c539795f6173db88bb350c97e36d4835fefd2"
+  },
+  {
+    "path": "calculs-sources/generation-forte/invariants_K.py",
+    "bytes": 4299,
+    "sha256": "3a23f80e9fa76071003bc05543ab2045652168c8a221aa3cf62a60b66e583020"
+  },
+  {
+    "path": "calculs-sources/generation-forte/unitary_character.py",
+    "bytes": 1710,
+    "sha256": "7b00a5ba950bc2937e08a4e32a9414847d68478db1197479802119fac06d4213"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_explore_II_9.json",
+    "bytes": 11694,
+    "sha256": "b7240b52b459f4c617a9557fa2986e9aa168f7bf0bb07be8351d133056a5a719"
+  },
+  {
+    "path": "calculs-sources/generation-forte/isotropic_lines_II_9.json",
+    "bytes": 1367,
+    "sha256": "293caaba7116fbcfc2d9bb491161e67b4fd295d6cd71aa0e9e693d841442cc74"
+  },
+  {
+    "path": "calculs-sources/generation-forte/commutant_griess.py",
+    "bytes": 3964,
+    "sha256": "cd769a528e7f0ee16525b720cb7c80f596fb196a4625fdd6687d020178fc633d"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_w4_modp_0_p8388571.json",
+    "bytes": 1514,
+    "sha256": "b26e8d051d31e07d09dd2d4e62db3b81929766ef69edb24a0fcee15f827f5a53"
+  },
+  {
+    "path": "calculs-sources/generation-forte/phase_d_w4.out",
+    "bytes": 168,
+    "sha256": "ede57a69d4d8e8a2d536a7d806cc737fcc6556c520f3594ded07fbcd26d0d777"
+  },
+  {
+    "path": "calculs-sources/generation-forte/invariants_K_0.json",
+    "bytes": 31239,
+    "sha256": "15badd734b3fcd0f6f529c77667b35f6f21a0f7f5cc09d0e4ac973038d0755ef"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_explore.py",
+    "bytes": 7615,
+    "sha256": "da996592e919b5657c76c17ba3b236cf8168a926b2dd3d14a7789940fb299b96"
+  },
+  {
+    "path": "calculs-sources/generation-forte/character_coefficients.py",
+    "bytes": 6001,
+    "sha256": "271f3331c5519926039df9a94a2747c96e3c8609a0c528621f8588c163ed172b"
+  },
+  {
+    "path": "calculs-sources/generation-forte/test_lattice_voa.py",
+    "bytes": 3932,
+    "sha256": "bf7d7b7989caa8cb5dd7777085a8c8eb8ca9c4459ef6ec40187bb942a27f7596"
+  },
+  {
+    "path": "calculs-sources/generation-forte/exact_weight2_K_1.json",
+    "bytes": 111,
+    "sha256": "4513247432078d9674d18749ebc5ef7160ee0d802b7446abfd13c224f5106d52"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w4.json",
+    "bytes": 280,
+    "sha256": "dc26284af0b5b218d6e09eab2d38f92d6126f5e5addb0cdb391cc99c269b4975"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w3.json",
+    "bytes": 565,
+    "sha256": "b09b71e235764acec00c3b6b628a52683e92cb8a04c7afe0c68589eede7ca769"
+  },
+  {
+    "path": "calculs-sources/generation-forte/unitarity_test.py",
+    "bytes": 3738,
+    "sha256": "d5a2219f6b7fa292a5c27689b8225be9bdb871d87a3f6e59ac9ebc94b2bc84d0"
+  },
+  {
+    "path": "calculs-sources/generation-forte/griess_subalgebras.json",
+    "bytes": 6048,
+    "sha256": "3d9a4a9bec4b2194dd9509edc78432d364c93d847c0404cdb16ca00f4352ae5c"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_w4_modp.py",
+    "bytes": 14899,
+    "sha256": "27bbff723769a2503a161513406760167077be080affdf64d32726a3da1e6c88"
+  },
+  {
+    "path": "calculs-sources/generation-forte/phi_automorphism_check.json",
+    "bytes": 144,
+    "sha256": "0b83e8c01eab54ce45a8df1b1324a3fff8983fe9e52add7d8a4b03d3b134018e"
+  },
+  {
+    "path": "calculs-sources/generation-forte/modp.py",
+    "bytes": 2418,
+    "sha256": "97c34f731a41503f7d4b22ae8ef4577f4fbf94d4f28fd61c22da87467320dc69"
+  },
+  {
+    "path": "calculs-sources/generation-forte/Kfield.py",
+    "bytes": 1864,
+    "sha256": "b9f8bae0a7e79b47465879428b30abc2f6a846484a9dd8932019f5cdfd530f09"
+  },
+  {
+    "path": "calculs-sources/generation-forte/README-generation-forte.txt",
+    "bytes": 2357,
+    "sha256": "245d424db04f92831d490024d13e985cb15b35c610a15592953bae66d0edfff6"
+  },
+  {
+    "path": "calculs-sources/generation-forte/exact_isotropy_s13.py",
+    "bytes": 8356,
+    "sha256": "b6669372997ea265418e97a0a4a46b5dded028d3536868a5735e79dbf91d578a"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_certify.py",
+    "bytes": 5128,
+    "sha256": "89f0d5893bb6bf37695e5256b1534bf23c33c6ee35894663deb5fcd4a7e6be66"
+  },
+  {
+    "path": "calculs-sources/generation-forte/isotropic_lines.py",
+    "bytes": 4789,
+    "sha256": "56c9f3e2f372ea726f69eaebb63dafa3ddc44ee2377e8dc6197ed09bbef03010"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w4.py",
+    "bytes": 4501,
+    "sha256": "cd96b7e1db19f6d6069f2478abb764db1545fdfc1a29e4d8a8ec9c25eb94271a"
+  },
+  {
+    "path": "calculs-sources/generation-forte/lattice_voa.py",
+    "bytes": 8671,
+    "sha256": "6e3c9bf0575a8e742dc2635fe75a657d50e61aac8521fd3a11d1cad02e54794c"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w4_part.py",
+    "bytes": 1293,
+    "sha256": "563f81125944bc96723ce8df3e69a83a49766f6be83fed66d9420bd9a5507a66"
+  },
+  {
+    "path": "calculs-sources/generation-forte/unitarity_test_1.json",
+    "bytes": 162,
+    "sha256": "5da1ddaf8bbe92450463e42b9fe5b83a9da0ec09e882ced2c03b23b66910f35b"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w4_run2_pivots.out",
+    "bytes": 336,
+    "sha256": "31c1755e1734b1fb496e7ad9888ec36d979e6844ad1797f42830425bd9b42017"
+  },
+  {
+    "path": "calculs-sources/generation-forte/weight3_explore.py",
+    "bytes": 4542,
+    "sha256": "40ee018fda1f5138e540d50d5050548a876ba4f155feb84cf8cb03553de76f54"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_w4_modp_-1_p8388571.json",
+    "bytes": 790,
+    "sha256": "7ec107603275a3a8c920f235a93fe77f97e5540b584d176d8fbeaacd5afd3511"
+  },
+  {
+    "path": "calculs-sources/generation-forte/check_invariants.py",
+    "bytes": 1697,
+    "sha256": "f7d715d76811010b04ef42f8db3e8e73435dc5bfc7cea2ecb261c4d568a90151"
+  },
+  {
+    "path": "calculs-sources/generation-forte/cartan_conjugate.json",
+    "bytes": 272,
+    "sha256": "74b8726698d5e1a869ed7fd790584fbe62c4fe64523f647878255741e3479c8f"
+  },
+  {
+    "path": "calculs-sources/generation-forte/phi_automorphism_check.py",
+    "bytes": 2421,
+    "sha256": "a2f6dac74c04673368ca98e22c97be4e9a851a26edb81ab2f5eae5fe71f93d28"
+  },
+  {
+    "path": "calculs-sources/generation-forte/choice_conjugation.py",
+    "bytes": 3192,
+    "sha256": "05b0bfadeafbbe9daf3430db5b9c36c38ffb88a1e9db4a8ffb0241b71ef3fcc3"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_c2_modp_0_p8388571.json",
+    "bytes": 502,
+    "sha256": "c0fe1fcefae3f07076bdb713dabe588cd3e121665dfef701c6d56c7c0460493f"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w4.out",
+    "bytes": 1007,
+    "sha256": "dc80ac53c892a3586f51b7a081ac787b56e98002824cdebebc326530c1adf18d"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_modp.py",
+    "bytes": 10570,
+    "sha256": "8db281f5961c4fcff32a35d1733a33bdc10792feab1e3f88f88b9ec9b25b538b"
+  },
+  {
+    "path": "calculs-sources/generation-forte/solve_w4.py",
+    "bytes": 2229,
+    "sha256": "fceb0c5336ac41039f95b8b548ecb71da54437adc170eb29aa67290067c4ecb8"
+  },
+  {
+    "path": "calculs-sources/generation-forte/primaries.py",
+    "bytes": 3473,
+    "sha256": "f096bd5e62d92ea429374f1a955ef53f7e4ece7858fd9ad710e8aa5253f94120"
+  },
+  {
+    "path": "calculs-sources/generation-forte/primaries_II.pkl",
+    "bytes": 87896,
+    "sha256": "91929a0a25de264cab5a7e55678e425af11b7048e28c3e57fd3c0bcdb59d1b15"
+  },
+  {
+    "path": "calculs-sources/generation-forte/phase_d_w4.json",
+    "bytes": 53,
+    "sha256": "230422075539c8d48facfdf49777fedda0e8a06af7ac90b9154962cd5bd7e139"
+  },
+  {
+    "path": "calculs-sources/generation-forte/phase_d_w4.py",
+    "bytes": 2232,
+    "sha256": "adb861a8d850d282691c85bf6ab5ca70ee3789dff54a08a16d770b53dff2cc39"
+  },
+  {
+    "path": "calculs-sources/generation-forte/primaries_I.pkl",
+    "bytes": 68023,
+    "sha256": "79aed0429cebd15c836ce8aef50953c10e5daec3918b9229ed749ebf67c056e0"
+  },
+  {
+    "path": "calculs-sources/generation-forte/charpolys.py",
+    "bytes": 1127,
+    "sha256": "be13ab09195ede20e263a02d1ed503261ace7c6d4156086c43871336f80e2540"
+  },
+  {
+    "path": "calculs-sources/generation-forte/griess_cache.py",
+    "bytes": 499,
+    "sha256": "8b6801ff20690ff5c5cba7e7ced666aa5b03f285cd4c573ac018f8ba6253a422"
+  },
+  {
+    "path": "calculs-sources/generation-forte/count_generators.py",
+    "bytes": 1040,
+    "sha256": "51a44b3dcde4bd7818666ca59240f3532c1f05882e2d61732e380d8e50d95ae2"
+  },
+  {
+    "path": "calculs-sources/generation-forte/eigen_reduction.py",
+    "bytes": 5737,
+    "sha256": "9c715c43f8cf015e49464023cabc76bc0b8e319a27e8292428956735c4f6fec2"
+  },
+  {
+    "path": "calculs-sources/generation-forte/run_all.sh",
+    "bytes": 565,
+    "sha256": "b655c9a5b1869d3c4146c704253c10f5326e874144c14e8e5eeab641382c03fd"
+  },
+  {
+    "path": "calculs-sources/generation-forte/isotropy_test.py",
+    "bytes": 5145,
+    "sha256": "b7937c91b5d0f1fd4a46a2c2e62a3fba420caea2f4e293d20914a2aae84fa0f7"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_explore2.py",
+    "bytes": 7816,
+    "sha256": "ea378d397f12e1492b8dfb5e0718e332ab8af600efc548daf3b612a872fb9a4a"
+  },
+  {
+    "path": "calculs-sources/generation-forte/a3_griess_automorphisms.json",
+    "bytes": 334,
+    "sha256": "acb549024284cc6f38ba5fcd9ff5fb99d2c95296e127374dac56671ddaa38487"
+  },
+  {
+    "path": "calculs-sources/generation-forte/exact_weight2_K.py",
+    "bytes": 6164,
+    "sha256": "6060ec7106352d512e7a0aa11312ccc46927ca4a2b512f17c51b6f19af82db4e"
+  },
+  {
+    "path": "calculs-sources/generation-forte/unitarity_test_0.json",
+    "bytes": 162,
+    "sha256": "51174be7fb55e2c92eee831a49a3fba88122f69b3aa7ac732c4a6a793d618d48"
+  },
+  {
+    "path": "calculs-sources/generation-forte/exact_isotropy.py",
+    "bytes": 6479,
+    "sha256": "590658a80898dff519ba9653314830d3f5ba38ed1ffabeedf2d85853c277a5f7"
+  },
+  {
+    "path": "calculs-sources/generation-forte/choice_conjugation.json",
+    "bytes": 165,
+    "sha256": "0ef3879c4bee3fdbdecd279aed5f58599b2d4a434e5ebb88dfd4970a34cefe49"
+  },
+  {
+    "path": "calculs-sources/generation-forte/exact_S3_basis.pkl",
+    "bytes": 15726132,
+    "sha256": "53a5245c384daf86ee6ba8acda0dd3fda83b3e40fe77fcd8daaf4c316b1f1018"
+  },
+  {
+    "path": "calculs-sources/generation-forte/exact_engine.py",
+    "bytes": 8427,
+    "sha256": "7ccf5fb4720347a2327f2fdb0c6401d1dbcd0e5781f00fc53765b3f671183e83"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w4_run1_killed_memory.out",
+    "bytes": 153,
+    "sha256": "400ab8180a3521c70b23ec008e8f11fdff8fe5c9a093d1d5292e1d97a58662ff"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w4_part.out",
+    "bytes": 103,
+    "sha256": "0621c55a3ea74448d616bd3d82fd419be7ee83e49834db793f995e11ef69e13e"
+  },
+  {
+    "path": "calculs-sources/generation-forte/a3_griess_invariants.py",
+    "bytes": 2523,
+    "sha256": "954a4d8b6b4b549f84d01bc0be832d3a8fe5fa7b300bc0695bf8bdd3eb5227ca"
+  },
+  {
+    "path": "calculs-sources/generation-forte/unitary_character.json",
+    "bytes": 200,
+    "sha256": "abfae705d64a52d212778b31c3c754639975c483acaf3a14025a198927ad3d5a"
+  },
+  {
+    "path": "calculs-sources/generation-forte/a3_griess_automorphisms.py",
+    "bytes": 2675,
+    "sha256": "b614bc9d115a53c9d246f000fbb31d8934803775a6c2d9d95e1ee0aec901cec9"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w4b.py",
+    "bytes": 5108,
+    "sha256": "d919b329d72f168db1caa959eece696b44db64ccdbdabb77ce88318b03d4cc21"
+  },
+  {
+    "path": "calculs-sources/generation-forte/zh3_modular_data.py",
+    "bytes": 2315,
+    "sha256": "5350176f509c9176f7cf93b32a88fc8bbcd7c505e612bfc5df27ae37adc5e054"
+  },
+  {
+    "path": "calculs-sources/generation-forte/linalg.py",
+    "bytes": 2028,
+    "sha256": "44e231f70607c349946643448f7e45857774bbce73a64df0c5a8e498a1121092"
+  },
+  {
+    "path": "calculs-sources/generation-forte/count_generators.json",
+    "bytes": 39,
+    "sha256": "5b563202c119805a954eacfd221c942135923ef697ac2707c32cea731e6210f6"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w3.out",
+    "bytes": 1537,
+    "sha256": "d75f5c0c9e7250b12a0926c720468a585bed6e210022bc511d7f245af57ba002"
+  },
+  {
+    "path": "calculs-sources/generation-forte/certify_w3.py",
+    "bytes": 4141,
+    "sha256": "48b6aff3b430608e068420bab78490d946869c403508803d277c85ca0ed1caee"
+  },
+  {
+    "path": "calculs-sources/generation-forte/griess_B_II_basis.pkl",
+    "bytes": 10650,
+    "sha256": "d079619933b2b01a6cea52f6b5caf9e108b6d0f26b5de3bb9a9eacb0e8bd275a"
+  },
+  {
+    "path": "calculs-sources/generation-forte/a3_griess_invariants.json",
+    "bytes": 607,
+    "sha256": "10474ae51928c9bba39721f512389c3ffa64e476e91ff5a8bf6a6855606e765c"
+  },
+  {
+    "path": "calculs-sources/generation-forte/commutant_dims.out",
+    "bytes": 141,
+    "sha256": "b08201a8ee0a3fd45dd813e69e51257a9037d0286a1265e71c1a2b6a823efdb9"
+  },
+  {
+    "path": "calculs-sources/generation-forte/commutant_dims.py",
+    "bytes": 2409,
+    "sha256": "cd210a5c480d096bf2b44347002746c84282b93dc08e8f546fab9809c8fdcf9d"
+  },
+  {
+    "path": "calculs-sources/generation-forte/exact_weight2_K_0.json",
+    "bytes": 111,
+    "sha256": "5d78ffb73ad97c8c7176b34ed6170ffa486acc4797623f4591b30626800bbc35"
+  },
+  {
+    "path": "calculs-sources/generation-forte/INDEX-scratch.txt",
+    "bytes": 888,
+    "sha256": "0bd0160074911586cdfc1990d87bf98938533f8a22c27c19837763da6c89ae4e"
+  },
+  {
+    "path": "calculs-sources/generation-forte/solve_w4.out",
+    "bytes": 190,
+    "sha256": "d12a4e1c84bdcbb85b000aa5a4a2d7dfb31a53b9a2ba6d8cf0ad53c2e9145166"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_full.py",
+    "bytes": 3177,
+    "sha256": "78046cf1aac817494333ff304abd82b8cf46be12e107c8ccd66bbb344565694a"
+  },
+  {
+    "path": "calculs-sources/generation-forte/commutant_dims.json",
+    "bytes": 117,
+    "sha256": "2deb0340cf4067ff8f49a7c3d86535a454db8e008ae6ab08886859b582c99fbb"
+  },
+  {
+    "path": "calculs-sources/generation-forte/closure_w4_modp_0_p8388571_W4rest.json",
+    "bytes": 1271,
+    "sha256": "ea265869da973333f0379f8b7e361112f78b6b8b78ed3e09b74872db49ccc28d"
+  },
+  {
+    "path": "calculs-sources/generation-forte/cases.py",
+    "bytes": 6329,
+    "sha256": "3eedaf35b00f297cab61d07f625f1845988536b992e07b0b9b2cb963794a3de3"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_I_2.json",
+    "bytes": 4907,
+    "sha256": "7441e34f35f89ca40cf1a36e44428628c92f8599c6c91c32d74491905b8c6e13"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_s13_I_5.json",
+    "bytes": 7781,
+    "sha256": "7e56158e442090663be0f6aecd07e0dfd359b1ba87a07e240fc683e50f4a9973"
+  },
+  {
+    "path": "calculs-sources/cas-II/eigen_reduction.json",
+    "bytes": 15065,
+    "sha256": "b6efa2c19ef31468260eae2ac51d7ffe436fdb3d992752092d9db61902a59cab"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_certify.py",
+    "bytes": 5128,
+    "sha256": "89f0d5893bb6bf37695e5256b1534bf23c33c6ee35894663deb5fcd4a7e6be66"
+  },
+  {
+    "path": "calculs-sources/cas-II/commutant_griess.json",
+    "bytes": 21790,
+    "sha256": "74fee05bd4aa6266e172ccd38dcf15b9c5ac0ea77c52a2587ac2d3d00faf9bfd"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_14.json",
+    "bytes": 5968,
+    "sha256": "a0280fe4de8d51d80b66f155344defbfeabbb655ae6d24924c02d825103a05a8"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_13.json",
+    "bytes": 5719,
+    "sha256": "292a22eb6ba3bb879d54754fc36ca4e26a77e55f09f7f1b34d0044a7c22b2a05"
+  },
+  {
+    "path": "calculs-sources/cas-II/run_exact.sh",
+    "bytes": 246,
+    "sha256": "35ca6334dff066f7f3ec2c1751d22bba28322d77b7204f2688872fe2f6a47926"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_explore.py",
+    "bytes": 7615,
+    "sha256": "da996592e919b5657c76c17ba3b236cf8168a926b2dd3d14a7789940fb299b96"
+  },
+  {
+    "path": "calculs-sources/cas-II/modp.py",
+    "bytes": 2418,
+    "sha256": "97c34f731a41503f7d4b22ae8ef4577f4fbf94d4f28fd61c22da87467320dc69"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_11.out",
+    "bytes": 1292,
+    "sha256": "009b6e0cb4960c3465fab303784a32461248c365133c95d1c681217acbaef7de"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_0.json",
+    "bytes": 111,
+    "sha256": "67bbd540a19b5c824a38a079363d946db49589b8d9fdb8ab5e9a5c411c4b57ec"
+  },
+  {
+    "path": "calculs-sources/cas-II/commutant_griess_output.txt",
+    "bytes": 438,
+    "sha256": "9a0731c93e8d6b58441dea1ce4e65cedc0d616c200e85c984200947af37ff2a6"
+  },
+  {
+    "path": "calculs-sources/cas-II/cases.py",
+    "bytes": 6329,
+    "sha256": "3eedaf35b00f297cab61d07f625f1845988536b992e07b0b9b2cb963794a3de3"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_5.out",
+    "bytes": 1864,
+    "sha256": "1d1e9e45f4875ba726bc5ad7d787a796fcddeb88525539536e26ac0c9c160d93"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_full.py",
+    "bytes": 3177,
+    "sha256": "78046cf1aac817494333ff304abd82b8cf46be12e107c8ccd66bbb344565694a"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_-1.json",
+    "bytes": 1601,
+    "sha256": "21c6b9688a5c899361be390a631beada08ec30892a2f699543ef19a27fec022f"
+  },
+  {
+    "path": "calculs-sources/cas-II/check_invariants.py",
+    "bytes": 1697,
+    "sha256": "f7d715d76811010b04ef42f8db3e8e73435dc5bfc7cea2ecb261c4d568a90151"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_w3_C3all.out",
+    "bytes": 646,
+    "sha256": "6bc9f0e90df7abd52f686b90994e97cd91a21f35e093393124aca1c9d734c6d9"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_5.json",
+    "bytes": 2067,
+    "sha256": "7d67f01f031439b280d529d5101e76d7e05a6dea1043ffdcb582c4fec4485f5a"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_s13_II_10.json",
+    "bytes": 9944,
+    "sha256": "6551e4806d66f0457c2951b01d3333c5f3e5b523c13b7adf5b6d31a808ae45b8"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_certify_II_9.json",
+    "bytes": 520,
+    "sha256": "8eb7879dce66cbf40e70ca943f6b86acaab186cea7777fbf1f2f2cb22071feb7"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_2.json",
+    "bytes": 8406,
+    "sha256": "a5a5c35e1c619803f88feb176775b0c4e778366100cd9de1f15a057d61fd8a6e"
+  },
+  {
+    "path": "calculs-sources/cas-II/primaries_II.pkl",
+    "bytes": 87896,
+    "sha256": "91929a0a25de264cab5a7e55678e425af11b7048e28c3e57fd3c0bcdb59d1b15"
+  },
+  {
+    "path": "calculs-sources/cas-II/weight3_explore_II_9.out",
+    "bytes": 618,
+    "sha256": "461220a43dc75f9235dfd2ed1b11aef03bb39a8b199196510591907d71a5648d"
+  },
+  {
+    "path": "calculs-sources/cas-II/run_all.sh",
+    "bytes": 1473,
+    "sha256": "8643fac6be8c6aee701d0bcddc1d57fc701713d7d55d5d026045ee08803b12d2"
+  },
+  {
+    "path": "calculs-sources/cas-II/test_lattice_voa.py",
+    "bytes": 3932,
+    "sha256": "bf7d7b7989caa8cb5dd7777085a8c8eb8ca9c4459ef6ec40187bb942a27f7596"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_12.out",
+    "bytes": 1002,
+    "sha256": "327bd967466882579db02244d039d8751a1412e6a672c131e12be4b36ee896c1"
+  },
+  {
+    "path": "calculs-sources/cas-II/linalg.py",
+    "bytes": 2028,
+    "sha256": "44e231f70607c349946643448f7e45857774bbce73a64df0c5a8e498a1121092"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_11.json",
+    "bytes": 8458,
+    "sha256": "6de9dea809986e48b501f95835eabad7054c319915001acbbd4ee2ba1e422658"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_s13_II_9.json",
+    "bytes": 9960,
+    "sha256": "09c4b9ccf0b34c6e59350ee6da6d8a98c1e2fe6a305cd5767fc27b232648438d"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_7.out",
+    "bytes": 833,
+    "sha256": "56117b89aeb4662f4523df20b41be4426673fcf1c975b7b8f2512b21060016fe"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_6.out",
+    "bytes": 942,
+    "sha256": "57c38e8e6ccf198bcf16d4bcbda9d1d320ca32c5a44e7d680102b89a1989adab"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_7.json",
+    "bytes": 5639,
+    "sha256": "23cc8e4be0ba7bcd82d766842462596cf9721147166bd69091c781e9ac090fc6"
+  },
+  {
+    "path": "calculs-sources/cas-II/README-cas-II.txt",
+    "bytes": 4468,
+    "sha256": "9c776285f480b9bc235d265549298772322168feec7253a4c3855870c1f7a171"
+  },
+  {
+    "path": "calculs-sources/cas-II/weight3_explore.py",
+    "bytes": 4542,
+    "sha256": "40ee018fda1f5138e540d50d5050548a876ba4f155feb84cf8cb03553de76f54"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy.py",
+    "bytes": 6479,
+    "sha256": "590658a80898dff519ba9653314830d3f5ba38ed1ffabeedf2d85853c277a5f7"
+  },
+  {
+    "path": "calculs-sources/cas-II/isotropic_lines.py",
+    "bytes": 4789,
+    "sha256": "56c9f3e2f372ea726f69eaebb63dafa3ddc44ee2377e8dc6197ed09bbef03010"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_0_w3_p134217613.json",
+    "bytes": 777,
+    "sha256": "6643b10e745cedf8ab56ddc7b7aa5ff3d77e95517135ebe196bb9ed44a8a091c"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_0.json",
+    "bytes": 5940,
+    "sha256": "3db82e41bd610abb9b6e9e44b122a9de4f37847c4623f77b27cc69b52b944ff9"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_I_4.out",
+    "bytes": 1281,
+    "sha256": "93fb25010590d2460cf284753cdcebe8d22c4837bcacad1789c63f91cd9804ec"
+  },
+  {
+    "path": "calculs-sources/cas-II/commutant_griess.py",
+    "bytes": 3964,
+    "sha256": "cd769a528e7f0ee16525b720cb7c80f596fb196a4625fdd6687d020178fc633d"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_s13_I_6.json",
+    "bytes": 7787,
+    "sha256": "6ae5edb9d3a9bf8612969cd484429cc764ed9bac449594aac97906fc8636046f"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_explore2_I_5.json",
+    "bytes": 469,
+    "sha256": "04cbb5de50f1bf1a51ea5872b35a3652666f031e3773c9226de432500ba5e4ba"
+  },
+  {
+    "path": "calculs-sources/cas-II/griess_subalgebras.py",
+    "bytes": 4577,
+    "sha256": "eab57049b06f140104043e40509c539795f6173db88bb350c97e36d4835fefd2"
+  },
+  {
+    "path": "calculs-sources/cas-II/isotropy_test_output.txt",
+    "bytes": 14563,
+    "sha256": "b3cecd4be7ae4fb972c7933e1062b145e9a2db258aea10b0a7531d1053be299a"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_I_1.json",
+    "bytes": 6729,
+    "sha256": "dc504055b8b34a7172d4c6a078bbecb4c710d62d4c849bfc00403f9152deb834"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_explore2_I_5.out",
+    "bytes": 1031,
+    "sha256": "bf8a564d105e681c11902204ceaff4f414d1c838f0461f685e23b1e28629da3f"
+  },
+  {
+    "path": "calculs-sources/cas-II/isotropic_lines_II_9.json",
+    "bytes": 1367,
+    "sha256": "293caaba7116fbcfc2d9bb491161e67b4fd295d6cd71aa0e9e693d841442cc74"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_explore_II_9.json",
+    "bytes": 11694,
+    "sha256": "b7240b52b459f4c617a9557fa2986e9aa168f7bf0bb07be8351d133056a5a719"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_w3_C3rest.out",
+    "bytes": 1290,
+    "sha256": "ec3d9b90f3cd32324f4909ffd4afe6b1256e27ee0689e9cd8f13c757d4ea054a"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_2.out",
+    "bytes": 1240,
+    "sha256": "f9ef7458ae463ad7fc9a81a96241a74bd3c20762d001a084c7e5aff6d46a4f0d"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_8.json",
+    "bytes": 8071,
+    "sha256": "58a2b2f45142cca5be1fbea9787160f7b2e6720aff2ed2be44ea810344bf86c0"
+  },
+  {
+    "path": "calculs-sources/cas-II/cases_output.txt",
+    "bytes": 139,
+    "sha256": "109635acaa0a942d0999d595ccb32f46938b95995182865080b3b35d9db9fa69"
+  },
+  {
+    "path": "calculs-sources/cas-II/primaries.py",
+    "bytes": 3473,
+    "sha256": "f096bd5e62d92ea429374f1a955ef53f7e4ece7858fd9ad710e8aa5253f94120"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_3.out",
+    "bytes": 1597,
+    "sha256": "9f1d1a9a3e9ada5e2e4c8ab6eeda89f44fbf097b526ad1e107b1250c73fc6b0d"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp.py",
+    "bytes": 10570,
+    "sha256": "8db281f5961c4fcff32a35d1733a33bdc10792feab1e3f88f88b9ec9b25b538b"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_6.json",
+    "bytes": 6942,
+    "sha256": "f7e192c3dc111f0f882d73944029b7667644218a1be5ffee68f904b5ebc52a47"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_1.json",
+    "bytes": 8090,
+    "sha256": "b73be89d7b5d5ff20791b161f10399015cfeace5b16ca32e9687b1a75d96908a"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_w3_p2_branche_incoherente_temoin_negatif.out",
+    "bytes": 995,
+    "sha256": "a36829f1c692a0efa0d221105bbd2816436c0c055c08aa1115b8a1a48703ce20"
+  },
+  {
+    "path": "calculs-sources/cas-II/eigen_reduction.py",
+    "bytes": 5737,
+    "sha256": "9c715c43f8cf015e49464023cabc76bc0b8e319a27e8292428956735c4f6fec2"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_I_1.out",
+    "bytes": 1055,
+    "sha256": "b34fb6ca6c922228df9860ba0d98e48334465ff42d309c0d307e1451cc6ffd6f"
+  },
+  {
+    "path": "calculs-sources/cas-II/isotropy_test.py",
+    "bytes": 5145,
+    "sha256": "b7937c91b5d0f1fd4a46a2c2e62a3fba420caea2f4e293d20914a2aae84fa0f7"
+  },
+  {
+    "path": "calculs-sources/cas-II/test_lattice_voa_output.txt",
+    "bytes": 313,
+    "sha256": "f0f1fb9e40a7681baef4058f9065e7846c747a21841461e7b9ae9b4a44ad648a"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_s13.py",
+    "bytes": 8356,
+    "sha256": "b6669372997ea265418e97a0a4a46b5dded028d3536868a5735e79dbf91d578a"
+  },
+  {
+    "path": "calculs-sources/cas-II/charpolys.py",
+    "bytes": 1127,
+    "sha256": "be13ab09195ede20e263a02d1ed503261ace7c6d4156086c43871336f80e2540"
+  },
+  {
+    "path": "calculs-sources/cas-II/primaries_I.pkl",
+    "bytes": 68023,
+    "sha256": "79aed0429cebd15c836ce8aef50953c10e5daec3918b9229ed749ebf67c056e0"
+  },
+  {
+    "path": "calculs-sources/cas-II/primaries_output.txt",
+    "bytes": 912,
+    "sha256": "2e50e40b72dcf2811efdbed64be30c1e8de6696705885b06ebf64cd22d63ca13"
+  },
+  {
+    "path": "calculs-sources/cas-II/weight3_explore_II_9.json",
+    "bytes": 1452,
+    "sha256": "4bdbd6c5acfcedfdf69efbd9db10d456c178200a5fab48466527e9d9d26e2d2f"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_0_w3_p133217647.json",
+    "bytes": 458,
+    "sha256": "7f33474ee7c0d9461b5e6741804e0e25427bb50bee84948ac80b8bc7987f003e"
+  },
+  {
+    "path": "calculs-sources/cas-II/check_invariants_output.txt",
+    "bytes": 422,
+    "sha256": "4329cee1c8534ccfac8a50fb2cbdcd0c16787f973c6993a0a9c239e4f8556789"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_1.out",
+    "bytes": 1184,
+    "sha256": "f409afd1bc322794ec5c4e683a3b64bcba7b186d9a0b76fecb1cd6403704a6d8"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_14.out",
+    "bytes": 815,
+    "sha256": "0c004d4c2022931406e86ae3de0d49f117e1406a3ca36821788f857ce5c3f014"
+  },
+  {
+    "path": "calculs-sources/cas-II/lattice_voa.py",
+    "bytes": 8671,
+    "sha256": "6e3c9bf0575a8e742dc2635fe75a657d50e61aac8521fd3a11d1cad02e54794c"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_I_4.json",
+    "bytes": 7645,
+    "sha256": "b95f9c11a4b16df02e5e75da4ed0b880eb9a7799bbb1219bf1f9125e2459a67d"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_12.json",
+    "bytes": 7171,
+    "sha256": "da9089dfa3a190f42495154adb12def229b1055fe00bd69340aea5b8bca44969"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_8.out",
+    "bytes": 1184,
+    "sha256": "a61f9a304bf0286999cbaf2fb82d322c0e0d2e323fbdcc476450a35257f52a85"
+  },
+  {
+    "path": "calculs-sources/cas-II/cartan_conjugate.json",
+    "bytes": 272,
+    "sha256": "74b8726698d5e1a869ed7fd790584fbe62c4fe64523f647878255741e3479c8f"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_explore2.py",
+    "bytes": 7816,
+    "sha256": "ea378d397f12e1492b8dfb5e0718e332ab8af600efc548daf3b612a872fb9a4a"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_w3_C3.out",
+    "bytes": 582,
+    "sha256": "0acc7090924c9b37dee139616772d940e072f253e978eab24271add265bda0ee"
+  },
+  {
+    "path": "calculs-sources/cas-II/closure_modp_II_9_w3.out",
+    "bytes": 483,
+    "sha256": "53d23b7045529b0fc65a4fb84a135f2a461ead4c67cd8174fae1e60e949272a9"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_0.out",
+    "bytes": 815,
+    "sha256": "80c3d11f37fc10a143b96e4786494dc9c6f42331ff65979ed3540de26d55f3e4"
+  },
+  {
+    "path": "calculs-sources/cas-II/griess_subalgebras_output.txt",
+    "bytes": 2151,
+    "sha256": "60731e5bed355e39ebaefb497b92f30e09b6189af41fdabbc130f073c1ae0d5c"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_I_2.out",
+    "bytes": 664,
+    "sha256": "11d1bb6e6603f6dbf681688f6d7189e976ba5832ec70751f00d1d02a93968ad2"
+  },
+  {
+    "path": "calculs-sources/cas-II/griess_subalgebras.json",
+    "bytes": 6048,
+    "sha256": "3d9a4a9bec4b2194dd9509edc78432d364c93d847c0404cdb16ca00f4352ae5c"
+  },
+  {
+    "path": "calculs-sources/cas-II/isotropic_lines_I_5.json",
+    "bytes": 2126,
+    "sha256": "5ae0e0f4a78ad5555b5f35bedd6939e9107cc1cd29830ac070eeec3e1ca0c630"
+  },
+  {
+    "path": "calculs-sources/cas-II/isotropy_test.json",
+    "bytes": 79368,
+    "sha256": "e8ddeb4656a000c67655b20ddbc064a710251a71b8ee12aea6b8ed86b7c82eaa"
+  },
+  {
+    "path": "calculs-sources/cas-II/exact_isotropy_II_3.json",
+    "bytes": 11289,
+    "sha256": "77f70cb02d29a7e1db9ac08b2e1a699e2bcacb74500f34285649c759dfeaa337"
+  },
+  {
+    "path": "calculs-sources/theorie/eg_c8_verification.py",
+    "bytes": 6001,
+    "sha256": "418c65245e74163f3402d5d37eb888d27af339cda01d47b796261d823cfb1c2d"
+  },
+  {
+    "path": "calculs-sources/theorie/bg_trace_criterion_output.txt",
+    "bytes": 152,
+    "sha256": "7ad1abc1825de10760e4da173e814eb4530faa600c468ee42219a102db17344c"
+  },
+  {
+    "path": "calculs-sources/theorie/e8_rank2_certificates_DMAX36.txt",
+    "bytes": 1677,
+    "sha256": "4657323b033e9b58ca9ae2926b4452b8ca8aff27a3c8b79966466c6e36704005"
+  },
+  {
+    "path": "calculs-sources/theorie/check_e8_certificates.py",
+    "bytes": 5040,
+    "sha256": "3b1edf3be628d9e1d247e8228530e7a24de8a40e99b1a1c110115be7a70c7908"
+  },
+  {
+    "path": "calculs-sources/theorie/README-theorie.txt",
+    "bytes": 2798,
+    "sha256": "0fd2f569689442d2ca08d2e5789e2a7b36525814cc552aff3ab98c3aae903f36"
+  },
+  {
+    "path": "calculs-sources/theorie/bg_trace_criterion.py",
+    "bytes": 926,
+    "sha256": "fa35e59a00d4f273fade0f7a3177fb187dd810c10f63ec395ea6c3606b344c1e"
+  },
+  {
+    "path": "calculs-sources/theorie/zh3_modular_data.py",
+    "bytes": 2315,
+    "sha256": "5350176f509c9176f7cf93b32a88fc8bbcd7c505e612bfc5df27ae37adc5e054"
+  },
+  {
+    "path": "calculs-sources/theorie/zh3_modular_data_output.txt",
+    "bytes": 563,
+    "sha256": "6ea5ce6fd0354b935481e02d541e683dc0c2772b727433e4e26497000e4fb386"
+  },
+  {
+    "path": "calculs-sources/theorie/e8_rank2_table.py",
+    "bytes": 4875,
+    "sha256": "d79fc275928bfbf989bee7c869e875fe97de3d0ddb22c374ae39bf9a4ea69a39"
+  },
+  {
+    "path": "calculs-sources/theorie/e8_rank2_table_DMAX16.txt",
+    "bytes": 579,
+    "sha256": "ad7af3031e41af43b3940cf59200a7e646cda6946e3fd74a6d5ba975a23b2f0c"
+  },
+  {
+    "path": "calculs-sources/theorie/eg_c8_verification_output.txt",
+    "bytes": 1510,
+    "sha256": "5dc38ac97854e64258c9e6a0f67c2ff01598c516a71febdb13e83946aef6b1f7"
+  },
+  {
+    "path": "calculs-sources/theorie/check_e8_certificates_output.txt",
+    "bytes": 3070,
+    "sha256": "ab6cc4b11a53ea4b93bea29e136b0a859b23f3083746d1b8c38bb9cfbf1adfee"
+  },
+  {
+    "path": "calculs-sources/theorie/e8_rank2_table_output.txt",
+    "bytes": 1711,
+    "sha256": "ae0739b356a25716710d4a4853dbde8a4e0435ebe01e42f7e221d17ca8ab778e"
+  },
+  {
+    "path": "calculs-sources/theorie/e8_rank2_table_DMAX36.txt",
+    "bytes": 1545,
+    "sha256": "58765d31ef235fbb2b82e49c136730d70b178bb4fad02c47b18ea49bf73db606"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_explore.py",
+    "bytes": 7615,
+    "sha256": "da996592e919b5657c76c17ba3b236cf8168a926b2dd3d14a7789940fb299b96"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/modp.py",
+    "bytes": 2418,
+    "sha256": "97c34f731a41503f7d4b22ae8ef4577f4fbf94d4f28fd61c22da87467320dc69"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w5_modp.py",
+    "bytes": 12209,
+    "sha256": "6b7f59c0f0ad917aa395df53af58023c002ab8fe9ecbf6d6793f07dbd62161d8"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/griess_subalgebras.py",
+    "bytes": 4577,
+    "sha256": "eab57049b06f140104043e40509c539795f6173db88bb350c97e36d4835fefd2"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w4_modp.py",
+    "bytes": 14899,
+    "sha256": "27bbff723769a2503a161513406760167077be080affdf64d32726a3da1e6c88"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/phi_automorphism_check.py",
+    "bytes": 2421,
+    "sha256": "a2f6dac74c04673368ca98e22c97be4e9a851a26edb81ab2f5eae5fe71f93d28"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/a3_griess_automorphisms.py",
+    "bytes": 2675,
+    "sha256": "b614bc9d115a53c9d246f000fbb31d8934803775a6c2d9d95e1ee0aec901cec9"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w4_modp_0_p8388571_W4rest.json",
+    "bytes": 1271,
+    "sha256": "ea265869da973333f0379f8b7e361112f78b6b8b78ed3e09b74872db49ccc28d"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/exact_isotropy.py",
+    "bytes": 6479,
+    "sha256": "590658a80898dff519ba9653314830d3f5ba38ed1ffabeedf2d85853c277a5f7"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/phi_automorphism_check.json",
+    "bytes": 144,
+    "sha256": "0b83e8c01eab54ce45a8df1b1324a3fff8983fe9e52add7d8a4b03d3b134018e"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_certify.py",
+    "bytes": 5128,
+    "sha256": "89f0d5893bb6bf37695e5256b1534bf23c33c6ee35894663deb5fcd4a7e6be66"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_explore2.py",
+    "bytes": 7816,
+    "sha256": "ea378d397f12e1492b8dfb5e0718e332ab8af600efc548daf3b612a872fb9a4a"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/primaries_II.pkl",
+    "bytes": 87896,
+    "sha256": "91929a0a25de264cab5a7e55678e425af11b7048e28c3e57fd3c0bcdb59d1b15"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/exact_isotropy_s13.py",
+    "bytes": 8356,
+    "sha256": "b6669372997ea265418e97a0a4a46b5dded028d3536868a5735e79dbf91d578a"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/exact_weight2_K_0.out",
+    "bytes": 609,
+    "sha256": "e38cef06f4e7955d20e7e61e5a7628cf611b7dde3e0acfc372ef4f0498548a3d"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_explore_II_9.json",
+    "bytes": 11694,
+    "sha256": "b7240b52b459f4c617a9557fa2986e9aa168f7bf0bb07be8351d133056a5a719"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/isotropic_lines_II_9.json",
+    "bytes": 1367,
+    "sha256": "293caaba7116fbcfc2d9bb491161e67b4fd295d6cd71aa0e9e693d841442cc74"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/exact_weight2_K_1.json",
+    "bytes": 111,
+    "sha256": "4513247432078d9674d18749ebc5ef7160ee0d802b7446abfd13c224f5106d52"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/Kfield.py",
+    "bytes": 1864,
+    "sha256": "b9f8bae0a7e79b47465879428b30abc2f6a846484a9dd8932019f5cdfd530f09"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w4_modp_0.out",
+    "bytes": 1761,
+    "sha256": "5963a8c7d92d45651d01b7b45ee40fa89aa559309eaf7d20a02670d580a61035"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/a3_griess_invariants.py",
+    "bytes": 2523,
+    "sha256": "954a4d8b6b4b549f84d01bc0be832d3a8fe5fa7b300bc0695bf8bdd3eb5227ca"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/cartan_conjugate.json",
+    "bytes": 272,
+    "sha256": "74b8726698d5e1a869ed7fd790584fbe62c4fe64523f647878255741e3479c8f"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/griess_B_II.json",
+    "bytes": 1343,
+    "sha256": "91f372b78bd335d730f224cdb9c74ecd0663c4ba79117534f38e1574b2edebf8"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/unitarity_test_1.json",
+    "bytes": 162,
+    "sha256": "5da1ddaf8bbe92450463e42b9fe5b83a9da0ec09e882ced2c03b23b66910f35b"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/isotropic_lines.py",
+    "bytes": 4789,
+    "sha256": "56c9f3e2f372ea726f69eaebb63dafa3ddc44ee2377e8dc6197ed09bbef03010"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_full.py",
+    "bytes": 3177,
+    "sha256": "78046cf1aac817494333ff304abd82b8cf46be12e107c8ccd66bbb344565694a"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/choice_conjugation.json",
+    "bytes": 165,
+    "sha256": "0ef3879c4bee3fdbdecd279aed5f58599b2d4a434e5ebb88dfd4970a34cefe49"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/run_all.sh",
+    "bytes": 1614,
+    "sha256": "db210862e5be7aaa7e397cdd031f61c7c58e20b3b6b138bfc9a17f858a3b4a42"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/character_coefficients.py",
+    "bytes": 6001,
+    "sha256": "271f3331c5519926039df9a94a2747c96e3c8609a0c528621f8588c163ed172b"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/choice_conjugation.py",
+    "bytes": 3192,
+    "sha256": "05b0bfadeafbbe9daf3430db5b9c36c38ffb88a1e9db4a8ffb0241b71ef3fcc3"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/exact_weight2_K_1.out",
+    "bytes": 609,
+    "sha256": "0cd5ce676f730c7fd10df57a85112feb80e84fe671edff906d432760751e4fef"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/zh3_modular_data.py",
+    "bytes": 2315,
+    "sha256": "5350176f509c9176f7cf93b32a88fc8bbcd7c505e612bfc5df27ae37adc5e054"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/invariants_K_0.out",
+    "bytes": 956,
+    "sha256": "8cc34f9e9117859312d281471a0315c615aa13b61330af0ea2de819effcf2f14"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/weight3_explore.py",
+    "bytes": 4542,
+    "sha256": "40ee018fda1f5138e540d50d5050548a876ba4f155feb84cf8cb03553de76f54"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/exact_weight2_K_0.json",
+    "bytes": 111,
+    "sha256": "5d78ffb73ad97c8c7176b34ed6170ffa486acc4797623f4591b30626800bbc35"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w4_modp_neg_control.out",
+    "bytes": 763,
+    "sha256": "71ca77516620ba8c05210d4e2caf495fc09889b56b189d3d101c395c9a440831"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w4_modp_0_p8388571.json",
+    "bytes": 1514,
+    "sha256": "b26e8d051d31e07d09dd2d4e62db3b81929766ef69edb24a0fcee15f827f5a53"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/a3_griess_automorphisms.json",
+    "bytes": 334,
+    "sha256": "acb549024284cc6f38ba5fcd9ff5fb99d2c95296e127374dac56671ddaa38487"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/invariants_K.py",
+    "bytes": 4299,
+    "sha256": "3a23f80e9fa76071003bc05543ab2045652168c8a221aa3cf62a60b66e583020"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/cases.py",
+    "bytes": 6329,
+    "sha256": "3eedaf35b00f297cab61d07f625f1845988536b992e07b0b9b2cb963794a3de3"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w5_modp_0_p8388571.json",
+    "bytes": 585,
+    "sha256": "3aa1d88f0f0c83cb03cac50d25e015ef042d0a6a00580d104e55826e224ca822"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/a3_griess_invariants.json",
+    "bytes": 607,
+    "sha256": "10474ae51928c9bba39721f512389c3ffa64e476e91ff5a8bf6a6855606e765c"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/unitarity_test_0.json",
+    "bytes": 162,
+    "sha256": "51174be7fb55e2c92eee831a49a3fba88122f69b3aa7ac732c4a6a793d618d48"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/invariants_K_0.json",
+    "bytes": 31239,
+    "sha256": "15badd734b3fcd0f6f529c77667b35f6f21a0f7f5cc09d0e4ac973038d0755ef"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/test_lattice_voa.py",
+    "bytes": 3932,
+    "sha256": "bf7d7b7989caa8cb5dd7777085a8c8eb8ca9c4459ef6ec40187bb942a27f7596"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/eigen_reduction.py",
+    "bytes": 5737,
+    "sha256": "9c715c43f8cf015e49464023cabc76bc0b8e319a27e8292428956735c4f6fec2"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/README-seconde-realisation.txt",
+    "bytes": 2753,
+    "sha256": "9e73109ca1e60a0a1dfe8eda2660f7fb4041719eac54162a189868acb6cc3b2b"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/exact_weight2_K.py",
+    "bytes": 6164,
+    "sha256": "6060ec7106352d512e7a0aa11312ccc46927ca4a2b512f17c51b6f19af82db4e"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/lattice_voa.py",
+    "bytes": 8671,
+    "sha256": "6e3c9bf0575a8e742dc2635fe75a657d50e61aac8521fd3a11d1cad02e54794c"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w4_modp_-1_p8388571.json",
+    "bytes": 790,
+    "sha256": "7ec107603275a3a8c920f235a93fe77f97e5540b584d176d8fbeaacd5afd3511"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/commutant_griess.py",
+    "bytes": 3964,
+    "sha256": "cd769a528e7f0ee16525b720cb7c80f596fb196a4625fdd6687d020178fc633d"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/unitarity_test.py",
+    "bytes": 3738,
+    "sha256": "d5a2219f6b7fa292a5c27689b8225be9bdb871d87a3f6e59ac9ebc94b2bc84d0"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/linalg.py",
+    "bytes": 2028,
+    "sha256": "44e231f70607c349946643448f7e45857774bbce73a64df0c5a8e498a1121092"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w5_modp_0_run2_oom.out",
+    "bytes": 912,
+    "sha256": "99732522b18f4087fa4187e2083cfcf29c874bef0401d5b0bf458c7f535d5acb"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/griess_subalgebras.json",
+    "bytes": 6048,
+    "sha256": "3d9a4a9bec4b2194dd9509edc78432d364c93d847c0404cdb16ca00f4352ae5c"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/griess_cache.out",
+    "bytes": 8,
+    "sha256": "56284fe94f03d27c2d0af8389acac9758ebc5b199ad58ded111aa9ca816aff94"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/griess_B_II_basis.pkl",
+    "bytes": 10650,
+    "sha256": "d079619933b2b01a6cea52f6b5caf9e108b6d0f26b5de3bb9a9eacb0e8bd275a"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_c2_modp_0.out",
+    "bytes": 609,
+    "sha256": "8591a99f3528da9f193a18d64076d7f7147e67ea285b36aa0eb47866e738b246"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w5_modp_0.out",
+    "bytes": 584,
+    "sha256": "bdee7332687d1cfba6bbf5fd6e6fb37269ef6c450fba81684b7559249e1fa3a0"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/isotropy_test.py",
+    "bytes": 5145,
+    "sha256": "b7937c91b5d0f1fd4a46a2c2e62a3fba420caea2f4e293d20914a2aae84fa0f7"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w4_modp_0_test.out",
+    "bytes": 730,
+    "sha256": "a03621f92d511de7cc93612c96d2250a51c40aba00603cba511e126ccb1f519e"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/unitary_character.json",
+    "bytes": 200,
+    "sha256": "abfae705d64a52d212778b31c3c754639975c483acaf3a14025a198927ad3d5a"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/charpolys.py",
+    "bytes": 1127,
+    "sha256": "be13ab09195ede20e263a02d1ed503261ace7c6d4156086c43871336f80e2540"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/check_invariants.py",
+    "bytes": 1697,
+    "sha256": "f7d715d76811010b04ef42f8db3e8e73435dc5bfc7cea2ecb261c4d568a90151"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_modp.py",
+    "bytes": 10570,
+    "sha256": "8db281f5961c4fcff32a35d1733a33bdc10792feab1e3f88f88b9ec9b25b538b"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w5_modp_0_run1_oom.out",
+    "bytes": 1288,
+    "sha256": "56f29c02d0431dfde54cd97df5789a9a0055957286c7c33eb0cbcd7821c7037a"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/primaries.py",
+    "bytes": 3473,
+    "sha256": "f096bd5e62d92ea429374f1a955ef53f7e4ece7858fd9ad710e8aa5253f94120"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/griess_cache.py",
+    "bytes": 499,
+    "sha256": "8b6801ff20690ff5c5cba7e7ced666aa5b03f285cd4c573ac018f8ba6253a422"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_w4_modp_0_W4rest.out",
+    "bytes": 1421,
+    "sha256": "4c21583fcb0c134e93a2c848e4c76008c27e9ac69493f1fc81b3f07e3fd1621f"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/closure_c2_modp_0_p8388571.json",
+    "bytes": 502,
+    "sha256": "c0fe1fcefae3f07076bdb713dabe588cd3e121665dfef701c6d56c7c0460493f"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/unitary_character.py",
+    "bytes": 1710,
+    "sha256": "7b00a5ba950bc2937e08a4e32a9414847d68478db1197479802119fac06d4213"
+  },
+  {
+    "path": "calculs-sources/seconde-realisation/primaries_I.pkl",
+    "bytes": 68023,
+    "sha256": "79aed0429cebd15c836ce8aef50953c10e5daec3918b9229ed749ebf67c056e0"
+  },
+  {
+    "path": "calculs-sources/unicite/i4_torus.py",
+    "bytes": 2871,
+    "sha256": "26e041f6874e1948925ebc0adce54f9a83f9212cd3ec4ed3d4af36a7185596ec"
+  },
+  {
+    "path": "calculs-sources/unicite/i2_weyl.json",
+    "bytes": 54,
+    "sha256": "553e31ab81660d27bbbede6810d398671cd53ecefa009145d8e3bbccaf7e8eac"
+  },
+  {
+    "path": "calculs-sources/unicite/i4_torus.pkl",
+    "bytes": 156,
+    "sha256": "fd7ccd646847332f9bead0dcb1bf2f016f198ddb887e7a0f15c08857227870e3"
+  },
+  {
+    "path": "calculs-sources/unicite/jiao_transported.pkl",
+    "bytes": 3547,
+    "sha256": "5c4abfae5707144466c41cc4c389d425586683d59e993fca7574c11672da0b50"
+  },
+  {
+    "path": "calculs-sources/unicite/run_all.sh",
+    "bytes": 339,
+    "sha256": "e098022ee593ea999fe6f72979a8e7eea4843c699dce6500117c16618eb3bb4e"
+  },
+  {
+    "path": "calculs-sources/unicite/jiao_data.py",
+    "bytes": 2002,
+    "sha256": "c66c7fe28d1ebaf9e248ed0ee77e04e934cae07bc7649161d9ff76963bf5cde6"
+  },
+  {
+    "path": "calculs-sources/unicite/i4_torus.json",
+    "bytes": 1143,
+    "sha256": "88091562a3ecf1dd85c44cb139e0c7189294b86f28d2e3e31fa05c4664dba148"
+  },
+  {
+    "path": "calculs-sources/unicite/i6_generation.json",
+    "bytes": 29,
+    "sha256": "86177d3bf7c29dbea8270da5107de8a3288db2a9c13b337adaed9608b9dcb2b3"
+  },
+  {
+    "path": "calculs-sources/unicite/i5_membership.py",
+    "bytes": 3325,
+    "sha256": "df1b97fab27b220875042fb796edf657fa29a162bb7fad5768491284b54a5b7d"
+  },
+  {
+    "path": "calculs-sources/unicite/i3_transport.py",
+    "bytes": 3774,
+    "sha256": "0939c28dfd388a722e2628cdbcbd81bb4c72e2af0e33df3aa30ffc34e2931950"
+  },
+  {
+    "path": "calculs-sources/unicite/i5_membership.json",
+    "bytes": 372,
+    "sha256": "61f5935880ebe4ec96604063575a6fce5ded5fbe5dd08af533f9ab3d789bd0b4"
+  },
+  {
+    "path": "calculs-sources/unicite/i2_weyl.py",
+    "bytes": 2264,
+    "sha256": "a27a25272b474cea0d44abb07f89d8b5bf9a1f967440ec2b26a5da78d0f0dab9"
+  },
+  {
+    "path": "calculs-sources/unicite/i6_generation.py",
+    "bytes": 1815,
+    "sha256": "ca04d7863397912f2d759a74d92afedfbb183abd734d09f8c39e2eac237f4513"
+  },
+  {
+    "path": "calculs-sources/gamma1/weight2_solve.py",
+    "bytes": 2327,
+    "sha256": "4f1f97d1cea979a4f4ddf6ba0835a5926b374bbaed2753f2bdbbe19d93daf434"
+  },
+  {
+    "path": "calculs-sources/gamma1/weight2_solve_output.txt",
+    "bytes": 483,
+    "sha256": "836324c1bb683a656f98c524a4dd051fcf2410d18d14d73feae8c26054acd444"
+  },
+  {
+    "path": "calculs-sources/gamma1/gamma0_riesen_check.py",
+    "bytes": 2176,
+    "sha256": "c6a88971fa8aca278dec122e3d2d425a4b5b5618fcda0fe1bd06446a9ae4be9d"
+  },
+  {
+    "path": "calculs-sources/gamma1/kac_order3_output.txt",
+    "bytes": 425,
+    "sha256": "cd2c0903849384e6113d64fb6bb20c2049de57791754dae1182c052ce88faad4"
+  },
+  {
+    "path": "calculs-sources/gamma1/xi_exact.py",
+    "bytes": 4171,
+    "sha256": "f2f28e5426de2fee09097b62a1fe936ca26fb8f95740a34ddb944d7169254685"
+  },
+  {
+    "path": "calculs-sources/gamma1/lattice_restriction_check.py",
+    "bytes": 4492,
+    "sha256": "b3c59fcf449cf9c97a16a9b41cbb117b532411603b058496f221cf9996ad1e5a"
+  },
+  {
+    "path": "calculs-sources/gamma1/weight2_relations_gamma0.json",
+    "bytes": 1339,
+    "sha256": "33178ec6f5db3ed87d2deac70245c309a1586a812f40630594e874d22757dd91"
+  },
+  {
+    "path": "calculs-sources/gamma1/gamma1_exclusion.py",
+    "bytes": 7287,
+    "sha256": "379a7e2c287c8b885e214cd3a5176823caea5d0007b82067bc0136367c576b24"
+  },
+  {
+    "path": "calculs-sources/gamma1/e6_rank_bound_output.txt",
+    "bytes": 138,
+    "sha256": "6ea533530394797e136f1ff11f72a1a222683f3bb733508de82963e721083edd"
+  },
+  {
+    "path": "calculs-sources/gamma1/weight2_relations_gamma0_output.txt",
+    "bytes": 2205,
+    "sha256": "35ab9dce63428b8150f40d79d2030a3245057a5eec7c311207b52c34bd518f82"
+  },
+  {
+    "path": "calculs-sources/gamma1/README-gamma1.txt",
+    "bytes": 2928,
+    "sha256": "74f80945de456edb436f1215c0e69c5a1a857fc451362ee8afa5f89d9a662c58"
+  },
+  {
+    "path": "calculs-sources/gamma1/weight2_relations_gamma1.json",
+    "bytes": 1266,
+    "sha256": "140ed267065ee32cd6eb75be32bfa73a85928711451106f55f0c81d1b8fe046f"
+  },
+  {
+    "path": "calculs-sources/gamma1/gamma1_exclusion_output.txt",
+    "bytes": 11844,
+    "sha256": "0b606fdfa6221988bc44702fb7850739ebe9dc7ee1469eebeb0ad80f808d0db3"
+  },
+  {
+    "path": "calculs-sources/gamma1/zh3_modular_data.py",
+    "bytes": 2315,
+    "sha256": "5350176f509c9176f7cf93b32a88fc8bbcd7c505e612bfc5df27ae37adc5e054"
+  },
+  {
+    "path": "calculs-sources/gamma1/weight2_relations.py",
+    "bytes": 8605,
+    "sha256": "dd990838d1db89c1c3befd5518d5c3976a3a864c84f42c7d4e90e843c52cab28"
+  },
+  {
+    "path": "calculs-sources/gamma1/kac_order3.py",
+    "bytes": 2079,
+    "sha256": "49b744b168bf95e0ba797a8646ac4db59cb7e75ca05c3daffd85e5f438b65424"
+  },
+  {
+    "path": "calculs-sources/gamma1/gamma0_riesen_check_output.txt",
+    "bytes": 408,
+    "sha256": "b2670d90bbb21601858b12e3e4feff1c9f8eeb1414bd1df258893503cd8e68ba"
+  },
+  {
+    "path": "calculs-sources/gamma1/lattice_restriction_check_output.txt",
+    "bytes": 2261,
+    "sha256": "9c8bd6abf5d1005e183d370dfb2755f8a433ba918ce9ad9ce792e967863fd4e0"
+  },
+  {
+    "path": "calculs-sources/gamma1/e6_rank_bound.py",
+    "bytes": 1948,
+    "sha256": "680699dae3f773c6978aebce490713b568be708ee69144795595afab75fb29c2"
+  },
+  {
+    "path": "calculs-sources/gamma1/weight2_relations_gamma1_output.txt",
+    "bytes": 2467,
+    "sha256": "5526a3375d1b60bbc740d33f507c385af14dd74968ccb2cc19895033e83cc646"
+  },
+  {
+    "path": "calculs-sources/zhu/z3_corner_modp.py",
+    "bytes": 8309,
+    "sha256": "92aab904dc7cc4749da0e3a74b2b4f988f1ef0ff6650ac58966afca0e9afd83b"
+  },
+  {
+    "path": "calculs-sources/zhu/relations_modp.pkl",
+    "bytes": 388180,
+    "sha256": "a8ab7fbe9573206a948da702ddf8a78fa2f28833a3d0522541430bdfbd978de8"
+  },
+  {
+    "path": "calculs-sources/zhu/z4_upper_algebra_modp.out",
+    "bytes": 995,
+    "sha256": "926e039b6f1151bc81815543b7942b81ed332268427df65fdb441c66be1a4063"
+  },
+  {
+    "path": "calculs-sources/zhu/U2_lowering_basis.pkl",
+    "bytes": 339456,
+    "sha256": "f1fb2830245f9bca281cb08b8122d97e771110e40ff4708f18e33519900b99c3"
+  },
+  {
+    "path": "calculs-sources/zhu/z2_relations_modp.out",
+    "bytes": 461,
+    "sha256": "6aaa1ac535bb45cfff885ca393b2f891f2355e52e349afcaab3afec037e719eb"
+  },
+  {
+    "path": "calculs-sources/zhu/zhu_common.py",
+    "bytes": 2615,
+    "sha256": "090fd9e065a45ddaabe9973f9975e6c7a646a3df8cdc990f8d570a54d10afbc8"
+  },
+  {
+    "path": "calculs-sources/zhu/z3_corner_modp.out",
+    "bytes": 329,
+    "sha256": "ec058fc3f0f9ab9131b43f22b353c0621d6078c5fe87e7c577e63ba99787aeef"
+  },
+  {
+    "path": "calculs-sources/zhu/z2_relations_modp.py",
+    "bytes": 15043,
+    "sha256": "8739342ee49173cc6bad51bcd1bdbc71c18e3293125b23433418373644026335"
+  },
+  {
+    "path": "calculs-sources/zhu/z0_highest.json",
+    "bytes": 1879,
+    "sha256": "652781e8a134fc99954c4b6416c6e04a7773d3e6cf769b5eb77bacfc9fd37920"
+  },
+  {
+    "path": "calculs-sources/zhu/z4_upper_algebra_modp.py",
+    "bytes": 11661,
+    "sha256": "7405a272730de3f7326fa3fc4b610e8351707da34298958df2e10f3165fd865a"
+  },
+  {
+    "path": "calculs-sources/zhu/z2_relations_modp.json",
+    "bytes": 2028,
+    "sha256": "9cbdf69b306b163e3387b26d83f9f95bc29b4775af79e06e015c10497b7717dd"
+  },
+  {
+    "path": "calculs-sources/zhu/z1_products.out",
+    "bytes": 552,
+    "sha256": "eefef54f943e4149ceba2cb2c0c64cb6cda0864c23fd892a91c1e7f9f1ec9ef3"
+  },
+  {
+    "path": "calculs-sources/zhu/z0_highest.py",
+    "bytes": 1377,
+    "sha256": "1a6a8315f3fea171aeb37b1040ce451db71566ad6c5d24b15a47a0cb2dfd98a7"
+  },
+  {
+    "path": "calculs-sources/zhu/run_p2.sh",
+    "bytes": 450,
+    "sha256": "3724a1d912fa4d06e7252cd93c81785f6545f3cfc16eaf0535b98c47d31ee9ee"
+  },
+  {
+    "path": "calculs-sources/zhu/z4_upper_algebra_modp.pkl",
+    "bytes": 898964,
+    "sha256": "c21e6f302c4afe6d87bcbde4dc57406cc31ef45864dd89812d8e587d0965e2a4"
+  },
+  {
+    "path": "calculs-sources/zhu/z4_upper_algebra_modp.json",
+    "bytes": 2056,
+    "sha256": "346d20995f577eef332d86beea898b1d978a222a338692bd434b61fc6d3d893b"
+  },
+  {
+    "path": "calculs-sources/zhu/z1_products.py",
+    "bytes": 3204,
+    "sha256": "333ddba314e6d07ea79dffb5d73ce572c6a6cfe2415b229c9ce4987408552a0f"
+  },
+  {
+    "path": "calculs-sources/zhu/z1_J_in_S.json",
+    "bytes": 116,
+    "sha256": "1e223dc1a94e0c6e940930cd89c74a398dcb38b55d3657a28453282aed766135"
+  },
+  {
+    "path": "calculs-sources/zhu/corner_rows_modp.pkl",
+    "bytes": 4895794,
+    "sha256": "d55194aed84e5e51b8d01510fc30ca3d571e01be120f75470033b08bfeeb6445"
+  },
+  {
+    "path": "calculs-sources/zhu/run_all.sh",
+    "bytes": 499,
+    "sha256": "d1e650768ab7ed20d136e5f560659a70f696c5584abdfec18e6932e004b027e9"
+  },
+  {
+    "path": "calculs-sources/zhu/z1_J_in_S.py",
+    "bytes": 1651,
+    "sha256": "536b2a9b86dbe365bdbea09246890f4593c07f8949472ace0a6e496d07135e2b"
+  },
+  {
+    "path": "calculs-sources/cas-I/r6_certify_sub2.json",
+    "bytes": 1292,
+    "sha256": "ad420cb46ffbe2dd744d983e28f44e1cb7ae63f1fc7db39c1e063f6670a30a7d"
+  },
+  {
+    "path": "calculs-sources/cas-I/r4_sub2_explore.json",
+    "bytes": 474,
+    "sha256": "55a0b6b3451c017c84e8a25df0f73404b7648edae9699dbb7af0f0d2b2c665fe"
+  },
+  {
+    "path": "calculs-sources/cas-I/r5_testb_sub5.json",
+    "bytes": 605,
+    "sha256": "b88155321b206ad602f383b6b933c3625524e0cbd920d0eb886c54e75f68b6eb"
+  },
+  {
+    "path": "calculs-sources/cas-I/r1b_omega_check.json",
+    "bytes": 121,
+    "sha256": "6e6a054db0e8c20cfca4d368ff656f8956c91a80d1ea6f830092feb391bd41e9"
+  },
+  {
+    "path": "calculs-sources/cas-I/r1_identify_riesen.py",
+    "bytes": 5955,
+    "sha256": "b2f160b52fafdfff940fc3dcb6333a22fc52361d694bca93d3103cba24ebc188"
+  },
+  {
+    "path": "calculs-sources/cas-I/r5_testb_sub2.json",
+    "bytes": 514,
+    "sha256": "aad5ec90160af0a21c18a59603d7902454f7419be61632ad6a43474216fc75a3"
+  },
+  {
+    "path": "calculs-sources/cas-I/r5_sub2_testb.json",
+    "bytes": 513,
+    "sha256": "530a68f27d410d0f5d3dd09e64c8f9694cfad34f589055900360059089fafe13"
+  },
+  {
+    "path": "calculs-sources/cas-I/r6_certify_sub2.py",
+    "bytes": 5391,
+    "sha256": "a506f9201d31feb74c9e75096cea7d76f20e4c69fe149ee78ffcb8f260e8062e"
+  },
+  {
+    "path": "calculs-sources/cas-I/r3_lines_and_Z.json",
+    "bytes": 5426,
+    "sha256": "f0fbfc2429b7ee24a5765709d20f227a9791af032670aa39d2e20b359055cbb2"
+  },
+  {
+    "path": "calculs-sources/cas-I/r2_locate_riesen.py",
+    "bytes": 5162,
+    "sha256": "5b0a1c98e4626db0647659c77487177e9597cc8cab0e5d65cb4cf69213e279de"
+  },
+  {
+    "path": "calculs-sources/cas-I/README-cas-I.txt",
+    "bytes": 1569,
+    "sha256": "a5ae935028c3d327319ee3819167e321c90ee5d9cf135d82c47d38ae4049dd6b"
+  },
+  {
+    "path": "calculs-sources/cas-I/r1_identify_riesen.json",
+    "bytes": 304,
+    "sha256": "c05dd1c6059a487334f073f1e54ffccdd564cb37aad6f387a67c78f3f22b188a"
+  },
+  {
+    "path": "calculs-sources/cas-I/r2_locate_riesen.json",
+    "bytes": 269,
+    "sha256": "1b416bb81923a4f3fd0545d2106f065a631e55fc98d68a24c51df82ddadd49a0"
+  },
+  {
+    "path": "calculs-sources/cas-I/r2_type113.pkl",
+    "bytes": 312,
+    "sha256": "a0093a5482889222e6817b8879e8de23f46ffd92aa549665ab42a60d587ee654"
+  },
+  {
+    "path": "calculs-sources/cas-I/r1_riesen_transported.pkl",
+    "bytes": 20161,
+    "sha256": "08c8246027a1c9e7297061cf04ca8e029f3271553f2ce1c19dbe5765689443c8"
+  },
+  {
+    "path": "calculs-sources/cas-I/r3_lines_and_Z.py",
+    "bytes": 4342,
+    "sha256": "db622576e4cb41dae6ebabc8b93e7bae33df5c8d9448ea063d065c6fc8c75821"
+  },
+  {
+    "path": "calculs-sources/cas-I/r1b_omega_check.py",
+    "bytes": 1209,
+    "sha256": "022e2f21e1c25b6139910f6c69303f7349c6cefcdcf21fd9129a282408d04f92"
+  },
+  {
+    "path": "calculs-sources/cas-I/r4_sub2_explore.py",
+    "bytes": 3559,
+    "sha256": "70b1a32e8e85cb475d9fac9a3085093418168f029291458dc7aa3c15595a4361"
+  },
+  {
+    "path": "calculs-sources/cas-I/r5_sub2_testb.py",
+    "bytes": 4548,
+    "sha256": "2a8cc70896c1053de26e132c355c27a24d4d8f52ef6f1ea30ee0ff3633a1bfca"
+  },
+  {
+    "path": "calculs-sources/formes-rationnelles-v10/d1_rational_forms_II.json",
+    "bytes": 666,
+    "sha256": "02f282d8ae42f712da0279b222ebc21fa7155633df9647639db75ab2d4a11b57"
+  },
+  {
+    "path": "calculs-sources/formes-rationnelles-v10/README-formes-rationnelles.txt",
+    "bytes": 676,
+    "sha256": "2815e0fa96c4d594499d5d26b9920b24625dfd9eeaa865669622eb9409f03cc0"
+  },
+  {
+    "path": "calculs-sources/formes-rationnelles-v10/d1_rational_forms_I.json",
+    "bytes": 575,
+    "sha256": "42b1a4af1a8bf6c9d6c04776f7a6d19a87ce4c6469f16841c60845543674add8"
+  },
+  {
+    "path": "calculs-sources/formes-rationnelles-v10/d1_rational_forms.py",
+    "bytes": 10529,
+    "sha256": "06c4e0cfffc6935633e800705a0318b1ed3994bfb877ec7f04651d976c093dfe"
+  },
+  {
+    "path": "calculs-sources/formes-rationnelles-v10/d1_rational_forms_II.out",
+    "bytes": 769,
+    "sha256": "70d8fa765f52347b86533f54029251b6fdc66222431bd18b1aef80f5773ba45c"
+  },
+  {
+    "path": "calculs-sources/genre/s23_hmin_ZH3.json",
+    "bytes": 1667,
+    "sha256": "fd58ea6490ca77eec1840e88f4dc4d1a8735b73abeae955f91240f6eb69ca353"
+  },
+  {
+    "path": "calculs-sources/genre/s22_lattice_weights.json",
+    "bytes": 3150,
+    "sha256": "41cde0767d67cbc3ade5601a0044961889b37e76e4189d07c092564524d17825"
+  },
+  {
+    "path": "calculs-sources/genre/s22_lattice_weights.py",
+    "bytes": 7028,
+    "sha256": "3872260014b38dd2c4d9ad05d190afdde067e8b397f48a8a55267b2bbb80f5ac"
+  },
+  {
+    "path": "calculs-sources/genre/s20_genus_check.py",
+    "bytes": 6487,
+    "sha256": "c94164591a796d5bdc6708f91a1d3e70d7d8fcfb2d8e6ee15451df99d3c068f1"
+  },
+  {
+    "path": "calculs-sources/genre/s20_genus_check.json",
+    "bytes": 5701,
+    "sha256": "3a49a4019033504b2ca016a929e7704b12c5de551b3e44ee7c1fe72175b093f4"
+  },
+  {
+    "path": "calculs-sources/genre/s23_hmin_ZH3.py",
+    "bytes": 2569,
+    "sha256": "53ad28a5d4eae62cef36de7b9f52d4c96c9fc76938d027e1bebe48445a741f4e"
+  },
+  {
+    "path": "calculs-sources/commutant/coset_lowweights.py",
+    "bytes": 3219,
+    "sha256": "4ca3c7aef387bcc32f304af057c4ccd39110ee79e447b89d5a9eac27f85857b1"
+  },
+  {
+    "path": "calculs-sources/commutant-v10/c2_exact_C4.json",
+    "bytes": 1143,
+    "sha256": "6f7ffb946cffda74f4e30cc4abbd4a2bac4c37ae0d7b9eb36670cedeac07e609"
+  },
+  {
+    "path": "calculs-sources/commutant-v10/c1_biweights.json",
+    "bytes": 431,
+    "sha256": "9529d46f3a5805e5dd1cf3672f6cba534245e1f1d97455986324832d0194a6ed"
+  },
+  {
+    "path": "calculs-sources/commutant-v10/README-commutant-v10.txt",
+    "bytes": 985,
+    "sha256": "554a77949dab563b1857282c78c1c12734570f3c6c314006db87636baab0aa5d"
+  },
+  {
+    "path": "calculs-sources/commutant-v10/c2_exact_C4.py",
+    "bytes": 15555,
+    "sha256": "68e3b1f48eb12fd12b0f0899c1e0e9278072b075f60d5f1c17f57d678458aba1"
+  },
+  {
+    "path": "calculs-sources/commutant-v10/c2_exact_C4.out",
+    "bytes": 1852,
+    "sha256": "30fe29d0e0db2c2a05f0187352a4784d1d41c1e510a3af74f4b1297d29706294"
+  },
+  {
+    "path": "calculs-sources/commutant-v10/c1_biweights.py",
+    "bytes": 8156,
+    "sha256": "2a0c1934aa61ef6ccf7d4c9f09dfd2cfce906512247ecc36368d2ad24b154884"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_p1.out",
+    "bytes": 1460,
+    "sha256": "9f9480bf129e059dea97ad02d8508dcbd08e6aa72d11a8cbcd46eea4424d9e67"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_control_conj.out",
+    "bytes": 876,
+    "sha256": "24d653ec696243790aaae369fe31f6f73d9ee977c805d1e2ae2cb96726dc02ab"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_p8388409_rand.json",
+    "bytes": 2891,
+    "sha256": "41441e13da1dba6d4da8115a927a8ab6116f131f775fa0b1a6f22840703d2ff1"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_p7999993.json",
+    "bytes": 1485,
+    "sha256": "57a17d3ad9cd1dbbe11db9a71b3c8d2978b372857a063a86c9c39682d9a73706"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_p2.out",
+    "bytes": 1493,
+    "sha256": "e00f14f4e1a3d46f830f9bc774b8e248b35faff2032367aed47f915b9140f758"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_p8388409_W3prime.json",
+    "bytes": 837,
+    "sha256": "080ea777bee49515ebc6919fbc3a952f98533e580aa63ed225de625010f00355"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_control_rand.out",
+    "bytes": 2658,
+    "sha256": "b1c6c177a9bfb9ea5849ad8a398dec4245e122d1a6a401011747f7b5214680b9"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/README-cas-I-verification.txt",
+    "bytes": 1063,
+    "sha256": "6f59aeb4fc6bedd932591342c1de62408c80186d42c226ec990ff1e123562ec1"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_p1_rerun.out",
+    "bytes": 1492,
+    "sha256": "00543e2b29dff93c972c5e8d2aa778898403b581ec0ab1bb2b785e25edaf2b11"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_p8388409_conj.json",
+    "bytes": 779,
+    "sha256": "cf216a7ef22f9fb90d3ecfde1bc445348d4784f83a90ea7f4f319bb6c7370a53"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_modp.py",
+    "bytes": 15205,
+    "sha256": "9f0ff1d128e5319a817487620e5e7e230d43f791615252ab3c89e22bc13c0e57"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_W3prime_p1.out",
+    "bytes": 1023,
+    "sha256": "834485e35dec889c101c052ea205003a8cc6119f43fe31401f437227d13712c1"
+  },
+  {
+    "path": "calculs-sources/cas-I-verification/b1_UR_closure_p8388409.json",
+    "bytes": 1484,
+    "sha256": "57fcadeb7b1aa27ce1460ac8d7d537cfc761c5ed1fc8a18de08f28c85e292dab"
+  },
+  {
+    "path": "calculs-sources/jumeau/j6_caseI_action.py",
+    "bytes": 3180,
+    "sha256": "5dd7dfff6c5407deaa5d2b01cbed7d0ea3ecd510c22cf1496a8c21d0d4bb8aec"
+  },
+  {
+    "path": "calculs-sources/jumeau/j6_zI_101.pkl",
+    "bytes": 30076,
+    "sha256": "cdd5717ff4f62f71ef882817945b7ec9e8cb4ff662b32dd31a5320c9ed22cdb4"
+  },
+  {
+    "path": "calculs-sources/jumeau/j3_z_101.pkl",
+    "bytes": 30052,
+    "sha256": "3b22fed8be61be8733d5ad380bbb14429bd385c003eb6453412835e0077c3bd4"
+  },
+  {
+    "path": "calculs-sources/jumeau/j3_z_100.pkl",
+    "bytes": 29984,
+    "sha256": "c5446f859e6e6930f8b773f2c1958e8eb9cfb5508d743dd5896061352e214562"
+  },
+  {
+    "path": "calculs-sources/jumeau/j1_equations_I.pkl",
+    "bytes": 57362,
+    "sha256": "b1d4b5654d14d7ae92592293849ae5ad08b2780023dbee5019caa52ea6c5852a"
+  },
+  {
+    "path": "calculs-sources/jumeau/j4_action_on_B.json",
+    "bytes": 2130,
+    "sha256": "dfafb2982a6e9119db099e87fff228c768380a5072df8a361528aa9c80fbd7e4"
+  },
+  {
+    "path": "calculs-sources/jumeau/j6_zI_100.pkl",
+    "bytes": 30068,
+    "sha256": "717b49a76075b721b5aa75a2db00129202581c1589efcb372d3a99892766e2a9"
+  },
+  {
+    "path": "calculs-sources/jumeau/j5_explicit_automorphism.py",
+    "bytes": 5596,
+    "sha256": "5accb9bd890d3b7a1e69d7dfe4fe7a9d760631f6fbe8923b0c4430d829d42511"
+  },
+  {
+    "path": "calculs-sources/jumeau/j3_z_010.pkl",
+    "bytes": 30078,
+    "sha256": "eac25c04bf041211f205cb27fbebeaa105664a29ce42e81f174a30fb90ee0835"
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "downloaded": 467,
+  "not_transferred": [
+    {
+      "path": "calculs-sources/jumeau/j3_elements.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j2_solve.py",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j6_zI_010.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j4_action_on_B.py",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j3_z_011.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j6_zI_011.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j6_caseI_action.json",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j3_z_000.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j6_zI_000.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j3_elements.py",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j2_groebner_I.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j1_types_I.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j5_explicit_011.json",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j1_centralizer.py",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j5_explicit_110.json",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j6_zI_001.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/README-jumeau.txt",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j3_z_001.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j3_z_111.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j1_types_II.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j6_zI_111.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j6_zI_110.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j3_z_110.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j2_groebner_II.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/jumeau/j1_equations_II.pkl",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/zhu/p4194277/z2_relations_modp.json",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/zhu/p4194277/z4_upper_algebra_modp.json",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/zhu/p4194277/z4.out",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/zhu/p4194277/z1.out",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/zhu/p4194277/z3.out",
+      "reason": "Source not transferred; excluded from snapshot"
+    },
+    {
+      "path": "calculs-sources/zhu/p4194277/z2.out",
+      "reason": "Source not transferred; excluded from snapshot"
+    }
+  ]
+}

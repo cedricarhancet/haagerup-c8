@@ -1,0 +1,7 @@
+e6 built: dim 78 ; Jacobi identity checked on random triples
+index 9 (2A2+A1): Dynkin index of the triple = 9, centralizer dim = 3
+    centralizer: [c,c] = c ? True ; index of c in e6 = 3
+index 35 (A5): Dynkin index of the triple = 35, centralizer dim = 3
+    centralizer: [c,c] = c ? True ; index of c in e6 = 1
+index 3 (3A1): Dynkin index of the triple = 3, centralizer dim = 11
+index 1 (A1): Dynkin index of the triple = 1, centralizer dim = 35

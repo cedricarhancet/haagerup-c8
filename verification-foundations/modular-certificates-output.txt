@@ -1,0 +1,7 @@
+gamma=0: constraints=[42, 96], rank=42; relations=9, image=4
+gamma=1: constraints=[43, 96], rank=43; relations=8, image=5
+injectivity witness: {'E4*Xi_d2*J^0': '1'}
+augmented k=2: constraints=[53, 144], rank=53; relations=10, image=4
+augmented k=4: constraints=[41, 72], rank=41; relations=10, image=4
+augmented k=6: constraints=[29, 36], rank=29; relations=7, image=7
+All exact checks passed; wrote /workspace/scratch/98bb1f4a09fc/revision-c8-v02/verification-foundations/modular-certificates-v02.json

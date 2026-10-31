@@ -1,0 +1,6 @@
+(0, 1, 0, 0, 0, 0) centralizer of e: 56  orbit dim: 22  Dynkin index: 1  label: A1  table dim: 22  OK
+(0, 0, 0, 1, 0, 0) centralizer of e: 38  orbit dim: 40  Dynkin index: 3  label: 3A1  table dim: 40  OK
+(1, 0, 0, 1, 0, 1) centralizer of e: 24  orbit dim: 54  Dynkin index: 9  label: 2A2+A1  table dim: 54  OK
+(2, 1, 1, 0, 1, 2) centralizer of e: 14  orbit dim: 64  Dynkin index: 35  label: A5  table dim: 64  OK
+index of the principal sl2 of a regular subalgebra = sum of components (A1: 1, A2: 4, A5: 35):
+  A2+2A1 -> 6, 2A2+A1 -> 9; hence the index-9 triple belongs to 2A2+A1, not A2+2A1.

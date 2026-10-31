@@ -1,0 +1,10 @@
+{
+ "u26 in U_2(subalgebra 9, choice 0)": true,
+ "u26 in U_2(subalgebra 10, choice 0)": false,
+ "u17 in U_2(subalgebra 9, choice 0)": true,
+ "u17 in U_2(subalgebra 10, choice 0)": false,
+ "u26 in U_2(subalgebra 9, choice 1)": false,
+ "u26 in U_2(subalgebra 10, choice 1)": false,
+ "u17 in U_2(subalgebra 9, choice 1)": false,
+ "u17 in U_2(subalgebra 10, choice 1)": false
+}
