@@ -1,0 +1,8119 @@
+{
+  "status": "PASS",
+  "scope": "completed manifests present at start; zero records only",
+  "total_zero_labels_in_manifests_at_start": 886,
+  "verified": 886,
+  "records": [
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        0
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        1
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        3
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        12
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        13
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        17
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        373
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        374
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        378
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        379
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        381
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        415
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        416
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        420
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        421
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        422
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        447
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        449
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        453
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        456
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        491
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        492
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        504
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        600
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        603
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        632
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        635
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        637
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        657
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        658
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        676
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        686
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        690
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        705
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        713
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        714
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        728
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        749
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        765
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        853
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        859
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        861
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        862
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        866
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        872
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        874
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        875
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        879
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        880
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        881
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        884
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        886
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        895
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        896
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        897
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        900
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        903
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        908
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        909
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        912
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        913
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        916
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        919
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        920
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        924
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        926
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        927
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        931
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        934
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        935
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        936
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        937
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        939
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        940
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        941
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        943
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        949
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        950
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        951
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        952
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        953
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        954
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_0_4/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(0, 4)",
+        955
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_1/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 1)",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_1/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 1)",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_1/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 1)",
+        859
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_1/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 1)",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_1/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 1)",
+        895
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_1/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 1)",
+        903
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_1/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 1)",
+        949
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        900
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        903
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        931
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        939
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        940
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        941
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        949
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        950
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        951
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 3)",
+        955
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        734
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        751
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        752
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        859
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        880
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        886
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        893
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        894
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        895
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        896
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        897
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        898
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        899
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        900
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        901
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        903
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        916
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        924
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        926
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        927
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        928
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        929
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        930
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        931
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        932
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        933
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        934
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        936
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        939
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        941
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        943
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        949
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        950
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        951
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        953
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        954
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_5/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 5)",
+        955
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        494
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        504
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        505
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        598
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        614
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        615
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        658
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        676
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        690
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        702
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        703
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        704
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        705
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        720
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        728
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        729
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        731
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        732
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        734
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        736
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        737
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        738
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        740
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        741
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        742
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        743
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        744
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        745
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        746
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        747
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        748
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        749
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        750
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        751
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        752
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        753
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        754
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        755
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        765
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        767
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        768
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        771
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        853
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        854
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        855
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        856
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        857
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        858
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        859
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        860
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        872
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        880
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        884
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        885
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        886
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        888
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        889
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        892
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        893
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        894
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        895
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        897
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        899
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        900
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        902
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        903
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        904
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        905
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        906
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        907
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        908
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        915
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        916
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        918
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        919
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        920
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        921
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        922
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        923
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        924
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        925
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        926
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        927
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        928
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        929
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        930
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        931
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        932
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        933
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        934
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        935
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        936
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        937
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        938
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        939
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        940
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        941
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        943
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        949
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        950
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        951
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        954
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_1_7/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(1, 7)",
+        955
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        369
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        371
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        596
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        598
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        614
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        731
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        821
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        828
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        846
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        848
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        858
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        859
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        861
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        862
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        863
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        865
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        895
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        900
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        903
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        904
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        905
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        931
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        933
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        939
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        940
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        941
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        947
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        949
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        950
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        951
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_2/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 2)",
+        955
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        369
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        371
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        504
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        505
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        596
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        598
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        614
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        615
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        702
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        703
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        704
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        705
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        726
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        728
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        729
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        730
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        731
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        732
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        733
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        734
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        735
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        736
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        737
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        738
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        739
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        740
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        742
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        743
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        744
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        746
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        747
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        748
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        749
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        751
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        752
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        753
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        755
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        767
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        768
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        828
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        846
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        847
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        848
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        853
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        854
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        855
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        856
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        857
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        858
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        859
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        860
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        861
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        862
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        863
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        864
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        865
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        879
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        880
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        881
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        882
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        884
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        885
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        886
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        887
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        888
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        889
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        890
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        891
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        892
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        893
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        894
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        895
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        896
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        897
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        898
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        899
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        900
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        901
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        902
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        903
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        904
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        905
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        916
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        922
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        923
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        924
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        927
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        929
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        930
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        931
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        933
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        934
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        935
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        936
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        937
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        938
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        939
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        940
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        941
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        943
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        949
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        950
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        951
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        953
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_2_6/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(2, 6)",
+        955
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        163
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        166
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        256
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        259
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        260
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        263
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        364
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        365
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        366
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        367
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        371
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        384
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        392
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        393
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        396
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        397
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        400
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        504
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        514
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        577
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        581
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        590
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        591
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        592
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        593
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        594
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        595
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        596
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        597
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        598
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        599
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        600
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        603
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        604
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        606
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        611
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        612
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        614
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        615
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        618
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        619
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        676
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        686
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        690
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        694
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        695
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        699
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        705
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        709
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        728
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        731
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        732
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        734
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        736
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        737
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        749
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        751
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        752
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        755
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        765
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        807
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        818
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        819
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        821
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        823
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        824
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        825
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        846
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        847
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        848
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        853
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        854
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        855
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        856
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        857
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        858
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        859
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        860
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        861
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        862
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        863
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        864
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        865
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        884
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        886
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        888
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        893
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        894
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        895
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        896
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        897
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        898
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        899
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        900
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        901
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        902
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        903
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        904
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        905
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        924
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        926
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        927
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        928
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        929
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        930
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        931
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        932
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        933
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        936
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        937
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        939
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        940
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        941
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        943
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        945
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        947
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        949
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        950
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_3_3/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "(3, 3)",
+        951
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        0
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        1
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        2
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        3
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        4
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        5
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        6
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        12
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        13
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        14
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        17
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        18
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        21
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        22
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        23
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        29
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        30
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        34
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        91
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        104
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        109
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        113
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        159
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        201
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        202
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        203
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        207
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        210
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        213
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        214
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        218
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        221
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        222
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        245
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        248
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        249
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        250
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        267
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        270
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        271
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        272
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        373
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        374
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        375
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        378
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        379
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        380
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        381
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        382
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        383
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        384
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        415
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        416
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        417
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        420
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        421
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        422
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        423
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        424
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        425
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        426
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        447
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        448
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        449
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        453
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        456
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        459
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        460
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        464
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        465
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        466
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        491
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        496
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        499
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        600
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        603
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        604
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        632
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        635
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        636
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        637
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        713
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        793
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        846
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        850
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        861
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        862
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        863
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        874
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        875
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        876
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        903
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        909
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        949
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_e/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "e",
+        952
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        0
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        1
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        2
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        3
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        4
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        5
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        6
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        12
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        13
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        14
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        17
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        18
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        21
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        22
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        23
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        29
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        30
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        34
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        91
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        104
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        109
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        113
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        159
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        201
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        202
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        203
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        207
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        210
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        213
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        214
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        218
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        221
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        222
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        245
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        248
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        249
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        250
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        267
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        270
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        271
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        272
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        373
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        374
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        375
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        378
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        379
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        380
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        381
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        382
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        383
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        384
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        415
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        416
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        417
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        420
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        421
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        422
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        423
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        424
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        425
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        426
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        447
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        448
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        449
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        453
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        456
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        459
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        460
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        464
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        465
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        466
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        491
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        496
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        499
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        600
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        603
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        604
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        605
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        632
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        635
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        636
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        637
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        713
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        727
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        793
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        846
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        850
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        861
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        862
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        863
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        874
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        875
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        876
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        883
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        903
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        909
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        949
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_tests_x/COMPLETE.json",
+      "label": [
+        "u(0)s",
+        "x",
+        952
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        368
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        369
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        370
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        372
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        595
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        596
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        597
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        599
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        820
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        821
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        826
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        827
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        829
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        847
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        848
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        857
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        858
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        860
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        864
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        865
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        895
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        904
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        905
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        933
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        947
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        949
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        1,
+        950
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        410
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        411
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        412
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        414
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        627
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        628
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        629
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        631
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        832
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        840
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        841
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        843
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        849
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        851
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        852
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        870
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        871
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        873
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        877
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        878
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        908
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        910
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        911
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        942
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        948
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        952
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "y(-1)S3",
+        2,
+        953
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 5)",
+        0,
+        116
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 5)",
+        0,
+        119
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 5)",
+        5,
+        105
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 5)",
+        5,
+        107
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 5)",
+        6,
+        117
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 5)",
+        6,
+        118
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 5)",
+        11,
+        104
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 5)",
+        11,
+        108
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        0,
+        100
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        0,
+        101
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        0,
+        111
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        0,
+        118
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        0,
+        119
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        1,
+        119
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        6,
+        105
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        7,
+        12
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        7,
+        13
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        7,
+        104
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        7,
+        105
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        7,
+        109
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        8,
+        102
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        8,
+        103
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        8,
+        113
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        8,
+        118
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        8,
+        119
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        9,
+        118
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        14,
+        104
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        15,
+        14
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        15,
+        15
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        15,
+        104
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        15,
+        105
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(1, 7)",
+        15,
+        110
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 2)",
+        0,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 2)",
+        1,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 2)",
+        2,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 2)",
+        6,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 2)",
+        7,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 2)",
+        8,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        0,
+        99
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        0,
+        100
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        0,
+        111
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        0,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        0,
+        115
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        0,
+        116
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        1,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        1,
+        116
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        2,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        3,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        4,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        5,
+        107
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        5,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        6,
+        12
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        6,
+        24
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        6,
+        106
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        6,
+        107
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        6,
+        109
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        6,
+        112
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        7,
+        116
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        7,
+        117
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        13,
+        107
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        13,
+        108
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        14,
+        98
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        14,
+        102
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        14,
+        113
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        14,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        14,
+        115
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        14,
+        117
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        15,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        15,
+        117
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        16,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        17,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        18,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        19,
+        108
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        19,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        20,
+        14
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        20,
+        16
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        20,
+        106
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        20,
+        108
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        20,
+        110
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(2, 6)",
+        20,
+        114
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        0,
+        82
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        0,
+        83
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        0,
+        97
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        0,
+        111
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        0,
+        112
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        0,
+        116
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        0,
+        119
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        1,
+        111
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        1,
+        112
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        2,
+        109
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        2,
+        112
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        3,
+        28
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        3,
+        35
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        3,
+        51
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        3,
+        105
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        3,
+        107
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        3,
+        109
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        3,
+        112
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        4,
+        111
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        7,
+        109
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        8,
+        113
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        11,
+        110
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        12,
+        86
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        12,
+        87
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        12,
+        93
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        12,
+        113
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        12,
+        114
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        12,
+        117
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        12,
+        118
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        13,
+        113
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        13,
+        114
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        14,
+        110
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        14,
+        114
+      ],
+      "method": "Cartan energy > 4"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        15,
+        23
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        15,
+        38
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        15,
+        57
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        15,
+        104
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        15,
+        108
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        15,
+        110
+      ],
+      "method": "direct exact kprod"
+    },
+    {
+      "manifest": "f4_families/COMPLETE.json",
+      "label": [
+        "m(-1)U2",
+        "(3, 3)",
+        15,
+        114
+      ],
+      "method": "Cartan energy > 4"
+    }
+  ],
+  "manifest_hashes": {
+    "f4_tests_0_4/COMPLETE.json": "2efd8b98122b9309016550669ee20920cd66e0f5ab93c7ef48bfbc72192f882b",
+    "f4_tests_1_1/COMPLETE.json": "4df0449baf6ea97fa5f22290abab6b79e86f3d0268221368d13c54c9989916e2",
+    "f4_tests_1_3/COMPLETE.json": "31cc40564837a1dda91c217fb0cc88b69cfad13dcb55dc0f8ebf2934ca4a0eed",
+    "f4_tests_1_5/COMPLETE.json": "7a9a3126678d3cbc484152d2cbbebb35506a03e9d4417f86dd60c7be4571f428",
+    "f4_tests_1_7/COMPLETE.json": "30c9f370a55925cb85f44ad9c54c41c970a9ef7374954f8a6cf30fd635cc63b2",
+    "f4_tests_2_2/COMPLETE.json": "8f51d140af8e520a58d229752006f943ea32a84b7019ee67a2f62cc522300e25",
+    "f4_tests_2_6/COMPLETE.json": "746b02009a016ff453603301d0f9c3a0cada29b5ff62ba109eb9fb9c5bb39a82",
+    "f4_tests_3_3/COMPLETE.json": "6f250eea2dd1406fae8ae2c5efcf07b3642445ae955ee269381816f9a90b6c0b",
+    "f4_tests_e/COMPLETE.json": "4457adfcb4b75e43aa6f0382e8d4a90be51c82bef17c5bbcda92c8c0b4a01731",
+    "f4_tests_x/COMPLETE.json": "213bb5d0c132ba9dd0c669eaac9c35d50ccef890265999456b20aa80517d2f05",
+    "f4_families/COMPLETE.json": "5e9501dea184393e77b1554819ed0891100a505b693c230dee6016dfd36a31d0"
+  },
+  "S3_basis_sha256": "53a5245c384daf86ee6ba8acda0dd3fda83b3e40fe77fcd8daaf4c316b1f1018",
+  "elapsed_seconds": 147.28099999999904,
+  "maxrss_kb": 342220,
+  "portable_paths": "POSIX separators; mathematical labels and results unchanged"
+}

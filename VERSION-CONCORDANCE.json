@@ -1,0 +1,93 @@
+{
+  "checked_utc": "2026-11-07T08:31:07.533379+00:00",
+  "reference": "Versions courantes Hexagon telechargees, et non noms locaux inferes.",
+  "records": [
+    {
+      "article": "I",
+      "hexagon": "https://hexagonmath.org/2610.00733v2",
+      "source_url": "https://hexagonmath.org/src/2610.00733v2",
+      "pdf_url": "https://hexagonmath.org/pdf/2610.00733v2",
+      "source_archive": {
+        "file": "I-current.source.zip",
+        "bytes": 335908,
+        "sha256": "0e0d53b91400f61e88e6de4258f9d1c54d2016f6f0df9dfd49a02d46b639a969"
+      },
+      "source": {
+        "file": "Haagerup-c8-article-I-v14-arxiv.tex",
+        "bytes": 335724,
+        "sha256": "014411724bed4a391e204ccc9c0c19251e0dd92f6f76fcdaa52fd065b927cbd7"
+      },
+      "pdf": {
+        "file": "I-current.pdf",
+        "bytes": 996078,
+        "sha256": "c97fdd41418eac1aec0e5622c0089dcc47d55adba3025c0006fcdb81044a3b26"
+      },
+      "local_source": {
+        "file": "Haagerup-c8-article-I-v14-arxiv.tex",
+        "bytes": 335724,
+        "sha256": "014411724bed4a391e204ccc9c0c19251e0dd92f6f76fcdaa52fd065b927cbd7"
+      },
+      "exact_local_source_match": true,
+      "local_difference": null,
+      "supplement": "article-I-v14-supplements-v01"
+    },
+    {
+      "article": "II",
+      "hexagon": "https://hexagonmath.org/2611.00034v2",
+      "source_url": "https://hexagonmath.org/src/2611.00034v2",
+      "pdf_url": "https://hexagonmath.org/pdf/2611.00034v2",
+      "source_archive": {
+        "file": "II-current.source.zip",
+        "bytes": 311581,
+        "sha256": "823a40270620f1be361b3edc9546348089d802a25ae7e696752edfc887f0db2c"
+      },
+      "source": {
+        "file": "Haagerup-reseaux-conformes-c8-v14-arxiv.tex",
+        "bytes": 311381,
+        "sha256": "a452b75c74bc91101948925894e6ef324569b5e951db3f7165e8449372d349c3"
+      },
+      "pdf": {
+        "file": "II-current.pdf",
+        "bytes": 957883,
+        "sha256": "49e6c42a11047c29d3e333238ca69fea4f2c373825316d688cf7f01ca8cc3ddc"
+      },
+      "local_source": {
+        "file": "Haagerup-reseaux-conformes-c8-v14-arxiv.tex",
+        "bytes": 311397,
+        "sha256": "9710fe5a994646e5c557bae4b361be21dff76f4decd333e38da51f5b4885e5cc"
+      },
+      "exact_local_source_match": false,
+      "local_difference": "Deux occurrences de \\Rep remplacees par \\mathrm{Rep} dans le resume local; aucune autre difference textuelle.",
+      "supplement": "Hors de cette livraison; voir le manuscrit pour ses propres certificats."
+    },
+    {
+      "article": "III",
+      "hexagon": "https://hexagonmath.org/2611.00164v1",
+      "source_url": "https://hexagonmath.org/src/2611.00164v1",
+      "pdf_url": "https://hexagonmath.org/pdf/2611.00164v1",
+      "source_archive": {
+        "file": "III-hexagon.source.zip",
+        "bytes": 338361,
+        "sha256": "010a945810979e76fbc53daa0a447ebf75c9693471ad101a37b0a9a3fa9f50f0"
+      },
+      "source": {
+        "file": "Haagerup-c8-article-3-v10.tex",
+        "bytes": 338189,
+        "sha256": "4d60e712e926d4aae08f87c81fe8adcb3697042b67fe58c05bd01f9f3d809e1e"
+      },
+      "pdf": {
+        "file": "III-hexagon.pdf",
+        "bytes": 970761,
+        "sha256": "50ba1908627a3daee1458545fd68ca1448b88a0c3636a004a63792a91b575625"
+      },
+      "local_source": {
+        "file": "Haagerup-c8-article-3-v10.tex",
+        "bytes": 338189,
+        "sha256": "4d60e712e926d4aae08f87c81fe8adcb3697042b67fe58c05bd01f9f3d809e1e"
+      },
+      "exact_local_source_match": true,
+      "local_difference": null,
+      "supplement": "Hors de cette livraison; voir le manuscrit pour ses propres certificats."
+    }
+  ]
+}

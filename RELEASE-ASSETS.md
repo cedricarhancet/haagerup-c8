@@ -1,20 +1,7 @@
-# Required release assets — v07
+# Pièces jointes de la livraison
 
-The two full weight-four coordinate archives are too large to put into the
-repository tree. Upload **both**, unchanged, as assets to GitHub Release v07.
-They retain `v03` in their names because the coordinate data are unchanged.
+La [release article-I-v14-supplements-v01](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01) distribue l'archive de reproduction, le manifeste JSON de tous ses fichiers, la somme SHA-256 des pièces jointes nouvelles et des deux volumes réutilisés, ainsi que la source et le PDF publics de I v14.
 
-| File | Bytes | SHA-256 |
-| --- | ---: | --- |
-| `Certificats-poids-quatre-v03-partie-1.zip` | 420645698 | `8ea5903408d606eaaf3f98092293c2e5c7a9701bcbd7c11b645dcf3ac485ac17` |
-| `Certificats-poids-quatre-v03-partie-2.zip` | 99768703 | `fa121f49c768943bbc5af1a32b22402c6bdb3cee03480f79f8ebce3dfb34e1d2` |
+Les grandes archives F4 restent hébergées par la release v07. Leurs URL directes, tailles et SHA-256 sont dans `EXTERNAL-ASSETS.json`. Cette réutilisation évite de dupliquer environ 520 Mo sans modifier les liens précédemment publiés.
 
-The verified archive list and coordinate coverage are in
-[`checks/certificates/deliverable/ARCHIVES-F4.json`](checks/certificates/deliverable/ARCHIVES-F4.json).
-The complete F4 replay requires **both** archives. Their recorded hashes
-should be checked against the exact release uploads. Do not claim full
-replayability if either asset is missing.
-
-The accompanying reproducibility snapshot can be attached as
-`Haagerup-c8-v07-reproducibility.zip`. SHA256SUMS-release-v07.txt lists the
-release-file digests. No Zenodo DOI has been assigned in this preparation.
+`MANIFEST-PUBLIC.json` couvre chaque fichier de la livraison sauf les manifestes eux-mêmes, pour éviter une référence circulaire. Le manifeste et l'archive sont à leur tour couverts par `SHA256SUMS-article-I-v14-supplements-v01.txt`. La somme de ce dernier est donnée dans le rapport privé et peut être comparée au digest publié par GitHub.

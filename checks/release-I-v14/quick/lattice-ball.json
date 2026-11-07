@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "method": "independent rational LDL ellipsoid enumeration",
+  "norm_limit": 8,
+  "vector_count": 8821,
+  "counts_by_norm": {
+    "0": 1,
+    "2": 78,
+    "4": 702,
+    "6": 2346,
+    "8": 5694
+  },
+  "ambient_dimensions_weights_0_to_4": [
+    1,
+    86,
+    1370,
+    11586,
+    71052
+  ],
+  "identical_to_root_BFS": true,
+  "rational_diagonal": [
+    "2",
+    "2",
+    "3/2",
+    "5/6",
+    "4/5",
+    "3/4",
+    "2",
+    "3/2"
+  ]
+}

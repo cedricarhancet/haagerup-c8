@@ -1,0 +1,19 @@
+{
+  "release": "article-I-v14-supplements-v01",
+  "assets": [
+    {
+      "file": "Certificats-poids-quatre-v03-partie-1.zip",
+      "bytes": 420645698,
+      "sha256": "8ea5903408d606eaaf3f98092293c2e5c7a9701bcbd7c11b645dcf3ac485ac17",
+      "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/v07/Certificats-poids-quatre-v03-partie-1.zip",
+      "role": "Coordonnees completes F4, reutilisees sans modification depuis v07."
+    },
+    {
+      "file": "Certificats-poids-quatre-v03-partie-2.zip",
+      "bytes": 99768703,
+      "sha256": "fa121f49c768943bbc5af1a32b22402c6bdb3cee03480f79f8ebce3dfb34e1d2",
+      "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/v07/Certificats-poids-quatre-v03-partie-2.zip",
+      "role": "Coordonnees completes F4, reutilisees sans modification depuis v07."
+    }
+  ]
+}

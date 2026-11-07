@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "omega1_norm": "4/3",
+  "mu_omega1_pairing": "1/3",
+  "quartic_constants": [
+    "3",
+    "18"
+  ],
+  "quartic_relation_count": 9,
+  "all_quartic_residuals_zero": true,
+  "mixed_d5_exclusions": {
+    "(1, 1)": "24/13",
+    "(1, 3)": "40/13",
+    "(3, 3)": "24/13"
+  }
+}

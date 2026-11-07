@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "choice": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "word": "u_(1,7)_{(-1)} u_(2,6)",
+  "normalization": "exact_engine.setup(0) highest-weight vectors",
+  "lattice_vector": [
+    2,
+    2,
+    4,
+    5,
+    4,
+    2,
+    1,
+    1
+  ],
+  "norm_squared": 8,
+  "Cartan_weight": [
+    3,
+    13
+  ],
+  "coefficient_basis": [
+    "1",
+    "sqrt(13)",
+    "sqrt(-3)",
+    "sqrt(-39)"
+  ],
+  "coefficient": [
+    "0",
+    "507/5",
+    "3549/5",
+    "0"
+  ],
+  "singularity_checks": [
+    {
+      "operator": "e1(0)",
+      "zero": true
+    },
+    {
+      "operator": "e2(0)",
+      "zero": true
+    },
+    {
+      "operator": "y0(1)",
+      "zero": true
+    },
+    {
+      "operator": "y0(2)",
+      "zero": true
+    },
+    {
+      "operator": "y0(3)",
+      "zero": true
+    },
+    {
+      "operator": "y0(4)",
+      "zero": true
+    },
+    {
+      "operator": "y1(1)",
+      "zero": true
+    },
+    {
+      "operator": "y1(2)",
+      "zero": true
+    },
+    {
+      "operator": "y1(3)",
+      "zero": true
+    },
+    {
+      "operator": "y1(4)",
+      "zero": true
+    },
+    {
+      "operator": "y2(1)",
+      "zero": true
+    },
+    {
+      "operator": "y2(2)",
+      "zero": true
+    },
+    {
+      "operator": "y2(3)",
+      "zero": true
+    },
+    {
+      "operator": "y2(4)",
+      "zero": true
+    },
+    {
+      "operator": "y3(1)",
+      "zero": true
+    },
+    {
+      "operator": "y3(2)",
+      "zero": true
+    },
+    {
+      "operator": "y3(3)",
+      "zero": true
+    },
+    {
+      "operator": "y3(4)",
+      "zero": true
+    },
+    {
+      "operator": "y4(1)",
+      "zero": true
+    },
+    {
+      "operator": "y4(2)",
+      "zero": true
+    },
+    {
+      "operator": "y4(3)",
+      "zero": true
+    },
+    {
+      "operator": "y4(4)",
+      "zero": true
+    },
+    {
+      "operator": "y5(1)",
+      "zero": true
+    },
+    {
+      "operator": "y5(2)",
+      "zero": true
+    },
+    {
+      "operator": "y5(3)",
+      "zero": true
+    },
+    {
+      "operator": "y5(4)",
+      "zero": true
+    }
+  ],
+  "uses_weight_four_pivot_files": false
+}

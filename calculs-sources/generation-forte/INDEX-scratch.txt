@@ -1,7 +1,0 @@
-INDEX DES GROS FICHIERS INTERMÉDIAIRES (NON DÉPOSÉS) — v06, 30 octobre 2026
-Le dossier hors Dropbox C:\Users\Utilisateur\Haagerup-scratch n'existait pas : ces fichiers sont restés sur le disque
-éphémère du conteneur de calcul. Ils se régénèrent par certify_w4b.py (piv_w4, tests_w4) et certify_w4_part.py (tests_w4_part).
-piv_w4 : 132 fichiers, 560154018 octets, SHA-256 de la liste triée des empreintes = 3cb9820fa283701494d4b5acacd63ce3700d97a306fd54cb330d2365e51b1496
-tests_w4 : 96 fichiers, 456978833 octets, SHA-256 de la liste triée des empreintes = b291c62b64b6d89d5a67283b4683d6a82563978c9ca1c42dd424682ea66436ab
-tests_w4_part : 92 fichiers, 452814872 octets, SHA-256 de la liste triée des empreintes = be98b1570f1dabf1ee491ab1b60e332914e1b10de86e820ff2e0c9882b47c58f
-exact_S3_basis.pkl (déposé) : 53a5245c384daf86ee6ba8acda0dd3fda83b3e40fe77fcd8daaf4c316b1f1018

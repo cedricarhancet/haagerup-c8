@@ -1,0 +1,422 @@
+{
+  "schema": 1,
+  "status": "PASS",
+  "archived_sources_unchanged": true,
+  "archived_files": [
+    {
+      "name": "Kfield.py",
+      "bytes": 1864,
+      "sha256": "b9f8bae0a7e79b47465879428b30abc2f6a846484a9dd8932019f5cdfd530f09"
+    },
+    {
+      "name": "a3_griess_automorphisms.json",
+      "bytes": 334,
+      "sha256": "acb549024284cc6f38ba5fcd9ff5fb99d2c95296e127374dac56671ddaa38487"
+    },
+    {
+      "name": "a3_griess_automorphisms.py",
+      "bytes": 2675,
+      "sha256": "b614bc9d115a53c9d246f000fbb31d8934803775a6c2d9d95e1ee0aec901cec9"
+    },
+    {
+      "name": "a3_griess_invariants.json",
+      "bytes": 607,
+      "sha256": "10474ae51928c9bba39721f512389c3ffa64e476e91ff5a8bf6a6855606e765c"
+    },
+    {
+      "name": "a3_griess_invariants.py",
+      "bytes": 2523,
+      "sha256": "954a4d8b6b4b549f84d01bc0be832d3a8fe5fa7b300bc0695bf8bdd3eb5227ca"
+    },
+    {
+      "name": "cartan_conjugate.json",
+      "bytes": 272,
+      "sha256": "74b8726698d5e1a869ed7fd790584fbe62c4fe64523f647878255741e3479c8f"
+    },
+    {
+      "name": "cases.py",
+      "bytes": 6329,
+      "sha256": "3eedaf35b00f297cab61d07f625f1845988536b992e07b0b9b2cb963794a3de3"
+    },
+    {
+      "name": "certify_w3.json",
+      "bytes": 565,
+      "sha256": "b09b71e235764acec00c3b6b628a52683e92cb8a04c7afe0c68589eede7ca769"
+    },
+    {
+      "name": "certify_w3.py",
+      "bytes": 4141,
+      "sha256": "48b6aff3b430608e068420bab78490d946869c403508803d277c85ca0ed1caee"
+    },
+    {
+      "name": "certify_w4.json",
+      "bytes": 280,
+      "sha256": "dc26284af0b5b218d6e09eab2d38f92d6126f5e5addb0cdb391cc99c269b4975"
+    },
+    {
+      "name": "certify_w4.py",
+      "bytes": 4501,
+      "sha256": "cd96b7e1db19f6d6069f2478abb764db1545fdfc1a29e4d8a8ec9c25eb94271a"
+    },
+    {
+      "name": "certify_w4_part.py",
+      "bytes": 1293,
+      "sha256": "563f81125944bc96723ce8df3e69a83a49766f6be83fed66d9420bd9a5507a66"
+    },
+    {
+      "name": "certify_w4b.py",
+      "bytes": 5108,
+      "sha256": "d919b329d72f168db1caa959eece696b44db64ccdbdabb77ce88318b03d4cc21"
+    },
+    {
+      "name": "character_coefficients.py",
+      "bytes": 6001,
+      "sha256": "271f3331c5519926039df9a94a2747c96e3c8609a0c528621f8588c163ed172b"
+    },
+    {
+      "name": "charpolys.py",
+      "bytes": 1127,
+      "sha256": "be13ab09195ede20e263a02d1ed503261ace7c6d4156086c43871336f80e2540"
+    },
+    {
+      "name": "check_invariants.py",
+      "bytes": 1697,
+      "sha256": "f7d715d76811010b04ef42f8db3e8e73435dc5bfc7cea2ecb261c4d568a90151"
+    },
+    {
+      "name": "choice_conjugation.json",
+      "bytes": 165,
+      "sha256": "0ef3879c4bee3fdbdecd279aed5f58599b2d4a434e5ebb88dfd4970a34cefe49"
+    },
+    {
+      "name": "choice_conjugation.py",
+      "bytes": 3192,
+      "sha256": "05b0bfadeafbbe9daf3430db5b9c36c38ffb88a1e9db4a8ffb0241b71ef3fcc3"
+    },
+    {
+      "name": "closure_c2_modp_0_p8388571.json",
+      "bytes": 502,
+      "sha256": "c0fe1fcefae3f07076bdb713dabe588cd3e121665dfef701c6d56c7c0460493f"
+    },
+    {
+      "name": "closure_certify.py",
+      "bytes": 5128,
+      "sha256": "89f0d5893bb6bf37695e5256b1534bf23c33c6ee35894663deb5fcd4a7e6be66"
+    },
+    {
+      "name": "closure_explore.py",
+      "bytes": 7615,
+      "sha256": "da996592e919b5657c76c17ba3b236cf8168a926b2dd3d14a7789940fb299b96"
+    },
+    {
+      "name": "closure_explore_II_9.json",
+      "bytes": 11694,
+      "sha256": "b7240b52b459f4c617a9557fa2986e9aa168f7bf0bb07be8351d133056a5a719"
+    },
+    {
+      "name": "closure_modp.py",
+      "bytes": 10570,
+      "sha256": "8db281f5961c4fcff32a35d1733a33bdc10792feab1e3f88f88b9ec9b25b538b"
+    },
+    {
+      "name": "closure_w4_modp.py",
+      "bytes": 14899,
+      "sha256": "27bbff723769a2503a161513406760167077be080affdf64d32726a3da1e6c88"
+    },
+    {
+      "name": "closure_w4_modp_-1_p8388571.json",
+      "bytes": 790,
+      "sha256": "7ec107603275a3a8c920f235a93fe77f97e5540b584d176d8fbeaacd5afd3511"
+    },
+    {
+      "name": "closure_w4_modp_0_p8388571.json",
+      "bytes": 1514,
+      "sha256": "b26e8d051d31e07d09dd2d4e62db3b81929766ef69edb24a0fcee15f827f5a53"
+    },
+    {
+      "name": "closure_w4_modp_0_p8388571_W4rest.json",
+      "bytes": 1271,
+      "sha256": "ea265869da973333f0379f8b7e361112f78b6b8b78ed3e09b74872db49ccc28d"
+    },
+    {
+      "name": "closure_w5_modp_0_p8388571.json",
+      "bytes": 585,
+      "sha256": "3aa1d88f0f0c83cb03cac50d25e015ef042d0a6a00580d104e55826e224ca822"
+    },
+    {
+      "name": "commutant_dims.json",
+      "bytes": 117,
+      "sha256": "2deb0340cf4067ff8f49a7c3d86535a454db8e008ae6ab08886859b582c99fbb"
+    },
+    {
+      "name": "commutant_dims.py",
+      "bytes": 2409,
+      "sha256": "cd210a5c480d096bf2b44347002746c84282b93dc08e8f546fab9809c8fdcf9d"
+    },
+    {
+      "name": "commutant_griess.py",
+      "bytes": 3964,
+      "sha256": "cd769a528e7f0ee16525b720cb7c80f596fb196a4625fdd6687d020178fc633d"
+    },
+    {
+      "name": "count_generators.json",
+      "bytes": 39,
+      "sha256": "5b563202c119805a954eacfd221c942135923ef697ac2707c32cea731e6210f6"
+    },
+    {
+      "name": "count_generators.py",
+      "bytes": 1040,
+      "sha256": "51a44b3dcde4bd7818666ca59240f3532c1f05882e2d61732e380d8e50d95ae2"
+    },
+    {
+      "name": "eigen_reduction.py",
+      "bytes": 5737,
+      "sha256": "9c715c43f8cf015e49464023cabc76bc0b8e319a27e8292428956735c4f6fec2"
+    },
+    {
+      "name": "exact_S3_basis.pkl",
+      "bytes": 15726132,
+      "sha256": "53a5245c384daf86ee6ba8acda0dd3fda83b3e40fe77fcd8daaf4c316b1f1018"
+    },
+    {
+      "name": "exact_engine.py",
+      "bytes": 8427,
+      "sha256": "7ccf5fb4720347a2327f2fdb0c6401d1dbcd0e5781f00fc53765b3f671183e83"
+    },
+    {
+      "name": "exact_isotropy.py",
+      "bytes": 6479,
+      "sha256": "590658a80898dff519ba9653314830d3f5ba38ed1ffabeedf2d85853c277a5f7"
+    },
+    {
+      "name": "exact_isotropy_s13.py",
+      "bytes": 8356,
+      "sha256": "b6669372997ea265418e97a0a4a46b5dded028d3536868a5735e79dbf91d578a"
+    },
+    {
+      "name": "exact_weight2_K.py",
+      "bytes": 6164,
+      "sha256": "6060ec7106352d512e7a0aa11312ccc46927ca4a2b512f17c51b6f19af82db4e"
+    },
+    {
+      "name": "exact_weight2_K_0.json",
+      "bytes": 111,
+      "sha256": "5d78ffb73ad97c8c7176b34ed6170ffa486acc4797623f4591b30626800bbc35"
+    },
+    {
+      "name": "exact_weight2_K_1.json",
+      "bytes": 111,
+      "sha256": "4513247432078d9674d18749ebc5ef7160ee0d802b7446abfd13c224f5106d52"
+    },
+    {
+      "name": "griess_B_II.json",
+      "bytes": 1343,
+      "sha256": "91f372b78bd335d730f224cdb9c74ecd0663c4ba79117534f38e1574b2edebf8"
+    },
+    {
+      "name": "griess_B_II_basis.pkl",
+      "bytes": 10650,
+      "sha256": "d079619933b2b01a6cea52f6b5caf9e108b6d0f26b5de3bb9a9eacb0e8bd275a"
+    },
+    {
+      "name": "griess_cache.py",
+      "bytes": 499,
+      "sha256": "8b6801ff20690ff5c5cba7e7ced666aa5b03f285cd4c573ac018f8ba6253a422"
+    },
+    {
+      "name": "griess_subalgebras.json",
+      "bytes": 6048,
+      "sha256": "3d9a4a9bec4b2194dd9509edc78432d364c93d847c0404cdb16ca00f4352ae5c"
+    },
+    {
+      "name": "griess_subalgebras.py",
+      "bytes": 4577,
+      "sha256": "eab57049b06f140104043e40509c539795f6173db88bb350c97e36d4835fefd2"
+    },
+    {
+      "name": "invariants_K.py",
+      "bytes": 4299,
+      "sha256": "3a23f80e9fa76071003bc05543ab2045652168c8a221aa3cf62a60b66e583020"
+    },
+    {
+      "name": "invariants_K_0.json",
+      "bytes": 31239,
+      "sha256": "15badd734b3fcd0f6f529c77667b35f6f21a0f7f5cc09d0e4ac973038d0755ef"
+    },
+    {
+      "name": "isotropic_lines.py",
+      "bytes": 4789,
+      "sha256": "56c9f3e2f372ea726f69eaebb63dafa3ddc44ee2377e8dc6197ed09bbef03010"
+    },
+    {
+      "name": "isotropic_lines_II_9.json",
+      "bytes": 1367,
+      "sha256": "293caaba7116fbcfc2d9bb491161e67b4fd295d6cd71aa0e9e693d841442cc74"
+    },
+    {
+      "name": "isotropy_test.py",
+      "bytes": 5145,
+      "sha256": "b7937c91b5d0f1fd4a46a2c2e62a3fba420caea2f4e293d20914a2aae84fa0f7"
+    },
+    {
+      "name": "lattice_voa.py",
+      "bytes": 8671,
+      "sha256": "6e3c9bf0575a8e742dc2635fe75a657d50e61aac8521fd3a11d1cad02e54794c"
+    },
+    {
+      "name": "linalg.py",
+      "bytes": 2028,
+      "sha256": "44e231f70607c349946643448f7e45857774bbce73a64df0c5a8e498a1121092"
+    },
+    {
+      "name": "modp.py",
+      "bytes": 2418,
+      "sha256": "97c34f731a41503f7d4b22ae8ef4577f4fbf94d4f28fd61c22da87467320dc69"
+    },
+    {
+      "name": "phase_d_w4.json",
+      "bytes": 53,
+      "sha256": "230422075539c8d48facfdf49777fedda0e8a06af7ac90b9154962cd5bd7e139"
+    },
+    {
+      "name": "phase_d_w4.py",
+      "bytes": 2232,
+      "sha256": "adb861a8d850d282691c85bf6ab5ca70ee3789dff54a08a16d770b53dff2cc39"
+    },
+    {
+      "name": "phi_automorphism_check.json",
+      "bytes": 144,
+      "sha256": "0b83e8c01eab54ce45a8df1b1324a3fff8983fe9e52add7d8a4b03d3b134018e"
+    },
+    {
+      "name": "phi_automorphism_check.py",
+      "bytes": 2421,
+      "sha256": "a2f6dac74c04673368ca98e22c97be4e9a851a26edb81ab2f5eae5fe71f93d28"
+    },
+    {
+      "name": "primaries.py",
+      "bytes": 3473,
+      "sha256": "f096bd5e62d92ea429374f1a955ef53f7e4ece7858fd9ad710e8aa5253f94120"
+    },
+    {
+      "name": "primaries_I.pkl",
+      "bytes": 68023,
+      "sha256": "79aed0429cebd15c836ce8aef50953c10e5daec3918b9229ed749ebf67c056e0"
+    },
+    {
+      "name": "primaries_II.pkl",
+      "bytes": 87896,
+      "sha256": "91929a0a25de264cab5a7e55678e425af11b7048e28c3e57fd3c0bcdb59d1b15"
+    },
+    {
+      "name": "solve_w4.py",
+      "bytes": 2229,
+      "sha256": "fceb0c5336ac41039f95b8b548ecb71da54437adc170eb29aa67290067c4ecb8"
+    },
+    {
+      "name": "test_lattice_voa.py",
+      "bytes": 3932,
+      "sha256": "bf7d7b7989caa8cb5dd7777085a8c8eb8ca9c4459ef6ec40187bb942a27f7596"
+    },
+    {
+      "name": "unitarity_test.py",
+      "bytes": 3738,
+      "sha256": "d5a2219f6b7fa292a5c27689b8225be9bdb871d87a3f6e59ac9ebc94b2bc84d0"
+    },
+    {
+      "name": "unitarity_test_0.json",
+      "bytes": 162,
+      "sha256": "51174be7fb55e2c92eee831a49a3fba88122f69b3aa7ac732c4a6a793d618d48"
+    },
+    {
+      "name": "unitarity_test_1.json",
+      "bytes": 162,
+      "sha256": "5da1ddaf8bbe92450463e42b9fe5b83a9da0ec09e882ced2c03b23b66910f35b"
+    },
+    {
+      "name": "unitary_character.json",
+      "bytes": 200,
+      "sha256": "abfae705d64a52d212778b31c3c754639975c483acaf3a14025a198927ad3d5a"
+    },
+    {
+      "name": "unitary_character.py",
+      "bytes": 1710,
+      "sha256": "7b00a5ba950bc2937e08a4e32a9414847d68478db1197479802119fac06d4213"
+    },
+    {
+      "name": "zh3_modular_data.py",
+      "bytes": 2315,
+      "sha256": "5350176f509c9176f7cf93b32a88fc8bbcd7c505e612bfc5df27ae37adc5e054"
+    }
+  ],
+  "new_verifiers": [
+    {
+      "name": "safe_store.py",
+      "bytes": 2662,
+      "sha256": "54e3d6dc3a79303c77479f8d8221d1345594c0cf4d7742f14d714ca23982908c"
+    },
+    {
+      "name": "repair_f4.py",
+      "bytes": 5980,
+      "sha256": "33717082f98cfe2c6eb8c79db78254c2b68c309d6596ddfb41a81b8b2a17b867"
+    },
+    {
+      "name": "repair_f4_v01.py",
+      "bytes": 5682,
+      "sha256": "3f3d61c746be05b5e902f67e0b1cebfc6f829ebdfdd453b7d3143937829ba608"
+    },
+    {
+      "name": "verify_f4_strict.py",
+      "bytes": 6168,
+      "sha256": "8b2d891f6d7ddab521c4fc469543f2930ec2a58e062f26dd6bd8bb08fbace814"
+    },
+    {
+      "name": "aggregate_f4.py",
+      "bytes": 4342,
+      "sha256": "65e6cc6141275ac0c1c48cc64bbe4935822e7919786dadac0b0574bbd94d387b"
+    },
+    {
+      "name": "check_zero_products.py",
+      "bytes": 4346,
+      "sha256": "e44d96f72059eedfb6594ab587d7d31ddc1f00e77597d1b929008dee300fbb18"
+    },
+    {
+      "name": "regenerate_f4.py",
+      "bytes": 4000,
+      "sha256": "df23100814bd11554f7ac093a3c88dbfdce15c5e4b97951ced16a7797d35f53d"
+    },
+    {
+      "name": "regenerate_f4_per_key.py",
+      "bytes": 4935,
+      "sha256": "f68aea1abe433113046e544a1465feed5cbc6d3beb4dc0ccf60f561fcc0583e6"
+    },
+    {
+      "name": "regenerate_f4_cached.py",
+      "bytes": 5028,
+      "sha256": "368cd6d61aa5311d310e83a38fb61f471a5f22f422615aa26a74af1b9b4fcc54"
+    },
+    {
+      "name": "regenerate_central_pivots.py",
+      "bytes": 3211,
+      "sha256": "8df18eae404ae25a140df55548523ccdc2682a908350f682234f5cdf888c1256"
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "packages": {
+    "numpy": "2.3.5",
+    "sympy": "1.14.0",
+    "gmpy2": "2.3.2",
+    "python-flint": "0.9.0"
+  },
+  "production": "All words originally evaluated by per_key or cached producer; finalized streams are reconstructed by repair_f4, retaining decoded source records and exactly recomputing missing labels. Every final stream is reread before COMPLETE. Pivots are reconstructed by family-word labels and reranked. Zero products receive a separate direct or analytic check.",
+  "source_profiles": {
+    "initial_family_and_most_product_generation": "regenerate_f4_per_key.py",
+    "initial_0_4_and_1_1_generation": "regenerate_f4_cached.py",
+    "initial_recovery_e_and_3_3": "repair_f4_v01.py",
+    "remaining_recovery_and_pivot_reconstruction": "repair_f4.py",
+    "default_fresh_replay": "regenerate_f4.py"
+  },
+  "scope": "The producer computes VOA words; the subsequent checker verifies full label coverage, exact pivot provenance against family records and every coordinate membership. Standalone matrix checks do not independently establish VOA provenance.",
+  "curated_from_sha256": "b52768e5df3eed38619ef55bec97cb7e75c6b2697e56c512366b0137c587e763",
+  "curation_note": "Inventaire restreint aux fichiers distribues. Les octets des sources retenues sont inchanges. Le controle F4 est relance avec cet inventaire."
+}

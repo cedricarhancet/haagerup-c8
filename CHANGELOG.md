@@ -1,33 +1,7 @@
-# Version 07 (editorial and release packaging)
+# Historique
 
-- Simplifies two descriptions in the statement-to-script table: removes
-  "historical scripts retained" and "regenerated witnesses".
-- Replaces the provisional Data availability paragraph with the concise
-  final repository URL, for use once the repository and assets are public.
-- Updates the GitHub snapshot to the v07 PDF and LaTeX.
-- Updates the documentation, version metadata, source index and file hashes.
-- Keeps the mathematical statements and the calculation data unchanged.
+## article-I-v14-supplements-v01 — 7 novembre 2026
 
-# Version 06 (editorial)
+Alignement sur le manuscrit I v14 diffusé comme Hexagon 2610.00733v2. Concordance par empreintes avec II v14 et III v10. Réemploi des deux volumes F4 v03 inchangés de la release v07. Sélection explicite des sources et données de calcul ; documentation des commandes, des limites du moteur et des dépendances extérieures. Distinction entre les fondations de I indépendantes de H_J et le théorème 6.1 de III qui établit H_J.
 
-- Restored the statement-to-script correspondence as a table in the appendix.
-- Identified the intended GitHub repository URL in Data availability.
-- Preserved mathematical statements and existing calculation files.
-
-# Version 05
-
-- Keeps the title Haagerup vertex operator algebras at central charge eight.
-- Keeps the Questions section removed.
-- Removes revision history, operational filenames and execution tables from
-  the manuscript.
-- Retains the mathematical arguments, the F4 domain and completeness
-  requirements, the weight-window argument and the external hypotheses.
-- Replaces software-based coordinate references with mathematical descriptions
-  or references to indexed supplementary data.
-- Moves the detailed computation index and verification provenance into the
-  repository documentation.
-- Leaves the abstract, bibliography and final author block unchanged.
-
-The source code, exact coordinates and computation receipts are unchanged.
-This is an editorial revision, not a new mathematical audit or a new full
-run of the computational certificates.
+Les résultats des relances effectuées pendant cette livraison figurent dans STATUS et dans les reçus datés. Les anciennes versions restent disponibles dans les tags et releases existants, dont [v07](https://github.com/cedricarhancet/haagerup-c8/releases/tag/v07).

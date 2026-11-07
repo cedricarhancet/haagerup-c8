@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "seed": 20261031,
+  "counts": {
+    "all_weight_one_pairs": 22188,
+    "stratified_weights_one_to_four": 2455
+  },
+  "nonzero": {
+    "all_weight_one_pairs": 8022,
+    "stratified_weights_one_to_four": 1091
+  },
+  "seconds": 11.18,
+  "engine_sha256": "6e3c9bf0575a8e742dc2635fe75a657d50e61aac8521fd3a11d1cad02e54794c",
+  "audit_script_sha256": "b3abf72e2a9d8c45e1f4a99512f948ceda060c7555c85d9ead107f1bfec7b3ab",
+  "outside_window": {
+    "input_weights": [
+      4,
+      1
+    ],
+    "mode": -5,
+    "output_weight": 9,
+    "reference_silently_zero": true,
+    "independent_coefficient": "1"
+  },
+  "scope": "Exact sampled mode comparisons, not a regeneration of all F4 coordinates."
+}

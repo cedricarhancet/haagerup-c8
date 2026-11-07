@@ -70,7 +70,7 @@ def main():
  with (out/'verification.out').open('w') as log:
   subprocess.run([sys.executable,'-u','verify_f4_strict.py'],cwd=out,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
  with (out/'zero-check.out').open('w') as log:
-  subprocess.run([sys.executable,'-u','check_zero_products.py','--work',str(out),'--output',str(out/'zero-products-independent.json'),'--seconds','3600'],cwd=out,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
+  subprocess.run([sys.executable,'-u',str(HERE/'run_zero_products_portable.py'),'--work',str(out),'--output',str(out/'zero-products-independent.json'),'--seconds','3600'],cwd=out,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
  with (out/'aggregation.out').open('w') as log:
   subprocess.run([sys.executable,'-u','aggregate_f4.py','--zeros',str(out/'zero-products-independent.json')],cwd=out,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
  print('Exact F4 verification completed; see',out/'COMPLETE-F4.json')

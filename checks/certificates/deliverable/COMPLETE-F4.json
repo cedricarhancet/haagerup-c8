@@ -10,7 +10,7 @@
   "product_nonzero": 9088,
   "product_zero": 712,
   "independently_verified_zero_inputs": 886,
-  "source_manifest_sha256": "b52768e5df3eed38619ef55bec97cb7e75c6b2697e56c512366b0137c587e763",
+  "source_manifest_sha256": "d62d52f11ad70973af3fa923a48f508871dff59d2f32cffedec978205884f3fc",
   "input_manifest_hashes": {
     "f4_pivots": "6ada248c595be3297e2f1f9d131ce7c4dc2eeedcc0951fed65fb2e3e6e228e4a",
     "f4_families": "5e9501dea184393e77b1554819ed0891100a505b693c230dee6016dfd36a31d0",
@@ -25,7 +25,7 @@
     "f4_tests_2_6": "746b02009a016ff453603301d0f9c3a0cada29b5ff62ba109eb9fb9c5bb39a82",
     "f4_tests_3_3": "6f250eea2dd1406fae8ae2c5efcf07b3642445ae955ee269381816f9a90b6c0b"
   },
-  "zero_check_sha256": "80810f2c9c684df90c5841bd6ea3e49049a74d2e61cf3f138899cd183f255a59",
-  "parts": 2,
+  "zero_check_sha256": "fd317f5caa813526f9885680e5279c363dedaa77e2948d12e8dbc2367c5a49dc",
+  "parts": 1,
   "errors": 0
 }

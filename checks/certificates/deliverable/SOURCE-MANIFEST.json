@@ -109,19 +109,9 @@
       "sha256": "da996592e919b5657c76c17ba3b236cf8168a926b2dd3d14a7789940fb299b96"
     },
     {
-      "name": "closure_explore2.py",
-      "bytes": 7816,
-      "sha256": "ea378d397f12e1492b8dfb5e0718e332ab8af600efc548daf3b612a872fb9a4a"
-    },
-    {
       "name": "closure_explore_II_9.json",
       "bytes": 11694,
       "sha256": "b7240b52b459f4c617a9557fa2986e9aa168f7bf0bb07be8351d133056a5a719"
-    },
-    {
-      "name": "closure_full.py",
-      "bytes": 3177,
-      "sha256": "78046cf1aac817494333ff304abd82b8cf46be12e107c8ccd66bbb344565694a"
     },
     {
       "name": "closure_modp.py",
@@ -354,11 +344,6 @@
       "sha256": "7b00a5ba950bc2937e08a4e32a9414847d68478db1197479802119fac06d4213"
     },
     {
-      "name": "weight3_explore.py",
-      "bytes": 4542,
-      "sha256": "40ee018fda1f5138e540d50d5050548a876ba4f155feb84cf8cb03553de76f54"
-    },
-    {
       "name": "zh3_modular_data.py",
       "bytes": 2315,
       "sha256": "5350176f509c9176f7cf93b32a88fc8bbcd7c505e612bfc5df27ae37adc5e054"
@@ -431,5 +416,7 @@
     "remaining_recovery_and_pivot_reconstruction": "repair_f4.py",
     "default_fresh_replay": "regenerate_f4.py"
   },
-  "scope": "The producer computes VOA words; the subsequent checker verifies full label coverage, exact pivot provenance against family records and every coordinate membership. Standalone matrix checks do not independently establish VOA provenance."
+  "scope": "The producer computes VOA words; the subsequent checker verifies full label coverage, exact pivot provenance against family records and every coordinate membership. Standalone matrix checks do not independently establish VOA provenance.",
+  "curated_from_sha256": "b52768e5df3eed38619ef55bec97cb7e75c6b2697e56c512366b0137c587e763",
+  "curation_note": "Inventaire restreint aux fichiers distribues. Les octets des sources retenues sont inchanges. Le controle F4 est relance avec cet inventaire."
 }

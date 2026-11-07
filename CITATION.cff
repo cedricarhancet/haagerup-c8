@@ -1,8 +1,21 @@
 cff-version: 1.2.0
-message: "Please cite the manuscript and specify the exact version or commit used."
-type: dataset
-title: "Haagerup vertex operator algebras at central charge eight: reproducibility materials"
+message: "Citer le manuscrit et cette livraison des supplements de calcul."
+type: software
+title: "Supplements publics de Haagerup vertex operator algebras at central charge eight"
 authors:
   - family-names: Arhancet
     given-names: Cédric
-version: "v07"
+    orcid: https://orcid.org/0000-0002-5179-6972
+version: article-I-v14-supplements-v01
+date-released: 2026-11-07
+repository-code: https://github.com/cedricarhancet/haagerup-c8
+url: https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01
+preferred-citation:
+  type: article
+  title: "Haagerup vertex operator algebras at central charge eight"
+  authors:
+    - family-names: Arhancet
+      given-names: Cédric
+  year: 2026
+  url: https://hexagonmath.org/2610.00733v2
+  notes: "Hexagon 2610.00733v2; source I v14."

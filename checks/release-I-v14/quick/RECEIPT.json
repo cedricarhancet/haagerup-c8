@@ -1,0 +1,140 @@
+{
+  "date_utc": "2026-11-07T08:26:55.389141+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "group": "quick",
+  "dependencies": {
+    "sympy": "1.14.0",
+    "numpy": "2.3.5",
+    "gmpy2": "2.3.2",
+    "python-flint": "0.9.0",
+    "mpmath": "1.3.0"
+  },
+  "checks": [
+    {
+      "id": "recheck_c4_matrices",
+      "command": [
+        "python",
+        "checks/identification/recheck_c4_matrices.py",
+        "checks/identification/c4/c4-exact-witnesses.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.641,
+      "log": "recheck_c4_matrices.log",
+      "log_sha256": "917501042c8364c87292ee5b06b1fd15fd483d568d0e97e848a151585d6e1fc7"
+    },
+    {
+      "id": "check_closure_coverage",
+      "command": [
+        "python",
+        "verification-certificates/check_closure_coverage.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.187,
+      "log": "check_closure_coverage.log",
+      "log_sha256": "3f063924e45562646561685d4cea702cd8cbad1c71493f90629f49a2226e01f7"
+    },
+    {
+      "id": "check_analytic_identities",
+      "command": [
+        "python",
+        "checks/foundations/check_analytic_identities.py",
+        "--sources",
+        "calculs-sources/classification"
+      ],
+      "exit_code": 0,
+      "seconds": 23.797,
+      "log": "check_analytic_identities.log",
+      "log_sha256": "62c7139318bbdf32bb3ee1d9c5343f69f1c5dc72d45d1de7260b42d6448de89a"
+    },
+    {
+      "id": "verify_modular_certificates",
+      "command": [
+        "python",
+        "verification-foundations/verify_modular_certificates.py",
+        "--output",
+        "<OUTPUT>\\modular-certificates.json"
+      ],
+      "exit_code": 0,
+      "seconds": 33.938,
+      "log": "verify_modular_certificates.log",
+      "log_sha256": "86e4a0ee1833673161d94a6dad8cbd9b9d8ec817694449fe7b67d42094f0b527"
+    },
+    {
+      "id": "verify_u2_moments",
+      "command": [
+        "python",
+        "verification-foundations/verify_u2_moments.py"
+      ],
+      "exit_code": 0,
+      "seconds": 52.657,
+      "log": "verify_u2_moments.log",
+      "log_sha256": "454a07ff1d273c1277dde24d6fea689d202e858e61ec400b99a1526020ca8024"
+    },
+    {
+      "id": "independent_modes",
+      "command": [
+        "python",
+        "checks/independent-modes/independent_modes.py",
+        "--engine",
+        "checks/independent-modes/reference/lattice_voa.py",
+        "--output",
+        "<OUTPUT>\\basis-modes.json"
+      ],
+      "exit_code": 0,
+      "seconds": 11.609,
+      "log": "independent_modes.log",
+      "log_sha256": "8468350643fe91e19a451a581250e0d899ca5c544a8c991366c0249d56a136a1"
+    },
+    {
+      "id": "replay_generators",
+      "command": [
+        "python",
+        "checks/independent-modes/replay_generators.py",
+        "--engine",
+        "checks/independent-modes/reference/lattice_voa.py",
+        "--inputs",
+        "checks/independent-modes/generator-inputs.json",
+        "--record",
+        "checks/independent-modes/generator-modes-results.json",
+        "--output",
+        "<OUTPUT>\\generator-modes.json"
+      ],
+      "exit_code": 0,
+      "seconds": 84.531,
+      "log": "replay_generators.log",
+      "log_sha256": "b2014263c3e25a36c40057992f5e3f36371a708f9da55d47c3bcfad7588c6b9a"
+    },
+    {
+      "id": "check_lattice_ball",
+      "command": [
+        "python",
+        "checks/certificates/deliverable/check_lattice_ball.py",
+        "--sources",
+        "calculs-sources/generation-forte",
+        "--output",
+        "<OUTPUT>\\lattice-ball.json"
+      ],
+      "exit_code": 0,
+      "seconds": 8.625,
+      "log": "check_lattice_ball.log",
+      "log_sha256": "191f3cc4c67a2cb0289c34185aaeea18d49454ba033af0c311b53cc1009203c7"
+    },
+    {
+      "id": "check_simple_current_word",
+      "command": [
+        "python",
+        "verification-certificates/check_simple_current_word.py",
+        "--source-dir",
+        "calculs-sources/generation-forte",
+        "--output",
+        "<OUTPUT>\\simple-current-word.json"
+      ],
+      "exit_code": 0,
+      "seconds": 34.938,
+      "log": "check_simple_current_word.log",
+      "log_sha256": "a97716b50e9cf8457b7746fa8fee2b8de29ffddf44058edf16cf2a19225eb5a9"
+    }
+  ],
+  "status": "PASS"
+}
