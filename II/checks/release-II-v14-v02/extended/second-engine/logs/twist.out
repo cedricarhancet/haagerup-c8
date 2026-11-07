@@ -1,0 +1,8 @@
+twists (t_a, t_b) among 16 x 16 for which u_0 has coordinates in Q: 16 ; in Q(sqrt(-6)) but not Q: 48
+example rational twist: a = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]  b = [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1]
+  sl2^4 generators untouched by the twist: True
+  u0 field generators used: ['1']
+  u1 field generators used: ['1']
+  u2 field generators used: ['1']
+  u3 field generators used: ['1']
+twisted Q-form closed under products (random e'^b_(n) e'^g, 2659 coefficients): failures 0

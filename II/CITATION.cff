@@ -5,9 +5,9 @@ type: software
 authors:
   - family-names: Arhancet
     given-names: Cédric
-version: "article-II-v14-supplements-v01"
+version: "article-II-v14-supplements-v02"
 date-released: 2026-11-07
-url: "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v01"
+url: "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v02"
 repository-code: "https://github.com/cedricarhancet/haagerup-c8"
 preferred-citation:
   type: article

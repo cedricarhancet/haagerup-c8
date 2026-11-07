@@ -1,40 +1,32 @@
-# Contrôles de la livraison de II — 7 novembre 2026
+# Vérifications achevées — livraison II v14, v02
 
-## Exécutions de cette passe
+Le rejeu supplémentaire commencé le 2026-11-07T11:04:06.246919+00:00 et terminé le 2026-11-07T11:52:19.946201+00:00 a achevé ses **15 commandes**, avec codes de sortie nuls et validations des résultats. Il complète les 43 commandes de la livraison v01. Les moteurs mathématiques sont inchangés. Les reçus et journaux nouveaux sont dans `checks/release-II-v14-v02/extended` ; les reçus de `checks/release-II-v14` décrivent l'étape v01 et gardent leur portée historique.
 
-| Groupe | Commandes terminées | État | Reçu |
-| --- | ---: | --- | --- |
-| certificate | 2 | PASS | `checks/release-II-v14/certificate/RECEIPT.json` |
-| modes | 1 | PASS | `checks/release-II-v14/modes/RECEIPT.json` |
-| originals | 29 | PASS | `checks/release-II-v14/originals/RECEIPT.json` |
-| auxiliary | 11 | PASS | `checks/release-II-v14/auxiliary/RECEIPT.json` |
+## Fermeture en poids deux dans le premier modèle
 
-Soit 43 commandes achevées, toutes avec code de sortie nul. Les résultats détaillés, les durées, stdout, stderr et les versions des dépendances sont conservés dans les reçus, séparément des anciens `.out` du corpus. Les noms de répertoires locaux de préparation sont remplacés dans les commandes archivées par des repères ; les commandes portables de reproduction figurent dans le lanceur et dans REPRODUCIBILITY.
+| Candidat | Dimension S2 | Paires contrôlées | Périmètre | Échecs de fermeture |
+| --- | ---: | ---: | --- | ---: |
+| 0 | 120 | 1200 | Exhaustif pour ce jeu de générateurs et la base | 0 |
+| 1 | 120 | 180 | Échantillonnage annoncé de la base | 0 |
+| 2 | 120 | 180 | Échantillonnage annoncé de la base | 0 |
+| 3 | 120 | 180 | Échantillonnage annoncé de la base | 0 |
 
-Le vérificateur algébrique confirme le rang 8 des vingt traces, les 25 quadriques, l'égalité des idéaux sur Q et les quatre points réduits/PCT. La reconstruction indépendante confirme le noyau G de dimension 16, les 136 produits et formes et les invariants de traces des vingt espaces de multiplicité. Les deux moteurs initiaux sont rejoués ; leurs solutions et les tests PCT sont confrontés aux résultats attendus. L'énumération indépendante conserve 640 représentations orthogonales et une paire admissible.
+Chaque paire est testée aux modes 1, 2 et 3. Pour le candidat 0, les dix vecteurs choisis sont confrontés aux 120 vecteurs de base : les **1 200 paires** du calcul précédemment interrompu sont entièrement parcourues, soit 3 600 contrôles de modes. Pour les autres candidats, les 180 paires correspondent au parcours annoncé de `SP.B[::7]`. Ce ne sont pas des tests de tous les modes en tous poids.
 
-La table a été réextraite de I v14, version figée fournie dans `inputs-I`, et les JSON de tables correspondent. Le certificat a été réexporté depuis les données R3 régénérées et comparé au JSON distribué. Les autres comparaisons de JSON et la comparaison brute des données présentes dans la copie de travail sont enregistrées dans les reçus et DATA-COMPARISON. Cette dernière table ne prétend pas que chaque donnée préexistante a été régénérée : les commandes effectivement exécutées en fixent la portée.
+Les quatre espaces S2 et S2full sont régénérés dans des copies isolées, puis les quatre contrôles PCT sont exécutés sur ces données nouvelles. Pour chaque candidat : dimension 120, caractère U2 attendu, zéro échec de commutant, de stabilité PCT, d'automorphisme échantillonné et de positivité échantillonnée. Les JSON régénérés correspondent aux références ; les pickles R3 sont identiques en octets. Les comparaisons sont dans `ARTIFACTS.json` et les reçus de chaque candidat.
 
-Sur les 34 données comparées dans DATA-COMPARISON, 24 sont identiques en octets. Les dix JSON restants ne diffèrent que par les fins de lignes LF/CRLF de Windows : leur contenu JSON et leurs octets après normalisation des fins de lignes sont identiques. Cela ne transforme pas les données préservées en données régénérées ; les commandes des reçus fixent cette distinction.
+## Reconstruction dans le second modèle
 
-## Adaptations de la livraison
+`s2_space.py 0 all` reconstruit l'espace entier de poids deux. `s2_check.py 0` confirme sa dimension 120, ses multiplicités de poids et sa stabilité par le PCT dans tous les blocs. La matrice hermitienne de la tranche de dimension cinq est positive : ses cinq mineurs principaux valent exactement 50/507. Le résultat est confronté au journal historique, en ignorant seulement le temps de calcul.
 
-Le calcul source est repris du ZIP Calculs-HU-v08 vérifié. Le crochet `br` du fichier de recherche de signes est extrait sans changement dans `R3-verif/lie_bracket.py` ; `solve_signs.py` l'importe directement. Le programme de recherche abandonné n'est pas distribué. Ce couple a été utilisé dans la nouvelle exécution des calculs initiaux. Deux docstrings de `data/` renvoient désormais à la source I v14 et aux instructions livrées ; leur code exécutable est identique par comparaison d'arbres syntaxiques. Les moteurs et le certificat sont inchangés, avec leurs empreintes dans SOURCE-PROVENANCE.
+`twist_check.py` retrouve les 16 choix rationnels et les 48 autres choix sur Q(sqrt(-6)), préserve les générateurs de courants et contrôle 2659 coefficients des produits échantillonnés, avec zéro échec. L'échantillonnage fixé n'est pas une preuve de fermeture en tous poids.
 
-## Diagnostic long séparé du parcours principal
+Le pickle de l'espace secondaire est fourni sous forme gzip dans `checks/release-II-v14-v02/generated/R3-verif/`, avec les empreintes compressée et décompressée dans `ARTIFACTS.json`. Il est généré par ce nouveau calcul et comparé à la référence historique.
 
-Le calcul `R3/r3a_S2.py 0` est terminé. Le diagnostic exhaustif `R3/r3a_S2_full.py 0 full` a été arrêté volontairement après 423.375 secondes : la dimension 120, le caractère et les conditions de commutant sur les 120 vecteurs étaient vérifiés sans échec, mais la fermeture exhaustive n'était pas terminée. Son arrêt provoque un code de sortie non nul dans le lancement initial ; il n'est pas compté parmi les succès et le journal partiel est conservé dans `checks/release-II-v14/diagnostics`. Les treize commandes déjà terminées ont été conservées, puis les seize commandes essentielles restantes ont été exécutées dans une nouvelle copie de continuation, avec un reçu explicite.
+## Statut de l'ancien arrêt et limites
 
-Les autres régénérations S2 et le diagnostic de forme rationnelle ne sont pas relancés dans cette passe ; leurs données et sorties historiques sont distribuées. Les quatre exécutions de `r3b_verify.py` lisent notamment les espaces S2full fournis et en vérifient le PCT ; cela ne constitue pas leur régénération indépendante. Ces diagnostics supplémentaires sont disponibles par le groupe `extended` et ne font pas partie de `all`. Leur achèvement n'est pas utilisé dans le certificat ni dans la preuve par commutants de la proposition 7.16.
+Le lancement arrêté à 423,375 secondes dans v01 a été remplacé par une nouvelle exécution achevée. Son ancien journal partiel est conservé comme historique, avec un renvoi à cette livraison. Aucun diagnostic annoncé pour la présente passe ne reste interrompu ou en attente.
 
-## Sorties historiques et limites
+Les contrôles essentiels de v01 — certificat portable, reconstruction indépendante des tenseurs, noyaux, équations et PCT dans les deux moteurs — conservent leurs reçus. Le présent travail achève les diagnostics S2 et de forme rationnelle qui n'avaient pas été terminés. La localisation numérique ancienne des candidats n'est pas relancée : la liste est certifiée par les équations exactes et le calcul d'idéaux. Les contrôles arithmétiques bornés de §6 gardent leur portée finie. Les fondations de I, les certificats de Zhu et le bloc C3 complet de III sont des entrées ou livraisons distinctes. Ces programmes ne constituent pas une vérification formelle générale des axiomes VOA ou des preuves analytiques.
 
-Les `.out` proches des scripts proviennent de l'archive d'entrée du 2 novembre 2026. Les anciens README v04/v07/v08, les manifestes qui portaient sur d'autres arborescences, les rapports et les tentatives abandonnées ne sont pas utilisés comme reçus de la présente passe.
-
-Le premier modèle utilise les valeurs de localisation numérique archivées de `idem_complex.json`, puis reconstruit les candidats et vérifie exactement les équations et les produits. La recherche numérique des candidats n'est pas relancée ; leur exhaustivité résulte ici du calcul d'idéaux et du certificat exact. Des tests de VOA et de positivité utilisent des échantillons fixés ; leur réussite ne démontre pas des identités en tous poids. Les contrôles `section6/check_galois.py` et `check_m.py` sont bornés et comportent des calculs numériques ; les preuves générales restent celles du manuscrit.
-
-Les tenseurs reconstruits indépendamment sont confrontés par leurs invariants de traces aux contraintes nécessaires, sans imposer une base de multiplicité commune. La preuve de l'existence de la diagonale, la théorie des VOA, le passage aux réseaux conformes et les hypothèses analytiques de reconstruction ne sont pas formellement vérifiés par ces programmes. Les certificats lourds de I, les certificats de Zhu et le bloc C3 complet de III ne sont pas rejoués dans cette livraison.
-
-## Manuscrit documentaire
-
-La v15 ne change que la déclaration de disponibilité des données de la copie locale v14. Le lanceur LaTeX local a terminé en 3 passes ; aucune référence ou citation indéfinie n'est signalée. Les pages 61–62 modifiées ont été rendues et contrôlées visuellement. La référence de calcul demeure la source II v14 de Hexagon ; les deux commandes typographiques différentes dans la copie locale sont précisées dans VERSION-CONCORDANCE.
+Les conditions de commutant et le PCT utilisés dans la preuve de II, proposition 7.16, sont distingués des diagnostics supplémentaires de fermeture. La distinction de rôle demeure, mais le rejeu supplémentaire est maintenant achevé.

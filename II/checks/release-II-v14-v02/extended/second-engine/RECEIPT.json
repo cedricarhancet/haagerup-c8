@@ -1,0 +1,81 @@
+{
+  "name": "second-engine",
+  "status": "PASS",
+  "started_utc": "2026-11-07T11:04:06.470531+00:00",
+  "checks": [
+    {
+      "name": "S2-space",
+      "command": [
+        "python",
+        "-B",
+        "-u",
+        "s2_space.py",
+        "0",
+        "all"
+      ],
+      "cwd": "R3-verif",
+      "exit_code": 0,
+      "seconds": 950.703,
+      "stdout_sha256": "42f98902e3a222d36459dc4f8d9074f8d6fc8a13aff67f1e34c63909bf63b838",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "S2-check",
+      "command": [
+        "python",
+        "-B",
+        "-u",
+        "s2_check.py",
+        "0"
+      ],
+      "cwd": "R3-verif",
+      "exit_code": 0,
+      "seconds": 188.984,
+      "stdout_sha256": "274d873e488e5cd272366afb53be114ba7b7f2be2c2e42d4422f2cf0b60fce7b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "twist",
+      "command": [
+        "python",
+        "-B",
+        "-u",
+        "twist_check.py"
+      ],
+      "cwd": "R3-verif",
+      "exit_code": 0,
+      "seconds": 513.5,
+      "stdout_sha256": "7bf9a061b4220ead4373780167983d03d51c447542b4b5a038fbcd17f987c260",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "validated_results": {
+    "dimension": 120,
+    "weight_multiplicities_equal": true,
+    "PCT_stable_all_blocks": true,
+    "hermitian": true,
+    "positive_definite": true,
+    "principal_minors": [
+      "50/507",
+      "50/507",
+      "50/507",
+      "50/507",
+      "50/507"
+    ],
+    "twist_rational_choices": 16,
+    "twist_other_choices": 48,
+    "twist_coefficients_tested": 2659,
+    "twist_failures": 0,
+    "s2_check_matches_historical_output_except_time": true,
+    "twist_matches_historical_output": true
+  },
+  "finished_utc": "2026-11-07T11:31:39.758654+00:00",
+  "comparisons": [
+    {
+      "path": "R3-verif/s2_space_0_all.pkl",
+      "bytes": 4900872,
+      "sha256": "b4d9295f40dd78dc39665f5d1b9f2078825b31f89cbf042aa57a7b37da4c0577",
+      "baseline": "not shipped as a pickle in v01; generated in this run"
+    }
+  ]
+}

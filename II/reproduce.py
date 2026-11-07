@@ -10,8 +10,11 @@ def main():
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument('--group',choices=['smoke','certificate','modes','originals','extended','auxiliary','all'],default='smoke')
  p.add_argument('--output',type=Path,required=True)
- p.add_argument('--seconds-per-command',type=int,default=1800)
+ p.add_argument('--seconds-per-command',type=int,default=21600)
  a=p.parse_args();out=a.output.resolve()
+ if a.group=='extended':
+  from extended_replay import run_extended
+  raise SystemExit(run_extended(ROOT,out,workers=1,seconds=a.seconds_per_command))
  delivery_root=ROOT.parent if (ROOT.parent/'MANIFEST-PUBLIC.json').is_file() else ROOT
  if out==delivery_root or out.is_relative_to(delivery_root):raise ValueError('Choose an output directory outside the delivery repository')
  if out.exists() and any(out.iterdir()):raise ValueError('Output directory must be new or empty')
@@ -35,14 +38,6 @@ def main():
   add('reexport','.','export_omega_certificate.py','R3','omega_certificate-reexport.json')
   for s in ['test_voa','check_W1_char','solve_signs','embed','g_space','griess','setup_system','solve_groebner','verify_solutions','phi_chi','compare_R3']:
    add('R3-verif-'+s,'R3-verif',s+'.py')
- if a.group=='extended':
-  for i in range(4):
-   add('R3-S2-'+str(i),'R3','r3a_S2.py',str(i))
-   add('R3-S2full-'+str(i),'R3','r3a_S2_full.py',str(i),*(['full'] if i==0 else []))
-   add('R3-PCT-'+str(i),'R3','r3b_verify.py',str(i))
-  add('R3-verif-S2','R3-verif','s2_space.py','0','all')
-  add('R3-verif-S2-check','R3-verif','s2_check.py','0')
-  add('R3-verif-twist','R3-verif','twist_check.py')
  if a.group in ['auxiliary','all']:
   for s in ['check_moments','check_galois','check_m','verify_simplification']:add('section6-'+s,'section6',s+'.py')
   for s in ['e8facts','enum_sl2','sectors']:add('F1-'+s,'scripts-rapporteurs/F1',s+'.py')

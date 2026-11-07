@@ -1,6 +1,6 @@
 # Énoncés, entrées, programmes et résultats
 
-Les numéros ci-dessous sont ceux de II v14, Hexagon 2611.00034v2. La v15 documentaire conserve la numérotation. Les chemins de calcul sont relatifs à `Calculs-HU-v08/`. Les commandes exactes, leurs répertoires de lancement et leur ordre sont enregistrés par `reproduce.py` ; le tableau précise leur signification.
+Les numéros ci-dessous sont ceux de II v14, Hexagon 2611.00034v2. La v16 documentaire conserve la numérotation. Les chemins de calcul sont relatifs à `Calculs-HU-v08/`. Les commandes exactes, leurs répertoires de lancement et leur ordre sont enregistrés par `reproduce.py` ; le tableau précise leur signification.
 
 | Énoncé ou contrôle | Fichiers / commande élémentaire | Entrées | Résultat attendu et limite |
 | --- | --- | --- | --- |
@@ -25,3 +25,12 @@ Les numéros ci-dessous sont ceux de II v14, Hexagon 2611.00034v2. La v15 docume
 ## Utilisation dans III
 
 III §9 réutilise les preuves de II, lemmes 7.14–7.15 et proposition 7.16, une fois les données (F2), les niveaux et la diagonale algébrique fournis. Son bloc C3 ajoute des pilotes et une confrontation avec les données de Zhu propres à III. Le présent paquet fournit le calcul de II qui y est importé, sans revendiquer le replay des 69 sorties C3 de III. La preuve principale de H_J de III utilise la reconstruction analytique et sa structure unitaire compatible, indépendamment du calcul PCT de cette voie secondaire.
+
+
+## Achèvement des diagnostics S2 dans la livraison v02
+
+Les trois programmes R3 `r3a_S2.py`, `r3a_S2_full.py` et `r3b_verify.py` sont rejoués pour chacun des quatre candidats. Le candidat 0 passe le parcours exhaustif de 1 200 paires ; les candidats 1–3 passent les 180 paires de leur parcours annoncé. Les compteurs de commutant, de fermeture et de stabilité PCT sont vérifiés explicitement. Les quatre JSON et les espaces régénérés sont confrontés aux références de v01 ; les différences de fins de lignes n'altèrent pas leur contenu mathématique.
+
+La reconstruction secondaire `s2_space.py 0 all` est terminée, suivie de `s2_check.py 0`. La dimension, les multiplicités, la stabilité PCT dans tous les blocs et les cinq mineurs hermitiens positifs sont contrôlés. Le diagnostic de forme rationnelle `twist_check.py` est également rejoué. Les nouveaux reçus sont dans `checks/release-II-v14-v02/extended`, et les résultats comparés dans `ARTIFACTS.json`.
+
+La fermeture supplémentaire garde le rôle de diagnostic indiqué dans le tableau. Le fait qu'elle ait été interrompue dans v01 n'affectait pas le parcours de preuve par commutants de la proposition 7.16 ; la livraison v02 en fournit désormais un nouveau journal complet.

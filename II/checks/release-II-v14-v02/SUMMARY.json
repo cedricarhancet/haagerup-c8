@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-11-07T11:04:06.246919+00:00",
+  "finished_utc": "2026-11-07T11:52:19.946201+00:00",
+  "new_commands": 15,
+  "previous_completed_commands": 43,
+  "all_new_commands_exit_zero": true,
+  "CI": {
+    "0": {
+      "dimension": 120,
+      "commutant_failures": 0,
+      "closure_pairs": 1200,
+      "modes_per_pair": 3,
+      "closure_failures": {},
+      "full": true,
+      "PCT_pass": true
+    },
+    "1": {
+      "dimension": 120,
+      "commutant_failures": 0,
+      "closure_pairs": 180,
+      "modes_per_pair": 3,
+      "closure_failures": {},
+      "full": false,
+      "PCT_pass": true
+    },
+    "2": {
+      "dimension": 120,
+      "commutant_failures": 0,
+      "closure_pairs": 180,
+      "modes_per_pair": 3,
+      "closure_failures": {},
+      "full": false,
+      "PCT_pass": true
+    },
+    "3": {
+      "dimension": 120,
+      "commutant_failures": 0,
+      "closure_pairs": 180,
+      "modes_per_pair": 3,
+      "closure_failures": {},
+      "full": false,
+      "PCT_pass": true
+    }
+  },
+  "second_engine": {
+    "dimension": 120,
+    "weight_multiplicities_equal": true,
+    "PCT_stable_all_blocks": true,
+    "hermitian": true,
+    "positive_definite": true,
+    "principal_minors": [
+      "50/507",
+      "50/507",
+      "50/507",
+      "50/507",
+      "50/507"
+    ],
+    "twist_rational_choices": 16,
+    "twist_other_choices": 48,
+    "twist_coefficients_tested": 2659,
+    "twist_failures": 0,
+    "s2_check_matches_historical_output_except_time": true,
+    "twist_matches_historical_output": true
+  },
+  "mathematical_code_unchanged": true,
+  "source_snapshot_unchanged_during_run": true,
+  "previous_incomplete_run_superseded": true
+}

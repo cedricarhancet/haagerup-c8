@@ -1,0 +1,282 @@
+[
+  {
+    "path": "controles-categoriels/categories-exact-check.py",
+    "sha256": "a5735c75503970e117966619c0b5863874c700eaafcc01924119dc22f24b02f7",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "data/t12_e8split.py",
+    "sha256": "2f9f11da8e83bf56aaf5d0ad2d2d53d9b9e0889e93885b21c3025cbb4554da72",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "data/t12_table.py",
+    "sha256": "851b7a3cefc7a3fb9c5c0917c8dcc82141d668d36665f9e85bcfce62ee8fa1bb",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "data/t12_W1.py",
+    "sha256": "1776c0d185b7c42e28320e378bb6de9f15a1c70eb2ddb7d27c07940ae4d165da",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "export_omega_certificate.py",
+    "sha256": "a5e8a0124c2d2414c4c4a1b49fb839a881e138ab84901a12626ff577c20c275a",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/common.py",
+    "sha256": "61ebf6d29b4e7f51214c15571d2ea90038e8d148f88317f111a01fdb8927acc8",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/e8e8_voa.py",
+    "sha256": "8e45da9c30d00df996dc54e612e46cf3e0ac38ede6975ce566997c5fdb537b95",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/qs6.py",
+    "sha256": "d5c7ce494724e0b91d42bce593da7c212612e9a8fbd920bae10131b78a694ef5",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r2_signature.py",
+    "sha256": "16e3a8537c1de6af7091eb0f76963ffd8131e85d1a8e488aae092cddf2649d78",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3a_G.py",
+    "sha256": "aa17611683baf41c342da09ed516eb563548e57d0049b4abecc8db66a86a7d4b",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3a_Griess.py",
+    "sha256": "dec41ee2c920e78f5205d3281d7e977a85a78ab3b190d8abfc54baaf0503c9c4",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3a_groebner.py",
+    "sha256": "8df88a97d40c621803cd0d87ef103ff000e1dbf3f9ce18c8ec7304a4834af566",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3a_omega_exact.py",
+    "sha256": "ad69d3f944f6505ac981dc5beed8fe227e46b589adf77c60ab1275cef5f99eaa",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3a_S2.py",
+    "sha256": "f17d0d844247b95b0a2e1ed936297510009763efcebf4e1f56f3e286cdbfe457",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3a_S2_full.py",
+    "sha256": "2befb1036a32fb788e50c65f03eb0c4f53f52e8e0aeee0dd1979bfe3e1f4b8eb",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3b_chi.py",
+    "sha256": "774f956ef4e6362731ae1fd7bacb25ff333743998d67aa99adc04bcf813a9751",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3b_verify.py",
+    "sha256": "41d07af371ab92347421490ce666443404591229e8f1217777dd498126db5c83",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/r3b_verify_core.py",
+    "sha256": "9321d84200b4acecd0aac24adf15e6994545846c3d143508735830f12b8747db",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/sl2x4.py",
+    "sha256": "1f6e1562ecf4136ec2a8fb526504ec176d012b4027a7f896ca0f81092db15f43",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/span.py",
+    "sha256": "3edaf8e0e8822edbb089c6f9c0f09abd8e94d922aeb68d8c405faad757919a0b",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/t12b_optionB.py",
+    "sha256": "4df2d214e0923c9bb1876855bf6ad760b7ec4632f918e6dbd6db3be3a3a1eb76",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/test_e8e8.py",
+    "sha256": "dacc1ac3cbc84ef260db6b6d9c2a595ff5d56dd4da16e6906acf49d6d20e1b19",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3/weights_W.py",
+    "sha256": "e5e9fd5284d7c4bc437cc087daaba6f08ef8352ab7e29c534574425e696bcd21",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/check_W1_char.py",
+    "sha256": "c6797440088277ae3d6000185ec087d14e50bb76490c85118fcc26dfac7f306b",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/compare_R3.py",
+    "sha256": "9550b265e2b83ad1ec8701173118cec315023af738ce9431743b748fcb40e1cd",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/embed.py",
+    "sha256": "aae1ddb9d5edcd5886601aaa013915c5b286ed8053771b74fca966b4b75a7ba3",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/g_space.py",
+    "sha256": "475b393938d600ac722c49886d2aeea0a43c91ec11e317615a0593926c3c21f9",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/griess.py",
+    "sha256": "988bdd7f1e8f5012f22220b0e3d84089f186a6f50a173662ed947b35f7b7c706",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/lat.py",
+    "sha256": "91f0eae87bbf132a568bfe2308297ef7fb0ea26f145da73eb30a0037ab3fe77d",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/lie_bracket.py",
+    "sha256": "90c6021cc4b6f467515cfb110e0e900efd94b490af0e4c7461eadde45416ee4f",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/phi_chi.py",
+    "sha256": "c8e9d450de9a0d70e51468bca9923af950290b5181ffd06df9f9d4574e0d403e",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/q4.py",
+    "sha256": "5727247e34933c1ce41bf5dae442d3e94c6c4e30965ea61b86b230e58e12be71",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/s2_check.py",
+    "sha256": "ae86acbf30efa9abe8da6f94416ba63197e12f16bfad927e774080fc998ec17e",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/s2_space.py",
+    "sha256": "db1f86e354982e593eb5dc8d0dba75dd45f2d062918aebab8424f4874994ad08",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/setup_system.py",
+    "sha256": "e5e49dcf9465094fbf8d621e57ba5997eab56880900684423702f7f6bc84ccb1",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/solve_groebner.py",
+    "sha256": "e781ef3a6aa44bb9c0741c26a2830504dc6f1ded1cd1d572709abc25d39cfb33",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/solve_signs.py",
+    "sha256": "e5a070c3589a3f627bcafe8d05f0c78ddaa5c5937ab80f3ea050eb8876b13a3a",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/test_voa.py",
+    "sha256": "78d2fd289cd37cb55bc8f4452a7fa545c65aab3fdaf7004d6938daff12943753",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/twist_check.py",
+    "sha256": "4510ed84e7196037dd19701fc5be2ab81d4012f6c9c5685e2309955ba7a3d991",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/verify_solutions.py",
+    "sha256": "ce90a36445063053ad15889106e5c84b6bd098971d051a97dc5caad0d72d9890",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "R3-verif/voa.py",
+    "sha256": "3da4f6febe232beff7a39c4cdd1a90e8e831178ab7211ca7699ed74ce8e92c81",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "scripts-rapporteurs/F1/e8facts.py",
+    "sha256": "405024b76be856ea0a3587d929f1d06eeba7f0f9e354fdcf0a0d1b067c56b783",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "scripts-rapporteurs/F1/enum_sl2.py",
+    "sha256": "2c7263ad3a1f3ef80f7d78f1b8b4fd3b723f62a4aa08ca7cb648cc578db2e854",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "scripts-rapporteurs/F1/sectors.py",
+    "sha256": "41752c176f6b91f70f064a07d5af0dc59e7846fadd6eb2d5984b7356b059e316",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "scripts-rapporteurs/K1/chk.py",
+    "sha256": "14d7aec76d7941f00e6d6e1b2efc9d2828a23591a5f0edd5286cd75618bdfac4",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "scripts-rapporteurs/K1/verlinde.py",
+    "sha256": "ddfebea4e70a030cfb958e0a1383fdff3015c51de6d5ec7348d28db05d725f36",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "scripts-rapporteurs/R3P/check_gb.py",
+    "sha256": "3176c480a32997c7b648bd6c57772b695d441418e76cdac1a92156c6b20a2e3a",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "scripts-rapporteurs/R3P/gb_sympy.py",
+    "sha256": "b0fd54bab2f57dc1d786251c42c820cd574d76286e7a083f116db62993c77e22",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "section6/check_galois.py",
+    "sha256": "3e93c11376e3581a7ae325af79f1f125661536ac02a6756f434b507537280479",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "section6/check_m.py",
+    "sha256": "026b2e399d1e44ec95c84638ef13f3aa31e34643c8b5cc2b7d084782ba6e1720",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "section6/check_moments.py",
+    "sha256": "4dd5b28042a63081bbab3cee5742640239459dcc586d2a9dad345f399e50ff27",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "section6/verify_simplification.py",
+    "sha256": "d6abd141941a4a7bc3a0482b8b9490885948035115f30f9a727a3e53feeeec55",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "verification-independante/independent_kernel.py",
+    "sha256": "d6a82c451c8f29c1b246f4db3909ecdf101fd6e76acc2069e903e6e1cf176bc9",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "verification-independante/independent_tensors.py",
+    "sha256": "147bd7a5348cf05d1d272075018ad975b0d31a4135226278895da5d8aa576af6",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "verification-independante/independent_triples.py",
+    "sha256": "3030924a25716bb094745c5dbb47ea7299afe983ea7400116ffcd1bc02034043",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  },
+  {
+    "path": "verify_omega_certificate.py",
+    "sha256": "46d17de1837641e491a78c9c0fb8ee7f35041cc1000ad58e326313659613b26a",
+    "unchanged_from": "article-II-v14-supplements-v01"
+  }
+]

@@ -1,0 +1,15 @@
+dim S_2 x 1 = 120 (expected 120) ; 93 primary multiplets vectors + 27 affine (12s)
+sl2^2 decomposition: [((0, 0), 4), ((0, 2), 1), ((0, 4), 2), ((1, 1), 1), ((1, 3), 1), ((1, 5), 1), ((1, 7), 1), ((2, 0), 1), ((2, 2), 2), ((2, 6), 1), ((3, 3), 1), ((4, 0), 1)] ; equal to U2: True
+commutant conditions (1 x S_1 modes 0,1,2 ; omega_{1 x C} modes 1,2,3) on the 120 basis vectors: failures 0 (273s)
+  closure: generator done (517s)
+  closure: generator done (782s)
+  closure: generator done (898s)
+  closure: generator done (1047s)
+  closure: generator done (1179s)
+  closure: generator done (1213s)
+  closure: generator done (1219s)
+  closure: generator done (1272s)
+  closure: generator done (1278s)
+  closure: generator done (1285s)
+closure tests a_(n) b (a: 10 primary hw vectors, b: 120 basis vectors, n = 1, 2, 3): 1200 pairs, failures {}
+time 1285s

@@ -12,14 +12,14 @@
   "local_v14": {
     "filename": "Haagerup-reseaux-conformes-c8-v14-arxiv.tex",
     "sha256": "9710fe5a994646e5c557bae4b361be21dff76f4decd333e38da51f5b4885e5cc",
-    "difference_from_hexagon": "Deux commandes Rep remplacées par mathrm{Rep} dans le résumé ; aucune autre différence de texte."
+    "difference_from_hexagon": "Deux commandes Rep remplacÃ©es par mathrm{Rep} dans le rÃ©sumÃ© ; aucune autre diffÃ©rence de texte."
   },
   "input_calculation_archive": {
     "filename": "Calculs-HU-v08.zip",
     "bytes": 1497524,
     "sha256": "8b6ab4030fede23d296e72ff87422b9c8c22722d4374cfd23cb3d58de035fcf6"
   },
-  "supplement_tag": "article-II-v14-supplements-v01",
+  "supplement_tag": "article-II-v14-supplements-v02",
   "dependency_I": {
     "article": "I",
     "tag": "article-I-v14-supplements-v01",
@@ -30,7 +30,7 @@
     "source_url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-I-v14-supplements-v01/Haagerup-c8-article-I-v14-arxiv.tex",
     "supplement_url": "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01",
     "supplement_archive_sha256": "6b68aba299fdca14518a0e85ec41ac5ef9f2f2013fc5c0abb18b61243616148a",
-    "scope": "Table 2 et eq:lowest-spaces, données du cas (II) ; les fondations et la C2-cofinitude de I sont importées, non recalculées ici."
+    "scope": "Table 2 et eq:lowest-spaces, donnÃ©es du cas (II) ; les fondations et la C2-cofinitude de I sont importÃ©es, non recalculÃ©es ici."
   },
   "III": {
     "identifier": "2611.00164v1",
@@ -41,5 +41,22 @@
     "source_sha256": "57a3f7edb00cda4c824db2248abf9eeafc8a543847c435f9175324027910c5e5",
     "pdf_sha256": "f9091275a03acac0532550189c8262921e7f6a9e0d5d1cdf05ecfc81d51c3c46",
     "scope": "Only data availability changed relative to the local v14; not yet uploaded to Hexagon or arXiv."
-  }
+  },
+  "previous_supplement": {
+    "tag": "article-II-v14-supplements-v01",
+    "commit": "e95533c95da073e73b338f93a3baa56411051168",
+    "scope": "The formerly interrupted diagnostic is completed by the v02 replay; v01 remains preserved."
+  },
+  "documentation_revision_v16": {
+    "source_sha256": "0f741b2c3f99ebf7ccae748fa6983b9349be71d7670549ceb115b660f32a047e",
+    "pdf_sha256": "929d8db3b4bf425638b6446b40a38a24b17e065e1400c29e892a706847331873",
+    "scope": "Only the supplementary release link changes from v15; no mathematical statement changes. Not asserted to be uploaded to Hexagon/arXiv.",
+    "compilation_passes": 3,
+    "undefined_references": false,
+    "visual_check_pages": [
+      61,
+      62
+    ]
+  },
+  "completed_extended_replay": "checks/release-II-v14-v02/SUMMARY.json"
 }

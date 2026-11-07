@@ -1,0 +1,13 @@
+u0 : dim_K (S x 1) cap W_2 = 120
+weight multiplicities equal those of U2 = [((0, 0), 4), ((0, 2), 1), ((0, 4), 2), ((1, 1), 1), ((1, 3), 1), ((1, 5), 1), ((1, 7), 1), ((2, 0), 1), ((2, 2), 2), ((2, 6), 1), ((3, 3), 1), ((4, 0), 1)] : True
+phi_chi maps (S x 1) cap W_2 into itself (all blocks): True
+Hermitian Gram matrix on the slice R_{d4} x w0 (5x5):
+    [(50/507), 0, 0, 0, 0]
+    [0, (1), 0, 0, 0]
+    [0, 0, (1), 0, 0]
+    [0, 0, 0, (1), 0]
+    [0, 0, 0, 0, (1)]
+Hermitian: True
+leading principal minors: [50/507, 50/507, 50/507, 50/507, 50/507]
+positive definite: True
+time 11.1s

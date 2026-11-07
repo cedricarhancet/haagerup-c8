@@ -23,5 +23,15 @@
   ],
   "certificate_sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc",
   "archived_logs_date": "2026-11-02",
-  "fresh_logs": "checks/release-II-v14"
+  "fresh_logs": "checks/release-II-v14-v02/extended",
+  "previous_verified_logs": "checks/release-II-v14",
+  "extended_replay": {
+    "input_snapshot_tag": "article-II-v14-supplements-v01",
+    "input_commit": "e95533c95da073e73b338f93a3baa56411051168",
+    "driver_sha256": "5fdf0e46a98602ac2c5e8d0a85a4f2a970650ed61448b82a09902ef5875cd3ac",
+    "reproduce_sha256": "6427118a270e368ff54f5cb105fcd3c655765a68bf530042adbe58e086da4fcb",
+    "math_code_files_unchanged": 56,
+    "math_code_manifest": "checks/release-II-v14-v02/MATH-CODE-IDENTITY.json",
+    "artifacts": "checks/release-II-v14-v02/ARTIFACTS.json"
+  }
 }

@@ -4,12 +4,14 @@ Exécuter les commandes depuis `II/`, dans une copie propre de la release ou dan
 
 ```sh
 python verify_manifest.py
+python verify_completed_diagnostics.py
 python -m pip install -r requirements-exact.txt
 python reproduce.py --group smoke --output ../../II-smoke
 python reproduce.py --group certificate --output ../../II-certificate
 python reproduce.py --group modes --output ../../II-modes
 python reproduce.py --group originals --output ../../II-originals
 python reproduce.py --group auxiliary --output ../../II-auxiliary
+python reproduce.py --group extended --output ../../II-extended-v02
 ```
 
 Chaque groupe demande un dossier nouveau ou vide, extérieur à `II`. Les commandes s'appliquent aussi sous PowerShell avec le `python.exe` de l'environnement choisi. Aucun téléchargement n'a lieu pendant les calculs. Les chemins sont relatifs aux fichiers livrés ; aucune dépendance à un répertoire de l'auteur n'est nécessaire.
@@ -24,9 +26,9 @@ Chaque groupe demande un dossier nouveau ou vide, extérieur à `II`. Les comman
 | `auxiliary` | tables, données archivées, SymPy, NumPy, FLINT | identités symboliques, contrôles arithmétiques bornés, énumérations de plongements et double contrôle de Gröbner ; des contrôles de §6 restent numériques ou limités à une plage finie |
 | `all` | entrées de `certificate`, `modes`, `originals`, `auxiliary` | ensemble des contrôles du parcours principal dans une même copie ; ne comprend pas `extended` et ne transforme pas les tests bornés en preuves générales |
 
-`--seconds-per-command 1800` est la limite par défaut. Une interruption ou un dépassement produit un reçu incomplet ou en échec, pas une validation. Les calculs initiaux peuvent durer plusieurs dizaines de minutes selon la machine, en particulier les noyaux des espaces S2. Les anciens temps Linux des journaux ne prédisent pas les temps Windows.
+`--seconds-per-command 21600` est la limite par défaut. Une interruption ou un dépassement produit un reçu incomplet ou en échec, pas une validation. Les calculs initiaux peuvent durer plusieurs dizaines de minutes selon la machine, en particulier les noyaux des espaces S2. Les anciens temps Linux des journaux ne prédisent pas les temps Windows.
 
-Le lanceur copie `Calculs-HU-v08` dans `<SORTIE>/work`, enregistre stdout et stderr dans `<SORTIE>/logs`, puis écrit `RECEIPT.json` avec commandes, versions, durées et codes de sortie. Il compare les JSON régénérés des tables et du PCT, ainsi que le certificat réexporté, aux données distribuées, et vérifie que les entrées de la livraison n'ont pas changé. Les données `.pkl` initiales sont des fichiers intermédiaires ; leur concordance et les différences éventuelles d'encodage sont décrites dans STATUS. Le succès d'un ancien script qui imprime des tests n'est pas interprété seul comme une preuve : les résultats attendus et les vérifications indépendantes restent nécessaires.
+Pour les groupes du parcours principal, le lanceur copie `Calculs-HU-v08` dans `<SORTIE>/work`, enregistre stdout et stderr dans `<SORTIE>/logs`, puis écrit `RECEIPT.json` avec commandes, versions, durées et codes de sortie. Il compare les JSON régénérés des tables et du PCT, ainsi que le certificat réexporté, aux données distribuées, et vérifie que les entrées de la livraison n'ont pas changé. Les données `.pkl` initiales sont des fichiers intermédiaires ; leur concordance et les différences éventuelles d'encodage sont décrites dans STATUS. Le succès d'un ancien script qui imprime des tests n'est pas interprété seul comme une preuve : les résultats attendus et les vérifications indépendantes restent nécessaires.
 
 ## Commandes élémentaires
 
@@ -46,3 +48,20 @@ La dernière commande écrit son JSON à l'endroit choisi et réimporte le premi
 La réextraction confirme la correspondance des tables fournies avec les données imprimées de I v14 pour le cas (II), avec les hauteurs codées par l'extracteur. Elle ne redémontre ni les modules de I ni sa C2-cofinitude. Les 25 équations sont les contraintes nécessaires de II, lemme 7.15 ; elles ne constituent pas à elles seules une construction de l'extension diagonale. La comparaison des traces et traces de produits ne compare pas des matrices écrites dans une même base de plus haut poids.
 
 Le corpus fini ne prouve pas les hypothèses analytiques de reconstruction de III, ni les axiomes VOA pour tous les poids. Les grands certificats F4 de I et les certificats de Zhu de III sont des livraisons séparées.
+
+
+## Rejeu supplémentaire achevé dans v02
+
+Le groupe `extended` délègue à `extended_replay.py`, qui crée cinq copies de travail isolées : CI0, CI1, CI2, CI3 et second-engine. Chaque copie comporte son reçu et ses journaux. Il régénère les espaces S2 et vérifie les résultats suivants : dimensions et caractères attendus ; zéro échec de commutant et de fermeture ; compte exact des paires parcourues ; stabilité PCT, formes hermitiennes et positivité. Un code de sortie nul du programme initial ne suffit pas : les compteurs JSON et les résultats imprimés sont contrôlés avant de déclarer PASS.
+
+La commande recommandée sur une machine disposant de peu de mémoire est :
+
+```sh
+python extended_replay.py --output ../../II-extended-v02 --workers 1 --seconds-per-command 21600
+```
+
+`reproduce.py --group extended` utilise une seule tâche. Le pilote direct accepte aussi `--workers 2` ; la passe publiée a employé deux tâches, ce qui est consigné dans son reçu. Les processus peuvent utiliser plus d'un gigaoctet chacun et durer longtemps. Le délai par défaut est de six heures par commande, sans arrêt volontaire intermédiaire. Un dépassement de délai ou un résultat inattendu produit FAIL, jamais un reçu de succès.
+
+Le candidat 0 est exécuté avec l'argument `full` : 1 200 paires et trois modes par paire. Les candidats 1–3 reprennent leur périmètre historique de 180 paires chacun. Les contrôles secondaires comprennent `s2_space.py 0 all`, `s2_check.py 0` et `twist_check.py`. Ces périmètres sont finis ; ils ne vérifient pas tous les produits d'une VOA en tous poids.
+
+Les sorties de référence nouvellement régénérées sont décrites dans `checks/release-II-v14-v02/ARTIFACTS.json`. Le grand pickle secondaire est fourni compressé en gzip, avec son SHA-256 décompressé. Le parcours `extended` le régénère lui-même avant de lancer le vérificateur et n'a pas besoin de décompresser cet exemplaire conservé. Les journaux de v01 restent historiques ; son arrêt a été remplacé par une nouvelle exécution complète, sans réécrire l'ancien journal.

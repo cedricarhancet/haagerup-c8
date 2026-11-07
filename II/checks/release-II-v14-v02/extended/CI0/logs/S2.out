@@ -1,0 +1,18 @@
+type (0, 0) : dim P = 16 ; S_2 x 1 primaries: 2 (expected 2 ) (6s)
+type (0, 2) : dim P = 15 ; S_2 x 1 primaries: 0 (expected 0 ) (10s)
+type (0, 4) : dim P = 15 ; S_2 x 1 primaries: 1 (expected 1 ) (12s)
+type (0, 6) : dim P = 4 ; S_2 x 1 primaries: 0 (expected 0 ) (12s)
+type (0, 8) : dim P = 1 ; S_2 x 1 primaries: 0 (expected 0 ) (12s)
+type (1, 1) : dim P = 17 ; S_2 x 1 primaries: 1 (expected 1 ) (16s)
+type (1, 3) : dim P = 20 ; S_2 x 1 primaries: 1 (expected 1 ) (19s)
+type (1, 5) : dim P = 11 ; S_2 x 1 primaries: 1 (expected 1 ) (20s)
+type (1, 7) : dim P = 4 ; S_2 x 1 primaries: 1 (expected 1 ) (20s)
+type (2, 0) : dim P = 5 ; S_2 x 1 primaries: 0 (expected 0 ) (21s)
+type (2, 2) : dim P = 12 ; S_2 x 1 primaries: 1 (expected 1 ) (22s)
+type (2, 4) : dim P = 6 ; S_2 x 1 primaries: 0 (expected 0 ) (22s)
+type (2, 6) : dim P = 4 ; S_2 x 1 primaries: 1 (expected 1 ) (22s)
+type (3, 1) : dim P = 2 ; S_2 x 1 primaries: 0 (expected 0 ) (23s)
+type (3, 3) : dim P = 4 ; S_2 x 1 primaries: 1 (expected 1 ) (23s)
+type (3, 5) : dim P = 1 ; S_2 x 1 primaries: 0 (expected 0 ) (23s)
+omega_{1 x C}_(n) p = 0 (n = 1,2,3) for all primaries: failures 0
+time 41s
