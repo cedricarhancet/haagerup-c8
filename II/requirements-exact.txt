@@ -1,0 +1,6 @@
+# Versions utilisées pour les contrôles de cette livraison (Python 3.12.14).
+sympy==1.14.0
+mpmath==1.3.0
+python-flint==0.9.0
+gmpy2==2.3.2
+numpy==2.3.5

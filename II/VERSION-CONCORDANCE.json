@@ -1,0 +1,45 @@
+{
+  "checked_date": "2026-11-07",
+  "reference": {
+    "identifier": "2611.00034v2",
+    "page": "https://hexagonmath.org/2611.00034v2",
+    "source_url": "https://hexagonmath.org/src/2611.00034v2",
+    "source_filename": "Haagerup-reseaux-conformes-c8-v14-arxiv.tex",
+    "source_sha256": "a452b75c74bc91101948925894e6ef324569b5e951db3f7165e8449372d349c3",
+    "pdf_url": "https://hexagonmath.org/pdf/2611.00034v2",
+    "pdf_sha256": "49e6c42a11047c29d3e333238ca69fea4f2c373825316d688cf7f01ca8cc3ddc"
+  },
+  "local_v14": {
+    "filename": "Haagerup-reseaux-conformes-c8-v14-arxiv.tex",
+    "sha256": "9710fe5a994646e5c557bae4b361be21dff76f4decd333e38da51f5b4885e5cc",
+    "difference_from_hexagon": "Deux commandes Rep remplacées par mathrm{Rep} dans le résumé ; aucune autre différence de texte."
+  },
+  "input_calculation_archive": {
+    "filename": "Calculs-HU-v08.zip",
+    "bytes": 1497524,
+    "sha256": "8b6ab4030fede23d296e72ff87422b9c8c22722d4374cfd23cb3d58de035fcf6"
+  },
+  "supplement_tag": "article-II-v14-supplements-v01",
+  "dependency_I": {
+    "article": "I",
+    "tag": "article-I-v14-supplements-v01",
+    "commit": "813df07d2cf2a2b433d13093ccb920031fee5f9a",
+    "manuscript": "https://hexagonmath.org/2610.00733v2",
+    "source_path": "inputs-I/Haagerup-c8-article-I-v14-arxiv.tex",
+    "source_sha256": "014411724bed4a391e204ccc9c0c19251e0dd92f6f76fcdaa52fd065b927cbd7",
+    "source_url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-I-v14-supplements-v01/Haagerup-c8-article-I-v14-arxiv.tex",
+    "supplement_url": "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01",
+    "supplement_archive_sha256": "6b68aba299fdca14518a0e85ec41ac5ef9f2f2013fc5c0abb18b61243616148a",
+    "scope": "Table 2 et eq:lowest-spaces, données du cas (II) ; les fondations et la C2-cofinitude de I sont importées, non recalculées ici."
+  },
+  "III": {
+    "identifier": "2611.00164v1",
+    "local_source": "Haagerup-c8-article-3-v10.tex",
+    "supplements": "separate delivery; not published in this pass"
+  },
+  "documentation_revision_v15": {
+    "source_sha256": "57a3f7edb00cda4c824db2248abf9eeafc8a543847c435f9175324027910c5e5",
+    "pdf_sha256": "f9091275a03acac0532550189c8262921e7f6a9e0d5d1cdf05ecfc81d51c3c46",
+    "scope": "Only data availability changed relative to the local v14; not yet uploaded to Hexagon or arXiv."
+  }
+}

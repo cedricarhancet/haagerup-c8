@@ -1,0 +1,19 @@
+Exported omega_certificate-reexport.json
+Affine coordinates, x_j:
+0 7/195
+1 1/13
+2 5/39
+3 t0
+4 -t1/2 - 7/195
+5 t1
+6 1/65
+7 0
+8 t2
+9 t3
+10 2/65
+11 t4
+12 t5
+13 t6
+14 t7
+15 14/195
+Input: 16 basis vectors, 20 multiplicity spaces, trace rank 8 , 10 e2 conditions, 25 nonzero quadrics.

@@ -1,0 +1,58 @@
+{
+ "currents": true,
+ "primaries": true,
+ "S2_stable_failures": 0,
+ "omegaC1_fixed": true,
+ "slices": {
+  "d4": {
+   "proportional": true,
+   "factor": "1 + 0*sqrt(-6)",
+   "inertia": [
+    5,
+    0,
+    0
+   ]
+  },
+  "d1": {
+   "proportional": true,
+   "factor": "1 + 0*sqrt(-6)",
+   "inertia": [
+    7,
+    0,
+    0
+   ]
+  },
+  "d5": {
+   "proportional": true,
+   "factor": "5/4 + 0*sqrt(-6)",
+   "inertia": [
+    13,
+    0,
+    0
+   ]
+  },
+  "d6": {
+   "proportional": true,
+   "factor": "9/2 + 0*sqrt(-6)",
+   "inertia": [
+    14,
+    0,
+    0
+   ]
+  },
+  "c2": {
+   "proportional": true,
+   "factor": "5/3 + 0*sqrt(-6)",
+   "inertia": [
+    27,
+    0,
+    0
+   ]
+  }
+ },
+ "auto_samples": [
+  83,
+  0
+ ],
+ "positivity_samples_fail": 0
+}

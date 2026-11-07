@@ -1,0 +1,13 @@
+inverse Cartan diag: [4, 8, 14, 30, 20, 12, 6, 2]
+min entry: 2  all integer: True
+varpi_1 = [0, 0, 0, 0, 0, 0, 0, 2]  norm 4
+varpi_2 = [1/2, 1/2, 1/2, 1/2, 1/2, 1/2, 1/2, 5/2]  norm 8
+varpi_3 = [-1/2, 1/2, 1/2, 1/2, 1/2, 1/2, 1/2, 7/2]  norm 14
+varpi_4 = [0, 0, 1, 1, 1, 1, 1, 5]  norm 30
+varpi_5 = [0, 0, 0, 1, 1, 1, 1, 4]  norm 20
+varpi_6 = [0, 0, 0, 0, 1, 1, 1, 3]  norm 12
+varpi_7 = [0, 0, 0, 0, 0, 1, 1, 2]  norm 6
+varpi_8 = [0, 0, 0, 0, 0, 0, 1, 1]  norm 2
+theta(varpi_7) = 3
+<alpha_8, e7+e8> = 1  <alpha_i,e7+e8> = [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]
+smallest norms of dominant integral coweights: [2, 4, 6, 8, 10, 12]

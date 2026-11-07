@@ -1,0 +1,10 @@
+omega_(3)omega = {((), (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)): Fraction(8, 1)}  (expect c/2 = 8)
+L0 omega = 2 omega: True
+L0 eigen 1 True
+L0 eigen 2 True
+L0 eigen 2 True
+L0 eigen 2 True
+L0 eigen 2 True
+skew symmetry tests ok: True
+commutator tests ok: True
+commutator tests (weight 2) ok: True

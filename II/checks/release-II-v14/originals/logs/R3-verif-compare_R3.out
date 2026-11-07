@@ -1,0 +1,13 @@
+G_griess.pkl content type: <class 'dict'> ['prod', 'form', 'Mk', 'comp', 'omCC']
+   prod <class 'dict'> 256
+   form <class 'list'> 16
+   Mk <class 'dict'> 20
+   comp <class 'dict'> 20
+   omCC <class 'list'> 16
+R3 omega_CC . omega_CC = (Fraction(18, 5), Fraction(0, 1))
+R3 Gram matrix (u_k, u_l) of the 4 solutions (pairs a + b sqrt(-6)):
+    [('9/5', '0'), ('561/845', '0'), ('8089/7605', '0'), ('8089/7605', '0')]
+    [('561/845', '0'), ('9/5', '0'), ('8089/7605', '0'), ('8089/7605', '0')]
+    [('8089/7605', '0'), ('8089/7605', '0'), ('9/5', '0'), ('561/845', '0')]
+    [('8089/7605', '0'), ('8089/7605', '0'), ('561/845', '0'), ('9/5', '0')]
+R3 (u_k, omega_CC): [('9/5', '0'), ('9/5', '0'), ('9/5', '0'), ('9/5', '0')]

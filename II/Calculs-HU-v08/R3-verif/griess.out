@@ -1,0 +1,21 @@
+row 0 done, 2.6s
+row 1 done, 2.8s
+row 2 done, 3.4s
+row 3 done, 5.2s
+row 4 done, 5.7s
+row 5 done, 6.2s
+row 6 done, 6.6s
+row 7 done, 7.2s
+row 8 done, 7.3s
+row 9 done, 7.4s
+row 10 done, 7.8s
+row 11 done, 8.1s
+row 12 done, 8.3s
+row 13 done, 8.4s
+row 14 done, 8.7s
+row 15 done, 8.7s
+all products u_i(1)u_j lie in G: True
+u0_(1)u5 == u5_(1)u0 : True
+o(u_i) matrices on HW spaces computed; preserved: True
+cross-check o(u)v = v_(1)u : True
+time 9.0s

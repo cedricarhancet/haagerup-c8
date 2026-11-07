@@ -1,0 +1,10 @@
+dim target = 496
+option B, V(2)+10V(0) : equal to target restricted to (g'x1, 1xg') ? False
+   decomposition option B: {(2, 2): 1, (2, 0): 12, (1, 1): 44, (0, 2): 12, (1, 0): 32, (0, 1): 32, (0, 0): 111}
+option B, 4V(1)+5V(0) : equal to target restricted to (g'x1, 1xg') ? False
+   decomposition option B: {(2, 1): 4, (1, 2): 4, (2, 0): 7, (1, 1): 28, (0, 2): 7, (1, 0): 52, (0, 1): 52, (0, 0): 86}
+   target (g'x1,1xg'): {(2, 1): 2, (1, 2): 2, (2, 0): 11, (1, 1): 32, (0, 2): 11, (1, 0): 50, (0, 1): 50, (0, 0): 78}
+13-dim reps of sl2^3: 3391 ; orthogonal: 640
+candidates U1: 126  U2: 126
+solutions: 1
+  U1 = {(0, 1, 1): 1, (2, 0, 2): 1} idx [12, 2, 14] | U2 = {(0, 2, 2): 1, (1, 1, 0): 1} idx [2, 14, 12]

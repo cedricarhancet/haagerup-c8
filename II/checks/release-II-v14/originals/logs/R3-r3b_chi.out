@@ -1,0 +1,9 @@
+equations chi(alpha) = r_alpha: 24 ; all r > 0: True
+rank of the support lattice: 16 of 16
+phi_chi(E_i) = -F_i for the four sl2: True
+phi_chi(u_0) = u_0
+phi_chi(u_1) = u_1
+phi_chi(u_2) = u_2
+phi_chi(u_3) = u_3
+phi_chi(omega_CC) = omega_CC: True
+time 1s

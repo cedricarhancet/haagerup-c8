@@ -1,0 +1,456 @@
+{
+  "group": "originals",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sympy": "1.14.0",
+    "python-flint": "0.9.0",
+    "gmpy2": "2.3.2",
+    "numpy": "2.3.5"
+  },
+  "started_utc": "2026-11-07T09:50:06.140220+00:00",
+  "checks": [
+    {
+      "name": "table-I",
+      "cwd": "data",
+      "command": [
+        "python",
+        "-B",
+        "t12_table.py",
+        "@II\\inputs-I\\Haagerup-c8-article-I-v14-arxiv.tex"
+      ],
+      "exit_code": 0,
+      "seconds": 0.515,
+      "stdout_sha256": "f0098fafcff8b8cefb36759194457abf480f35cda16e8002424b11928a1a1e3f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "character",
+      "cwd": "data",
+      "command": [
+        "python",
+        "-B",
+        "t12_W1.py",
+        "t12_table.json"
+      ],
+      "exit_code": 0,
+      "seconds": 11.344,
+      "stdout_sha256": "8765edb9661e3eb117271a09b6271c77f84da486ea6be24a484322ecc39a13b3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "split",
+      "cwd": "data",
+      "command": [
+        "python",
+        "-B",
+        "t12_e8split.py",
+        "t12_W1.json"
+      ],
+      "exit_code": 0,
+      "seconds": 1.891,
+      "stdout_sha256": "3d5cd9239e05ebc25e1d3850a6c188559da0337808b50c98bd4b76861115d1ca",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-test_e8e8",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "test_e8e8.py"
+      ],
+      "exit_code": 0,
+      "seconds": 38.812,
+      "stdout_sha256": "4b6b987c7bcee29789fe816f6a419e14a31dc75167ff1b77b40a5b86bb2d45b4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-sl2x4",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "sl2x4.py"
+      ],
+      "exit_code": 0,
+      "seconds": 241.187,
+      "stdout_sha256": "77e0eb281d4b4d1c4d3324848fe11cac92e459e937b9c2080aa2ae5ac16c1ab3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-weights_W",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "weights_W.py"
+      ],
+      "exit_code": 0,
+      "seconds": 25.313,
+      "stdout_sha256": "65e947f2c564cdeb0dc77ab2fc7dbf0ea8b7ab6f9c1fc6bdfd6febd248fde38a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-t12b_optionB",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "t12b_optionB.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.078,
+      "stdout_sha256": "b53483905877fd1250d61225d235dfd01e490d129f8d3f05c4f6dade11a6e8fd",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-r3a_G",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3a_G.py"
+      ],
+      "exit_code": 0,
+      "seconds": 46.672,
+      "stdout_sha256": "e30c62224ce33c5c79bb4d66f051b931bc15cbdbc9973671a30fe0c0441c41ce",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-r3a_Griess",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3a_Griess.py"
+      ],
+      "exit_code": 0,
+      "seconds": 41.187,
+      "stdout_sha256": "8846700719d74c2e231bdb8a2ecd7aa6f90e42fab29d6a89b220b3743b474bd6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-r3a_groebner",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3a_groebner.py"
+      ],
+      "exit_code": 0,
+      "seconds": 23.297,
+      "stdout_sha256": "012f337c08a2f7509222e6229626ea66edb8a01cb24c0cc866e6204affcd4ba5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-r3a_omega_exact",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3a_omega_exact.py"
+      ],
+      "exit_code": 0,
+      "seconds": 45.641,
+      "stdout_sha256": "91ee5223002a6d567292cf5b4099e949dc542e11d46b99885ad9ab94f37ea8f7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-r3b_chi",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3b_chi.py"
+      ],
+      "exit_code": 0,
+      "seconds": 31.14,
+      "stdout_sha256": "dc80917657e95a21b940103410803b080fe70bcdad9afe78c4a0ff797551749f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-S2-0",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3a_S2.py",
+        "0"
+      ],
+      "exit_code": 0,
+      "seconds": 62.75,
+      "stdout_sha256": "a79da406754a57a9e27e95c5239718b2b75cafb6bcb5bc66ce9e7831e49252c6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-PCT-0",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3b_verify.py",
+        "0"
+      ],
+      "exit_code": 0,
+      "seconds": 47.765,
+      "stdout_sha256": "30eaf918a5047a5bf623c726df1571dd01cc36bcb6002d9074e2f08a267a0bb8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-PCT-1",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3b_verify.py",
+        "1"
+      ],
+      "exit_code": 0,
+      "seconds": 44.25,
+      "stdout_sha256": "37aa3ea292f1159c542e7f5119e67279de2bbab46d68798b75f460bbf47529a3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-PCT-2",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3b_verify.py",
+        "2"
+      ],
+      "exit_code": 0,
+      "seconds": 54.172,
+      "stdout_sha256": "20cf0e81733004bf417845a7c271153e23be918f3e4ac20b684a8e7d661cfead",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-PCT-3",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "r3b_verify.py",
+        "3"
+      ],
+      "exit_code": 0,
+      "seconds": 47.172,
+      "stdout_sha256": "ed78e53e5c4eabe41de17845e1e94a5d5e4bf4dc5347a856fed95355669d2e1e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "reexport",
+      "cwd": ".",
+      "command": [
+        "python",
+        "-B",
+        "export_omega_certificate.py",
+        "R3",
+        "omega_certificate-reexport.json"
+      ],
+      "exit_code": 0,
+      "seconds": 22.156,
+      "stdout_sha256": "68c8e971e3e549bfcec8c07f77caa9db481b82a9375784edd4c2673eb4c71134",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-test_voa",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "test_voa.py"
+      ],
+      "exit_code": 0,
+      "seconds": 97.5,
+      "stdout_sha256": "aad7ba432aaf247fbd11deef38916c7fceadaaec9e30518c6329f8566fe28bd5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-check_W1_char",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "check_W1_char.py"
+      ],
+      "exit_code": 0,
+      "seconds": 109.469,
+      "stdout_sha256": "97700eb2932bc5da14ceb964ecd858d0a902bb4714beee6e6d4a641c6524410c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-solve_signs",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "solve_signs.py"
+      ],
+      "exit_code": 0,
+      "seconds": 103.687,
+      "stdout_sha256": "dd2ed4c5ff8b4d548ab9c3182039d150a357012c0633a27380c9ccf073de336b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-embed",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "embed.py"
+      ],
+      "exit_code": 0,
+      "seconds": 100.484,
+      "stdout_sha256": "39598d03707a43556aafb1e0ea36a07627b7f475b3a5623613c28f9d93aeab8c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-g_space",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "g_space.py"
+      ],
+      "exit_code": 0,
+      "seconds": 113.078,
+      "stdout_sha256": "fb4c59811a19c11fa7568b4ca834874090bd258e4758b21dcc45dae39b27b912",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-griess",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "griess.py"
+      ],
+      "exit_code": 0,
+      "seconds": 109.719,
+      "stdout_sha256": "4a58b2292814828f594ef561d24f42339fa0a4f32f86c11c2d7c444c057e3f67",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-setup_system",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "setup_system.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.328,
+      "stdout_sha256": "2a44f23ada6243d180e487b0ca14a1aae56aef3cdf938208cdbb78fe4983acba",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-solve_groebner",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "solve_groebner.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.125,
+      "stdout_sha256": "ef47b7829ad1bad6819da51cebfe582389c6eee1d0e1515c6100be676a2ddcb0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-verify_solutions",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "verify_solutions.py"
+      ],
+      "exit_code": 0,
+      "seconds": 295.594,
+      "stdout_sha256": "aa156bccd4d79748652a8e428b0c2f6a7479ad89de58a2e9c5ec5cc793cd58ea",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-phi_chi",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "phi_chi.py"
+      ],
+      "exit_code": 0,
+      "seconds": 183.422,
+      "stdout_sha256": "27437b48fb2ad0ec52dc127a87ace893f50f63a5d67425d136199866d3dff625",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3-verif-compare_R3",
+      "cwd": "R3-verif",
+      "command": [
+        "python",
+        "-B",
+        "compare_R3.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.328,
+      "stdout_sha256": "18780cad0a2045bc504f9e695104bb0fdc728a909e2eac43e6d35fb8a301681d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "status": "PASS",
+  "finished_utc": "2026-11-07T10:29:00.300069+00:00",
+  "original_delivery_unchanged": true,
+  "regenerated_json_comparisons": [
+    {
+      "file": "data/t12_table.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "data/t12_W1.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "data/t12_e8split.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "R3/omegaC1.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "R3/r3b_chi.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "R3/r3b_verify_0.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "R3/r3b_verify_1.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "R3/r3b_verify_2.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "R3/r3b_verify_3.json",
+      "canonical_json_equal": true
+    },
+    {
+      "file": "omega_certificate-reexport.json",
+      "canonical_json_equal": true
+    }
+  ],
+  "scope": "Core of both original implementations; 13 completed commands reused from the preceding real execution, including one optional S2 regeneration; all remaining core commands executed below.",
+  "incomplete_diagnostics": [
+    {
+      "name": "R3-S2full-0",
+      "state": "STOPPED_BY_AGENT",
+      "reason": "Additional exhaustive S2 closure diagnostic, not used in the proof of Proposition 7.16. Stopped after commutant checks and partial closure, to finish the essential second-engine reconstruction.",
+      "prior_process_exit_code": 4294967295,
+      "elapsed_seconds": 423.375
+    }
+  ],
+  "continuation_started_utc": "2026-11-07T10:06:44.757053+00:00"
+}

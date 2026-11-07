@@ -1,0 +1,15 @@
+eliminated by linear equations: ['x0', 'x1', 'x2', 'x3', 'x4', 'x7', 'x8', 'x9']  free: [x5, x6, x10, x11, x12, x13, x14, x15]
+nonlinear polys after substitution: 25  degrees: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+grevlex GB computed: 11 polys, 2.0s
+zero-dimensional: True
+number of standard monomials (solutions with multiplicity): 4
+lex GB: 2.0s
+    (39*x5 + 4)/39
+    (65*x6 + 2)/65
+    x10 + x13
+    x11 - 39*x13*x14
+    x12 - 39*x13*x14
+    (1521*x13**2 + 2)/1521
+    (507*x14**2 - 1)/507
+    x15
+time 2.0s

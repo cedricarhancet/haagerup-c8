@@ -1,0 +1,5 @@
+mu(20)/phi(20) = 0
+2u mod 40 for u unit: [2, 6, 14, 18, 22, 26, 34, 38]  -> as 20th roots: [1, 3, 7, 9, 11, 13, 17, 19]
+True
+eps 1 second moment = -2  rational part -2
+eps -1 second moment = -4*sqrt(10) - 2  rational part -2

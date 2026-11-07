@@ -1,0 +1,15 @@
+dim G = dim Com_W(A x A)_2 = 16 (1s)
+  Sugawara g1p : c/2 = 9/10  expected 9/10
+  Sugawara g1pp : c/2 = 13/10  expected 13/10
+  Sugawara g2p : c/2 = 9/10  expected 9/10
+  Sugawara g2pp : c/2 = 13/10  expected 13/10
+omega_CC in G: True
+c(omega_CC)/2 = 18/5 (expected 36/10 = 18/5)
+trace conditions built (2s)
+omega_{C x 1}: system consistent True ; rank 8 of 16
+omega_{1 x C}: system consistent True ; rank 8 of 16
+omega_{C x 1} + omega_{1 x C} = omega_CC : False
+omega_{C x 1} : u_(1) u = 2 u : False ; u_(3) u = 10592/7605 (c/2 = 9/5) ; support 210
+omega_{1 x C} : u_(1) u = 2 u : False ; u_(3) u = 10592/7605 (c/2 = 9/5) ; support 210
+omega_{C x 1}_(1) omega_{1 x C} = 0 : False
+time 3s

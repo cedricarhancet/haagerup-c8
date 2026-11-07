@@ -1,0 +1,160 @@
+{
+  "group": "auxiliary",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sympy": "1.14.0",
+    "python-flint": "0.9.0",
+    "gmpy2": "2.3.2",
+    "numpy": "2.3.5"
+  },
+  "started_utc": "2026-11-07T09:50:06.097182+00:00",
+  "checks": [
+    {
+      "name": "section6-check_moments",
+      "cwd": "section6",
+      "command": [
+        "python",
+        "-B",
+        "check_moments.py"
+      ],
+      "exit_code": 0,
+      "seconds": 11.094,
+      "stdout_sha256": "1e7908a36ea67957d3a62ad67f75ae47a6a14bd04a55bb4a2b76301579d8e755",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "section6-check_galois",
+      "cwd": "section6",
+      "command": [
+        "python",
+        "-B",
+        "check_galois.py"
+      ],
+      "exit_code": 0,
+      "seconds": 8.531,
+      "stdout_sha256": "68c2e8e8c1b3ef52946ce2e7e6926b634a0a43b0443a16a49ccddb8ff777dd4b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "section6-check_m",
+      "cwd": "section6",
+      "command": [
+        "python",
+        "-B",
+        "check_m.py"
+      ],
+      "exit_code": 0,
+      "seconds": 16.812,
+      "stdout_sha256": "6673646d8a5c0da5d2b9ff3f311237eb64cc2ebcabfb31179a0d5d7a843c8e6f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "section6-verify_simplification",
+      "cwd": "section6",
+      "command": [
+        "python",
+        "-B",
+        "verify_simplification.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.5,
+      "stdout_sha256": "b0dc11dce9f5827a3cab06d41a549a705648e55478e04d892d099cd6edc74408",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "F1-e8facts",
+      "cwd": "scripts-rapporteurs/F1",
+      "command": [
+        "python",
+        "-B",
+        "e8facts.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.094,
+      "stdout_sha256": "259bf499c29d8b6e6acce5cf5b82368f26a8ddb1bac50f9e6c80ce64d407b300",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "F1-enum_sl2",
+      "cwd": "scripts-rapporteurs/F1",
+      "command": [
+        "python",
+        "-B",
+        "enum_sl2.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.359,
+      "stdout_sha256": "19f7884c69a0f16d9dbd3685c2b81b4b402122c8fa0b02b80fd896b38c63e16c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "F1-sectors",
+      "cwd": "scripts-rapporteurs/F1",
+      "command": [
+        "python",
+        "-B",
+        "sectors.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.109,
+      "stdout_sha256": "65175b0f2c14550917fae255ffbb7f2a930e3a924f207579adb1ecf2ff376d30",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "K1-chk",
+      "cwd": "scripts-rapporteurs/K1",
+      "command": [
+        "python",
+        "-B",
+        "chk.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.578,
+      "stdout_sha256": "44602f8c0a697612b9221d2be55720cc220f8bfd2ea6fb97348a6f7a2d09730b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "K1-verlinde",
+      "cwd": "scripts-rapporteurs/K1",
+      "command": [
+        "python",
+        "-B",
+        "verlinde.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.515,
+      "stdout_sha256": "b9bff10d42770c49de123eed57c90797c7c3d08e0211b15eecd729c2078ba2c8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3P-gb_sympy",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "gb_sympy.py"
+      ],
+      "exit_code": 0,
+      "seconds": 68.563,
+      "stdout_sha256": "fd9ab5684a43e5f2ed1581d0946351da2613f414b85f86a77c02158011ef9b24",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "R3P-check_gb",
+      "cwd": "R3",
+      "command": [
+        "python",
+        "-B",
+        "check_gb.py"
+      ],
+      "exit_code": 0,
+      "seconds": 54.14,
+      "stdout_sha256": "dbcd9b25dfbfc74cdd089282d93091e3e123db5cd84ab387b5d73b068317622e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "status": "PASS",
+  "finished_utc": "2026-11-07T09:52:53.682905+00:00",
+  "original_delivery_unchanged": true,
+  "regenerated_json_comparisons": []
+}

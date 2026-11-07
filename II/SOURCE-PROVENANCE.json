@@ -1,0 +1,27 @@
+{
+  "input_archive_sha256": "8b6ab4030fede23d296e72ff87422b9c8c22722d4374cfd23cb3d58de035fcf6",
+  "unchanged_engines": {
+    "R3/e8e8_voa.py": "8e45da9c30d00df996dc54e612e46cf3e0ac38ede6975ce566997c5fdb537b95",
+    "R3/common.py": "61ebf6d29b4e7f51214c15571d2ea90038e8d148f88317f111a01fdb8927acc8",
+    "R3-verif/voa.py": "3da4f6febe232beff7a39c4cdd1a90e8e831178ab7211ca7699ed74ce8e92c81",
+    "R3-verif/lat.py": "91f0eae87bbf132a568bfe2308297ef7fb0ea26f145da73eb30a0037ab3fe77d",
+    "R3-verif/q4.py": "5727247e34933c1ce41bf5dae442d3e94c6c4e30965ea61b86b230e58e12be71",
+    "verification-independante/independent_triples.py": "3030924a25716bb094745c5dbb47ea7299afe983ea7400116ffcd1bc02034043",
+    "verification-independante/independent_kernel.py": "d6a82c451c8f29c1b246f4db3909ecdf101fd6e76acc2069e903e6e1cf176bc9",
+    "verification-independante/independent_tensors.py": "147bd7a5348cf05d1d272075018ad975b0d31a4135226278895da5d8aa576af6",
+    "verify_omega_certificate.py": "46d17de1837641e491a78c9c0fb8ee7f35041cc1000ad58e326313659613b26a"
+  },
+  "executable_adjustment": {
+    "script": "R3-verif/solve_signs.py",
+    "change": "exec of find_signs prefix replaced with import of lie_bracket.br; br function extracted verbatim by AST source segment",
+    "helper": "R3-verif/lie_bracket.py",
+    "tested_in_originals_work_copy": true
+  },
+  "documentation_only_changes": [
+    "data/t12_table.py",
+    "data/t12_e8split.py"
+  ],
+  "certificate_sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc",
+  "archived_logs_date": "2026-11-02",
+  "fresh_logs": "checks/release-II-v14"
+}

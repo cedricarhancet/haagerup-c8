@@ -1,0 +1,48 @@
+{
+  "status": "PASS_CORE",
+  "date_utc": "2026-11-07T10:29:39.638976+00:00",
+  "commands": 43,
+  "groups": {
+    "certificate": 2,
+    "modes": 1,
+    "originals": 29,
+    "auxiliary": 11
+  },
+  "certificate_sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc",
+  "delivery_data_comparison": {
+    "compared": 34,
+    "different": [
+      "data/t12_e8split.json",
+      "data/t12_table.json",
+      "data/t12_W1.json",
+      "R3/groebner.json",
+      "R3/omegaC1.json",
+      "R3/r3b_chi.json",
+      "R3/r3b_verify_0.json",
+      "R3/r3b_verify_1.json",
+      "R3/r3b_verify_2.json",
+      "R3/r3b_verify_3.json"
+    ]
+  },
+  "v15_latex": {
+    "passes": 3,
+    "undefined_references": false,
+    "warnings": [],
+    "source_sha256": "57a3f7edb00cda4c824db2248abf9eeafc8a543847c435f9175324027910c5e5",
+    "visual_check_pages": [
+      61,
+      62
+    ]
+  },
+  "scope": "Core checks completed; one optional extended diagnostic stopped separately",
+  "incomplete_diagnostics": [
+    {
+      "name": "R3-S2full-0",
+      "state": "STOPPED_BY_AGENT",
+      "reason": "Additional exhaustive S2 closure diagnostic, not used in the proof of Proposition 7.16. Stopped after commutant checks and partial closure, to finish the essential second-engine reconstruction.",
+      "prior_process_exit_code": 4294967295,
+      "elapsed_seconds": 423.375
+    }
+  ],
+  "line_ending_only_json_differences": 10
+}

@@ -1,0 +1,16 @@
+[sortie de la premiere execution de sl2x4.py, 2 nov. 2026, ~1 min ; recopiee telle quelle]
+sigma found; bracket check failures copy1, copy2: 0 0
+g1p : sl2 triple OK ; E_(1) F = {(0, ()): mpq(3,1)}  (expected level 3 ) ; (H,H)/2 = 3
+g1pp : sl2 triple OK ; E_(1) F = {(0, ()): mpq(13,1)}  (expected level 13 ) ; (H,H)/2 = 13
+g2p : sl2 triple OK ; E_(1) F = {(0, ()): mpq(3,1)}  (expected level 3 ) ; (H,H)/2 = 3
+g2pp : sl2 triple OK ; E_(1) F = {(0, ()): mpq(13,1)}  (expected level 13 ) ; (H,H)/2 = 13
+the four sl2 commute and are orthogonal (x_(0) y = x_(1) y = 0)
+  Dynkin indices of g1p in e8^(1), e8^(2): ['2', '1']
+  Dynkin indices of g1pp in e8^(1), e8^(2): ['6', '7']
+  Dynkin indices of g2p in e8^(1), e8^(2): ['1', '2']
+  Dynkin indices of g2pp in e8^(1), e8^(2): ['7', '6']
+  phi_0(E) = -F for g1p : True ; phi_0(H) = -H : True
+  phi_0(E) = -F for g1pp : False ; phi_0(H) = -H : True
+  phi_0(E) = -F for g2p : True ; phi_0(H) = -H : True
+  phi_0(E) = -F for g2pp : False ; phi_0(H) = -H : True
+written sl2x4.pkl

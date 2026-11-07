@@ -1,0 +1,999 @@
+{
+  "input_archive_sha256": "8b6ab4030fede23d296e72ff87422b9c8c22722d4374cfd23cb3d58de035fcf6",
+  "files": [
+    {
+      "path": "Calculs-HU-v08/R3-verif/G.pkl",
+      "bytes": 76869,
+      "sha256": "e00fcb0a3d98338d9f31533fa14a7af448e2f833011de4b1572c938dd2f2c143",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/G.pkl",
+      "input_archive_sha256": "e00fcb0a3d98338d9f31533fa14a7af448e2f833011de4b1572c938dd2f2c143"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/check_W1_char.out",
+      "bytes": 1062,
+      "sha256": "9d851cd3d85bd72002fe778d9161a95d319e7350f66150c9fb699324cacf6803",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/check_W1_char.out",
+      "input_archive_sha256": "9d851cd3d85bd72002fe778d9161a95d319e7350f66150c9fb699324cacf6803"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/check_W1_char.py",
+      "bytes": 1333,
+      "sha256": "c6797440088277ae3d6000185ec087d14e50bb76490c85118fcc26dfac7f306b",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/check_W1_char.py",
+      "input_archive_sha256": "c6797440088277ae3d6000185ec087d14e50bb76490c85118fcc26dfac7f306b"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/compare_R3.out",
+      "bytes": 723,
+      "sha256": "b539fe1199ef96839cb129c646997f0d6a64233037aacc451842f60b668ad044",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/compare_R3.out",
+      "input_archive_sha256": "b539fe1199ef96839cb129c646997f0d6a64233037aacc451842f60b668ad044"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/compare_R3.py",
+      "bytes": 1832,
+      "sha256": "9550b265e2b83ad1ec8701173118cec315023af738ce9431743b748fcb40e1cd",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/compare_R3.py",
+      "input_archive_sha256": "9550b265e2b83ad1ec8701173118cec315023af738ce9431743b748fcb40e1cd"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/embed.out",
+      "bytes": 1368,
+      "sha256": "4a34b177c7c0cf2f4304595760499a24ea81adeb5be50992a160dca7f7fa68f6",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/embed.out",
+      "input_archive_sha256": "4a34b177c7c0cf2f4304595760499a24ea81adeb5be50992a160dca7f7fa68f6"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/embed.py",
+      "bytes": 3126,
+      "sha256": "aae1ddb9d5edcd5886601aaa013915c5b286ed8053771b74fca966b4b75a7ba3",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/embed.py",
+      "input_archive_sha256": "aae1ddb9d5edcd5886601aaa013915c5b286ed8053771b74fca966b4b75a7ba3"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/g_space.out",
+      "bytes": 2254,
+      "sha256": "cfd758b7721d87bf3538e1c2e166b7e591b9bf07add175d02fe401c8b61915f2",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/g_space.out",
+      "input_archive_sha256": "cfd758b7721d87bf3538e1c2e166b7e591b9bf07add175d02fe401c8b61915f2"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/g_space.py",
+      "bytes": 3546,
+      "sha256": "475b393938d600ac722c49886d2aeea0a43c91ec11e317615a0593926c3c21f9",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/g_space.py",
+      "input_archive_sha256": "475b393938d600ac722c49886d2aeea0a43c91ec11e317615a0593926c3c21f9"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/griess.out",
+      "bytes": 443,
+      "sha256": "d66d6ffdb766eb026d5f108078654837b7cdc43b2014242ded08a330592fddd1",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/griess.out",
+      "input_archive_sha256": "d66d6ffdb766eb026d5f108078654837b7cdc43b2014242ded08a330592fddd1"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/griess.pkl",
+      "bytes": 39972,
+      "sha256": "73656083779b44f3916e1ebf9919463601fd3fd8de4236c786d5111c62d88c3b",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/griess.pkl",
+      "input_archive_sha256": "73656083779b44f3916e1ebf9919463601fd3fd8de4236c786d5111c62d88c3b"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/griess.py",
+      "bytes": 3467,
+      "sha256": "988bdd7f1e8f5012f22220b0e3d84089f186a6f50a173662ed947b35f7b7c706",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/griess.py",
+      "input_archive_sha256": "988bdd7f1e8f5012f22220b0e3d84089f186a6f50a173662ed947b35f7b7c706"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/groebner.pkl",
+      "bytes": 882,
+      "sha256": "22a08a06c94c550cbb5ab4db7fce16cd1425b9d8f3e4788837bc9ab4629ffa0e",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/groebner.pkl",
+      "input_archive_sha256": "22a08a06c94c550cbb5ab4db7fce16cd1425b9d8f3e4788837bc9ab4629ffa0e"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/lat.py",
+      "bytes": 5325,
+      "sha256": "91f0eae87bbf132a568bfe2308297ef7fb0ea26f145da73eb30a0037ab3fe77d",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/lat.py",
+      "input_archive_sha256": "91f0eae87bbf132a568bfe2308297ef7fb0ea26f145da73eb30a0037ab3fe77d"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/phi_chi.out",
+      "bytes": 2552,
+      "sha256": "53cef27852f58121c0599810594100b664e686b08022d0e0770707476ace5a07",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/phi_chi.out",
+      "input_archive_sha256": "53cef27852f58121c0599810594100b664e686b08022d0e0770707476ace5a07"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/phi_chi.py",
+      "bytes": 6732,
+      "sha256": "c8e9d450de9a0d70e51468bca9923af950290b5181ffd06df9f9d4574e0d403e",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/phi_chi.py",
+      "input_archive_sha256": "c8e9d450de9a0d70e51468bca9923af950290b5181ffd06df9f9d4574e0d403e"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/q4.py",
+      "bytes": 1775,
+      "sha256": "5727247e34933c1ce41bf5dae442d3e94c6c4e30965ea61b86b230e58e12be71",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/q4.py",
+      "input_archive_sha256": "5727247e34933c1ce41bf5dae442d3e94c6c4e30965ea61b86b230e58e12be71"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/s2_check.py",
+      "bytes": 5982,
+      "sha256": "ae86acbf30efa9abe8da6f94416ba63197e12f16bfad927e774080fc998ec17e",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/s2_check.py",
+      "input_archive_sha256": "ae86acbf30efa9abe8da6f94416ba63197e12f16bfad927e774080fc998ec17e"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/s2_check_0.out",
+      "bytes": 585,
+      "sha256": "43d94725705ed22c8fb266559c31d519feab6f3b1eaa6bd5fb177d93d94f2f2e",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/s2_check_0.out",
+      "input_archive_sha256": "43d94725705ed22c8fb266559c31d519feab6f3b1eaa6bd5fb177d93d94f2f2e"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/s2_space.py",
+      "bytes": 5961,
+      "sha256": "db1f86e354982e593eb5dc8d0dba75dd45f2d062918aebab8424f4874994ad08",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/s2_space.py",
+      "input_archive_sha256": "db1f86e354982e593eb5dc8d0dba75dd45f2d062918aebab8424f4874994ad08"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/s2_space_0_all.out",
+      "bytes": 4162,
+      "sha256": "10f697bea441fb479c52bd3f93f2e87e1bccf4ff9ce998f9f4d081449a2bde66",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/s2_space_0_all.out",
+      "input_archive_sha256": "10f697bea441fb479c52bd3f93f2e87e1bccf4ff9ce998f9f4d081449a2bde66"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/setup_system.out",
+      "bytes": 942,
+      "sha256": "6742f0dfab1d0d9b1d8e1685cacf035066e6ffa4b60eedc22e78f093425fd523",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/setup_system.out",
+      "input_archive_sha256": "6742f0dfab1d0d9b1d8e1685cacf035066e6ffa4b60eedc22e78f093425fd523"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/setup_system.py",
+      "bytes": 3901,
+      "sha256": "e5e49dcf9465094fbf8d621e57ba5997eab56880900684423702f7f6bc84ccb1",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/setup_system.py",
+      "input_archive_sha256": "e5e49dcf9465094fbf8d621e57ba5997eab56880900684423702f7f6bc84ccb1"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/sl2_4.pkl",
+      "bytes": 6428,
+      "sha256": "7f9251757545eedb5beb840d33bf22c888288ed0bc39f6ec95d7f6505427b8e7",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/sl2_4.pkl",
+      "input_archive_sha256": "7f9251757545eedb5beb840d33bf22c888288ed0bc39f6ec95d7f6505427b8e7"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/solutions.pkl",
+      "bytes": 3815,
+      "sha256": "c6ccc811699313360837e1a643775da06f268ba1645e031b05faff9f68c02336",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/solutions.pkl",
+      "input_archive_sha256": "c6ccc811699313360837e1a643775da06f268ba1645e031b05faff9f68c02336"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/solve_groebner.out",
+      "bytes": 550,
+      "sha256": "84b307fa6f7a170a494a2cfeb97e0d453341de061f15afc50d6f750792ac06ab",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/solve_groebner.out",
+      "input_archive_sha256": "84b307fa6f7a170a494a2cfeb97e0d453341de061f15afc50d6f750792ac06ab"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/solve_groebner.py",
+      "bytes": 1886,
+      "sha256": "e781ef3a6aa44bb9c0741c26a2830504dc6f1ded1cd1d572709abc25d39cfb33",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/solve_groebner.py",
+      "input_archive_sha256": "e781ef3a6aa44bb9c0741c26a2830504dc6f1ded1cd1d572709abc25d39cfb33"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/solve_signs.out",
+      "bytes": 1283,
+      "sha256": "1704a44432b4c5d1066dc3d972b84ca8d6fa1566a9b8ac9320f070d01c26e629",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/solve_signs.out",
+      "input_archive_sha256": "1704a44432b4c5d1066dc3d972b84ca8d6fa1566a9b8ac9320f070d01c26e629"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/solve_signs.py",
+      "bytes": 2042,
+      "sha256": "e5a070c3589a3f627bcafe8d05f0c78ddaa5c5937ab80f3ea050eb8876b13a3a",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/solve_signs.py",
+      "input_archive_sha256": "d9b666d25671af6e8adedca30120be1e86ca6afb30ec1cbe959d19b6f278a0e1"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/system.pkl",
+      "bytes": 19341,
+      "sha256": "75f2c61894ab25a577f7e9df49edb9c8d919855e67062dac83dd57f636ef382f",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/system.pkl",
+      "input_archive_sha256": "75f2c61894ab25a577f7e9df49edb9c8d919855e67062dac83dd57f636ef382f"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/test_voa.out",
+      "bytes": 305,
+      "sha256": "fa315e104d615a7d3cb33cbcfdcb4f101b3b29046c8a541d9e6a58d048b9b8ef",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/test_voa.out",
+      "input_archive_sha256": "fa315e104d615a7d3cb33cbcfdcb4f101b3b29046c8a541d9e6a58d048b9b8ef"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/test_voa.py",
+      "bytes": 3154,
+      "sha256": "78d2fd289cd37cb55bc8f4452a7fa545c65aab3fdaf7004d6938daff12943753",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/test_voa.py",
+      "input_archive_sha256": "78d2fd289cd37cb55bc8f4452a7fa545c65aab3fdaf7004d6938daff12943753"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/twist_check.out",
+      "bytes": 508,
+      "sha256": "791c054a55ffdc96a8311a96ebd322525213eb310bea8c7c52e44d69c8454bc9",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/twist_check.out",
+      "input_archive_sha256": "791c054a55ffdc96a8311a96ebd322525213eb310bea8c7c52e44d69c8454bc9"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/twist_check.py",
+      "bytes": 4785,
+      "sha256": "4510ed84e7196037dd19701fc5be2ab81d4012f6c9c5685e2309955ba7a3d991",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/twist_check.py",
+      "input_archive_sha256": "4510ed84e7196037dd19701fc5be2ab81d4012f6c9c5685e2309955ba7a3d991"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/verify_solutions.out",
+      "bytes": 1815,
+      "sha256": "2418267e97f8ecb81cc23e7b9d64132c3a333e6d272e21cdd6ae37d4ca8dd7eb",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/verify_solutions.out",
+      "input_archive_sha256": "2418267e97f8ecb81cc23e7b9d64132c3a333e6d272e21cdd6ae37d4ca8dd7eb"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/verify_solutions.py",
+      "bytes": 4418,
+      "sha256": "ce90a36445063053ad15889106e5c84b6bd098971d051a97dc5caad0d72d9890",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/verify_solutions.py",
+      "input_archive_sha256": "ce90a36445063053ad15889106e5c84b6bd098971d051a97dc5caad0d72d9890"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/voa.py",
+      "bytes": 5735,
+      "sha256": "3da4f6febe232beff7a39c4cdd1a90e8e831178ab7211ca7699ed74ce8e92c81",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/voa.py",
+      "input_archive_sha256": "3da4f6febe232beff7a39c4cdd1a90e8e831178ab7211ca7699ed74ce8e92c81"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/G.pkl",
+      "bytes": 53206,
+      "sha256": "142ae2a2585fac51bec50a310875e4f8f5867e3021d0085bdc2ece952ad832f2",
+      "source_archive_path": "Calculs-HU-v08/R3/G.pkl",
+      "input_archive_sha256": "142ae2a2585fac51bec50a310875e4f8f5867e3021d0085bdc2ece952ad832f2"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/G_griess.pkl",
+      "bytes": 49965,
+      "sha256": "14c70acc7258df78679cd33d2c590fc5f7f9154f90f8dcf1383a599477f8b09f",
+      "source_archive_path": "Calculs-HU-v08/R3/G_griess.pkl",
+      "input_archive_sha256": "14c70acc7258df78679cd33d2c590fc5f7f9154f90f8dcf1383a599477f8b09f"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2_0.pkl",
+      "bytes": 49852,
+      "sha256": "2334f8ee403b1304699a8141b9bc5224eb9982c21f5a0530d34397793cbb7555",
+      "source_archive_path": "Calculs-HU-v08/R3/S2_0.pkl",
+      "input_archive_sha256": "2334f8ee403b1304699a8141b9bc5224eb9982c21f5a0530d34397793cbb7555"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2_1.pkl",
+      "bytes": 49852,
+      "sha256": "e5385d37e545f6c3b7e30aa8696443a219ccf86ec8a2ed04651515a31bd69660",
+      "source_archive_path": "Calculs-HU-v08/R3/S2_1.pkl",
+      "input_archive_sha256": "e5385d37e545f6c3b7e30aa8696443a219ccf86ec8a2ed04651515a31bd69660"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2_2.pkl",
+      "bytes": 49852,
+      "sha256": "1f7e44c927a64addb576cf6408b77a3b83ac2fc3a2ac0b723aeb1c53b78384d5",
+      "source_archive_path": "Calculs-HU-v08/R3/S2_2.pkl",
+      "input_archive_sha256": "1f7e44c927a64addb576cf6408b77a3b83ac2fc3a2ac0b723aeb1c53b78384d5"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2_3.pkl",
+      "bytes": 49852,
+      "sha256": "dbb843afa4faafa7b9e91c89e16c68b4de723789a7232c4244b2f28c4674f61b",
+      "source_archive_path": "Calculs-HU-v08/R3/S2_3.pkl",
+      "input_archive_sha256": "dbb843afa4faafa7b9e91c89e16c68b4de723789a7232c4244b2f28c4674f61b"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2full_0.json",
+      "bytes": 124,
+      "sha256": "5fa3ba7843b0799ebfb66023b133df965e02ecc6bbb480d0e3b144e8bd5bd5ee",
+      "source_archive_path": "Calculs-HU-v08/R3/S2full_0.json",
+      "input_archive_sha256": "5fa3ba7843b0799ebfb66023b133df965e02ecc6bbb480d0e3b144e8bd5bd5ee"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2full_0.pkl",
+      "bytes": 368521,
+      "sha256": "dde3ad89f840a6d5a65ff0057253a9245d1a31850d3a211ad474ff43de2b9c07",
+      "source_archive_path": "Calculs-HU-v08/R3/S2full_0.pkl",
+      "input_archive_sha256": "dde3ad89f840a6d5a65ff0057253a9245d1a31850d3a211ad474ff43de2b9c07"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2full_1.json",
+      "bytes": 124,
+      "sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "source_archive_path": "Calculs-HU-v08/R3/S2full_1.json",
+      "input_archive_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2full_1.pkl",
+      "bytes": 368521,
+      "sha256": "e016291db0af84bf40b2953609898b5a1f9d5b0fa0ab69df3886a9be1a51b1a6",
+      "source_archive_path": "Calculs-HU-v08/R3/S2full_1.pkl",
+      "input_archive_sha256": "e016291db0af84bf40b2953609898b5a1f9d5b0fa0ab69df3886a9be1a51b1a6"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2full_2.json",
+      "bytes": 124,
+      "sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "source_archive_path": "Calculs-HU-v08/R3/S2full_2.json",
+      "input_archive_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2full_2.pkl",
+      "bytes": 368521,
+      "sha256": "4c68edd8d2f168bec40324522b738c2d0ee35d83e2b7c66bdb128c686c90d8fe",
+      "source_archive_path": "Calculs-HU-v08/R3/S2full_2.pkl",
+      "input_archive_sha256": "4c68edd8d2f168bec40324522b738c2d0ee35d83e2b7c66bdb128c686c90d8fe"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2full_3.json",
+      "bytes": 124,
+      "sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "source_archive_path": "Calculs-HU-v08/R3/S2full_3.json",
+      "input_archive_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/S2full_3.pkl",
+      "bytes": 368521,
+      "sha256": "1f1289a904d4dcae1f21b12050d8e2fd6ad4b95f7e8e4a073a3d902230a735d4",
+      "source_archive_path": "Calculs-HU-v08/R3/S2full_3.pkl",
+      "input_archive_sha256": "1f1289a904d4dcae1f21b12050d8e2fd6ad4b95f7e8e4a073a3d902230a735d4"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/common.py",
+      "bytes": 5702,
+      "sha256": "61ebf6d29b4e7f51214c15571d2ea90038e8d148f88317f111a01fdb8927acc8",
+      "source_archive_path": "Calculs-HU-v08/R3/common.py",
+      "input_archive_sha256": "61ebf6d29b4e7f51214c15571d2ea90038e8d148f88317f111a01fdb8927acc8"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/e8e8_voa.py",
+      "bytes": 11203,
+      "sha256": "8e45da9c30d00df996dc54e612e46cf3e0ac38ede6975ce566997c5fdb537b95",
+      "source_archive_path": "Calculs-HU-v08/R3/e8e8_voa.py",
+      "input_archive_sha256": "8e45da9c30d00df996dc54e612e46cf3e0ac38ede6975ce566997c5fdb537b95"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/groebner.json",
+      "bytes": 227,
+      "sha256": "f7965a01c1cc21e4b3021b0436652127f6bae10d779c31cccc9300c5d0c347ba",
+      "source_archive_path": "Calculs-HU-v08/R3/groebner.json",
+      "input_archive_sha256": "f7965a01c1cc21e4b3021b0436652127f6bae10d779c31cccc9300c5d0c347ba"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/idem_complex.json",
+      "bytes": 2878,
+      "sha256": "2897bd0cd6e55b3d02e7af1b54167093c9019bc03e2ae17f679edbf555335df2",
+      "source_archive_path": "Calculs-HU-v08/R3/idem_complex.json",
+      "input_archive_sha256": "2897bd0cd6e55b3d02e7af1b54167093c9019bc03e2ae17f679edbf555335df2"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/omegaC1.json",
+      "bytes": 2138,
+      "sha256": "530094d146a5564a60d24dfea7c2d6d71f544e6c8623052771a3e7e1e5702f15",
+      "source_archive_path": "Calculs-HU-v08/R3/omegaC1.json",
+      "input_archive_sha256": "530094d146a5564a60d24dfea7c2d6d71f544e6c8623052771a3e7e1e5702f15"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/omegaC1.pkl",
+      "bytes": 41834,
+      "sha256": "315e74e9a8e72582650fe0ae417697f5ae55e58819d8fdb2d27e70dbe3b09cde",
+      "source_archive_path": "Calculs-HU-v08/R3/omegaC1.pkl",
+      "input_archive_sha256": "315e74e9a8e72582650fe0ae417697f5ae55e58819d8fdb2d27e70dbe3b09cde"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/qs6.py",
+      "bytes": 2103,
+      "sha256": "d5c7ce494724e0b91d42bce593da7c212612e9a8fbd920bae10131b78a694ef5",
+      "source_archive_path": "Calculs-HU-v08/R3/qs6.py",
+      "input_archive_sha256": "d5c7ce494724e0b91d42bce593da7c212612e9a8fbd920bae10131b78a694ef5"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r2_signature.py",
+      "bytes": 12348,
+      "sha256": "16e3a8537c1de6af7091eb0f76963ffd8131e85d1a8e488aae092cddf2649d78",
+      "source_archive_path": "Calculs-HU-v08/R3/r2_signature.py",
+      "input_archive_sha256": "16e3a8537c1de6af7091eb0f76963ffd8131e85d1a8e488aae092cddf2649d78"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_G.out",
+      "bytes": 689,
+      "sha256": "120a0217c1aaa1cd2f1cea1654d896c7865b23ea687fa8d820aba1de7d6dcfcc",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_G.out",
+      "input_archive_sha256": "120a0217c1aaa1cd2f1cea1654d896c7865b23ea687fa8d820aba1de7d6dcfcc"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_G.py",
+      "bytes": 3915,
+      "sha256": "aa17611683baf41c342da09ed516eb563548e57d0049b4abecc8db66a86a7d4b",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_G.py",
+      "input_archive_sha256": "aa17611683baf41c342da09ed516eb563548e57d0049b4abecc8db66a86a7d4b"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_Griess.out",
+      "bytes": 192,
+      "sha256": "c625f0caaba4be5c595adceef0b11b1d74842e7cefc2aa97e7000a938056c4ea",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_Griess.out",
+      "input_archive_sha256": "c625f0caaba4be5c595adceef0b11b1d74842e7cefc2aa97e7000a938056c4ea"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_Griess.py",
+      "bytes": 1310,
+      "sha256": "dec41ee2c920e78f5205d3281d7e977a85a78ab3b190d8abfc54baaf0503c9c4",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_Griess.py",
+      "input_archive_sha256": "dec41ee2c920e78f5205d3281d7e977a85a78ab3b190d8abfc54baaf0503c9c4"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2.py",
+      "bytes": 4795,
+      "sha256": "f17d0d844247b95b0a2e1ed936297510009763efcebf4e1f56f3e286cdbfe457",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2.py",
+      "input_archive_sha256": "f17d0d844247b95b0a2e1ed936297510009763efcebf4e1f56f3e286cdbfe457"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_0.out",
+      "bytes": 1144,
+      "sha256": "d697de43cb41487f590e0f32bb8b1d2107ef9a1e28321d2a78a794988ee94bc0",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_0.out",
+      "input_archive_sha256": "d697de43cb41487f590e0f32bb8b1d2107ef9a1e28321d2a78a794988ee94bc0"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_1.out",
+      "bytes": 1144,
+      "sha256": "be799b3bd552ec37439b9bd6406fdc7ff0b7f5a9672f013da51456948585afa2",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_1.out",
+      "input_archive_sha256": "be799b3bd552ec37439b9bd6406fdc7ff0b7f5a9672f013da51456948585afa2"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_2.out",
+      "bytes": 1144,
+      "sha256": "b881a93cbf1a547ea06ae5d44ee26cabefd830b9221272f3fa5cb3b42f385a07",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_2.out",
+      "input_archive_sha256": "b881a93cbf1a547ea06ae5d44ee26cabefd830b9221272f3fa5cb3b42f385a07"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_3.out",
+      "bytes": 1144,
+      "sha256": "86a4731f5bced6145183f2e490422577d31528d770d0fe4dc5ae2a1c178517e7",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_3.out",
+      "input_archive_sha256": "86a4731f5bced6145183f2e490422577d31528d770d0fe4dc5ae2a1c178517e7"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_full.py",
+      "bytes": 4178,
+      "sha256": "2befb1036a32fb788e50c65f03eb0c4f53f52e8e0aeee0dd1979bfe3e1f4b8eb",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_full.py",
+      "input_archive_sha256": "2befb1036a32fb788e50c65f03eb0c4f53f52e8e0aeee0dd1979bfe3e1f4b8eb"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_full_0.out",
+      "bytes": 843,
+      "sha256": "d6502348054610aed1c60ece413e882b7c8563b25904953e3524e20a5e17819e",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_full_0.out",
+      "input_archive_sha256": "d6502348054610aed1c60ece413e882b7c8563b25904953e3524e20a5e17819e"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_full_1.out",
+      "bytes": 836,
+      "sha256": "0ea3e441a95b5438161b116da7e9c6409f28c2c94d76d3b3419a0c1d5ed3e2f4",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_full_1.out",
+      "input_archive_sha256": "0ea3e441a95b5438161b116da7e9c6409f28c2c94d76d3b3419a0c1d5ed3e2f4"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_full_2.out",
+      "bytes": 837,
+      "sha256": "86b108f0489468993ac060048cfae4bd1f5b863566f1db85e6611c063fa9c3e1",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_full_2.out",
+      "input_archive_sha256": "86b108f0489468993ac060048cfae4bd1f5b863566f1db85e6611c063fa9c3e1"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_S2_full_3.out",
+      "bytes": 838,
+      "sha256": "bf1503da49a9ff9a587120a1a42195533e3f02905f20e8d24bcc172bfecbb076",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_S2_full_3.out",
+      "input_archive_sha256": "bf1503da49a9ff9a587120a1a42195533e3f02905f20e8d24bcc172bfecbb076"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_groebner.out",
+      "bytes": 294,
+      "sha256": "ec45030f47aab2660f742ed247a3a6713eec0c1b139e1b949a69a0ba794708cb",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_groebner.out",
+      "input_archive_sha256": "ec45030f47aab2660f742ed247a3a6713eec0c1b139e1b949a69a0ba794708cb"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_groebner.py",
+      "bytes": 3238,
+      "sha256": "8df88a97d40c621803cd0d87ef103ff000e1dbf3f9ce18c8ec7304a4834af566",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_groebner.py",
+      "input_archive_sha256": "8df88a97d40c621803cd0d87ef103ff000e1dbf3f9ce18c8ec7304a4834af566"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_omega_exact.out",
+      "bytes": 1076,
+      "sha256": "dcab002f782a1b190015bd50a198a86c8d7659d2887389019990c8012ec2f89a",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_omega_exact.out",
+      "input_archive_sha256": "dcab002f782a1b190015bd50a198a86c8d7659d2887389019990c8012ec2f89a"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3a_omega_exact.py",
+      "bytes": 3959,
+      "sha256": "ad69d3f944f6505ac981dc5beed8fe227e46b589adf77c60ab1275cef5f99eaa",
+      "source_archive_path": "Calculs-HU-v08/R3/r3a_omega_exact.py",
+      "input_archive_sha256": "ad69d3f944f6505ac981dc5beed8fe227e46b589adf77c60ab1275cef5f99eaa"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_chi.json",
+      "bytes": 250,
+      "sha256": "627659e2e8a27a71b8e6cfd5f8cca5cb2d8e8d725d77addcad49179872ad0ee1",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_chi.json",
+      "input_archive_sha256": "627659e2e8a27a71b8e6cfd5f8cca5cb2d8e8d725d77addcad49179872ad0ee1"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_chi.out",
+      "bytes": 253,
+      "sha256": "b3f0be2b657d1302aeedcb68627ffa2216589d7c6728a87e7688f8890e93d317",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_chi.out",
+      "input_archive_sha256": "b3f0be2b657d1302aeedcb68627ffa2216589d7c6728a87e7688f8890e93d317"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_chi.py",
+      "bytes": 4747,
+      "sha256": "774f956ef4e6362731ae1fd7bacb25ff333743998d67aa99adc04bcf813a9751",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_chi.py",
+      "input_archive_sha256": "774f956ef4e6362731ae1fd7bacb25ff333743998d67aa99adc04bcf813a9751"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify.py",
+      "bytes": 5100,
+      "sha256": "41d07af371ab92347421490ce666443404591229e8f1217777dd498126db5c83",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify.py",
+      "input_archive_sha256": "41d07af371ab92347421490ce666443404591229e8f1217777dd498126db5c83"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_0.json",
+      "bytes": 740,
+      "sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_0.json",
+      "input_archive_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_0.out",
+      "bytes": 1211,
+      "sha256": "6d7c33b1aae270ffea41463f05ed7560b6bbec235dca2a5cce0113a965eddcde",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_0.out",
+      "input_archive_sha256": "6d7c33b1aae270ffea41463f05ed7560b6bbec235dca2a5cce0113a965eddcde"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_1.json",
+      "bytes": 740,
+      "sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_1.json",
+      "input_archive_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_1.out",
+      "bytes": 1211,
+      "sha256": "f830cf642e1013899df1a3bc9c2d649321b044f484389d6774667ad6319e9a0b",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_1.out",
+      "input_archive_sha256": "f830cf642e1013899df1a3bc9c2d649321b044f484389d6774667ad6319e9a0b"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_2.json",
+      "bytes": 740,
+      "sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_2.json",
+      "input_archive_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_2.out",
+      "bytes": 1211,
+      "sha256": "428473e775da3d7cf678d69986b4fa8c386b4b62da25ef3e2aed643631d8eb22",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_2.out",
+      "input_archive_sha256": "428473e775da3d7cf678d69986b4fa8c386b4b62da25ef3e2aed643631d8eb22"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_3.json",
+      "bytes": 740,
+      "sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_3.json",
+      "input_archive_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_3.out",
+      "bytes": 1211,
+      "sha256": "b2d05120d48139c656538842af493db6f739e13d2257f832633498a04c53ed2c",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_3.out",
+      "input_archive_sha256": "b2d05120d48139c656538842af493db6f739e13d2257f832633498a04c53ed2c"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/r3b_verify_core.py",
+      "bytes": 675,
+      "sha256": "9321d84200b4acecd0aac24adf15e6994545846c3d143508735830f12b8747db",
+      "source_archive_path": "Calculs-HU-v08/R3/r3b_verify_core.py",
+      "input_archive_sha256": "9321d84200b4acecd0aac24adf15e6994545846c3d143508735830f12b8747db"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/sl2x4.out",
+      "bytes": 1021,
+      "sha256": "b60328ca2607e09a17acf0f2144109e56e4da83a8d1bb6f1a1cbcd337d8ebb58",
+      "source_archive_path": "Calculs-HU-v08/R3/sl2x4.out",
+      "input_archive_sha256": "b60328ca2607e09a17acf0f2144109e56e4da83a8d1bb6f1a1cbcd337d8ebb58"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/sl2x4.pkl",
+      "bytes": 1848,
+      "sha256": "b3eb5736d3e694c9bda1b19d11c4dce1cb4bb671a49a0a90ec5fbb6a4ad5206a",
+      "source_archive_path": "Calculs-HU-v08/R3/sl2x4.pkl",
+      "input_archive_sha256": "b3eb5736d3e694c9bda1b19d11c4dce1cb4bb671a49a0a90ec5fbb6a4ad5206a"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/sl2x4.py",
+      "bytes": 13137,
+      "sha256": "1f6e1562ecf4136ec2a8fb526504ec176d012b4027a7f896ca0f81092db15f43",
+      "source_archive_path": "Calculs-HU-v08/R3/sl2x4.py",
+      "input_archive_sha256": "1f6e1562ecf4136ec2a8fb526504ec176d012b4027a7f896ca0f81092db15f43"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/span.py",
+      "bytes": 2490,
+      "sha256": "3edaf8e0e8822edbb089c6f9c0f09abd8e94d922aeb68d8c405faad757919a0b",
+      "source_archive_path": "Calculs-HU-v08/R3/span.py",
+      "input_archive_sha256": "3edaf8e0e8822edbb089c6f9c0f09abd8e94d922aeb68d8c405faad757919a0b"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/t12b_optionB.out",
+      "bytes": 545,
+      "sha256": "058946e3a1957bf69beb827c6566da4323ca329625786fbf705f55b8512d3687",
+      "source_archive_path": "Calculs-HU-v08/R3/t12b_optionB.out",
+      "input_archive_sha256": "058946e3a1957bf69beb827c6566da4323ca329625786fbf705f55b8512d3687"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/t12b_optionB.py",
+      "bytes": 2634,
+      "sha256": "4df2d214e0923c9bb1876855bf6ad760b7ec4632f918e6dbd6db3be3a3a1eb76",
+      "source_archive_path": "Calculs-HU-v08/R3/t12b_optionB.py",
+      "input_archive_sha256": "4df2d214e0923c9bb1876855bf6ad760b7ec4632f918e6dbd6db3be3a3a1eb76"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/test_e8e8.out",
+      "bytes": 379,
+      "sha256": "e47a8ee601fdecfb9f66347a497d436911bd4cc25890894893b2000617d42649",
+      "source_archive_path": "Calculs-HU-v08/R3/test_e8e8.out",
+      "input_archive_sha256": "e47a8ee601fdecfb9f66347a497d436911bd4cc25890894893b2000617d42649"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/test_e8e8.py",
+      "bytes": 3387,
+      "sha256": "dacc1ac3cbc84ef260db6b6d9c2a595ff5d56dd4da16e6906acf49d6d20e1b19",
+      "source_archive_path": "Calculs-HU-v08/R3/test_e8e8.py",
+      "input_archive_sha256": "dacc1ac3cbc84ef260db6b6d9c2a595ff5d56dd4da16e6906acf49d6d20e1b19"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/weights_W.out",
+      "bytes": 830,
+      "sha256": "b96294923e0d93e49bebe33151e1972516b0cee88b9759ca3acb4004dda57518",
+      "source_archive_path": "Calculs-HU-v08/R3/weights_W.out",
+      "input_archive_sha256": "b96294923e0d93e49bebe33151e1972516b0cee88b9759ca3acb4004dda57518"
+    },
+    {
+      "path": "Calculs-HU-v08/R3/weights_W.py",
+      "bytes": 2055,
+      "sha256": "e5e9fd5284d7c4bc437cc087daaba6f08ef8352ab7e29c534574425e696bcd21",
+      "source_archive_path": "Calculs-HU-v08/R3/weights_W.py",
+      "input_archive_sha256": "e5e9fd5284d7c4bc437cc087daaba6f08ef8352ab7e29c534574425e696bcd21"
+    },
+    {
+      "path": "Calculs-HU-v08/controles-categoriels/categories-exact-check.out",
+      "bytes": 183,
+      "sha256": "e300ccf8cbb6d1a9addd6337a7b16ba020438d70eb0a70584f287859863a2561",
+      "source_archive_path": "Calculs-HU-v08/controles-categoriels/categories-exact-check.out",
+      "input_archive_sha256": "e300ccf8cbb6d1a9addd6337a7b16ba020438d70eb0a70584f287859863a2561"
+    },
+    {
+      "path": "Calculs-HU-v08/controles-categoriels/categories-exact-check.py",
+      "bytes": 2404,
+      "sha256": "a5735c75503970e117966619c0b5863874c700eaafcc01924119dc22f24b02f7",
+      "source_archive_path": "Calculs-HU-v08/controles-categoriels/categories-exact-check.py",
+      "input_archive_sha256": "a5735c75503970e117966619c0b5863874c700eaafcc01924119dc22f24b02f7"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_W1.json",
+      "bytes": 18285,
+      "sha256": "3de49b22420656c53d5cf01ae387570512ca14aa930bbc158801ab6379c32e88",
+      "source_archive_path": "Calculs-HU-v08/data/t12_W1.json",
+      "input_archive_sha256": "3de49b22420656c53d5cf01ae387570512ca14aa930bbc158801ab6379c32e88"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_W1.out",
+      "bytes": 9280,
+      "sha256": "74aae9ec16a5c687a4ad836365ac92246988f6382118eb06c049e14117a0c6c8",
+      "source_archive_path": "Calculs-HU-v08/data/t12_W1.out",
+      "input_archive_sha256": "74aae9ec16a5c687a4ad836365ac92246988f6382118eb06c049e14117a0c6c8"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_W1.py",
+      "bytes": 8530,
+      "sha256": "1776c0d185b7c42e28320e378bb6de9f15a1c70eb2ddb7d27c07940ae4d165da",
+      "source_archive_path": "Calculs-HU-v08/data/t12_W1.py",
+      "input_archive_sha256": "1776c0d185b7c42e28320e378bb6de9f15a1c70eb2ddb7d27c07940ae4d165da"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_e8split.json",
+      "bytes": 268,
+      "sha256": "9a2e7e4cbdd0f175c570052fff594cf2e36e20c87baf77d3c538b70399d408f2",
+      "source_archive_path": "Calculs-HU-v08/data/t12_e8split.json",
+      "input_archive_sha256": "9a2e7e4cbdd0f175c570052fff594cf2e36e20c87baf77d3c538b70399d408f2"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_e8split.out",
+      "bytes": 935,
+      "sha256": "9afe6f14519cffa2ee93a888526300ce9ae24820376b913b884da1c8a446db64",
+      "source_archive_path": "Calculs-HU-v08/data/t12_e8split.out",
+      "input_archive_sha256": "9afe6f14519cffa2ee93a888526300ce9ae24820376b913b884da1c8a446db64"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_e8split.py",
+      "bytes": 6833,
+      "sha256": "2f9f11da8e83bf56aaf5d0ad2d2d53d9b9e0889e93885b21c3025cbb4554da72",
+      "source_archive_path": "Calculs-HU-v08/data/t12_e8split.py",
+      "input_archive_sha256": "5774999ea7d642c9196b15052a22da9e07d2f052013bc84c6474c8d4760adb32"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_table.json",
+      "bytes": 1555,
+      "sha256": "7d8849f5a7f2c35efb4465465f4b12763f3e8a6e03da3ebe8250c7bd82a81124",
+      "source_archive_path": "Calculs-HU-v08/data/t12_table.json",
+      "input_archive_sha256": "7d8849f5a7f2c35efb4465465f4b12763f3e8a6e03da3ebe8250c7bd82a81124"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_table.out",
+      "bytes": 1211,
+      "sha256": "549fe6cc8e0c6d6bba975a1db6828b36cd4e7d96ec96cc07e76e99c22d891233",
+      "source_archive_path": "Calculs-HU-v08/data/t12_table.out",
+      "input_archive_sha256": "549fe6cc8e0c6d6bba975a1db6828b36cd4e7d96ec96cc07e76e99c22d891233"
+    },
+    {
+      "path": "Calculs-HU-v08/data/t12_table.py",
+      "bytes": 3244,
+      "sha256": "851b7a3cefc7a3fb9c5c0917c8dcc82141d668d36665f9e85bcfce62ee8fa1bb",
+      "source_archive_path": "Calculs-HU-v08/data/t12_table.py",
+      "input_archive_sha256": "daf328b793481cf4f3a1ca789972268df259557f123ab4f0d55e9ef7b038d8c0"
+    },
+    {
+      "path": "Calculs-HU-v08/export_omega_certificate.py",
+      "bytes": 4628,
+      "sha256": "a5e8a0124c2d2414c4c4a1b49fb839a881e138ab84901a12626ff577c20c275a",
+      "source_archive_path": "Calculs-HU-v08/export_omega_certificate.py",
+      "input_archive_sha256": "a5e8a0124c2d2414c4c4a1b49fb839a881e138ab84901a12626ff577c20c275a"
+    },
+    {
+      "path": "Calculs-HU-v08/omega_certificate.json",
+      "bytes": 109799,
+      "sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc",
+      "source_archive_path": "Calculs-HU-v08/omega_certificate.json",
+      "input_archive_sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/F1/e8facts.out",
+      "bytes": 719,
+      "sha256": "2ab274958bdd5f4d63b9d1340e9ad797ea6371b56f76d6f07204b4198db8655b",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/F1/e8facts.out",
+      "input_archive_sha256": "2ab274958bdd5f4d63b9d1340e9ad797ea6371b56f76d6f07204b4198db8655b"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/F1/e8facts.py",
+      "bytes": 1335,
+      "sha256": "405024b76be856ea0a3587d929f1d06eeba7f0f9e354fdcf0a0d1b067c56b783",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/F1/e8facts.py",
+      "input_archive_sha256": "405024b76be856ea0a3587d929f1d06eeba7f0f9e354fdcf0a0d1b067c56b783"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/F1/enum_sl2.out",
+      "bytes": 707,
+      "sha256": "ae946d3caa4af6a4dd5bb2925565bf6b85007bdd575f598142ce3b04019334c1",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/F1/enum_sl2.out",
+      "input_archive_sha256": "ae946d3caa4af6a4dd5bb2925565bf6b85007bdd575f598142ce3b04019334c1"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/F1/enum_sl2.py",
+      "bytes": 7106,
+      "sha256": "2c7263ad3a1f3ef80f7d78f1b8b4fd3b723f62a4aa08ca7cb648cc578db2e854",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/F1/enum_sl2.py",
+      "input_archive_sha256": "2c7263ad3a1f3ef80f7d78f1b8b4fd3b723f62a4aa08ca7cb648cc578db2e854"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/F1/sectors.out",
+      "bytes": 829,
+      "sha256": "830b377eec1e4934fba2b335b7da8063040c4d0ffbddb6f0dc2d05fe8de5741a",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/F1/sectors.out",
+      "input_archive_sha256": "830b377eec1e4934fba2b335b7da8063040c4d0ffbddb6f0dc2d05fe8de5741a"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/F1/sectors.py",
+      "bytes": 1045,
+      "sha256": "41752c176f6b91f70f064a07d5af0dc59e7846fadd6eb2d5984b7356b059e316",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/F1/sectors.py",
+      "input_archive_sha256": "41752c176f6b91f70f064a07d5af0dc59e7846fadd6eb2d5984b7356b059e316"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/K1/chk.out",
+      "bytes": 70,
+      "sha256": "a05d95fd03e89a6444ffe60ed92bdab4f9eab13bc90171c2d58189f6e4617c60",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/K1/chk.out",
+      "input_archive_sha256": "a05d95fd03e89a6444ffe60ed92bdab4f9eab13bc90171c2d58189f6e4617c60"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/K1/chk.py",
+      "bytes": 1129,
+      "sha256": "14d7aec76d7941f00e6d6e1b2efc9d2828a23591a5f0edd5286cd75618bdfac4",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/K1/chk.py",
+      "input_archive_sha256": "14d7aec76d7941f00e6d6e1b2efc9d2828a23591a5f0edd5286cd75618bdfac4"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/K1/verlinde.out",
+      "bytes": 1171,
+      "sha256": "cc6ef18ade3cc0ef49b8a2cf1f1fb711088f7d194848fb1bc897e69a6a3ba579",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/K1/verlinde.out",
+      "input_archive_sha256": "cc6ef18ade3cc0ef49b8a2cf1f1fb711088f7d194848fb1bc897e69a6a3ba579"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/K1/verlinde.py",
+      "bytes": 963,
+      "sha256": "ddfebea4e70a030cfb958e0a1383fdff3015c51de6d5ec7348d28db05d725f36",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/K1/verlinde.py",
+      "input_archive_sha256": "ddfebea4e70a030cfb958e0a1383fdff3015c51de6d5ec7348d28db05d725f36"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/R3P/check_gb.out",
+      "bytes": 460,
+      "sha256": "5d65a8781faabed68b1582943e28e79d58ab69696e34cea026ed0bedef342aaa",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/R3P/check_gb.out",
+      "input_archive_sha256": "5d65a8781faabed68b1582943e28e79d58ab69696e34cea026ed0bedef342aaa"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/R3P/check_gb.py",
+      "bytes": 2883,
+      "sha256": "3176c480a32997c7b648bd6c57772b695d441418e76cdac1a92156c6b20a2e3a",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/R3P/check_gb.py",
+      "input_archive_sha256": "3176c480a32997c7b648bd6c57772b695d441418e76cdac1a92156c6b20a2e3a"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/R3P/gb_sympy.out",
+      "bytes": 206,
+      "sha256": "dc546b4b0c6ff129d057e6697e79396c9f0d2a9dbb8a90b7cf0441504991d0e8",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/R3P/gb_sympy.out",
+      "input_archive_sha256": "dc546b4b0c6ff129d057e6697e79396c9f0d2a9dbb8a90b7cf0441504991d0e8"
+    },
+    {
+      "path": "Calculs-HU-v08/scripts-rapporteurs/R3P/gb_sympy.py",
+      "bytes": 1913,
+      "sha256": "b0fd54bab2f57dc1d786251c42c820cd574d76286e7a083f116db62993c77e22",
+      "source_archive_path": "Calculs-HU-v08/scripts-rapporteurs/R3P/gb_sympy.py",
+      "input_archive_sha256": "b0fd54bab2f57dc1d786251c42c820cd574d76286e7a083f116db62993c77e22"
+    },
+    {
+      "path": "Calculs-HU-v08/section6/check_galois.out",
+      "bytes": 579,
+      "sha256": "13c52b60b2de2f8820b4dd461814cfd5a403ccce521a04d0fa763e983ce0f4f2",
+      "source_archive_path": "Calculs-HU-v08/section6/check_galois.out",
+      "input_archive_sha256": "13c52b60b2de2f8820b4dd461814cfd5a403ccce521a04d0fa763e983ce0f4f2"
+    },
+    {
+      "path": "Calculs-HU-v08/section6/check_galois.py",
+      "bytes": 2812,
+      "sha256": "3e93c11376e3581a7ae325af79f1f125661536ac02a6756f434b507537280479",
+      "source_archive_path": "Calculs-HU-v08/section6/check_galois.py",
+      "input_archive_sha256": "3e93c11376e3581a7ae325af79f1f125661536ac02a6756f434b507537280479"
+    },
+    {
+      "path": "Calculs-HU-v08/section6/check_m.out",
+      "bytes": 635,
+      "sha256": "bc1fe9b4903517eb57bdd5b77902eca31bb390d59f2e278582a5364e52b54012",
+      "source_archive_path": "Calculs-HU-v08/section6/check_m.out",
+      "input_archive_sha256": "bc1fe9b4903517eb57bdd5b77902eca31bb390d59f2e278582a5364e52b54012"
+    },
+    {
+      "path": "Calculs-HU-v08/section6/check_m.py",
+      "bytes": 1427,
+      "sha256": "026b2e399d1e44ec95c84638ef13f3aa31e34643c8b5cc2b7d084782ba6e1720",
+      "source_archive_path": "Calculs-HU-v08/section6/check_m.py",
+      "input_archive_sha256": "026b2e399d1e44ec95c84638ef13f3aa31e34643c8b5cc2b7d084782ba6e1720"
+    },
+    {
+      "path": "Calculs-HU-v08/section6/check_moments.out",
+      "bytes": 355,
+      "sha256": "f763a1528d507fb358e8fc41ba9c208ae65ab6e66993230b66a9469cef187ce9",
+      "source_archive_path": "Calculs-HU-v08/section6/check_moments.out",
+      "input_archive_sha256": "f763a1528d507fb358e8fc41ba9c208ae65ab6e66993230b66a9469cef187ce9"
+    },
+    {
+      "path": "Calculs-HU-v08/section6/check_moments.py",
+      "bytes": 1475,
+      "sha256": "4dd5b28042a63081bbab3cee5742640239459dcc586d2a9dad345f399e50ff27",
+      "source_archive_path": "Calculs-HU-v08/section6/check_moments.py",
+      "input_archive_sha256": "4dd5b28042a63081bbab3cee5742640239459dcc586d2a9dad345f399e50ff27"
+    },
+    {
+      "path": "Calculs-HU-v08/section6/verify_simplification.out",
+      "bytes": 225,
+      "sha256": "139e4f18e506dd8ed3f8af173da8da49653f56decb30b0eb8c17a2c38eed011e",
+      "source_archive_path": "Calculs-HU-v08/section6/verify_simplification.out",
+      "input_archive_sha256": "139e4f18e506dd8ed3f8af173da8da49653f56decb30b0eb8c17a2c38eed011e"
+    },
+    {
+      "path": "Calculs-HU-v08/section6/verify_simplification.py",
+      "bytes": 744,
+      "sha256": "d6abd141941a4a7bc3a0482b8b9490885948035115f30f9a727a3e53feeeec55",
+      "source_archive_path": "Calculs-HU-v08/section6/verify_simplification.py",
+      "input_archive_sha256": "d6abd141941a4a7bc3a0482b8b9490885948035115f30f9a727a3e53feeeec55"
+    },
+    {
+      "path": "Calculs-HU-v08/verification-independante/independent_kernel.py",
+      "bytes": 3920,
+      "sha256": "d6a82c451c8f29c1b246f4db3909ecdf101fd6e76acc2069e903e6e1cf176bc9",
+      "source_archive_path": "Calculs-HU-v08/verification-independante/independent_kernel.py",
+      "input_archive_sha256": "d6a82c451c8f29c1b246f4db3909ecdf101fd6e76acc2069e903e6e1cf176bc9"
+    },
+    {
+      "path": "Calculs-HU-v08/verification-independante/independent_tensors.out",
+      "bytes": 2301,
+      "sha256": "c3f1a82361c4cf73f7269e8c4974abf8d0b3a7ae8c56e2b42f69b0c78eaa713a",
+      "source_archive_path": "Calculs-HU-v08/verification-independante/independent_tensors.out",
+      "input_archive_sha256": "c3f1a82361c4cf73f7269e8c4974abf8d0b3a7ae8c56e2b42f69b0c78eaa713a"
+    },
+    {
+      "path": "Calculs-HU-v08/verification-independante/independent_tensors.py",
+      "bytes": 4460,
+      "sha256": "147bd7a5348cf05d1d272075018ad975b0d31a4135226278895da5d8aa576af6",
+      "source_archive_path": "Calculs-HU-v08/verification-independante/independent_tensors.py",
+      "input_archive_sha256": "147bd7a5348cf05d1d272075018ad975b0d31a4135226278895da5d8aa576af6"
+    },
+    {
+      "path": "Calculs-HU-v08/verification-independante/independent_triples.py",
+      "bytes": 6305,
+      "sha256": "3030924a25716bb094745c5dbb47ea7299afe983ea7400116ffcd1bc02034043",
+      "source_archive_path": "Calculs-HU-v08/verification-independante/independent_triples.py",
+      "input_archive_sha256": "3030924a25716bb094745c5dbb47ea7299afe983ea7400116ffcd1bc02034043"
+    },
+    {
+      "path": "Calculs-HU-v08/verify_omega_certificate.out",
+      "bytes": 815,
+      "sha256": "c81bb1b8962573071bcb0e34ac0f0078c3e8abe115f5883d12fda9ec8dc92f39",
+      "source_archive_path": "Calculs-HU-v08/verify_omega_certificate.out",
+      "input_archive_sha256": "c81bb1b8962573071bcb0e34ac0f0078c3e8abe115f5883d12fda9ec8dc92f39"
+    },
+    {
+      "path": "Calculs-HU-v08/verify_omega_certificate.py",
+      "bytes": 6830,
+      "sha256": "46d17de1837641e491a78c9c0fb8ee7f35041cc1000ad58e326313659613b26a",
+      "source_archive_path": "Calculs-HU-v08/verify_omega_certificate.py",
+      "input_archive_sha256": "46d17de1837641e491a78c9c0fb8ee7f35041cc1000ad58e326313659613b26a"
+    },
+    {
+      "path": "Calculs-HU-v08/R3-verif/lie_bracket.py",
+      "bytes": 1148,
+      "sha256": "90c6021cc4b6f467515cfb110e0e900efd94b490af0e4c7461eadde45416ee4f",
+      "source_archive_path": "Calculs-HU-v08/R3-verif/find_signs.py",
+      "scope": "Exact br function extracted verbatim; abandoned search code excluded."
+    }
+  ]
+}

@@ -1,4 +1,20 @@
-# Suppléments publics de l'article I — I v14
+# Haagerup à charge centrale huit : articles et suppléments
+
+Suppléments publics des articles de [Cédric Arhancet](https://github.com/cedricarhancet). Chaque livraison fige ses sources, ses données, ses limites de validation et ses empreintes ; les anciennes releases restent accessibles.
+
+| Article | Manuscrit de référence | Suppléments publics |
+| --- | --- | --- |
+| I — Haagerup vertex operator algebras at central charge eight | [Hexagon 2610.00733v2](https://hexagonmath.org/2610.00733v2), I v14 | [Release article-I-v14-supplements-v01](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01) ; instructions ci-dessous |
+| II — Haagerup symmetries of the E8 theory and conformal nets at central charge eight | [Hexagon 2611.00034v2](https://hexagonmath.org/2611.00034v2), II v14 ; [v15 documentaire](II/manuscript/Haagerup-reseaux-conformes-c8-v15-arxiv.pdf) | [Dossier II](II/README.md), [release article-II-v14-supplements-v01](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v01) |
+| III — The Haagerup center at central charge eight via conformal nets | [Hexagon 2611.00164v1](https://hexagonmath.org/2611.00164v1), III v10 | Livraison propre à III à préparer ; les calculs de II importés dans sa voie secondaire sont fournis dans II |
+
+I fournit notamment la construction, la structure unitaire et la C2-cofinitude utilisées parmi les fondations de III. Les outils généraux de transport et de reconnaissance de II sont établis indépendamment de H_J. III démontre H_J par sa preuve analytique ; II §7.5 fournit aussi une voie calculatoire vers une structure unitaire compatible sur la diagonale. Les calculs finis et les preuves analytiques gardent leur portée respective.
+
+Depuis la racine du dépôt, `python verify_manifest.py` contrôle l'instantané commun. Depuis `II`, suivre son propre [README](II/README.md) ; les commandes ci-dessous restent celles de I. Pour citer la version figée de I et son manifeste d'origine, utiliser sa release et son tag propres.
+
+## Article I
+
+
 
 Cette livraison accompagne **Haagerup vertex operator algebras at central charge eight**, de Cédric Arhancet, dans la version [Hexagon 2610.00733v2](https://hexagonmath.org/2610.00733v2). La source diffusée est identique, octet par octet, à `Haagerup-c8-article-I-v14-arxiv.tex`.
 

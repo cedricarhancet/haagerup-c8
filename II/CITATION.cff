@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Citer séparément l'article et ses suppléments de calcul."
+title: "Suppléments de Haagerup symmetries of the E8 theory and conformal nets at central charge eight"
+type: software
+authors:
+  - family-names: Arhancet
+    given-names: Cédric
+version: "article-II-v14-supplements-v01"
+date-released: 2026-11-07
+url: "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v01"
+repository-code: "https://github.com/cedricarhancet/haagerup-c8"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Arhancet
+      given-names: Cédric
+  title: "Haagerup symmetries of the E8 theory and conformal nets at central charge eight"
+  year: 2026
+  url: "https://hexagonmath.org/2611.00034v2"

@@ -1,0 +1,4 @@
+point 0 : idempotent True ; (u,u) = 9/5 ; traces True ; full charpoly on all W_1 comps True ; equals candidate [3]
+point 1 : idempotent True ; (u,u) = 9/5 ; traces True ; full charpoly on all W_1 comps True ; equals candidate [2]
+point 2 : idempotent True ; (u,u) = 9/5 ; traces True ; full charpoly on all W_1 comps True ; equals candidate [0]
+point 3 : idempotent True ; (u,u) = 9/5 ; traces True ; full charpoly on all W_1 comps True ; equals candidate [1]

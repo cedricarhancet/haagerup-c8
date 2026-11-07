@@ -1,0 +1,10 @@
+dims 1 496 69752
+omega_(3) omega = {(0, ()): mpq(8,1)}
+L1 omega = {}  L0 omega = 2 omega: True
+L0 = weight on 60 random states, failures: 0
+skew-symmetry W1 x W1 (n=0,1): failures 0
+commutator formula, failures: 0
+[v_(0), u_(1)] = (v_(0)u)_(1) on W_1 (u in W_2), failures: 0
+phi_0 automorphism tests 75 failures 0
+(phi_0 u, u) > 0 on 80 random basis states: failures 0
+time 0.2s

@@ -1,0 +1,2 @@
+PASS: exact S^2=I and all 144 coefficients of N_b match the three fusion identities added in v07.
+PASS: the two quadratic Gauss sums at m=1 equal (-1-sqrt(13))/2 and (-1+sqrt(13))/2.

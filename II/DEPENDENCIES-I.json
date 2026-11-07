@@ -1,0 +1,12 @@
+{
+  "article": "I",
+  "tag": "article-I-v14-supplements-v01",
+  "commit": "813df07d2cf2a2b433d13093ccb920031fee5f9a",
+  "manuscript": "https://hexagonmath.org/2610.00733v2",
+  "source_path": "inputs-I/Haagerup-c8-article-I-v14-arxiv.tex",
+  "source_sha256": "014411724bed4a391e204ccc9c0c19251e0dd92f6f76fcdaa52fd065b927cbd7",
+  "source_url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-I-v14-supplements-v01/Haagerup-c8-article-I-v14-arxiv.tex",
+  "supplement_url": "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01",
+  "supplement_archive_sha256": "6b68aba299fdca14518a0e85ec41ac5ef9f2f2013fc5c0abb18b61243616148a",
+  "scope": "Table 2 et eq:lowest-spaces, données du cas (II) ; les fondations et la C2-cofinitude de I sont importées, non recalculées ici."
+}

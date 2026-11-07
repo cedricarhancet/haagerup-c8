@@ -1,0 +1,40 @@
+Input SHA256 omega_certificate.json 43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc
+Input SHA256 data/t12_W1.json 3de49b22420656c53d5cf01ae387570512ca14aa930bbc158801ab6379c32e88
+PASS exact cocycle diagonal and skew identities on all 57,600 root pairs of E8
+PASS triple 1 indices (Fraction(2, 1), Fraction(1, 1))
+PASS triple 2 indices (Fraction(6, 1), Fraction(7, 1))
+PASS triple 3 indices (Fraction(1, 1), Fraction(2, 1))
+PASS triple 4 indices (Fraction(7, 1), Fraction(6, 1))
+PASS all 54 cross brackets vanish
+PASS manuscript triples exactly equal portable certificate triples
+PASS exact W1 character under manuscript H equals all 20 T12 highest-weight types; dimension 496
+PASS exhaustive direct E8 norm-four enumeration (16+1120+1024) equals orthogonal root sums
+PASS direct weight count dim W2^0 = 644 (oscillators 152, roots 0 norm-four 492 )
+Independent 36-mode system: columns 644 rows 2876 elapsed 6.38
+PASS all 16 certificate basis vectors annihilated exactly by all 36 modes
+PASS 16 rational null vectors are linearly independent: modular rank 16
+PASS modular rank 628 mod 1000000007 => rational rank >=628
+PASS modular rank 628 mod 1000000009 => rational rank >=628
+PASS exact dim G = 644 - 628 = 16, using 16 independently certified rational null vectors.
+Total kernel time 7.13 seconds
+PASS product and form row 0 time 1.2
+PASS product and form row 1 time 1.7
+PASS product and form row 2 time 2.1
+PASS product and form row 3 time 3.7
+PASS product and form row 4 time 5.1
+PASS product and form row 5 time 6.1
+PASS product and form row 6 time 7.5
+PASS product and form row 7 time 8.7
+PASS product and form row 8 time 10.8
+PASS product and form row 9 time 11.3
+PASS product and form row 10 time 12.3
+PASS product and form row 11 time 14.0
+PASS product and form row 12 time 14.3
+PASS product and form row 13 time 15.7
+PASS product and form row 14 time 16.2
+PASS product and form row 15 time 16.5
+PASS all 136 unordered products (g_i)_(1)g_j and all 136 forms (g_i)_(3)g_j exactly match certificate
+Independent W1 actions computed 22.8
+PASS all 20 multiplicity spaces: 16 traces and 136 trace-products each exactly match certificate
+PASS all tensor consequences needed for the 20 linear equations and 10 e2 quadrics rebuilt independently
+Total tensor audit time 30.8 seconds

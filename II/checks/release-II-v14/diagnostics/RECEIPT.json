@@ -1,0 +1,24 @@
+{
+  "status": "INCOMPLETE",
+  "diagnostics": [
+    {
+      "name": "R3-S2full-0",
+      "state": "STOPPED_BY_AGENT",
+      "reason": "Additional exhaustive S2 closure diagnostic, not used in the proof of Proposition 7.16. Stopped after commutant checks and partial closure, to finish the essential second-engine reconstruction.",
+      "prior_process_exit_code": 4294967295,
+      "elapsed_seconds": 423.375
+    }
+  ],
+  "not_rerun": [
+    "R3-S2full-1",
+    "R3-S2full-2",
+    "R3-S2full-3",
+    "R3-S2-1",
+    "R3-S2-2",
+    "R3-S2-3",
+    "R3-verif-S2",
+    "R3-verif-S2-check",
+    "R3-verif-twist"
+  ],
+  "historical_outputs_retained": true
+}
