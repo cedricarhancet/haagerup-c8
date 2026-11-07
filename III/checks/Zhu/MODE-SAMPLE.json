@@ -1,0 +1,79 @@
+{
+  "rows": 10,
+  "pairs": 1155,
+  "basis_matches_archived_exactly": true,
+  "all_ten_rows_byte_identical_to_historical_sample": true,
+  "files": [
+    {
+      "row": 0,
+      "file": "a000.pkl",
+      "bytes": 2490144,
+      "sha256": "c9719ed52bf48c78fd1e3d7e7b7a9616e7c68def5ff42ed1c37fc93e81184c26",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 1,
+      "file": "a001.pkl",
+      "bytes": 2155957,
+      "sha256": "451a39b12d3fbdd41f3f26751094a170ab2e4c1a99e77c7bed3585c1a1f88d13",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 2,
+      "file": "a002.pkl",
+      "bytes": 1287983,
+      "sha256": "39223586a3371d7ba6908f589080bf25edc6ca06f9827645b69b4a4945ff0f40",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 3,
+      "file": "a003.pkl",
+      "bytes": 1336710,
+      "sha256": "83feb0da9f9054830033e904d99738a1030ec3e8a09b7984d198f25aa41ac5d2",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 4,
+      "file": "a004.pkl",
+      "bytes": 2983290,
+      "sha256": "0a6b3921641a3031b1e2402ebbeaee10ab990ca6a3dfbf1d338d16587ac5c8d1",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 5,
+      "file": "a005.pkl",
+      "bytes": 3194255,
+      "sha256": "6780ca8d7aaeb32e18b7b32bf17a8c265c8607859afdebeff0bfe734a2c90395",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 6,
+      "file": "a006.pkl",
+      "bytes": 1491308,
+      "sha256": "84e94c9d6031d6c8653e5a95e6440ab77c196a5fc1fe373228e6172e8a9fe18e",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 7,
+      "file": "a007.pkl",
+      "bytes": 396604,
+      "sha256": "d184211f6477124b3a0910f3fd3a638e9bd056562800612298f63dacaa37559a",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 8,
+      "file": "a008.pkl",
+      "bytes": 4034333,
+      "sha256": "8bdbf5961224ea389667784230ae1a1a5d10629a369cbdfa807ae1686cc3740c",
+      "matches_historical_sample": true
+    },
+    {
+      "row": 9,
+      "file": "a009.pkl",
+      "bytes": 8250581,
+      "sha256": "b311de1661f5841293c39fda0ae8c99ef894b0f8eef59ce530799bc1c7704a28",
+      "matches_historical_sample": true
+    }
+  ],
+  "scope": "Ten initial rows are newly regenerated. The 39-row sample in reexecution/modes is historical; full 120-row production is not claimed for this pass."
+}

@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "group": "C3",
+  "started_utc": "2026-11-07T13:48:56.525136+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "checks": [
+    {
+      "name": "certificate",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "C3/run/verify_omega_certificate.py",
+        "C3/run/omega_certificate.json"
+      ],
+      "exit_code": 0,
+      "seconds": 12.86,
+      "stdout_sha256": "c81bb1b8962573071bcb0e34ac0f0078c3e8abe115f5883d12fda9ec8dc92f39",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "853f71022b376a542c06dc52964d4fe3e17c5bc2d9f6406333a807398205f92c",
+      "stdout_file": "certificate.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "certificate.err"
+    },
+    {
+      "name": "categories",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "C3/run/controles-categoriels/categories-exact-check.py"
+      ],
+      "exit_code": 0,
+      "seconds": 9.984,
+      "stdout_sha256": "e300ccf8cbb6d1a9addd6337a7b16ba020438d70eb0a70584f287859863a2561",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "cc110b6365b2fe9d416d4bc431dd9a26a7bf107fd6afb9fe69a8bac6b8a2b95b",
+      "stdout_file": "categories.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "categories.err"
+    },
+    {
+      "name": "tables",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "C3/a3_c3_table_check.py",
+        "--artI",
+        "[WORK]\\references\\Haagerup-c8-article-I-v14-supplements-v01\\Haagerup-c8-article-I-v14-supplements-v01\\Haagerup-c8-article-I-v14-arxiv.tex",
+        "--artIII",
+        "[MANUSCRIPTS]\\Haagerup-c8-article-3-v11.tex",
+        "--zhu",
+        "[WORK]\\staging\\Certificats-Zhu-III-v07",
+        "--out",
+        "[WORK]\\C3-final-interface-replay-v11refs\\tables.json"
+      ],
+      "exit_code": 0,
+      "seconds": 1.047,
+      "stdout_sha256": "7f61f201a537edb5b28fa57ea3e4f904e26b7baa1ea98991d568bf67a34a95f1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "0d0cc4fefb4bd67567406cce47896514e8d20e7693a80b0f7ed698fa61b743e1",
+      "stdout_file": "tables.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "tables.err"
+    },
+    {
+      "name": "comparison-II",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "C3/a3_c3_compare.py",
+        "--reference",
+        "[WORK]\\references\\Haagerup-c8-article-II-v14-supplements-v03\\II",
+        "--report",
+        "[WORK]\\C3-final-interface-replay-v11refs\\comparison-II.json"
+      ],
+      "exit_code": 0,
+      "seconds": 2.391,
+      "stdout_sha256": "4bd5615570bc2f4213e674873ff82abd247ccd64278f2a2eea19c17b227a980e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "5f59ec44b67f0eeb0ce3820ef62a1c8fb8190285082869f19bdff1a2f62f8a5d",
+      "stdout_file": "comparison-II.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "comparison-II.err"
+    }
+  ],
+  "finished_utc": "2026-11-07T13:49:22.864940+00:00",
+  "source_unchanged": true
+}

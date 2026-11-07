@@ -1,0 +1,37 @@
+{
+  "calculations": {
+    "filename": "Calculs-III-A1-A4-C3-v11.zip",
+    "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-III-v10-supplements-v01/Calculs-III-A1-A4-C3-v11.zip",
+    "bytes": 1080726,
+    "sha256": "6c50921d8acc158f0694b14260957e6fd671c7c09020d71c8397c0b494e3dd1a",
+    "root": "Calculs-III-A1-A4-C3-v11"
+  },
+  "zhu": {
+    "filename": "Certificats-Zhu-III-v07.zip",
+    "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-III-v10-supplements-v01/Certificats-Zhu-III-v07.zip",
+    "bytes": 12826440,
+    "sha256": "bac5992d0fc315b3e5ec4f45dcf0120041c90f73874a5ac87ae7a54d0cd0b177",
+    "root": "Certificats-Zhu-III-v07"
+  },
+  "II": {
+    "filename": "Haagerup-c8-article-II-v14-supplements-v03.zip",
+    "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-II-v14-supplements-v03/Haagerup-c8-article-II-v14-supplements-v03.zip",
+    "bytes": 4144977,
+    "sha256": "29086379698ebc337c28102c80c4727aa186004c320e5a217a8e95494f00c300",
+    "root": "II"
+  },
+  "I_source": {
+    "kind": "file",
+    "filename": "Haagerup-c8-article-I-v14-arxiv.tex",
+    "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-I-v14-supplements-v01/Haagerup-c8-article-I-v14-arxiv.tex",
+    "bytes": 335724,
+    "sha256": "014411724bed4a391e204ccc9c0c19251e0dd92f6f76fcdaa52fd065b927cbd7"
+  },
+  "III_source": {
+    "kind": "file",
+    "filename": "Haagerup-c8-article-3-v11.tex",
+    "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-III-v10-supplements-v01/Haagerup-c8-article-3-v11.tex",
+    "bytes": 339897,
+    "sha256": "aab8567a8366819d701b57931502337256fcf08a52fadce0f30215130a61ca54"
+  }
+}

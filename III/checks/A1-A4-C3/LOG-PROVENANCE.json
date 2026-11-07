@@ -1,0 +1,254 @@
+[
+  {
+    "group": "A1-A4",
+    "file": "a1_lattices.out",
+    "raw_sha256": "374ac66af82c3dd42481438868f2e834b1d5758979a3af21ec9dfcab20dec574",
+    "public_sha256": "f98605bc247d66b7620e5f88d72a6691bce2e25944602dcb782a09725091cd20",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a1_lattices.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a1b_extra.out",
+    "raw_sha256": "8e7e46eb6a329ed52a3c2791ed8529c065dc6b813758bb84b37eca4e4f6add32",
+    "public_sha256": "7e0359b00cab9b4c670a7744ad905b7e96aded4807342b4e036f71a5c7c963f0",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a1b_extra.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_kfield.out",
+    "raw_sha256": "a5c9e9ceceb143acda4b380e7a0a1bb848ac22a3cc2d85c1127e79236ba4e850",
+    "public_sha256": "91cab5c66c81bb6e4036c2079f448af55f5f83967aaebb2c234b2b2226a22168",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_kfield.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_smoke.out",
+    "raw_sha256": "0a6ad387b77f9f04c82d8ed46d37a340850f2401dfa8324ba5a5d9ad7d0feedd",
+    "public_sha256": "199ca461222adc7a3e9d1121d62ece6aecbbde4e9c32e1192f4a49c499e1fc92",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_smoke.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item1_lattice.out",
+    "raw_sha256": "5eab08c8e6c06046da5d51c444587275b884e11c5caa761e69f5be61a00a1435",
+    "public_sha256": "5f36a72e33bdf23583e207778d5e8bd178731b63afe313d82ad36cd036f34ccb",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item1_lattice.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item2_section5.out",
+    "raw_sha256": "ab1165ae51e4269dcb0949984adef7d7ae4288084cf78c64588ce5d2e61d71ee",
+    "public_sha256": "ec9efc60aa6c4d9ee3ccea92e23de7ead306fa9c3e22004de6e3b9e33b59ccf1",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item2_section5.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item3_section6.out",
+    "raw_sha256": "47e22fec3b1437b03467507655ac8ed6b4103f5176316e6baecac5ec1a424e90",
+    "public_sha256": "41b8fa9576f668dfb8de6c352c2bc29b6864cda486d17d0a97631639c997cc40",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item3_section6.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item4_section7.out",
+    "raw_sha256": "410263753cb3b5041e0df24433df986e95dfdb12911c38cec1011948946eff36",
+    "public_sha256": "f2487a07030bf91a386ef6f9d8f37890929b1fbe9b48add058f9020c13e083b0",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item4_section7.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item5_prop81.out",
+    "raw_sha256": "69d4fd6b7e8abf212ddd7c471ef99502d97c05f480db0a75cbc9694de38c0a2d",
+    "public_sha256": "4c805c3a8d12438b2cee84ecce1fd9c49967ee404af2165d6f00fb418aeb80df",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item5_prop81.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item6_riesen.out",
+    "raw_sha256": "720bd254f38422866e9586326c3f79a7c77e7fc71d6dfc5b5b62b26ccd29d364",
+    "public_sha256": "0b6e5b2daa1b4505c25215550502b0a5bf97c9debc8a683bdd8aac0185539e50",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "A1-A4",
+    "file": "a4_item6_riesen.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "C3",
+    "file": "certificate.out",
+    "raw_sha256": "853f71022b376a542c06dc52964d4fe3e17c5bc2d9f6406333a807398205f92c",
+    "public_sha256": "c81bb1b8962573071bcb0e34ac0f0078c3e8abe115f5883d12fda9ec8dc92f39",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "C3",
+    "file": "certificate.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "C3",
+    "file": "categories.out",
+    "raw_sha256": "cc110b6365b2fe9d416d4bc431dd9a26a7bf107fd6afb9fe69a8bac6b8a2b95b",
+    "public_sha256": "e300ccf8cbb6d1a9addd6337a7b16ba020438d70eb0a70584f287859863a2561",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "C3",
+    "file": "categories.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "C3",
+    "file": "tables.out",
+    "raw_sha256": "0d0cc4fefb4bd67567406cce47896514e8d20e7693a80b0f7ed698fa61b743e1",
+    "public_sha256": "7f61f201a537edb5b28fa57ea3e4f904e26b7baa1ea98991d568bf67a34a95f1",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "C3",
+    "file": "tables.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "C3",
+    "file": "comparison-II.out",
+    "raw_sha256": "5f59ec44b67f0eeb0ce3820ef62a1c8fb8190285082869f19bdff1a2f62f8a5d",
+    "public_sha256": "4bd5615570bc2f4213e674873ff82abd247ccd64278f2a2eea19c17b227a980e",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "C3",
+    "file": "comparison-II.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "reference-v08",
+    "file": "certificate.out",
+    "raw_sha256": "853f71022b376a542c06dc52964d4fe3e17c5bc2d9f6406333a807398205f92c",
+    "public_sha256": "c81bb1b8962573071bcb0e34ac0f0078c3e8abe115f5883d12fda9ec8dc92f39",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "reference-v08",
+    "file": "certificate.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "reference-v08",
+    "file": "categories.out",
+    "raw_sha256": "cc110b6365b2fe9d416d4bc431dd9a26a7bf107fd6afb9fe69a8bac6b8a2b95b",
+    "public_sha256": "e300ccf8cbb6d1a9addd6337a7b16ba020438d70eb0a70584f287859863a2561",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "reference-v08",
+    "file": "categories.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "reference-v08",
+    "file": "tables-v10.out",
+    "raw_sha256": "efcb9c51e26a461faef4ff9f6fe6fbe4aef9c4b078dfe9341f0ed86c3378cfcc",
+    "public_sha256": "145a00e649c03aa6800df86cc898523fc7ac76e5f792c60ec7b03ef6dc0d4c3a",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "reference-v08",
+    "file": "tables-v10.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "reference-v08",
+    "file": "comparison-v08.out",
+    "raw_sha256": "0473dde9d6cf0b0804502feea2924c9bcf3a3ecbad1874e589e039fce738d0ec",
+    "public_sha256": "2bb1c3b630b47abd0a448cea52628c63887c1421129da71cf4d0bdcaebe0a56a",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "reference-v08",
+    "file": "comparison-v08.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  }
+]

@@ -1,0 +1,62 @@
+[   0.00 s] built
+('L: E_0F = H', True)
+('L: H_0E = 2E', True)
+('L: H_0F = -2F', True)
+('L: E_1F = k1 (k=1)', True)
+('L: H_1H = 2k1', True)
+('L: E_0E = 0', True)
+('L: F_0F = 0', True)
+('L: E_1E = 0', True)
+('L: F_1F = 0', True)
+('L: H_1E = 0, H_1F = 0, E_1H = 0', True)
+('L: H_0H = 0', True)
+('R: E_0F = H', True)
+('R: H_0E = 2E', True)
+('R: H_0F = -2F', True)
+('R: E_1F = k1 (k=39)', True)
+('R: H_1H = 2k1', True)
+('R: E_0E = 0', True)
+('R: F_0F = 0', True)
+('R: E_1E = 0', True)
+('R: F_1F = 0', True)
+('R: H_1E = 0, H_1F = 0, E_1H = 0', True)
+('R: H_0H = 0', True)
+[('commutation of the two triples (all a_n b = 0, n=0,1)', True)]
+('P: E_0F = H', True)
+('P: H_0E = 2E', True)
+('P: H_0F = -2F', True)
+('P: E_1F = k1 (k=3)', True)
+('P: H_1H = 2k1', True)
+('P: E_0E = 0', True)
+('P: F_0F = 0', True)
+('P: E_1E = 0', True)
+('P: F_1F = 0', True)
+('P: H_1E = 0, H_1F = 0, E_1H = 0', True)
+('P: H_0H = 0', True)
+('B: E_0F = H', True)
+('B: H_0E = 2E', True)
+('B: H_0F = -2F', True)
+('B: E_1F = k1 (k=13)', True)
+('B: H_1H = 2k1', True)
+('B: E_0E = 0', True)
+('B: F_0F = 0', True)
+('B: E_1E = 0', True)
+('B: F_1F = 0', True)
+('B: H_1E = 0, H_1F = 0, E_1H = 0', True)
+('B: H_0H = 0', True)
+[('commutation of the two triples (all a_n b = 0, n=0,1)', True)]
+[   0.10 s] sl2
+[('omega: w_0 w = L(-1)w', True), ('omega: w_1 w = 2w', True), ('omega: w_2 w = 0', True), ('omega: w_3 w = (c/2) 1', True)] 8
+[   0.36 s] omega
+wL [('wL: w_0 w = L(-1)w', True), ('wL: w_1 w = 2w', True), ('wL: w_2 w = 0', True), ('wL: w_3 w = (c/2) 1', True)] 1 21
+wL [('omega-wL: w_0 w = L(-1)w', True), ('omega-wL: w_1 w = 2w', True), ('omega-wL: w_2 w = 0', True), ('omega-wL: w_3 w = (c/2) 1', True)] 7
+[   0.66 s] wL
+wR [('wR: w_0 w = L(-1)w', True), ('wR: w_1 w = 2w', True), ('wR: w_2 w = 0', True), ('wR: w_3 w = (c/2) 1', True)] 117/41 60
+wR [('omega-wR: w_0 w = L(-1)w', True), ('omega-wR: w_1 w = 2w', True), ('omega-wR: w_2 w = 0', True), ('omega-wR: w_3 w = (c/2) 1', True)] 211/41
+[   3.18 s] wR
+wP [('wP: w_0 w = L(-1)w', True), ('wP: w_1 w = 2w', True), ('wP: w_2 w = 0', True), ('wP: w_3 w = (c/2) 1', True)] 9/5 21
+wP [('omega-wP: w_0 w = L(-1)w', True), ('omega-wP: w_1 w = 2w', True), ('omega-wP: w_2 w = 0', True), ('omega-wP: w_3 w = (c/2) 1', True)] 31/5
+[   3.77 s] wP
+wB [('wB: w_0 w = L(-1)w', True), ('wB: w_1 w = 2w', True), ('wB: w_2 w = 0', True), ('wB: w_3 w = (c/2) 1', True)] 13/5 72
+wB [('omega-wB: w_0 w = L(-1)w', True), ('omega-wB: w_1 w = 2w', True), ('omega-wB: w_2 w = 0', True), ('omega-wB: w_3 w = (c/2) 1', True)] 27/5
+[   6.51 s] wB

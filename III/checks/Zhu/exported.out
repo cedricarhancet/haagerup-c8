@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "projected_rows": 19981,
+  "arrows": 515,
+  "quadratic_rules": 5221,
+  "cubic_rules": 438,
+  "corner_sizes": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    5,
+    7,
+    11,
+    12,
+    12,
+    16
+  ],
+  "top_dimensions": [
+    1,
+    3,
+    5,
+    7,
+    13,
+    14,
+    27,
+    42,
+    80,
+    81,
+    81,
+    119
+  ],
+  "dimension_corner": 762,
+  "dimension_Zhu": 36625,
+  "distinct_weight_reductions": 10
+}

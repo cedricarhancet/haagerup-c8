@@ -1,0 +1,67 @@
+{
+  "I": {
+    "tag": "article-I-v14-supplements-v01",
+    "commit": "813df07d2cf2a2b433d13093ccb920031fee5f9a",
+    "release_url": "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01",
+    "manuscript": "https://hexagonmath.org/2610.00733v2",
+    "source_sha256": "014411724bed4a391e204ccc9c0c19251e0dd92f6f76fcdaa52fd065b927cbd7",
+    "archive": {
+      "filename": "Haagerup-c8-article-I-v14-supplements-v01.zip",
+      "bytes": 19248176,
+      "sha256": "6b68aba299fdca14518a0e85ec41ac5ef9f2f2013fc5c0abb18b61243616148a"
+    },
+    "role": "Lattice engines, unitarity and strong-generation/C2 foundations; weight-four volumes remain in I release dependencies.",
+    "weight_four_assets": [
+      {
+        "file": "Certificats-poids-quatre-v03-partie-1.zip",
+        "bytes": 420645698,
+        "sha256": "8ea5903408d606eaaf3f98092293c2e5c7a9701bcbd7c11b645dcf3ac485ac17",
+        "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/v07/Certificats-poids-quatre-v03-partie-1.zip",
+        "role": "Coordonnees completes F4, reutilisees sans modification depuis v07."
+      },
+      {
+        "file": "Certificats-poids-quatre-v03-partie-2.zip",
+        "bytes": 99768703,
+        "sha256": "fa121f49c768943bbc5af1a32b22402c6bdb3cee03480f79f8ebce3dfb34e1d2",
+        "url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/v07/Certificats-poids-quatre-v03-partie-2.zip",
+        "role": "Coordonnees completes F4, reutilisees sans modification depuis v07."
+      }
+    ]
+  },
+  "II": {
+    "tag": "article-II-v14-supplements-v03",
+    "commit": "134ce1476c7d4ce9b336ea1d167d707870650e33",
+    "release_url": "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v03",
+    "manuscript": "https://hexagonmath.org/2611.00034v2",
+    "documentary_source": "Haagerup-reseaux-conformes-c8-v16-arxiv.tex",
+    "documentary_source_sha256": "0f741b2c3f99ebf7ccae748fa6983b9349be71d7670549ceb115b660f32a047e",
+    "archive": {
+      "filename": "Haagerup-c8-article-II-v14-supplements-v03.zip",
+      "bytes": 4144977,
+      "sha256": "29086379698ebc337c28102c80c4727aa186004c320e5a217a8e95494f00c300"
+    },
+    "role": "Independent transport/recognition tools and supplied tensors for the secondary computational route."
+  },
+  "original_HU_v08_reference": {
+    "filename": "Calculs-HU-v08.zip",
+    "sha256": "8b6ab4030fede23d296e72ff87422b9c8c22722d4374cfd23cb3d58de035fcf6",
+    "role": "Original complete reference for the 47-data/59-log archived comparison; not substituted for the current public II package."
+  },
+  "III": {
+    "tag": "article-III-v10-supplements-v01",
+    "release_url": "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-III-v10-supplements-v01",
+    "scientific_reference": "https://hexagonmath.org/2611.00164v1",
+    "scientific_source": "Haagerup-c8-article-3-v10.tex",
+    "scientific_source_sha256": "4d60e712e926d4aae08f87c81fe8adcb3697042b67fe58c05bd01f9f3d809e1e",
+    "documentary_source": "Haagerup-c8-article-3-v11.tex",
+    "documentary_source_sha256": "aab8567a8366819d701b57931502337256fcf08a52fadce0f30215130a61ca54"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "gmpy2": "2.3.2",
+    "python-flint": "0.9.0",
+    "numpy": "2.3.5",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  }
+}

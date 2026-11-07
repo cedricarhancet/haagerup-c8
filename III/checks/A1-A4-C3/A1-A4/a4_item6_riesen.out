@@ -1,0 +1,44 @@
+====================================================================================================
+A4 item 6 (complement) : DJX Section 4.5 / Appendix A.3 -- Riesen's generators transported to Huang's coordinates
+====================================================================================================
+VRAI  det G_Rie = 9
+VRAI  h_Rie = sum m_i zeta_i = (2,2,5,10,10,18,14,8)   [(2, 2, 5, 10, 10, 18, 14, 8)]
+VRAI  all zeta_i are roots and their Gram matrix equals that of (alpha7, alpha8, alpha1, ..., alpha5) (zeta_1..zeta_7 = A2 + A5 simple roots)
+VRAI  delta_3^2 = 2, h_Rie^2 = 78, (delta_3, h_Rie) = 0
+VRAI  det P = -1   [-1]
+VRAI  P^T G P = G_Rie
+VRAI  P delta_3 = ell, P h_Rie = h
+VRAI  (P zeta_1..7) = (alpha7, alpha8, alpha1, alpha2, alpha3, alpha4, alpha5)
+VRAI  kappa_H(P zeta_i) = m_i
+VRAI  (4.17): eps_Rie(x,y)(-1)^{F(x+y)} = (-1)^{F(x)+F(y)} eps(Px,Py) on all 64 basis pairs (both sides bimultiplicative in (x,y))
+VRAI  (4.17) on 2000 random pairs
+VRAI  F(+-delta_3) = F(+-zeta_i) = 0 mod 2
+VRAI  beta_i have norm 4; P beta_1 = c, P beta_2 = d, P beta_3 = a
+VRAI  ((-1)^F(beta_1), (-1)^F(beta_2), (-1)^F(beta_3)) = (-1, 1, 1)
+VRAI  Psi(v) = u (term by term with the signs (-1)^F)
+VRAI  F(sum n_i zeta_i) = n7 (n3+n4+n5+n6) mod 2 (2000 random n)
+[   0.38 s] lattice map P
+VRAI  all lattice vectors of Table 3 have norm 4
+VRAI  Table 3 lists 21 distinct lattice vectors (2+2+2+2+4+2+2+1+1+1+1+1)   [21]
+VRAI  B_0..B_3 are homogeneous of weight 2 and theta_H-fixed
+VRAI  (A.9): Gram matrix (B_i, B_j) = G_B as printed   [[['10', '-2/3', '8', '-4'], ['-2/3', '104/9', '32/3', '-16/3'], ['8', '32/3', '1965', '-2245/2'], ['-4', '-16/3', '-2245/2', '2805/4']]]
+VRAI  (omega_L, B_i) = (omega_R, B_i) = 0
+VRAI  det G_B(6x6) = 9586850   [9586850]
+VRAI  the B_i lie in the affine commutant: a_n B_i = 0 for the six affine generators, n = 0,1,2
+VRAI  (omega_c, B_i) = (2, 8/3, 45, -45/2)   [['2', '8/3', '45', '-45/2']]
+VRAI  (A.10): omega_c = (8 B0 + 9 B1 + 2 B2 + 2 B3)/41 (exact vector identity)
+[   0.94 s] B_k
+VRAI  (4.21) / Prop 4.1: e = e_* = (2B0+6B1)/31 + ((2-r)/93) B2 + ((2-2r)/93) B3  (exact vector identity)
+VRAI  f = f_* = omega_c - e_*
+VRAI  e_* is Virasoro with c = 70/31 (Riesen's two Virasoro vectors e_R, f_R transported)   [c = 70/31]
+VRAI  f_* is Virasoro with c = 2400/1271 (Riesen's two Virasoro vectors e_R, f_R transported)   [c = 2400/1271]
+VRAI  Prop 4.1 table: (e_*,e_*) = 35/31, (f_*,f_*) = 1200/1271, (u~,e_*) = 156/31, (u~,f_*) = 2160/1271, (e_*,f_*) = 0
+VRAI  (T0,T0) = 36/2 + 100*117/82 + (156/35)^2 (35/31) + (9/5)^2 (1200/1271) = 6516/35 and u~ = T0
+VRAI  (A.11) column a0: pairings with B_0..B_3   [agree]
+VRAI  (A.11) column a3: pairings with B_0..B_3   [agree]
+VRAI  (A.11) column a13: pairings with B_0..B_3   [agree]
+VRAI  E_R(eta_3) = T_3 and E_R(eta_13) = T_13 with e_*, f_* from Riesen's tables (Appendix A.3 conclusion)
+[   5.59 s] e_*, f_*
+----------------------------------------------------------------------------------------------------
+A4 item 6 (complement) : DJX Section 4.5 / Appendix A.3 -- Riesen's generators transported to Huang's coordinates : 35 checks, 0 FAUX
+[   5.59 s] done

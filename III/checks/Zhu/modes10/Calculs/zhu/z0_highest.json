@@ -1,0 +1,160 @@
+{
+  "highest": [
+    {
+      "label": "A:e1(-2)1",
+      "type": [
+        2,
+        0
+      ],
+      "not_killed_by": [],
+      "nterms": 3
+    },
+    {
+      "label": "A:e1(-1)e1",
+      "type": [
+        4,
+        0
+      ],
+      "not_killed_by": [],
+      "nterms": 3
+    },
+    {
+      "label": "A:Cas1",
+      "type": [
+        0,
+        0
+      ],
+      "not_killed_by": [],
+      "nterms": 12
+    },
+    {
+      "label": "A:Cas2",
+      "type": [
+        0,
+        0
+      ],
+      "not_killed_by": [],
+      "nterms": 72
+    },
+    {
+      "label": "A:e2(-2)1",
+      "type": [
+        0,
+        2
+      ],
+      "not_killed_by": [],
+      "nterms": 22
+    },
+    {
+      "label": "A:e2(-1)e2",
+      "type": [
+        0,
+        4
+      ],
+      "not_killed_by": [],
+      "nterms": 28
+    },
+    {
+      "label": "A:e1(-1)e2",
+      "type": [
+        2,
+        2
+      ],
+      "not_killed_by": [],
+      "nterms": 17
+    },
+    {
+      "label": "P:e",
+      "type": [
+        0,
+        0
+      ],
+      "not_killed_by": [],
+      "nterms": 74
+    },
+    {
+      "label": "P:x",
+      "type": [
+        0,
+        0
+      ],
+      "not_killed_by": [],
+      "nterms": 75
+    },
+    {
+      "label": "P:(0, 4)",
+      "type": [
+        0,
+        4
+      ],
+      "not_killed_by": [],
+      "nterms": 42
+    },
+    {
+      "label": "P:(1, 1)",
+      "type": [
+        1,
+        1
+      ],
+      "not_killed_by": [],
+      "nterms": 66
+    },
+    {
+      "label": "P:(1, 3)",
+      "type": [
+        1,
+        3
+      ],
+      "not_killed_by": [],
+      "nterms": 47
+    },
+    {
+      "label": "P:(1, 5)",
+      "type": [
+        1,
+        5
+      ],
+      "not_killed_by": [],
+      "nterms": 23
+    },
+    {
+      "label": "P:(1, 7)",
+      "type": [
+        1,
+        7
+      ],
+      "not_killed_by": [],
+      "nterms": 7
+    },
+    {
+      "label": "P:(2, 2)",
+      "type": [
+        2,
+        2
+      ],
+      "not_killed_by": [],
+      "nterms": 34
+    },
+    {
+      "label": "P:(2, 6)",
+      "type": [
+        2,
+        6
+      ],
+      "not_killed_by": [],
+      "nterms": 7
+    },
+    {
+      "label": "P:(3, 3)",
+      "type": [
+        3,
+        3
+      ],
+      "not_killed_by": [],
+      "nterms": 9
+    }
+  ],
+  "lowering_basis_size": 120,
+  "rank_lowering_mod_p": 120,
+  "rank_with_U2_mod_p": 120
+}

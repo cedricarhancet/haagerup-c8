@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-11-07T12:41:22.954706+00:00",
+  "checks": [
+    {
+      "name": "certificate",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "C3/run/verify_omega_certificate.py",
+        "C3/run/omega_certificate.json"
+      ],
+      "exit_code": 0,
+      "seconds": 5.297,
+      "stdout_sha256": "c81bb1b8962573071bcb0e34ac0f0078c3e8abe115f5883d12fda9ec8dc92f39",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_stdout_sha256": "853f71022b376a542c06dc52964d4fe3e17c5bc2d9f6406333a807398205f92c",
+      "stdout_file": "certificate.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "certificate.err"
+    },
+    {
+      "name": "categories",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "C3/run/controles-categoriels/categories-exact-check.py"
+      ],
+      "exit_code": 0,
+      "seconds": 4.172,
+      "stdout_sha256": "e300ccf8cbb6d1a9addd6337a7b16ba020438d70eb0a70584f287859863a2561",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_stdout_sha256": "cc110b6365b2fe9d416d4bc431dd9a26a7bf107fd6afb9fe69a8bac6b8a2b95b",
+      "stdout_file": "categories.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "categories.err"
+    },
+    {
+      "name": "tables-v10",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "C3/a3_c3_table_check.py",
+        "--artI",
+        "[WORK]\\references\\Haagerup-c8-article-I-v14-supplements-v01\\Haagerup-c8-article-I-v14-supplements-v01\\Haagerup-c8-article-I-v14-arxiv.tex",
+        "--artIII",
+        "[MANUSCRIPTS]\\Haagerup-c8-article-3-v10.tex",
+        "--zhu",
+        "[WORK]\\inspection\\Certificats-Zhu-III-v06\\Certificats-Zhu-III-v06",
+        "--out",
+        "[WORK]\\C3-replay\\tables-v10.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.562,
+      "stdout_sha256": "145a00e649c03aa6800df86cc898523fc7ac76e5f792c60ec7b03ef6dc0d4c3a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_stdout_sha256": "efcb9c51e26a461faef4ff9f6fe6fbe4aef9c4b078dfe9341f0ed86c3378cfcc",
+      "stdout_file": "tables-v10.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "tables-v10.err"
+    },
+    {
+      "name": "comparison-v08",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "C3/a3_c3_compare.py",
+        "--reference",
+        "[WORK]\\references\\original-Calculs-HU-v08\\Calculs-HU-v08",
+        "--report",
+        "[WORK]\\C3-replay\\comparison-v08.json"
+      ],
+      "exit_code": 0,
+      "seconds": 1.5,
+      "stdout_sha256": "2bb1c3b630b47abd0a448cea52628c63887c1421129da71cf4d0bdcaebe0a56a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_stdout_sha256": "0473dde9d6cf0b0804502feea2924c9bcf3a3ecbad1874e589e039fce738d0ec",
+      "stdout_file": "comparison-v08.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "comparison-v08.err"
+    }
+  ],
+  "finished_utc": "2026-11-07T12:41:34.557905+00:00"
+}

@@ -6,11 +6,11 @@ Suppléments publics des articles de [Cédric Arhancet](https://github.com/cedri
 | --- | --- | --- |
 | I — Haagerup vertex operator algebras at central charge eight | [Hexagon 2610.00733v2](https://hexagonmath.org/2610.00733v2), I v14 | [Release article-I-v14-supplements-v01](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01) ; instructions ci-dessous |
 | II — Haagerup symmetries of the E8 theory and conformal nets at central charge eight | [Hexagon 2611.00034v2](https://hexagonmath.org/2611.00034v2), II v14 ; [v16 documentaire](II/manuscript/Haagerup-reseaux-conformes-c8-v16-arxiv.pdf) | [Dossier II](II/README.md), [release article-II-v14-supplements-v03](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v03) |
-| III — The Haagerup center at central charge eight via conformal nets | [Hexagon 2611.00164v1](https://hexagonmath.org/2611.00164v1), III v10 | Livraison propre à III à préparer ; les calculs de II importés dans sa voie secondaire sont fournis dans II |
+| III — The Haagerup center at central charge eight via conformal nets | [Hexagon 2611.00164v1](https://hexagonmath.org/2611.00164v1), III v10 ; [v11 documentaire](III/manuscript/Haagerup-c8-article-3-v11.pdf) | [Dossier III](III/README.md), [release article-III-v10-supplements-v01](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-III-v10-supplements-v01) |
 
 I fournit notamment la construction, la structure unitaire et la C2-cofinitude utilisées parmi les fondations de III. Les outils généraux de transport et de reconnaissance de II sont établis indépendamment de H_J. III démontre H_J par sa preuve analytique ; II §7.5 fournit aussi une voie calculatoire vers une structure unitaire compatible sur la diagonale. Les calculs finis et les preuves analytiques gardent leur portée respective.
 
-Depuis la racine du dépôt, `python verify_manifest.py` contrôle l'instantané commun. Depuis `II`, suivre son propre [README](II/README.md) ; les commandes ci-dessous restent celles de I. Pour citer la version figée de I et son manifeste d'origine, utiliser sa release et son tag propres.
+Depuis la racine du dépôt, `python verify_manifest.py` contrôle l'instantané commun. Depuis `II` ou `III`, suivre le [README de II](II/README.md) ou le [README de III](III/README.md) ; les commandes ci-dessous restent celles de I. Pour citer la version figée de I et son manifeste d'origine, utiliser sa release et son tag propres.
 
 ## Article I
 

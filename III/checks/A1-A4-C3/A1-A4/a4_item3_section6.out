@@ -1,0 +1,72 @@
+====================================================================================================
+A4 item 3 : DJX Section 6 (R, R_*, gamma_*, chi_*, Phi, Prop 6.1, Prop 6.2, (6.15))
+====================================================================================================
+VRAI  R^T G R = G (R is an isometry)
+VRAI  R_* = R D (columns 7 and 8 of R interchanged)
+VRAI  R_*^T G R_* = G
+VRAI  R_* ell = s and R_* h = t (6.10)
+VRAI  R ell = s and R h = t
+INFO  R (rows)   [(0, 0, 1, -1, 0, -1, 0, 0); (mpq(1,2), mpq(-1,2), mpq(3,2), mpq(-1,2), mpq(-1,2), -2, mpq(-1,2), mpq(-1,2)); (mpq(-1,2), mpq(-1,2), mpq(5,2), mpq(-1,2), mpq(-1,2), -3, mpq(-1,2), mpq(-1,2)); (mpq(-1,2), mpq(-1,2), mpq(3,2), mpq(-1,2), mpq(1,2), -2, mpq(-1,2), mpq(-1,2)); (0, -1, 1, 0, 0, -1, 0, 0); (mpq(-1,2), mpq(-1,2), mpq(3,2), mpq(-1,2), mpq(-1,2), -1, mpq(-1,2), mpq(-1,2)); (mpq(-1,2), mpq(1,2), mpq(-1,2), mpq(1,2), mpq(-1,2), 0, mpq(1,2), mpq(-1,2)); (mpq(-1,2), mpq(1,2), mpq(-1,2), mpq(1,2), mpq(-1,2), 0, mpq(-1,2), mpq(1,2))]
+INFO  R_*^{-1} (rows)   [(mpq(-1,2), mpq(1,2), mpq(1,2), mpq(-1,2), mpq(-1,2), mpq(-1,2), mpq(-1,2), mpq(-1,2)); (mpq(-1,2), mpq(-1,2), mpq(3,2), mpq(-1,2), mpq(-3,2), mpq(-1,2), mpq(-1,2), mpq(-1,2)); (-1, -1, 2, -1, -1, 0, -1, -1); (mpq(-3,2), mpq(-1,2), mpq(3,2), mpq(-1,2), mpq(-1,2), mpq(-1,2), mpq(-1,2), mpq(-1,2)); (mpq(-1,2), mpq(-1,2), mpq(1,2), mpq(1,2), mpq(-1,2), mpq(-1,2), mpq(-1,2), mpq(-1,2)); (mpq(-1,2), mpq(-1,2), mpq(1,2), mpq(-1,2), mpq(-1,2), mpq(1,2), mpq(-1,2), mpq(-1,2)); (mpq(1,2), mpq(-1,2), mpq(1,2), mpq(-1,2), mpq(1,2), mpq(-1,2), mpq(-1,2), mpq(1,2)); (mpq(1,2), mpq(-1,2), mpq(1,2), mpq(-1,2), mpq(1,2), mpq(-1,2), mpq(1,2), mpq(-1,2))]
+VRAI  R_*^{-1} p = (3ell+h)/4 and R_*^{-1} b = (13 ell - h)/4
+VRAI  R_*^{-1} L_0 = {y in L : ((3ell+h)/4, y) in Z} (2000 random y in L)
+VRAI  (EL)_{-1} ER = sum_i eps(ell, alpha_i) e^{ell+alpha_i} (pure exponentials, 7 terms)
+VRAI  (EL)_{-1} FR = -sum_i c_i eps(ell, -alpha_i) e^{ell-alpha_i} (7 terms)
+INFO  signs eps(ell, alpha_i), i in I   [[-1, -1, -1, -1, -1, 1, 1]]
+INFO  signs eps(ell, -alpha_i), i in I   [[-1, -1, -1, -1, -1, 1, 1]]
+VRAI  R supp((EL)_{-1}ER) = supp(u26) (and likewise with R_*)
+VRAI  R supp((EL)_{-1}FR) = supp(u17) (and likewise with R_*)
+VRAI  (6.4): R a = rho1+rho3, R d = rho2+rho3, R c = rho1+rho2
+VRAI  also R_* a = rho1+rho3, R_* d = rho2+rho3, R_* c = rho1+rho2 (a, d, c are symmetric in alpha7, alpha8)
+VRAI  supp((PE)_{-1}PE) = {rho_i + rho_j : i<j} and (PE)_{-1}PE = -2 sum_{i<j} e^{rho_i+rho_j}
+VRAI  eps(rho_i, rho_j) = -1 for all i != j
+VRAI  m4 + m5 + y0 = m7 + m8 + y1
+VRAI  (6.7): t_4 = (r+xi)/6, t_5 = -(1-r xi)/6, t_7 = -(1+xi)/3, t_8 = (1-xi)/6   [{4: '(1/6)*r + (1/6)*xi', 5: '-1/6 + (1/6)*r*xi', 7: '-1/3 + (-1/3)*xi', 8: '1/6 + (-1/6)*xi'}]
+VRAI  (6.8): t4 t5 / (t7 t8) = (r - 3xi)/2   [(1/2)*r + (-3/2)*xi]
+VRAI  coefficients of (PE)_{-1}PE at y0, y1 are both -2; gamma(y0) = 1, gamma(y1) = -1 (with R)   [(1, -1)]
+VRAI  (6.9): -20/(r+3xi) = -(r-3xi)/2
+VRAI  (6.8) and (6.9) contradict: (r-3xi)/2 != -(r-3xi)/2
+VRAI  (6.9) derivation: chi(y1)/chi(y0) = (coeff ratio 1) * (gamma(y0)/gamma(y1) = -1) * 20/(r+3xi) = -(r-3xi)/2   [(-1/2)*r + (3/2)*xi]
+[   1.02 s] Prop 6.1
+VRAI  D-hat(e^x) = (-1)^{x7 x8} e^{Dx} preserves the twisted group algebra (checked on basis pairs; both sides bimultiplicative)
+VRAI  D-hat fixes the two Huang triples (D permutes alpha7, alpha8, fixes ell, h; signs trivial on roots)
+VRAI  D-hat(u) = -e^a + ((r+3xi)/20) e^d + ((r-3xi)/20) e^c (relative sign of the first summand changes)
+VRAI  (6.11) = (6.1) with R_*: eps_H(R_*^{-1}b_i, R_*^{-1}b_j) eps_J(b_i,b_j) = -1 exactly for the 12 pairs (i>j) in q_*
+VRAI  the diagonal values agree: eps_H(R_*^{-1}b_i, R_*^{-1}b_i) = eps_J(b_i, b_i) = (-1)^{b_i^2/2}
+VRAI  commutators agree on the basis: eps_H(.,.)/eps_H(.,.)^T = eps_J(.,.)/eps_J(.,.)^T
+VRAI  (6.2) for gamma_* on the 64 basis pairs of B
+VRAI  (6.2) for gamma_* on 3000 random pairs of L_0
+VRAI  gamma_* coincides with the product formula (6.1) (R_*) on 3000 random x in L_0
+VRAI  gamma_*(x) (6.11) = product formula (6.1) with R_* for 3000 random x in L_0
+[   8.40 s] gamma_*
+VRAI  |chi_*(b_i)|^2 = kappa_H(R_*^{-1}b_i)/kappa_J(b_i) for the 8 basis vectors (Prop 6.2, norm identity)
+INFO  chi_*(b_i)   [['1/720', '(1/8)*r + (-7/8)*xi', '(-537/128)*r + (1377/128)*xi', '(-1/2)*r + (3/2)*xi', '-5/16 + (-1/16)*r*xi', '-7/2388787200 + (-1/477757440)*r*xi', '-3/4 + (1/4)*r + (1/4)*xi + (1/4)*r*xi', '-3/8 + (-1/8)*r + (-1/8)*xi + (1/8)*r*xi']]
+VRAI  chi_*(b_i) all nonzero
+VRAI  Phi((EL)_{-1}ER) = c26 u26 with c26 = (7 + 5 r xi)/92160   [found c26 = 7/92160 + (1/18432)*r*xi]
+VRAI  Phi((EL)_{-1}FR) = c17 u17 with c17 = xi/8640   [found c17 = (1/8640)*xi]
+VRAI  Phi(u) = cP :PE^2: with cP = (32765 + 71 r xi)/32768   [found cP = 32765/32768 + (71/32768)*r*xi]
+VRAI  Phi(theta_H u) = cP^{-1} :PF^2:   [found = 32765/32768 + (-71/32768)*r*xi ; cP^{-1} = 32765/32768 + (-71/32768)*r*xi]
+VRAI  |cP|^2 = 1   [1]
+INFO  |c26|^2, |c17|^2   [('1/8294400', '1/24883200')]
+VRAI  Phi theta_H = theta_J Phi on 10 test vectors of V_{R_*^{-1}L_0} (u, theta_H u, (EL)_{-1}ER, (EL)_{-1}FR, HL, HR, omega, ...)
+VRAI  Phi(HL) = s(-1)1 = (PH + BH)/4 and Phi(HR) = t(-1)1 = (13 PH - 3 BH)/4
+VRAI  Phi(omega) = omega (the conformal vector is preserved by the isometry)
+VRAI  Phi is a homomorphism on test products: Phi(a_n b) = Phi(a)_n Phi(b) for (a,b,n) in a sample
+[   8.78 s] Prop 6.2
+VRAI  (6.15): (FL)_0 (FR)_0^13 u = -8640 * 13! theta_H(u)
+VRAI  (FR)_0^13 e^a / 13! = -34560 e^{ell-a}
+VRAI  (FR)_0^13 e^d / 13! = -345600 e^{ell-c}  (as printed by DJX: d -> ell-c)
+VRAI  (FR)_0^13 e^c / 13! = -345600 e^{ell-d}  (as printed by DJX: c -> ell-d)
+VRAI  consistency: d + c - ell has coordinate sum 13 (thirteen lowering roots from e^d to e^{ell-c})   [d + c - ell = (2, 3, 3, 3, 2, 0, 0, 0)]
+VRAI  (FL)_0 e^{ell-x} = e^{-x} for x = a, d, c
+VRAI  (FR)_0^13 u / 13! = -8640 (4 e^{ell-a} + 2(r-3xi) e^{ell-d} + 2(r+3xi) e^{ell-c})
+VRAI  (FR)_0^14 u = 0 (u generates a 14-dimensional sl2 module, highest weight 13)
+VRAI  theta_H(u) is tau-fixed: ((3ell+h)/4, -x) in Z for x in {a,d,c}
+VRAI  (PF)_0^2 (BF)_0^6 u26 = 1440 theta_J(u26)
+VRAI  (PF)_0 (BF)_0^7 u17 = 5040 theta_J(u17)
+VRAI  theta_J(u26), theta_J(u17) are sigma-fixed (momenta in L_0)
+VRAI  all momenta of u, theta_H u, (EL)_{-1}ER, (EL)_{-1}FR lie in R_*^{-1}L_0 (needed for Phi)
+[   9.00 s] (6.15)
+----------------------------------------------------------------------------------------------------
+A4 item 3 : DJX Section 6 (R, R_*, gamma_*, chi_*, Phi, Prop 6.1, Prop 6.2, (6.15)) : 56 checks, 0 FAUX
+[   9.00 s] done

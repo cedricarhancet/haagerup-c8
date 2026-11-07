@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-11-07T12:31:41.701302+00:00",
+  "checks": [
+    {
+      "name": "exported",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "check_exported_data.py"
+      ],
+      "exit_code": 0,
+      "seconds": 6.735,
+      "stdout_sha256": "6d05a4149ad5a8996b08595428e6d2e1a6b48a9191a3411166c2d7a31206568f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_stdout_sha256": "6ce8dcf61006476ae17b059e9eabbbb5f3297c8acb727caa5b5974637a55492e",
+      "stdout_file": "exported.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "exported.err"
+    },
+    {
+      "name": "verify",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "run_hj.py",
+        "verify",
+        "[WORK]\\zhu-replay\\verify"
+      ],
+      "exit_code": 0,
+      "seconds": 4850.688,
+      "stdout_sha256": "8d994096a9b72af46d9978ab68b9f63c4080b0f9be21f070fed573892472aef5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_stdout_sha256": "f4af8ece540013c4f28d5d92fef3fe9df8ffec090ce9a84efe0fffcfc9d66c8b",
+      "stdout_file": "verify.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "verify.err"
+    },
+    {
+      "name": "projection",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "run_hj.py",
+        "projection",
+        "[WORK]\\zhu-replay\\projection"
+      ],
+      "exit_code": 0,
+      "seconds": 485.187,
+      "stdout_sha256": "9d3d43ee6061d4e1fa1d08e0abd14d56260616aab80cdd12991bf65e254d0c5a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_stdout_sha256": "340060b158d9b0de88d91829ad3a03ab2c8d54cb326967ef70b72399ba97c170",
+      "stdout_file": "projection.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "projection.err"
+    },
+    {
+      "name": "modes10",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "run_hj.py",
+        "sample",
+        "[WORK]\\zhu-replay\\modes10",
+        "--rows",
+        "10",
+        "--jobs",
+        "1"
+      ],
+      "exit_code": 0,
+      "seconds": 158.344,
+      "stdout_sha256": "a15a27d90d4d18bd28f96eb31731be4c51c611fa81c5fc5b064bb4238678ec0f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_stdout_sha256": "e1514ba307808a54de5c0a8b489ca8e65452dcddf91ea89d16aa54397e4685ab",
+      "stdout_file": "modes10.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "modes10.err"
+    }
+  ],
+  "scope": "Exported data; full confluence and both ideal inclusions; special fibre; exact weights and branching; regeneration of all projected rows; ten initial mode-product rows. Full mode-production regeneration is not claimed.",
+  "finished_utc": "2026-11-07T14:03:22.811892+00:00",
+  "source_unchanged": true
+}

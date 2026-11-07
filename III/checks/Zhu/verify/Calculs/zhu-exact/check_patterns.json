@@ -1,0 +1,8 @@
+{
+  "plain[(1, 1), (2, 2)]": true,
+  "plain[(1, 1), (1, 2)]": false,
+  "plain[(1, 1), (2, 1)]": false,
+  "conj[(1, 1), (2, 2)]": true,
+  "conj[(1, 1), (1, 2)]": false,
+  "conj[(1, 1), (2, 1)]": false
+}

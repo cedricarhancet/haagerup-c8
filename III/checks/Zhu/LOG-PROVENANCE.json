@@ -1,0 +1,142 @@
+[
+  {
+    "group": "Zhu",
+    "file": "exported.out",
+    "raw_sha256": "6ce8dcf61006476ae17b059e9eabbbb5f3297c8acb727caa5b5974637a55492e",
+    "public_sha256": "6d05a4149ad5a8996b08595428e6d2e1a6b48a9191a3411166c2d7a31206568f",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu",
+    "file": "exported.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu",
+    "file": "verify.out",
+    "raw_sha256": "f4af8ece540013c4f28d5d92fef3fe9df8ffec090ce9a84efe0fffcfc9d66c8b",
+    "public_sha256": "8d994096a9b72af46d9978ab68b9f63c4080b0f9be21f070fed573892472aef5",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu",
+    "file": "verify.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu",
+    "file": "projection.out",
+    "raw_sha256": "340060b158d9b0de88d91829ad3a03ab2c8d54cb326967ef70b72399ba97c170",
+    "public_sha256": "9d3d43ee6061d4e1fa1d08e0abd14d56260616aab80cdd12991bf65e254d0c5a",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu",
+    "file": "projection.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu",
+    "file": "modes10.out",
+    "raw_sha256": "e1514ba307808a54de5c0a8b489ca8e65452dcddf91ea89d16aa54397e4685ab",
+    "public_sha256": "a15a27d90d4d18bd28f96eb31731be4c51c611fa81c5fc5b064bb4238678ec0f",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu",
+    "file": "modes10.err",
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "check_patterns.log",
+    "raw_sha256": "f67b7558932ecf0b6c587a45b9367a61a91d6d356e7b37593d71967ac2d13451",
+    "public_sha256": "e5f6de5d402f1d16a23b5a2286562cc4b2ca03fc466fba3e514eb033b52cd236",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "exactZ.log",
+    "raw_sha256": "9fd89a0501c0220c1819d339ae34cb233253506b2a4709e5a7606102de973665",
+    "public_sha256": "ecfd04e0ed55a227bea95969b1d8042cd343de70a3666cbc5de48890d9f34079",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "membership_0_vertices_E.log",
+    "raw_sha256": "d1230a83820a8f07054dc9691f2f2e1ea8252eb9e43b469619de42a2e16e8ee9",
+    "public_sha256": "f2726c9ed62d992b3f65f716e4af9232461374c426bdbbf7a489b4c99d3f044b",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "membership_a.log",
+    "raw_sha256": "d8a6263095da98540282f27a24c8f07717ca47db08f0c4d861ce835ce6e6d33b",
+    "public_sha256": "43d18213cab7928d75bff23ec1af077f96cecb71e95eb8d959c169cbf809b954",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "membership_b_targeted.log",
+    "raw_sha256": "750db4fae7f25141aaf2162780ab8a74375dce1c5954de6cc9cb7a30e027ee33",
+    "public_sha256": "3f226af2774ac85a5b287843ba9856cf6aad3c931ce5dd8b2812ecd3397b6f5c",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "specfib_blocks.log",
+    "raw_sha256": "808fdd4218332cc592e5053e25ae721ba9ebb586bce9804c271aa0696f305acd",
+    "public_sha256": "e7678f28745b0a3245ae19f07e1988b2c9b40e873fc43baad85e4a25a0e3f9a6",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "specfib_Z.log",
+    "raw_sha256": "333c21f847b29f0e4f97559107db55af0185586484fd9add05b5d22802ebf4a1",
+    "public_sha256": "45fa3b208e6f207a2a081f084dc7bfdfeb312e9b14ad687070f98eb9c6f6c505",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "verif_exact.log",
+    "raw_sha256": "df4031c7136d6d80b23d0eb1896ee0cd8e38c5eb7cb7b16f6117600478dbaf8e",
+    "public_sha256": "d4b8a8e16a5927b1a665fcce4fa0d0a659709c65412519be2149f21db71d08f7",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/verify",
+    "file": "z4_upper_algebra_modp-ArticleI.log",
+    "raw_sha256": "9343142337006fd278ff2c04c76872086529d0bef639c5b625fa3cda8563486e",
+    "public_sha256": "be44ee305203303df1d0308f7430b95f174bf7a8e9252d4126411b2604566ecf",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/projection",
+    "file": "z3x.log",
+    "raw_sha256": "7f93487f9f5521ebb47a85fcb11b5b18a8439f17c7bf4f66fdead4f02fe6bebf",
+    "public_sha256": "9506b58f8943bac034db468d579ee5c8fc27827ebcd89f69690aff4189bcb184",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/modes10",
+    "file": "products-0.log",
+    "raw_sha256": "a3fd81a8b7a07c5d67b4c58b2e1fe49284e2a153f593c64f700796382ea9f297",
+    "public_sha256": "5cbe31139a5697d9a92151b8105955e7e6eeb3a3b7d3d5936ee9f918a64e717f",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  },
+  {
+    "group": "Zhu/modes10",
+    "file": "z0_highest.log",
+    "raw_sha256": "af9979064a167c6c258214c4306d0e36883a4ed7052597ca562c4c5367e29437",
+    "public_sha256": "1699a47ad7ce02dbabd6e7bd82d7edb898e40738cf1850eeb9c463cb1ebdbe9b",
+    "normalization": "Local work/manuscript directory prefixes replaced; line endings normalized to LF."
+  }
+]

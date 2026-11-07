@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-11-07T14:03:37.714853+00:00",
+  "A1_A4_commands": 10,
+  "A4_detailed_checks": [
+    {
+      "script": "a4_item1_lattice.py",
+      "checks": 79,
+      "failures": 0
+    },
+    {
+      "script": "a4_item2_section5.py",
+      "checks": 40,
+      "failures": 0
+    },
+    {
+      "script": "a4_item3_section6.py",
+      "checks": 56,
+      "failures": 0
+    },
+    {
+      "script": "a4_item4_section7.py",
+      "checks": 54,
+      "failures": 0
+    },
+    {
+      "script": "a4_item5_prop81.py",
+      "checks": 56,
+      "failures": 0
+    },
+    {
+      "script": "a4_item6_riesen.py",
+      "checks": 35,
+      "failures": 0
+    }
+  ],
+  "C3_current_comparison_commands": 4,
+  "C3_shared_files": 131,
+  "C3_III_only_files": 52,
+  "C3_legacy_reference": {
+    "regenerated_with_content_difference": 0,
+    "logs_differing": 0,
+    "missing": 0
+  },
+  "Zhu_profiles": 4,
+  "Zhu_confluence": {
+    "A_order_endpoint_violations": 0,
+    "E_leads_with_eliminated_or_dead_arrows": 0,
+    "E_dead_eliminations_not_zero": 0,
+    "B_generators_not_reducing_to_zero": 0,
+    "C_overlaps": 131698,
+    "C_unresolved": 0,
+    "D_inclusions": 151,
+    "D_unresolved": 0,
+    "F_live_vertices": 12,
+    "F_irreducible_by_length": [
+      239,
+      506,
+      5,
+      0
+    ],
+    "F_dimension": 762,
+    "G_non_integral": 0,
+    "H_same_active": true,
+    "H_same_vertices": true,
+    "H_same_leads": true,
+    "H_rules_with_different_reduction": 0
+  },
+  "Zhu_fibre": {
+    "dimension": 762,
+    "trace_form_rank": 762,
+    "center_dim": 12
+  },
+  "Zhu_mode_sample": {
+    "rows": 10,
+    "pairs": 1155,
+    "all_byte_identical_to_historical_sample": true
+  },
+  "Zhu_projection_rows": 19981,
+  "source_I_foundation_files_byte_identical": 19,
+  "log_path_normalization": true,
+  "historical_productions_not_repeated": [
+    "C3 complete 69-output generation",
+    "Zhu complete 120 mode-product rows",
+    "Zhu kernel generation z2x and completion z4x"
+  ],
+  "manuscript": {
+    "source": "Haagerup-c8-article-3-v11.tex",
+    "sha256": "aab8567a8366819d701b57931502337256fcf08a52fadce0f30215130a61ca54",
+    "compilation_passes": 2,
+    "undefined_references": false,
+    "visual_checks": [
+      49,
+      50,
+      56,
+      57,
+      68,
+      69
+    ]
+  }
+}

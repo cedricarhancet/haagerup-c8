@@ -1,0 +1,220 @@
+{
+  "status": "PASS",
+  "group": "A",
+  "started_utc": "2026-11-07T13:26:24.727295+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "checks": [
+    {
+      "name": "a1_lattices",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A1/a1_lattices.py"
+      ],
+      "exit_code": 0,
+      "seconds": 12.25,
+      "stdout_sha256": "f98605bc247d66b7620e5f88d72a6691bce2e25944602dcb782a09725091cd20",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "374ac66af82c3dd42481438868f2e834b1d5758979a3af21ec9dfcab20dec574",
+      "stdout_file": "a1_lattices.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a1_lattices.err"
+    },
+    {
+      "name": "a1b_extra",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A1/a1b_extra.py"
+      ],
+      "exit_code": 0,
+      "seconds": 181.469,
+      "stdout_sha256": "7e0359b00cab9b4c670a7744ad905b7e96aded4807342b4e036f71a5c7c963f0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "8e7e46eb6a329ed52a3c2791ed8529c065dc6b813758bb84b37eca4e4f6add32",
+      "stdout_file": "a1b_extra.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a1b_extra.err"
+    },
+    {
+      "name": "a4_kfield",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A4/a4_kfield.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.438,
+      "stdout_sha256": "91cab5c66c81bb6e4036c2079f448af55f5f83967aaebb2c234b2b2226a22168",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "a5c9e9ceceb143acda4b380e7a0a1bb848ac22a3cc2d85c1127e79236ba4e850",
+      "stdout_file": "a4_kfield.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a4_kfield.err"
+    },
+    {
+      "name": "a4_smoke",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A4/a4_smoke.py"
+      ],
+      "exit_code": 0,
+      "seconds": 6.937,
+      "stdout_sha256": "199ca461222adc7a3e9d1121d62ece6aecbbde4e9c32e1192f4a49c499e1fc92",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "0a6ad387b77f9f04c82d8ed46d37a340850f2401dfa8324ba5a5d9ad7d0feedd",
+      "stdout_file": "a4_smoke.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a4_smoke.err"
+    },
+    {
+      "name": "a4_item1_lattice",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A4/a4_item1_lattice.py"
+      ],
+      "exit_code": 0,
+      "seconds": 9.297,
+      "stdout_sha256": "5f36a72e33bdf23583e207778d5e8bd178731b63afe313d82ad36cd036f34ccb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "5eab08c8e6c06046da5d51c444587275b884e11c5caa761e69f5be61a00a1435",
+      "stdout_file": "a4_item1_lattice.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a4_item1_lattice.err"
+    },
+    {
+      "name": "a4_item2_section5",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A4/a4_item2_section5.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.016,
+      "stdout_sha256": "ec9efc60aa6c4d9ee3ccea92e23de7ead306fa9c3e22004de6e3b9e33b59ccf1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "ab1165ae51e4269dcb0949984adef7d7ae4288084cf78c64588ce5d2e61d71ee",
+      "stdout_file": "a4_item2_section5.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a4_item2_section5.err"
+    },
+    {
+      "name": "a4_item3_section6",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A4/a4_item3_section6.py"
+      ],
+      "exit_code": 0,
+      "seconds": 9.672,
+      "stdout_sha256": "41b8fa9576f668dfb8de6c352c2bc29b6864cda486d17d0a97631639c997cc40",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "47e22fec3b1437b03467507655ac8ed6b4103f5176316e6baecac5ec1a424e90",
+      "stdout_file": "a4_item3_section6.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a4_item3_section6.err"
+    },
+    {
+      "name": "a4_item4_section7",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A4/a4_item4_section7.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.828,
+      "stdout_sha256": "f2487a07030bf91a386ef6f9d8f37890929b1fbe9b48add058f9020c13e083b0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "410263753cb3b5041e0df24433df986e95dfdb12911c38cec1011948946eff36",
+      "stdout_file": "a4_item4_section7.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a4_item4_section7.err"
+    },
+    {
+      "name": "a4_item5_prop81",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A4/a4_item5_prop81.py"
+      ],
+      "exit_code": 0,
+      "seconds": 28.953,
+      "stdout_sha256": "4c805c3a8d12438b2cee84ecce1fd9c49967ee404af2165d6f00fb418aeb80df",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "69d4fd6b7e8abf212ddd7c471ef99502d97c05f480db0a75cbc9694de38c0a2d",
+      "stdout_file": "a4_item5_prop81.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a4_item5_prop81.err"
+    },
+    {
+      "name": "a4_item6_riesen",
+      "command": [
+        "python",
+        "-I",
+        "-X",
+        "utf8",
+        "-B",
+        "-u",
+        "A4/a4_item6_riesen.py"
+      ],
+      "exit_code": 0,
+      "seconds": 5.938,
+      "stdout_sha256": "0b6e5b2daa1b4505c25215550502b0a5bf97c9debc8a683bdd8aac0185539e50",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reported_failed_check": false,
+      "raw_stdout_sha256": "720bd254f38422866e9586326c3f79a7c77e7fc71d6dfc5b5b62b26ccd29d364",
+      "stdout_file": "a4_item6_riesen.out",
+      "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file": "a4_item6_riesen.err"
+    }
+  ],
+  "finished_utc": "2026-11-07T13:30:41.554220+00:00",
+  "source_unchanged": true
+}

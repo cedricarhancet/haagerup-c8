@@ -1,0 +1,125 @@
+[
+  {
+    "root": 0,
+    "rational": "0",
+    "kernel_dim": 1,
+    "multiplicity_charpoly": 1,
+    "corner_dims": {
+      "0": 1
+    }
+  },
+  {
+    "root": 5592381,
+    "rational": "1/3",
+    "kernel_dim": 1,
+    "multiplicity_charpoly": 1,
+    "corner_dims": {
+      "1": 1
+    }
+  },
+  {
+    "root": 7098022,
+    "rational": "5/13",
+    "kernel_dim": 4,
+    "multiplicity_charpoly": 4,
+    "corner_dims": {
+      "0": 1,
+      "2": 1
+    }
+  },
+  {
+    "root": 5162198,
+    "rational": "6/13",
+    "kernel_dim": 4,
+    "multiplicity_charpoly": 4,
+    "corner_dims": {
+      "1": 1,
+      "2": 1
+    }
+  },
+  {
+    "root": 3226374,
+    "rational": "7/13",
+    "kernel_dim": 4,
+    "multiplicity_charpoly": 4,
+    "corner_dims": {
+      "4": 1,
+      "5": 1
+    }
+  },
+  {
+    "root": 1290550,
+    "rational": "8/13",
+    "kernel_dim": 9,
+    "multiplicity_charpoly": 9,
+    "corner_dims": {
+      "1": 1,
+      "3": 1,
+      "5": 1
+    }
+  },
+  {
+    "root": 2796191,
+    "rational": "2/3",
+    "kernel_dim": 25,
+    "multiplicity_charpoly": 25,
+    "corner_dims": {
+      "0": 1,
+      "2": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "root": 3871649,
+    "rational": "11/13",
+    "kernel_dim": 49,
+    "multiplicity_charpoly": 49,
+    "corner_dims": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "9": 1
+    }
+  },
+  {
+    "root": 4516924,
+    "rational": "15/13",
+    "kernel_dim": 256,
+    "multiplicity_charpoly": 256,
+    "corner_dims": {
+      "0": 4,
+      "1": 1,
+      "2": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "8": 1,
+      "9": 4,
+      "10": 1,
+      "11": 1
+    }
+  },
+  {
+    "root": 1,
+    "rational": "1",
+    "kernel_dim": 409,
+    "multiplicity_charpoly": 409,
+    "corner_dims": {
+      "1": 12,
+      "2": 9,
+      "3": 2,
+      "4": 6,
+      "5": 12,
+      "6": 3,
+      "7": 1,
+      "8": 2,
+      "9": 3,
+      "10": 3
+    }
+  }
+]

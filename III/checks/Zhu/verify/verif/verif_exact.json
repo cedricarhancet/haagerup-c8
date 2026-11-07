@@ -1,0 +1,23 @@
+{
+  "A_order_endpoint_violations": 0,
+  "E_leads_with_eliminated_or_dead_arrows": 0,
+  "E_dead_eliminations_not_zero": 0,
+  "B_generators_not_reducing_to_zero": 0,
+  "C_overlaps": 131698,
+  "C_unresolved": 0,
+  "D_inclusions": 151,
+  "D_unresolved": 0,
+  "F_live_vertices": 12,
+  "F_irreducible_by_length": [
+    239,
+    506,
+    5,
+    0
+  ],
+  "F_dimension": 762,
+  "G_non_integral": 0,
+  "H_same_active": true,
+  "H_same_vertices": true,
+  "H_same_leads": true,
+  "H_rules_with_different_reduction": 0
+}

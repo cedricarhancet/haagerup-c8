@@ -1,0 +1,22 @@
+Expanded exact rows checksum
+Running verif_exact.py
+Exact critical pair checks, forward containment, integrality and reduction match
+Running membership_0_vertices_E.py
+Vertex 12 in the original ideal
+Vertex 13 in the original ideal
+Running membership_a.py
+46 live eliminations in the original ideal
+5105 initial rules in the original ideal
+Running membership_b_targeted.py
+554 completion rules in the original ideal
+Running z4_upper_algebra_modp-ArticleI.py
+Special fibre dimension, trace form and split blocks
+Recomputed special fibre rewriting rules equal the archived reductions
+Running specfib_Z_from_rules.py
+Running specfib_blocks.py
+Special fibre weights and corner dimensions match
+Running exactZ.py
+Exact central polynomial and occurrence of every listed root
+Running check_patterns.py
+Both lattice branchings checked against all three possible partitions
+Verified verify

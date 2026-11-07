@@ -1,0 +1,26 @@
+lambda^2 = 8, s^2 = 2, t^2 = 78, (s,t) = 0, (s,p) = 3/2, (p,lambda) = 3
+(s+t)/2 = (Fraction(7, 4), Fraction(-1, 4))  (expected (7/4, -1/4) = (7p-b)/4), norm 20
+Gram L_II = [[Fraction(6, 1), Fraction(3, 1)], [Fraction(3, 1), Fraction(8, 1)]]  (expected [[6,3],[3,8]])
+Gram L_I  = [[Fraction(2, 1), Fraction(1, 1)], [Fraction(1, 1), Fraction(20, 1)]]  (expected [[2,1],[1,20]])
+Gram N    = [[Fraction(8, 1), Fraction(6, 1)], [Fraction(6, 1), Fraction(24, 1)]]  (expected [[8,6],[6,24]])
+det L_I = 39, det L_II = 39, det N = 156
+L_I ∩ L_II = N on a box of 313 vectors: OK (N ⊂ L_I ∩ L_II and L_I ∩ L_II ⊂ N)
+[L_I : N] = 2, [L_II : N] = 2  (det ratio 156/39 = 4 = 2^2)
+ker((-1)^{(.,lambda)} on L_II) = N and ker((-1)^{(.,2p)} on L_I) = N : OK
+(alpha, lambda) mod 2 on the basis (p, lambda) of L_II: 1, 0 ; (alpha,2p) on (s,(s+t)/2): 1, 1
+|N'/N| = 156, |L_I'/L_I| = 39, |L_II'/L_II| = 39
+2-part of N'/N (q values): (Fraction(0, 1), Fraction(0, 1)): q=0, (Fraction(-3, 2), Fraction(2, 1)): q=0, (Fraction(-1, 1), Fraction(3, 2)): q=0, (Fraction(-5, 2), Fraction(7, 2)): q=1/2
+q(s+N) = 0, q(p+N) = 0, q(s+p+N) = 1/2  -> a = s+N, b = p+N bosons, ab fermion: Z(Vec_Z2)
+bichar(a,b) = 1/2 (expected 1/2)
+39-part of N'/N has 39 elements; it is cyclic: True
+|L_I'/N| = 78 (expected 78), |L_II'/N| = 78 (expected 78)
+the 39-part of N'/N lies in L_I' ∩ L_II' : OK  (so L_I'/L_I ≅ 39-part ≅ L_II'/L_II canonically)
+q_II((1,1)) = 4/39 (expected 4/39), q_I((1,1)) = 10/39 (expected 10/39)
+psi_N((1,1)_II) = u (1,1)_I with u = 22  (Arh26 Lemma 12.1(3): u in {4, 17, 22, 35})
+psi_N preserves q on all 39 classes: True
+10*u^2 mod 39 = 4 (expected 4)
+w' (p -> -p) acts on L_II'/L_II by [14] (expected 14)
+w'' (b -> -b) acts on L_II'/L_II by [25] (expected 25)
+s -> -s acts on L_I'/L_I by [1] (expected 1)
+t -> -t acts on L_I'/L_I by [38] (expected 38)
+ALL CHECKS PASSED

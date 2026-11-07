@@ -1,0 +1,70 @@
+====================================================================================================
+A4 item 5 : DJX Proposition 8.1 and (4.19)-(4.22) -- exact Casimir projections in V_L
+====================================================================================================
+VRAI  eta_3^J = omega_P - (1/12) (PH)_{-1}PH  ((7.1) agrees with Omega_k - H_{-1}H/(4k))
+VRAI  eta_13^J = omega_B - (1/52) (BH)_{-1}BH
+VRAI  eta_3^J is a Virasoro vector of central charge 4/5   [c = 4/5]
+VRAI  eta_3^J is annihilated by H_0, H_1, H_2 of its own Cartan (commutant of the Heisenberg algebra)
+VRAI  eta_3^J has zero charge under both Jiao Cartans and is sigma-fixed (momenta in L_0)
+VRAI  eta_13^J is a Virasoro vector of central charge 8/5   [c = 8/5]
+VRAI  eta_13^J is annihilated by H_0, H_1, H_2 of its own Cartan (commutant of the Heisenberg algebra)
+VRAI  eta_13^J has zero charge under both Jiao Cartans and is sigma-fixed (momenta in L_0)
+VRAI  eta_3^J and eta_13^J commute: (eta_3)_n eta_13 = 0 for n = 0..3
+VRAI  the Heisenberg Virasoro (PH)_{-1}PH/12 commutes with eta_3^J (K(sl2,3) x Heisenberg decomposition)
+INFO  number of Fock monomials of eta_3^J, eta_13^J   [(16, 72)]
+[   2.63 s] eta^J
+VRAI  Phi(Phi^{-1}(eta_k^J)) = eta_k^J (the inverse lift (8.3) is consistent with (6.13))
+VRAI  eta_3 = Phi^{-1}(eta_3^J) in V_L (Huang copy) is Virasoro with c = 4/5   [c = 4/5]
+VRAI  eta_3 has zero HR(0)- and HL(0)-weight and is tau-fixed (momenta in R_*^{-1}L_0)
+VRAI  eta_3 is NOT annihilated by (ER)_0 (so the average E_R is a genuine projection)
+VRAI  eta_13 = Phi^{-1}(eta_13^J) in V_L (Huang copy) is Virasoro with c = 8/5   [c = 8/5]
+VRAI  eta_13 has zero HR(0)- and HL(0)-weight and is tau-fixed (momenta in R_*^{-1}L_0)
+VRAI  eta_13 is NOT annihilated by (ER)_0 (so the average E_R is a genuine projection)
+VRAI  eta_3 and eta_13 commute in V_L
+VRAI  theta_H(eta_k) = eta_k  (unitary parafermion conformal vectors, Phi theta_H = theta_J Phi)
+[   6.05 s] transport
+VRAI  C_R is self-adjoint for (.,.)_kappaH on {eta_3, eta_13, u_1 theta_H u}: (C v, w) = (v, C w)
+VRAI  u_1 theta_H(u) has weight 2 and zero Cartan weights for both triples
+VRAI  a0 = Pi_L(u_1 theta_H u) is annihilated by (EL)_0, (FL)_0 (left invariant)
+VRAI  a0 is a 'highest weight' check: C_L a0 = 0
+[   7.17 s] a0
+[  10.01 s] Casimir sequences
+VRAI  Pi_R a0, Pi_R eta_3, Pi_R eta_13 are annihilated by (ER)_0, (FR)_0, (HR)_0 (right invariant)
+VRAI  Pi_R is idempotent on these vectors: Pi_R(Pi_R v) = Pi_R v
+VRAI  (A.12) column a_0: (a, D_j a) for j = 0,2,...,16   [all nine moments agree]
+VRAI  (A.12) column a_3: (a, D_j a) for j = 0,2,...,16   [all nine moments agree]
+VRAI  (A.12) column a_13: (a, D_j a) for j = 0,2,...,16   [all nine moments agree]
+VRAI  D_12 a = D_14 a = D_16 a for a = a0, eta_3, eta_13 (no components of highest weight 14, 16: max HR-weight 16 but weights 14,16 absent)
+VRAI  (Pi_R a, Pi_R a) = (a, Pi_R a) for a = a0, eta_3, eta_13 (orthogonal projection)
+[  12.18 s] (A.12)
+VRAI  (A.11): (a0, omega_L) = 3, (a0, omega_R) = 585/41   [(3, 585/41)]
+VRAI  (A.11): (eta_3, omega_L) = 0, (eta_3, omega_R) = 13/205, (eta_13, omega_L) = 0, (eta_13, omega_R) = 21/205   [(13/205, 21/205)]
+VRAI  Prop 4.1 table: (u~, omega_L)/(omega_L,omega_L) = 6 and (u~, omega_R)/(omega_R,omega_R) = 10
+VRAI  (u~, u~) = 6516/35   [6516/35]
+VRAI  (4.22) e is a Virasoro vector with central charge 70/31   [c = 70/31]
+VRAI  (4.22) a_n e = 0 for the six affine generators a and n = 0,1,2
+VRAI  (4.22) f is a Virasoro vector with central charge 2400/1271   [c = 2400/1271]
+VRAI  (4.22) a_n f = 0 for the six affine generators a and n = 0,1,2
+VRAI  (4.22) e_n f = 0 and f_n e = 0 for n = 0..3
+VRAI  (4.22) e_1 u = (13/31) u and f_1 u = (180/1271) u
+VRAI  (4.22) e + f = omega_c, (e,e) = 35/31, (f,f) = 1200/1271, (e,f) = 0
+VRAI  e_3 e = (35/31) 1 and f_3 f = (1200/1271) 1
+VRAI  theta_H(e) = e, theta_H(f) = f and e, f are tau-fixed
+VRAI  omega = omega_L + omega_R + e + f is a decomposition into four mutually commuting Virasoro vectors
+VRAI  (omega_c, e) = (e,e) and (omega_c, f) = (f,f)
+VRAI  the four vectors omega_L, omega_R, e, f are nonzero and (Prop 4.1) u~ = 6 omega_L + 10 omega_R + (156/35) e + (9/5) f
+[  26.05 s] e, f
+VRAI  (8.4): Pi_R eta_3 = (2/45) omega_R + (39/175) e + (9/100) f  (exact vector identity in V_L)
+VRAI  (8.4): Pi_R eta_13 = (14/195) omega_R + (13/175) e + (13/20) f
+VRAI  (8.1): Pi_R q0 = (464/22815) omega_R + (2/25) omega_c
+VRAI  coefficient arithmetic: (2/45)/3 + (14/195)/13 = 464/22815 ; (39/175)/3 + (13/175)/13 = 2/25 ; (9/100)/3 + (13/20)/13 = 2/25
+VRAI  (8.2): omega = omega_L + (3403/4563) omega_R + (25/6) Pi_R eta_3 + (25/26) Pi_R eta_13  (exact vector identity)
+VRAI  (8.2) coefficients: 3403/4563 + (25/6)(2/45) + (25/26)(14/195) = 1 ; all positive
+VRAI  scalar checks: (Pi_R q0, omega_R) = 232/7995, (Pi_R q0, omega_c) = 34/205, (q0, omega) = 38/195, (omega_R,omega_R) = 117/82, (omega_c,omega_c) = 85/41   [(232/7995, 34/205, 38/195)]
+VRAI  (eta_3, omega) = (1/2)(4/5) = 2/5 and (eta_13, omega) = 4/5 (central charge / 2)
+VRAI  Appendix A.3: c_i^T G_B c_i = c_i^T s_i : (T_3,T_3) = (eta_3, T_3) = 524/7875 and (T_13,T_13) = (eta_13,T_13) = 4692/11375
+VRAI  the averaged vectors Pi_R eta_k are not Virasoro vectors (as DJX remark: 'the average itself need not be a Virasoro vector')
+[  28.52 s] (8.1), (8.2)
+----------------------------------------------------------------------------------------------------
+A4 item 5 : DJX Proposition 8.1 and (4.19)-(4.22) -- exact Casimir projections in V_L : 56 checks, 0 FAUX
+[  28.52 s] done

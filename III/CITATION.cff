@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and the fixed computational release separately."
+type: software
+title: "Computational supplements to The Haagerup center at central charge eight via conformal nets"
+authors:
+  - family-names: Arhancet
+    given-names: Cédric
+version: "article-III-v10-supplements-v01"
+date-released: 2026-11-07
+url: "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-III-v10-supplements-v01"
+repository-code: "https://github.com/cedricarhancet/haagerup-c8"
+references:
+  - type: article
+    title: "The Haagerup center at central charge eight via conformal nets"
+    authors:
+      - family-names: Arhancet
+        given-names: Cédric
+    url: "https://hexagonmath.org/2611.00164v1"
+    year: 2026

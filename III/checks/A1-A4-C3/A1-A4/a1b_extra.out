@@ -1,0 +1,25 @@
+(s, L_II') takes the values [Fraction(0, 1), Fraction(1, 1)] mod 2 after doubling (expected {0,1}: (s,L_II') = Z/2)
+(p, L_I')  takes the values [Fraction(0, 1), Fraction(1, 1)] mod 2 after doubling (expected {0,1}: (p,L_I') = Z/2)
+(s,(1,1)_II) = 1/2 (expected 1/2), (p,(1,1)_I) = 1 (expected 1), (s,p) = 3/2, (p,(s+t)/2) = 21/2
+ker(x -> (s,x) mod Z) on L_II = N and ker(x -> (p,x) mod Z) on L_I = N : OK
+L_II = N u (p+N), L_I = N u (s+N), 2s = lambda in N, 2p in N, s,p not in N : OK
+(s+p)^2 = 11 (expected 11), so the weight of e^(s+p) is 11/2
+|N'/N| = 156, 39-part P has 39 elements (expected 39)
+B/N = {x in L_II' : (s,x) in Z}/N has 39 classes, B'/N = {x in L_I' : (p,x) in Z}/N has 39 classes
+B/N = B'/N = P (the 39-part of N'/N) : OK
+P -> L_II'/L_II and P -> L_I'/L_I are bijections : OK
+psi_N((1,1)_II) = 22 (1,1)_I  (expected 22, as in a1_lattices.py)
+q((1,1)_II) = 4/39, q((1,1)_I) = 10/39
+isotropic nonzero classes of L_II'/L_II: []; of L_I'/L_I: [] (expected none): L_I, L_II have no proper even overlattice in h
+root coordinates: p = (1, 2, 3, 2, 1, 0, 0, 0), b = (3, 4, 3, 4, 3, 2, 2, 2), lambda = (2, 3, 3, 3, 2, 1, 1, 1)
+s = ('1', '3/2', '3/2', '3/2', '1', '1/2', '1/2', '1/2'), t = ('1', '7/2', '15/2', '7/2', '1', '-3/2', '-3/2', '-3/2')
+p, b, lambda in L ; s, t not in L : OK
+(lambda, alpha_i) = [1, 1, -1, 1, 1, -1, 1, 1] (all odd, so L_0 = {x : sum x_i even})
+(t-s)/2 = (0, 1, 3, 1, 0, -1, -1, -1), in L_0: True; lambda in L_0: True; 2p in L_0: True; p in L_0: False
+(s, L_0) in Z, (p, L_0) in Z, (p,s) = 3/2 : OK ; hence sigma = exp(2 pi i s(0)) and tau' = exp(2 pi i p(0)) are trivial on V_{L_0}
+L_H = L_0 + Zs is even : OK
+h cap L = L_II, h cap L_H = L_I, h cap L_0 = N on a box (221, 211, 111 vectors) : OK
+integral vectors of L with |x_i|<=2 orthogonal to h: 1751, all in L_0 : OK (indeed (lambda,x) = 0 for x in h^perp, so L cap h^perp = L_0 cap h^perp)
+L_H cap h^perp = L_0 cap h^perp since (p, x+s) = (p,x) + 3/2 is not an integer for x in L_0 : OK (no enumeration needed)
+(p, alpha_i) = [0, 0, 2, 0, 0, -3, 0, 0], (b, alpha_i) = [2, 2, -4, 2, 2, 1, 2, 2], rank 2 (expected 2, so rank E = 6)
+ALL CHECKS PASSED (a1b_extra)

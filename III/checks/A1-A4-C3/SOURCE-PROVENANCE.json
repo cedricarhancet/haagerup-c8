@@ -1,0 +1,2325 @@
+{
+  "package": "Calculs-III-A1-A4-C3-v11",
+  "reference_release": "article-III-v10-supplements-v01",
+  "files": [
+    {
+      "path": "A1/a1_lattices.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b16c6253503b395b5e2f57a9f97841de37a010e1467bd426b530a5e0dd670394",
+      "delivered_sha256": "b16c6253503b395b5e2f57a9f97841de37a010e1467bd426b530a5e0dd670394",
+      "unchanged": true
+    },
+    {
+      "path": "A1/a1_lattices.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d986123057dc1b077e346d72312a8a406f528ccb49448634f31514ba67f1696f",
+      "delivered_sha256": "d986123057dc1b077e346d72312a8a406f528ccb49448634f31514ba67f1696f",
+      "unchanged": true
+    },
+    {
+      "path": "A1/a1b_extra.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7e0359b00cab9b4c670a7744ad905b7e96aded4807342b4e036f71a5c7c963f0",
+      "delivered_sha256": "7e0359b00cab9b4c670a7744ad905b7e96aded4807342b4e036f71a5c7c963f0",
+      "unchanged": true
+    },
+    {
+      "path": "A1/a1b_extra.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b07b76e60121039341544bce07184bad35d7ded5a8af809c2e0a5a9f4b87d6fb",
+      "delivered_sha256": "b07b76e60121039341544bce07184bad35d7ded5a8af809c2e0a5a9f4b87d6fb",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_common.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "951efc33c5447b18f5e2b5ea1fe35163d4311f181c9a922192f05837866f739d",
+      "delivered_sha256": "951efc33c5447b18f5e2b5ea1fe35163d4311f181c9a922192f05837866f739d",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_data.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b5871deeccb2f78336b5f09777ad2a348dbc8091599bd563abebf796f62d2a26",
+      "delivered_sha256": "b5871deeccb2f78336b5f09777ad2a348dbc8091599bd563abebf796f62d2a26",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item1_lattice.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e61e550a001d466c95176ba585716f86c6246b67e1e23a166e25ef75eeb15127",
+      "delivered_sha256": "e61e550a001d466c95176ba585716f86c6246b67e1e23a166e25ef75eeb15127",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item1_lattice.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "82f308043222ecb0c32c7d75510e31955cb535a7b1fa7bf56b68ff7c16a0cbaa",
+      "delivered_sha256": "82f308043222ecb0c32c7d75510e31955cb535a7b1fa7bf56b68ff7c16a0cbaa",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item2_section5.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "60ed6c753388b8180c8cc67f6727a34c3901d259a3c43552aa2ae1249b234e13",
+      "delivered_sha256": "60ed6c753388b8180c8cc67f6727a34c3901d259a3c43552aa2ae1249b234e13",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item2_section5.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e30da533dceee2b3c9f5624e67ca93d08d47753585878098f91aa63488e7e2b8",
+      "delivered_sha256": "e30da533dceee2b3c9f5624e67ca93d08d47753585878098f91aa63488e7e2b8",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item3_section6.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "6947733e0bb0adb13bec2e28ba9fdbb534f8d56d16c2e5f0ccfd2cad4cd2f36c",
+      "delivered_sha256": "6947733e0bb0adb13bec2e28ba9fdbb534f8d56d16c2e5f0ccfd2cad4cd2f36c",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item3_section6.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d41a7a6a6ea59cafae68fc197d6bb863bee3c92f0c24b498ca2dcf0a86c13b36",
+      "delivered_sha256": "d41a7a6a6ea59cafae68fc197d6bb863bee3c92f0c24b498ca2dcf0a86c13b36",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item4_section7.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0e6215f7e7c596c7b44b9b2916e121ca260e3f1e94d99c67acebddea722ade6b",
+      "delivered_sha256": "0e6215f7e7c596c7b44b9b2916e121ca260e3f1e94d99c67acebddea722ade6b",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item4_section7.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "4fda43d194bd24e3a1f1c4c7cde8c6038511e2bdce401828afa42d6da0e883bb",
+      "delivered_sha256": "4fda43d194bd24e3a1f1c4c7cde8c6038511e2bdce401828afa42d6da0e883bb",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item5_prop81.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "8873d99d4aad4d79c0b91dec9fb665eba15cdc35ac95aea2cf78f26bc5ea09fc",
+      "delivered_sha256": "8873d99d4aad4d79c0b91dec9fb665eba15cdc35ac95aea2cf78f26bc5ea09fc",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item5_prop81.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b7ddaf40ff60fe72d204db192fd1a65e369086e3c41a1132076403f712edc7e3",
+      "delivered_sha256": "b7ddaf40ff60fe72d204db192fd1a65e369086e3c41a1132076403f712edc7e3",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item6_riesen.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "5d5cc6d536935a3203adaac4254a005cc9ffd9996ddccd84ccf0f02ecb3528c8",
+      "delivered_sha256": "5d5cc6d536935a3203adaac4254a005cc9ffd9996ddccd84ccf0f02ecb3528c8",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_item6_riesen.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ef0e28d364c38f70226bfd250b9c1662ca32bdb65e98d9aa97fac6f2e6754458",
+      "delivered_sha256": "ef0e28d364c38f70226bfd250b9c1662ca32bdb65e98d9aa97fac6f2e6754458",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_kfield.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "538efb63fe8537c6295c0f2766d0b15d17a6d40bdcaebfb60e28ea8ccce5dc32",
+      "delivered_sha256": "538efb63fe8537c6295c0f2766d0b15d17a6d40bdcaebfb60e28ea8ccce5dc32",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_run_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "86a2bfd7c01f571daee9e34edccf59fd3a308b04dedae779f981620957b161d5",
+      "delivered_sha256": "86a2bfd7c01f571daee9e34edccf59fd3a308b04dedae779f981620957b161d5",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_run_all.sh",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "4e0c5add0f1a9ad1818abaf1f1bdfa5005372967c4f266b210be491c50de1e6c",
+      "delivered_sha256": "4e0c5add0f1a9ad1818abaf1f1bdfa5005372967c4f266b210be491c50de1e6c",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_smoke.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f9f4ce0aa205836f4b4cf1337862346b93d3024fab8f0b9000b6539f34326757",
+      "delivered_sha256": "f9f4ce0aa205836f4b4cf1337862346b93d3024fab8f0b9000b6539f34326757",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_smoke.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b014e99b1ac83e6bc9eff0637fa5410b1f8f8fc9cf9dd08ad73d8bdc98f7e340",
+      "delivered_sha256": "b014e99b1ac83e6bc9eff0637fa5410b1f8f8fc9cf9dd08ad73d8bdc98f7e340",
+      "unchanged": true
+    },
+    {
+      "path": "A4/a4_voa.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "683588735082235c7091f91f95788794cad4c6e5dd7063d684d2139d9ad806cf",
+      "delivered_sha256": "683588735082235c7091f91f95788794cad4c6e5dd7063d684d2139d9ad806cf",
+      "unchanged": true
+    },
+    {
+      "path": "C3/a3_c3_compare.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "596353cdfe35aeab9e377bdef6f55b703c57a408eb11b038ea54b596746360c4",
+      "delivered_sha256": "4258ca504dd3ed3499f3a97e42b11f0e101da88b80f6fe3c23342c654f0ac7bf",
+      "unchanged": false
+    },
+    {
+      "path": "C3/a3_c3_table_check.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "1ffe6d6ee62896799a8c525ba44eff3eae7ea3bbe65e1dc7ee2cf64bd6551e50",
+      "delivered_sha256": "1ffe6d6ee62896799a8c525ba44eff3eae7ea3bbe65e1dc7ee2cf64bd6551e50",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/a3_c3_compare.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "68c6661d70d176892b497a38b76d2fec9e539ed5e14899ab930e39fc6de83df6",
+      "delivered_sha256": "68c6661d70d176892b497a38b76d2fec9e539ed5e14899ab930e39fc6de83df6",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/a3_c3_compare.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0473dde9d6cf0b0804502feea2924c9bcf3a3ecbad1874e589e039fce738d0ec",
+      "delivered_sha256": "0473dde9d6cf0b0804502feea2924c9bcf3a3ecbad1874e589e039fce738d0ec",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/a3_c3_table_check.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "fa4871460e45a33f11cfbafc54d8623c3b8a4531ff18204545bd613b4f0a9478",
+      "delivered_sha256": "fa4871460e45a33f11cfbafc54d8623c3b8a4531ff18204545bd613b4f0a9478",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/a3_c3_table_check.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "fa2fb70902c0bce727598c07661681d5487381ddb1d19af00669189658bfc41a",
+      "delivered_sha256": "fa2fb70902c0bce727598c07661681d5487381ddb1d19af00669189658bfc41a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/categories-exact-check.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "211a50dbd616aaba3550307163122682e15432bf9cfc0e4759ed23bff059be88",
+      "delivered_sha256": "211a50dbd616aaba3550307163122682e15432bf9cfc0e4759ed23bff059be88",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/data_t12_e8split.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0fd14db0daee84cdfd93d64c1f35650c908c42dbd3d1d818c2a5c31532b954de",
+      "delivered_sha256": "0fd14db0daee84cdfd93d64c1f35650c908c42dbd3d1d818c2a5c31532b954de",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/data_t12_table.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "340869c70374c3fa8f435b529752840029d06ffbea3de6fc4cf6a1a600987624",
+      "delivered_sha256": "340869c70374c3fa8f435b529752840029d06ffbea3de6fc4cf6a1a600987624",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/data_t12_W1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f963891dbfbaf8e3d18e378086f29f0ae67eebb6eb965adc83bcb286d651fa20",
+      "delivered_sha256": "f963891dbfbaf8e3d18e378086f29f0ae67eebb6eb965adc83bcb286d651fa20",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/export_omega_certificate.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ae39084cc6c85786643d5343f6aea8b4c4d3cc78044bc790ab34a854a3067eee",
+      "delivered_sha256": "ae39084cc6c85786643d5343f6aea8b4c4d3cc78044bc790ab34a854a3067eee",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/F1_e8facts.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "50a446293e021a4211b868dbfe26a163ce4c87cbf06b73db693dbc2aa8d56df0",
+      "delivered_sha256": "50a446293e021a4211b868dbfe26a163ce4c87cbf06b73db693dbc2aa8d56df0",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/F1_enum_sl2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "962589a1a2537c4dac96dcb28701c18e4f6f60e541e90dd81deaafe12ed41a55",
+      "delivered_sha256": "962589a1a2537c4dac96dcb28701c18e4f6f60e541e90dd81deaafe12ed41a55",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/F1_sectors.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b988b2071f5f502aaa96a3400943382c1c5553c7f25caee5f4b6c9adedbb9a3e",
+      "delivered_sha256": "b988b2071f5f502aaa96a3400943382c1c5553c7f25caee5f4b6c9adedbb9a3e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/independent_tensors.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "3789f055a4ec41ee6ba069f64b9e6fc48fe707b6d2470f3b77bd753e004bfc84",
+      "delivered_sha256": "3789f055a4ec41ee6ba069f64b9e6fc48fe707b6d2470f3b77bd753e004bfc84",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_reduced_0_d2_d3_b.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0aaecb6fefc4697640bc427bb27822a96e64f32d0d616a0d211317825b6f5d84",
+      "delivered_sha256": "0aaecb6fefc4697640bc427bb27822a96e64f32d0d616a0d211317825b6f5d84",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_reduced_0_d4_d1_d5_d6_c1_c2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "caf184152fb90e43f5242142e7e7681192f07047ed6489af64e52b9b7be28c9c",
+      "delivered_sha256": "caf184152fb90e43f5242142e7e7681192f07047ed6489af64e52b9b7be28c9c",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_reduced_1_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "20da1c596db31755e3e151aaf980bfc8fe0743c72367f931c7d804c4e256dc06",
+      "delivered_sha256": "20da1c596db31755e3e151aaf980bfc8fe0743c72367f931c7d804c4e256dc06",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_reduced_2_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "01b029df8e3b044de74484b8a79d17c83cae9c7b87e864b442aa818553acd094",
+      "delivered_sha256": "01b029df8e3b044de74484b8a79d17c83cae9c7b87e864b442aa818553acd094",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_reduced_3_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "21fa4d129a283aaa0663d06170cc17ad8fbc5a80fd9098bed35b870949b08b45",
+      "delivered_sha256": "21fa4d129a283aaa0663d06170cc17ad8fbc5a80fd9098bed35b870949b08b45",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_signature_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "5af6f8d7bc514430719a6d73edec8fa8797650c2949d57413e3e28e0413452f1",
+      "delivered_sha256": "5af6f8d7bc514430719a6d73edec8fa8797650c2949d57413e3e28e0413452f1",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_signature_0_FLIP11.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "fc495ce6e018c3e986d78fb9377b29194c0ae36b48620533f7f019e696f0fad3",
+      "delivered_sha256": "fc495ce6e018c3e986d78fb9377b29194c0ae36b48620533f7f019e696f0fad3",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_signature_0_FLIP22.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "04f2e179e62c141e04c3314fee8f06f4547e5edb90e449d27b2f714b21f7e130",
+      "delivered_sha256": "04f2e179e62c141e04c3314fee8f06f4547e5edb90e449d27b2f714b21f7e130",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_signature_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c79046e24a88ae81313b43bb99e6c4cb0bf4cf8bd6217f9dafe564e3f6ef75ae",
+      "delivered_sha256": "c79046e24a88ae81313b43bb99e6c4cb0bf4cf8bd6217f9dafe564e3f6ef75ae",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_signature_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "eb99271440d379f712d0beb243a07e03bf24b89dd86d9c283e9939ad73c671a7",
+      "delivered_sha256": "eb99271440d379f712d0beb243a07e03bf24b89dd86d9c283e9939ad73c671a7",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r2_signature_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "98e1041c7f068c2e60688f289db144547314c52ec72caf0d01340cfc98eb307f",
+      "delivered_sha256": "98e1041c7f068c2e60688f289db144547314c52ec72caf0d01340cfc98eb307f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_1S2_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "80cb1e7845793ea488d66002e879d96f7a59d725c634f09964282974ad24d834",
+      "delivered_sha256": "80cb1e7845793ea488d66002e879d96f7a59d725c634f09964282974ad24d834",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_1S2_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "a180b6fc376310f53aecbf4cef11a4cdf8117c88d25d736ee97aaeea2b902b5d",
+      "delivered_sha256": "a180b6fc376310f53aecbf4cef11a4cdf8117c88d25d736ee97aaeea2b902b5d",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_1S2_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "14d8f36f74f8d0be87b763d13c6b9957c1115f635684b6177ecf8f5592513589",
+      "delivered_sha256": "14d8f36f74f8d0be87b763d13c6b9957c1115f635684b6177ecf8f5592513589",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_1S2_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "16ef124989c936ac57dffde2ebddead30a97ec583953e6a0d057dee4e08e1d7e",
+      "delivered_sha256": "16ef124989c936ac57dffde2ebddead30a97ec583953e6a0d057dee4e08e1d7e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_G.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "76833c0691a928b80ed8eef950818059a75f73b84ee802f62486a348582cf583",
+      "delivered_sha256": "76833c0691a928b80ed8eef950818059a75f73b84ee802f62486a348582cf583",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_Griess.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "98d34f2dd01c80124886f77c7c01eda35ce2e8c4040d3acdf76e75e61b988b51",
+      "delivered_sha256": "98d34f2dd01c80124886f77c7c01eda35ce2e8c4040d3acdf76e75e61b988b51",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_groebner.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "79441bda19a6e0449376eba01d0b8d54f0e53a829d5e18b2bb6127a9164b13da",
+      "delivered_sha256": "79441bda19a6e0449376eba01d0b8d54f0e53a829d5e18b2bb6127a9164b13da",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_invariants_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "dab1629ff72d7c83a49b41f8cb3df9ab44dc2cc275a0d59e473d3238221eec1a",
+      "delivered_sha256": "dab1629ff72d7c83a49b41f8cb3df9ab44dc2cc275a0d59e473d3238221eec1a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_invariants_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "63688aa690eb85afa021ca0185f8c2e484d06ace996286ed9d184395ce28b951",
+      "delivered_sha256": "63688aa690eb85afa021ca0185f8c2e484d06ace996286ed9d184395ce28b951",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_invariants_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7f95a21c7ed71240915ac7d66901c062173bfc4f17a9059f7d1025d58a663181",
+      "delivered_sha256": "7f95a21c7ed71240915ac7d66901c062173bfc4f17a9059f7d1025d58a663181",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_invariants_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b99d698a20d265dea52dd34a80ff4221559afc1ed8e2f819313d4654899256b6",
+      "delivered_sha256": "b99d698a20d265dea52dd34a80ff4221559afc1ed8e2f819313d4654899256b6",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_omega_exact.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f067d1c370d3f40b1a9cf898212aa29c0b9a750075baecbc1fd5fb175c2a3ede",
+      "delivered_sha256": "f067d1c370d3f40b1a9cf898212aa29c0b9a750075baecbc1fd5fb175c2a3ede",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_S2_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c06b8015f35c263d4eda7d43ad1f561804c7e4d4675a572619cb67d064d060b3",
+      "delivered_sha256": "c06b8015f35c263d4eda7d43ad1f561804c7e4d4675a572619cb67d064d060b3",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_S2_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "87c7e6eabf20ba6eb68e3f6a484ab7d8c2792932ce3ab8e7f80a3f5d2e8bbb69",
+      "delivered_sha256": "87c7e6eabf20ba6eb68e3f6a484ab7d8c2792932ce3ab8e7f80a3f5d2e8bbb69",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_S2_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "184f246cd278f8a1ff6adc80158131fadeb31a999bf2965e7eccf4ed3b525dfc",
+      "delivered_sha256": "184f246cd278f8a1ff6adc80158131fadeb31a999bf2965e7eccf4ed3b525dfc",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_S2_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "fd6dfb964791c738e6686d5dfe8e2ef4b3d69592d65578d7998e85b72e446326",
+      "delivered_sha256": "fd6dfb964791c738e6686d5dfe8e2ef4b3d69592d65578d7998e85b72e446326",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_S2_full_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d91c80c10cb31546bb542aef5403eb6861b2bb0419598d0e86133d8aaa039f56",
+      "delivered_sha256": "d91c80c10cb31546bb542aef5403eb6861b2bb0419598d0e86133d8aaa039f56",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_S2_full_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "9d5c5d594ffe1dffcd385c1164dd5c05a7a91a6097ddf7c819407118a1cfec63",
+      "delivered_sha256": "9d5c5d594ffe1dffcd385c1164dd5c05a7a91a6097ddf7c819407118a1cfec63",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_S2_full_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "a5684ed65d8ec8e469248933e89ab5aa7d3d7638afb53e34e98cff95e235fb3e",
+      "delivered_sha256": "a5684ed65d8ec8e469248933e89ab5aa7d3d7638afb53e34e98cff95e235fb3e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3a_S2_full_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "941d3216025ffbcf76119cd1a30cd6a2ddef8b67295af8aedba383d85ad14cea",
+      "delivered_sha256": "941d3216025ffbcf76119cd1a30cd6a2ddef8b67295af8aedba383d85ad14cea",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3b_chi.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "a1b7ee339b3ada1cd3698904426d99ea25f5d444f6983c2c35a10890aababa49",
+      "delivered_sha256": "a1b7ee339b3ada1cd3698904426d99ea25f5d444f6983c2c35a10890aababa49",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3b_verify_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "4c74da9a50dc16cab2fc9780a5054240b7545cd83297752ce7ddd122d909dee6",
+      "delivered_sha256": "4c74da9a50dc16cab2fc9780a5054240b7545cd83297752ce7ddd122d909dee6",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3b_verify_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "fb468f79a418c96e190d195c46e0e78ff3bca35ac7fbdf4de6ca06dd4681a884",
+      "delivered_sha256": "fb468f79a418c96e190d195c46e0e78ff3bca35ac7fbdf4de6ca06dd4681a884",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3b_verify_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c3e60aaf1c0fcd7b958d52352f5acd8a4bfe92cc876cdfe3047c85b265aaeb6a",
+      "delivered_sha256": "c3e60aaf1c0fcd7b958d52352f5acd8a4bfe92cc876cdfe3047c85b265aaeb6a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/r3b_verify_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "57e2cd070067bbae2f919b4143b441ef874d834ba2dccc43c689c6ecf5dcec2d",
+      "delivered_sha256": "57e2cd070067bbae2f919b4143b441ef874d834ba2dccc43c689c6ecf5dcec2d",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/R3P_check_gb.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "450e1ad27b66efc2186c3f37c35aa22a5daa3bc0d0f917e81b1384a557fab789",
+      "delivered_sha256": "450e1ad27b66efc2186c3f37c35aa22a5daa3bc0d0f917e81b1384a557fab789",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/R3P_gb_sympy.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "6f0fc33f9b827510a6dbf80960e2677a3fdf0f82ede2a560cd32d494b0903a68",
+      "delivered_sha256": "6f0fc33f9b827510a6dbf80960e2677a3fdf0f82ede2a560cd32d494b0903a68",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/reexport-comparison-C3.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "131501743774949be819cc3ce9a3b9a1cc15d8ce5ac5060106252833dc6baa5f",
+      "delivered_sha256": "131501743774949be819cc3ce9a3b9a1cc15d8ce5ac5060106252833dc6baa5f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/sl2x4.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "8dd2bd059bfeeca8a70686d1c8ef5defcf74dc216fb98162357e6dd5903fc07d",
+      "delivered_sha256": "8dd2bd059bfeeca8a70686d1c8ef5defcf74dc216fb98162357e6dd5903fc07d",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/t12b_optionB.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d7be4d33234a02f60f455ec4909b76b1073d781edc68dfb66ea680d1e4bb1488",
+      "delivered_sha256": "d7be4d33234a02f60f455ec4909b76b1073d781edc68dfb66ea680d1e4bb1488",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/test_e8e8.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b0dde1f282564b6ee5687fb403c80039c78611eed135b94b6bb415739ba16456",
+      "delivered_sha256": "b0dde1f282564b6ee5687fb403c80039c78611eed135b94b6bb415739ba16456",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/TIMINGS.tsv",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d91c5bebb284a0aacaad2476603735e284223b009c8540fddd6aa349f54a25eb",
+      "delivered_sha256": "d91c5bebb284a0aacaad2476603735e284223b009c8540fddd6aa349f54a25eb",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_check_W1_char.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f32062a83c44cb3af6a3282970e3c17a7363831ce2e65b0475b13533e58db3f1",
+      "delivered_sha256": "f32062a83c44cb3af6a3282970e3c17a7363831ce2e65b0475b13533e58db3f1",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_compare_R3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "9dc3f4628678c1213c206ca5f59e6cb0dde2e316c0da5fc5b09bbd837e01846f",
+      "delivered_sha256": "9dc3f4628678c1213c206ca5f59e6cb0dde2e316c0da5fc5b09bbd837e01846f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_embed.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "efd5722a2606e1c00c140db6223d1d2628055047ab86ce55d2db323545fbe86c",
+      "delivered_sha256": "efd5722a2606e1c00c140db6223d1d2628055047ab86ce55d2db323545fbe86c",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_g_space.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "9b6a0de69c4d13eac4833ed737a21784be98ee053795382afb9a15450c5a9164",
+      "delivered_sha256": "9b6a0de69c4d13eac4833ed737a21784be98ee053795382afb9a15450c5a9164",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_griess.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f8edfcb000ff547a60c2c8d692b3d90c76c5c55890f529ca62f3481f6304cd75",
+      "delivered_sha256": "f8edfcb000ff547a60c2c8d692b3d90c76c5c55890f529ca62f3481f6304cd75",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_phi_chi.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c9310cf5feb8b039ec1b6f4cda3e25e891e8e619f50a03646f5280fda6d4ef26",
+      "delivered_sha256": "c9310cf5feb8b039ec1b6f4cda3e25e891e8e619f50a03646f5280fda6d4ef26",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_s2_check_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "8fce6b5584d9d86eeefa494ce52917130fe13e2190a09172871995df24718406",
+      "delivered_sha256": "8fce6b5584d9d86eeefa494ce52917130fe13e2190a09172871995df24718406",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_s2_space_0_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "101a99b9b6855edcb0846280f6efb63128ef08453db0b22c455668c4d7bee6f6",
+      "delivered_sha256": "101a99b9b6855edcb0846280f6efb63128ef08453db0b22c455668c4d7bee6f6",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_setup_system.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "22b9fdfe843814a4e7b269359c387f8ee409c4f6bae5e83f47b2bc05c6b7a4c9",
+      "delivered_sha256": "22b9fdfe843814a4e7b269359c387f8ee409c4f6bae5e83f47b2bc05c6b7a4c9",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_solve_groebner.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7fe88fecd179e672dad022b631bdc74eb84f7cdfb2b95b62c79f7326c6991631",
+      "delivered_sha256": "7fe88fecd179e672dad022b631bdc74eb84f7cdfb2b95b62c79f7326c6991631",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_solve_signs.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "366443b0c1906e6849cc220d29e25b3c254e9c2b0db698a99b08584fc82afab9",
+      "delivered_sha256": "366443b0c1906e6849cc220d29e25b3c254e9c2b0db698a99b08584fc82afab9",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_test_voa.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "5732797bb6ab05fdba0eb6b5d2d2098f8a42239058d507836b3834abf9cab78d",
+      "delivered_sha256": "5732797bb6ab05fdba0eb6b5d2d2098f8a42239058d507836b3834abf9cab78d",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_twist_check.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f003770f0b46bc96c6bdf173dd141dc0708ad5dfaa168ec8ce509e41ccd60e4e",
+      "delivered_sha256": "f003770f0b46bc96c6bdf173dd141dc0708ad5dfaa168ec8ce509e41ccd60e4e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verif_verify_solutions.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "525e758c8edba612efe35bf34181af377663e988b6d4800046659c3c656cc527",
+      "delivered_sha256": "525e758c8edba612efe35bf34181af377663e988b6d4800046659c3c656cc527",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/verify_omega_certificate.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "54ac55410feecd3603489ab4ec980adf963aa7704fdd06a9feb70834abd47f39",
+      "delivered_sha256": "54ac55410feecd3603489ab4ec980adf963aa7704fdd06a9feb70834abd47f39",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/w_positivity.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "3e27098ced35311b19cbd4926a023a2e870c7994399a968e1055206c1e18c3ab",
+      "delivered_sha256": "3e27098ced35311b19cbd4926a023a2e870c7994399a968e1055206c1e18c3ab",
+      "unchanged": true
+    },
+    {
+      "path": "C3/out/weights_W.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b2e079bcbcedd2477c5a8e219981de6bdd191a5787e6c02028e4e5eaaf6f6e38",
+      "delivered_sha256": "b2e079bcbcedd2477c5a8e219981de6bdd191a5787e6c02028e4e5eaaf6f6e38",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/controles-categoriels/categories-exact-check.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e300ccf8cbb6d1a9addd6337a7b16ba020438d70eb0a70584f287859863a2561",
+      "delivered_sha256": "e300ccf8cbb6d1a9addd6337a7b16ba020438d70eb0a70584f287859863a2561",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/controles-categoriels/categories-exact-check.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "a5735c75503970e117966619c0b5863874c700eaafcc01924119dc22f24b02f7",
+      "delivered_sha256": "a5735c75503970e117966619c0b5863874c700eaafcc01924119dc22f24b02f7",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/data/invariants_K_0.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "15badd734b3fcd0f6f529c77667b35f6f21a0f7f5cc09d0e4ac973038d0755ef",
+      "delivered_sha256": "15badd734b3fcd0f6f529c77667b35f6f21a0f7f5cc09d0e4ac973038d0755ef",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/data/t12_e8split.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "9a2e7e4cbdd0f175c570052fff594cf2e36e20c87baf77d3c538b70399d408f2",
+      "delivered_sha256": "9a2e7e4cbdd0f175c570052fff594cf2e36e20c87baf77d3c538b70399d408f2",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/data/t12_e8split.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "9afe6f14519cffa2ee93a888526300ce9ae24820376b913b884da1c8a446db64",
+      "delivered_sha256": "9afe6f14519cffa2ee93a888526300ce9ae24820376b913b884da1c8a446db64",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/data/t12_e8split.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "971dba109df38ecae368e6d4ee692bd25367f9e251e2612d7d23fe71d3c1182f",
+      "delivered_sha256": "2f9f11da8e83bf56aaf5d0ad2d2d53d9b9e0889e93885b21c3025cbb4554da72",
+      "unchanged": false
+    },
+    {
+      "path": "C3/run/data/t12_table.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7d8849f5a7f2c35efb4465465f4b12763f3e8a6e03da3ebe8250c7bd82a81124",
+      "delivered_sha256": "7d8849f5a7f2c35efb4465465f4b12763f3e8a6e03da3ebe8250c7bd82a81124",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/data/t12_table.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "549fe6cc8e0c6d6bba975a1db6828b36cd4e7d96ec96cc07e76e99c22d891233",
+      "delivered_sha256": "549fe6cc8e0c6d6bba975a1db6828b36cd4e7d96ec96cc07e76e99c22d891233",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/data/t12_table.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "daf328b793481cf4f3a1ca789972268df259557f123ab4f0d55e9ef7b038d8c0",
+      "delivered_sha256": "851b7a3cefc7a3fb9c5c0917c8dcc82141d668d36665f9e85bcfce62ee8fa1bb",
+      "unchanged": false
+    },
+    {
+      "path": "C3/run/data/t12_W1.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "3de49b22420656c53d5cf01ae387570512ca14aa930bbc158801ab6379c32e88",
+      "delivered_sha256": "3de49b22420656c53d5cf01ae387570512ca14aa930bbc158801ab6379c32e88",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/data/t12_W1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "74aae9ec16a5c687a4ad836365ac92246988f6382118eb06c049e14117a0c6c8",
+      "delivered_sha256": "74aae9ec16a5c687a4ad836365ac92246988f6382118eb06c049e14117a0c6c8",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/data/t12_W1.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "1776c0d185b7c42e28320e378bb6de9f15a1c70eb2ddb7d27c07940ae4d165da",
+      "delivered_sha256": "1776c0d185b7c42e28320e378bb6de9f15a1c70eb2ddb7d27c07940ae4d165da",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/export_omega_certificate.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "a5e8a0124c2d2414c4c4a1b49fb839a881e138ab84901a12626ff577c20c275a",
+      "delivered_sha256": "a5e8a0124c2d2414c4c4a1b49fb839a881e138ab84901a12626ff577c20c275a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/omega_certificate-reexport-C3.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc",
+      "delivered_sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/omega_certificate.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc",
+      "delivered_sha256": "43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/check_gb.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "3176c480a32997c7b648bd6c57772b695d441418e76cdac1a92156c6b20a2e3a",
+      "delivered_sha256": "3176c480a32997c7b648bd6c57772b695d441418e76cdac1a92156c6b20a2e3a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/common.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "61ebf6d29b4e7f51214c15571d2ea90038e8d148f88317f111a01fdb8927acc8",
+      "delivered_sha256": "61ebf6d29b4e7f51214c15571d2ea90038e8d148f88317f111a01fdb8927acc8",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/e8e8_voa.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "8e45da9c30d00df996dc54e612e46cf3e0ac38ede6975ce566997c5fdb537b95",
+      "delivered_sha256": "8e45da9c30d00df996dc54e612e46cf3e0ac38ede6975ce566997c5fdb537b95",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/G.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "142ae2a2585fac51bec50a310875e4f8f5867e3021d0085bdc2ece952ad832f2",
+      "delivered_sha256": "142ae2a2585fac51bec50a310875e4f8f5867e3021d0085bdc2ece952ad832f2",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/G_griess.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "14c70acc7258df78679cd33d2c590fc5f7f9154f90f8dcf1383a599477f8b09f",
+      "delivered_sha256": "14c70acc7258df78679cd33d2c590fc5f7f9154f90f8dcf1383a599477f8b09f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/gb_sympy.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b0fd54bab2f57dc1d786251c42c820cd574d76286e7a083f116db62993c77e22",
+      "delivered_sha256": "b0fd54bab2f57dc1d786251c42c820cd574d76286e7a083f116db62993c77e22",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/groebner.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f7965a01c1cc21e4b3021b0436652127f6bae10d779c31cccc9300c5d0c347ba",
+      "delivered_sha256": "f7965a01c1cc21e4b3021b0436652127f6bae10d779c31cccc9300c5d0c347ba",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/idem_complex.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "2897bd0cd6e55b3d02e7af1b54167093c9019bc03e2ae17f679edbf555335df2",
+      "delivered_sha256": "2897bd0cd6e55b3d02e7af1b54167093c9019bc03e2ae17f679edbf555335df2",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/invariants_0.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "edc06edf6e975fbdcafdaecde14b13c0bfe3bdbd5cd5d7d3218ff86a5243e0a8",
+      "delivered_sha256": "edc06edf6e975fbdcafdaecde14b13c0bfe3bdbd5cd5d7d3218ff86a5243e0a8",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/invariants_1.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "cd0b785e0cc331b022a9b8564d8599a9e37df06d0c6b256c3feb2d223b5eec74",
+      "delivered_sha256": "cd0b785e0cc331b022a9b8564d8599a9e37df06d0c6b256c3feb2d223b5eec74",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/invariants_2.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c99ca99b73622e6dc54a9fc80c4017838754e022860be697ae1c9910a3a8450b",
+      "delivered_sha256": "c99ca99b73622e6dc54a9fc80c4017838754e022860be697ae1c9910a3a8450b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/invariants_3.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "2ff42283e01fb81c712e55b3f8a8cd0973246915451b67381cc8f178cb967e21",
+      "delivered_sha256": "2ff42283e01fb81c712e55b3f8a8cd0973246915451b67381cc8f178cb967e21",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/omegaC1.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "530094d146a5564a60d24dfea7c2d6d71f544e6c8623052771a3e7e1e5702f15",
+      "delivered_sha256": "530094d146a5564a60d24dfea7c2d6d71f544e6c8623052771a3e7e1e5702f15",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/omegaC1.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "315e74e9a8e72582650fe0ae417697f5ae55e58819d8fdb2d27e70dbe3b09cde",
+      "delivered_sha256": "315e74e9a8e72582650fe0ae417697f5ae55e58819d8fdb2d27e70dbe3b09cde",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/qs6.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d5c7ce494724e0b91d42bce593da7c212612e9a8fbd920bae10131b78a694ef5",
+      "delivered_sha256": "d5c7ce494724e0b91d42bce593da7c212612e9a8fbd920bae10131b78a694ef5",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0200578b48772edf361143dd9f4572a863476e4d1f3a901c7afca706b89f17bc",
+      "delivered_sha256": "0200578b48772edf361143dd9f4572a863476e4d1f3a901c7afca706b89f17bc",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_c1_d4.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "37ffd239432e9650b10bfc7b28443c9f8af4007f2af8cf29ee0d93582b6aea47",
+      "delivered_sha256": "37ffd239432e9650b10bfc7b28443c9f8af4007f2af8cf29ee0d93582b6aea47",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_d4_d1_d5_d6_c2_FLIP04.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "50f41342375b8dd9d20db3132ee46f086f421cda766e7b2b7d1d142997d1c9b8",
+      "delivered_sha256": "50f41342375b8dd9d20db3132ee46f086f421cda766e7b2b7d1d142997d1c9b8",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_d4_d1_d5_d6_c2_FLIP11.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "89575a869fa946f2d8e527348f05301b19ca9e0f8fde7284b70058be2256927d",
+      "delivered_sha256": "89575a869fa946f2d8e527348f05301b19ca9e0f8fde7284b70058be2256927d",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_d4_d1_d5_d6_c2_FLIP13.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "50f41342375b8dd9d20db3132ee46f086f421cda766e7b2b7d1d142997d1c9b8",
+      "delivered_sha256": "50f41342375b8dd9d20db3132ee46f086f421cda766e7b2b7d1d142997d1c9b8",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_d4_d1_d5_d6_c2_FLIP15.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "cd7cef4b26e55fa324bf240dfa13458216c11218682280bc665f11b11b5ac43f",
+      "delivered_sha256": "cd7cef4b26e55fa324bf240dfa13458216c11218682280bc665f11b11b5ac43f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_d4_d1_d5_d6_c2_FLIP17.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "dba43173c0a970f089c745203eea69f6ff3e1abbd6c1b492175452acd8d76b37",
+      "delivered_sha256": "dba43173c0a970f089c745203eea69f6ff3e1abbd6c1b492175452acd8d76b37",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_d4_d1_d5_d6_c2_FLIP22.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "5e51863a52bcc360210de9b260a962d1da574a56f7185df3d490eda3a7c3843a",
+      "delivered_sha256": "5e51863a52bcc360210de9b260a962d1da574a56f7185df3d490eda3a7c3843a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_d4_d1_d5_d6_c2_FLIP26.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "cd7cef4b26e55fa324bf240dfa13458216c11218682280bc665f11b11b5ac43f",
+      "delivered_sha256": "cd7cef4b26e55fa324bf240dfa13458216c11218682280bc665f11b11b5ac43f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_0_d4_d1_d5_d6_c2_FLIP33.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0ca2fb9972a54be80bc299d6b20b7b93c36985755de61e5bec5e0a48fc9d1f8b",
+      "delivered_sha256": "0ca2fb9972a54be80bc299d6b20b7b93c36985755de61e5bec5e0a48fc9d1f8b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_1.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0200578b48772edf361143dd9f4572a863476e4d1f3a901c7afca706b89f17bc",
+      "delivered_sha256": "0200578b48772edf361143dd9f4572a863476e4d1f3a901c7afca706b89f17bc",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_2.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0200578b48772edf361143dd9f4572a863476e4d1f3a901c7afca706b89f17bc",
+      "delivered_sha256": "0200578b48772edf361143dd9f4572a863476e4d1f3a901c7afca706b89f17bc",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_3.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0200578b48772edf361143dd9f4572a863476e4d1f3a901c7afca706b89f17bc",
+      "delivered_sha256": "0200578b48772edf361143dd9f4572a863476e4d1f3a901c7afca706b89f17bc",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_negative_controls_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "322159e9f07600906933af1a41681dc67bee708b4db788ba8a8c95cd6811b78a",
+      "delivered_sha256": "322159e9f07600906933af1a41681dc67bee708b4db788ba8a8c95cd6811b78a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_reduced.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "8bfdd8c83e62537b0a340f6a7c7a8ca83302501046bb9f501ecd1c581b0ae0e0",
+      "delivered_sha256": "8bfdd8c83e62537b0a340f6a7c7a8ca83302501046bb9f501ecd1c581b0ae0e0",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_reduced_0_W1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c5b2051c03049b8af670f5d3afdd292c2f417c14e8f70e9294dfac85d3294470",
+      "delivered_sha256": "c5b2051c03049b8af670f5d3afdd292c2f417c14e8f70e9294dfac85d3294470",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_reduced_0_W2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "65c0715fc2c1da44d959934592db048abcd1fbf96010631cf7357b307c930dd5",
+      "delivered_sha256": "65c0715fc2c1da44d959934592db048abcd1fbf96010631cf7357b307c930dd5",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_reduced_1_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "1a28ba71e27cbd3491d3e18003fcf6e25383f38473c518846961a513c866e24a",
+      "delivered_sha256": "1a28ba71e27cbd3491d3e18003fcf6e25383f38473c518846961a513c866e24a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_reduced_2_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e0895962f1cb104f2965aebc739791b1ff48337c79becdcbf1ae88017ac02e7f",
+      "delivered_sha256": "e0895962f1cb104f2965aebc739791b1ff48337c79becdcbf1ae88017ac02e7f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_reduced_3_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "91afe337811f8f8709ff81519c4fb0a40a4526d747c739bac90bd5af7e26390b",
+      "delivered_sha256": "91afe337811f8f8709ff81519c4fb0a40a4526d747c739bac90bd5af7e26390b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_signature.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "16e3a8537c1de6af7091eb0f76963ffd8131e85d1a8e488aae092cddf2649d78",
+      "delivered_sha256": "16e3a8537c1de6af7091eb0f76963ffd8131e85d1a8e488aae092cddf2649d78",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_signature_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d8300f095548538fb29d84cfc43b23943a9ffd8798cabaabf322e3953646a727",
+      "delivered_sha256": "d8300f095548538fb29d84cfc43b23943a9ffd8798cabaabf322e3953646a727",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_signature_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "8aadf044783d88bf25e0773edbbee04e8687e7df48c6c1acd026a4e838a6a47f",
+      "delivered_sha256": "8aadf044783d88bf25e0773edbbee04e8687e7df48c6c1acd026a4e838a6a47f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_signature_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "080424417f24fddf515215c836b0b70318c41562247c079b53bb0487da8492c6",
+      "delivered_sha256": "080424417f24fddf515215c836b0b70318c41562247c079b53bb0487da8492c6",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2_signature_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b385b7330e17d278fefe95aded4090f6e88cad45ffff6dda7980f2c703b4a287",
+      "delivered_sha256": "b385b7330e17d278fefe95aded4090f6e88cad45ffff6dda7980f2c703b4a287",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2red_0_d2_d3_b.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "cb9498e7568717b71821131630cacfafbc83476e21d4d13d4169b5769a19a1fa",
+      "delivered_sha256": "cb9498e7568717b71821131630cacfafbc83476e21d4d13d4169b5769a19a1fa",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2red_0_d4_d1_d5_d6_c1_c2.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "87cc5b1a27c3ffab98d370e0a1a326a4d4060852e6b744d33e4a4b74afaecbad",
+      "delivered_sha256": "87cc5b1a27c3ffab98d370e0a1a326a4d4060852e6b744d33e4a4b74afaecbad",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2red_1_d1_d2_d3_d4_d5_d6_c1_c2_b.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d27dbe1e81361f2947c8af6ad4b3615edcbb61f4add704e48f2d053df625712f",
+      "delivered_sha256": "d27dbe1e81361f2947c8af6ad4b3615edcbb61f4add704e48f2d053df625712f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2red_2_d1_d2_d3_d4_d5_d6_c1_c2_b.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d27dbe1e81361f2947c8af6ad4b3615edcbb61f4add704e48f2d053df625712f",
+      "delivered_sha256": "d27dbe1e81361f2947c8af6ad4b3615edcbb61f4add704e48f2d053df625712f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r2red_3_d1_d2_d3_d4_d5_d6_c1_c2_b.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d27dbe1e81361f2947c8af6ad4b3615edcbb61f4add704e48f2d053df625712f",
+      "delivered_sha256": "d27dbe1e81361f2947c8af6ad4b3615edcbb61f4add704e48f2d053df625712f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_1S2.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f79d12d2f1b75641dfdd70d72e0194425a5940de34e7e0c8a505f7453a157741",
+      "delivered_sha256": "f79d12d2f1b75641dfdd70d72e0194425a5940de34e7e0c8a505f7453a157741",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_1S2_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ee005213767860a2da22fb695a690e3a2799d9a92da54a07400b66457b885f75",
+      "delivered_sha256": "ee005213767860a2da22fb695a690e3a2799d9a92da54a07400b66457b885f75",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_G.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "120a0217c1aaa1cd2f1cea1654d896c7865b23ea687fa8d820aba1de7d6dcfcc",
+      "delivered_sha256": "120a0217c1aaa1cd2f1cea1654d896c7865b23ea687fa8d820aba1de7d6dcfcc",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_G.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "aa17611683baf41c342da09ed516eb563548e57d0049b4abecc8db66a86a7d4b",
+      "delivered_sha256": "aa17611683baf41c342da09ed516eb563548e57d0049b4abecc8db66a86a7d4b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_Griess.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c625f0caaba4be5c595adceef0b11b1d74842e7cefc2aa97e7000a938056c4ea",
+      "delivered_sha256": "c625f0caaba4be5c595adceef0b11b1d74842e7cefc2aa97e7000a938056c4ea",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_Griess.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "dec41ee2c920e78f5205d3281d7e977a85a78ab3b190d8abfc54baaf0503c9c4",
+      "delivered_sha256": "dec41ee2c920e78f5205d3281d7e977a85a78ab3b190d8abfc54baaf0503c9c4",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_groebner.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ec45030f47aab2660f742ed247a3a6713eec0c1b139e1b949a69a0ba794708cb",
+      "delivered_sha256": "ec45030f47aab2660f742ed247a3a6713eec0c1b139e1b949a69a0ba794708cb",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_groebner.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "8df88a97d40c621803cd0d87ef103ff000e1dbf3f9ce18c8ec7304a4834af566",
+      "delivered_sha256": "8df88a97d40c621803cd0d87ef103ff000e1dbf3f9ce18c8ec7304a4834af566",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_invariants.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "93228e0e0bc761083de9ef2ac45b8f7cb6497c4474e2e2d4b1aa429f239cb185",
+      "delivered_sha256": "93228e0e0bc761083de9ef2ac45b8f7cb6497c4474e2e2d4b1aa429f239cb185",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_invariants_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "6773a04b237df6beed4c3c9701fa342357fbd67216de5ec059cf629d4cd71d08",
+      "delivered_sha256": "6773a04b237df6beed4c3c9701fa342357fbd67216de5ec059cf629d4cd71d08",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_omega_exact.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "dcab002f782a1b190015bd50a198a86c8d7659d2887389019990c8012ec2f89a",
+      "delivered_sha256": "dcab002f782a1b190015bd50a198a86c8d7659d2887389019990c8012ec2f89a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_omega_exact.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ad69d3f944f6505ac981dc5beed8fe227e46b589adf77c60ab1275cef5f99eaa",
+      "delivered_sha256": "ad69d3f944f6505ac981dc5beed8fe227e46b589adf77c60ab1275cef5f99eaa",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f17d0d844247b95b0a2e1ed936297510009763efcebf4e1f56f3e286cdbfe457",
+      "delivered_sha256": "f17d0d844247b95b0a2e1ed936297510009763efcebf4e1f56f3e286cdbfe457",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d697de43cb41487f590e0f32bb8b1d2107ef9a1e28321d2a78a794988ee94bc0",
+      "delivered_sha256": "d697de43cb41487f590e0f32bb8b1d2107ef9a1e28321d2a78a794988ee94bc0",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "be799b3bd552ec37439b9bd6406fdc7ff0b7f5a9672f013da51456948585afa2",
+      "delivered_sha256": "be799b3bd552ec37439b9bd6406fdc7ff0b7f5a9672f013da51456948585afa2",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b881a93cbf1a547ea06ae5d44ee26cabefd830b9221272f3fa5cb3b42f385a07",
+      "delivered_sha256": "b881a93cbf1a547ea06ae5d44ee26cabefd830b9221272f3fa5cb3b42f385a07",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "86a4731f5bced6145183f2e490422577d31528d770d0fe4dc5ae2a1c178517e7",
+      "delivered_sha256": "86a4731f5bced6145183f2e490422577d31528d770d0fe4dc5ae2a1c178517e7",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_full.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "2befb1036a32fb788e50c65f03eb0c4f53f52e8e0aeee0dd1979bfe3e1f4b8eb",
+      "delivered_sha256": "2befb1036a32fb788e50c65f03eb0c4f53f52e8e0aeee0dd1979bfe3e1f4b8eb",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_full_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d6502348054610aed1c60ece413e882b7c8563b25904953e3524e20a5e17819e",
+      "delivered_sha256": "d6502348054610aed1c60ece413e882b7c8563b25904953e3524e20a5e17819e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_full_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0ea3e441a95b5438161b116da7e9c6409f28c2c94d76d3b3419a0c1d5ed3e2f4",
+      "delivered_sha256": "0ea3e441a95b5438161b116da7e9c6409f28c2c94d76d3b3419a0c1d5ed3e2f4",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_full_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "86b108f0489468993ac060048cfae4bd1f5b863566f1db85e6611c063fa9c3e1",
+      "delivered_sha256": "86b108f0489468993ac060048cfae4bd1f5b863566f1db85e6611c063fa9c3e1",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3a_S2_full_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "bf1503da49a9ff9a587120a1a42195533e3f02905f20e8d24bcc172bfecbb076",
+      "delivered_sha256": "bf1503da49a9ff9a587120a1a42195533e3f02905f20e8d24bcc172bfecbb076",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_chi.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "627659e2e8a27a71b8e6cfd5f8cca5cb2d8e8d725d77addcad49179872ad0ee1",
+      "delivered_sha256": "627659e2e8a27a71b8e6cfd5f8cca5cb2d8e8d725d77addcad49179872ad0ee1",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_chi.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b3f0be2b657d1302aeedcb68627ffa2216589d7c6728a87e7688f8890e93d317",
+      "delivered_sha256": "b3f0be2b657d1302aeedcb68627ffa2216589d7c6728a87e7688f8890e93d317",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_chi.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "774f956ef4e6362731ae1fd7bacb25ff333743998d67aa99adc04bcf813a9751",
+      "delivered_sha256": "774f956ef4e6362731ae1fd7bacb25ff333743998d67aa99adc04bcf813a9751",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "41d07af371ab92347421490ce666443404591229e8f1217777dd498126db5c83",
+      "delivered_sha256": "41d07af371ab92347421490ce666443404591229e8f1217777dd498126db5c83",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_0.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "delivered_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "6d7c33b1aae270ffea41463f05ed7560b6bbec235dca2a5cce0113a965eddcde",
+      "delivered_sha256": "6d7c33b1aae270ffea41463f05ed7560b6bbec235dca2a5cce0113a965eddcde",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_1.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "delivered_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_1.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "f830cf642e1013899df1a3bc9c2d649321b044f484389d6774667ad6319e9a0b",
+      "delivered_sha256": "f830cf642e1013899df1a3bc9c2d649321b044f484389d6774667ad6319e9a0b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_2.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "delivered_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "428473e775da3d7cf678d69986b4fa8c386b4b62da25ef3e2aed643631d8eb22",
+      "delivered_sha256": "428473e775da3d7cf678d69986b4fa8c386b4b62da25ef3e2aed643631d8eb22",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_3.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "delivered_sha256": "bb2476d3a6c763ce0c47bf1f9c0076b32032fe04fb85532f67408f895fd69ece",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b2d05120d48139c656538842af493db6f739e13d2257f832633498a04c53ed2c",
+      "delivered_sha256": "b2d05120d48139c656538842af493db6f739e13d2257f832633498a04c53ed2c",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/r3b_verify_core.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "9321d84200b4acecd0aac24adf15e6994545846c3d143508735830f12b8747db",
+      "delivered_sha256": "9321d84200b4acecd0aac24adf15e6994545846c3d143508735830f12b8747db",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2_0.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "2334f8ee403b1304699a8141b9bc5224eb9982c21f5a0530d34397793cbb7555",
+      "delivered_sha256": "2334f8ee403b1304699a8141b9bc5224eb9982c21f5a0530d34397793cbb7555",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2_1.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e5385d37e545f6c3b7e30aa8696443a219ccf86ec8a2ed04651515a31bd69660",
+      "delivered_sha256": "e5385d37e545f6c3b7e30aa8696443a219ccf86ec8a2ed04651515a31bd69660",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2_2.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "1f7e44c927a64addb576cf6408b77a3b83ac2fc3a2ac0b723aeb1c53b78384d5",
+      "delivered_sha256": "1f7e44c927a64addb576cf6408b77a3b83ac2fc3a2ac0b723aeb1c53b78384d5",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2_3.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "dbb843afa4faafa7b9e91c89e16c68b4de723789a7232c4244b2f28c4674f61b",
+      "delivered_sha256": "dbb843afa4faafa7b9e91c89e16c68b4de723789a7232c4244b2f28c4674f61b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2bis_0.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "12e5548ba3d826768d1efa34d3a05d34080517fa83084bc851bb1d75202b2a1e",
+      "delivered_sha256": "12e5548ba3d826768d1efa34d3a05d34080517fa83084bc851bb1d75202b2a1e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2bis_1.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c379dc88be8c6f2b8ef5e5050a67e6d7362be86111853406f776ec8619110702",
+      "delivered_sha256": "c379dc88be8c6f2b8ef5e5050a67e6d7362be86111853406f776ec8619110702",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2bis_2.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "441b9967d15a3c55149af8aba290306e285bc312ec24ae8aa0f7a4f012cc1f02",
+      "delivered_sha256": "441b9967d15a3c55149af8aba290306e285bc312ec24ae8aa0f7a4f012cc1f02",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2bis_3.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "0c2b8e7884dc25e332f74fa9583a6938ebf930f67a99fbcebac5056f4bb94104",
+      "delivered_sha256": "0c2b8e7884dc25e332f74fa9583a6938ebf930f67a99fbcebac5056f4bb94104",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2full_0.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "5fa3ba7843b0799ebfb66023b133df965e02ecc6bbb480d0e3b144e8bd5bd5ee",
+      "delivered_sha256": "5fa3ba7843b0799ebfb66023b133df965e02ecc6bbb480d0e3b144e8bd5bd5ee",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2full_0.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "dde3ad89f840a6d5a65ff0057253a9245d1a31850d3a211ad474ff43de2b9c07",
+      "delivered_sha256": "dde3ad89f840a6d5a65ff0057253a9245d1a31850d3a211ad474ff43de2b9c07",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2full_1.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "delivered_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2full_1.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e016291db0af84bf40b2953609898b5a1f9d5b0fa0ab69df3886a9be1a51b1a6",
+      "delivered_sha256": "e016291db0af84bf40b2953609898b5a1f9d5b0fa0ab69df3886a9be1a51b1a6",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2full_2.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "delivered_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2full_2.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "4c68edd8d2f168bec40324522b738c2d0ee35d83e2b7c66bdb128c686c90d8fe",
+      "delivered_sha256": "4c68edd8d2f168bec40324522b738c2d0ee35d83e2b7c66bdb128c686c90d8fe",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2full_3.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "delivered_sha256": "7508ad2e9ea7a258bf281f1cbace4913e20b0cf08c92d09f4c4ac0fc33a3c0fb",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/S2full_3.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "1f1289a904d4dcae1f21b12050d8e2fd6ad4b95f7e8e4a073a3d902230a735d4",
+      "delivered_sha256": "1f1289a904d4dcae1f21b12050d8e2fd6ad4b95f7e8e4a073a3d902230a735d4",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/sl2x4.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b60328ca2607e09a17acf0f2144109e56e4da83a8d1bb6f1a1cbcd337d8ebb58",
+      "delivered_sha256": "b60328ca2607e09a17acf0f2144109e56e4da83a8d1bb6f1a1cbcd337d8ebb58",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/sl2x4.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b3eb5736d3e694c9bda1b19d11c4dce1cb4bb671a49a0a90ec5fbb6a4ad5206a",
+      "delivered_sha256": "b3eb5736d3e694c9bda1b19d11c4dce1cb4bb671a49a0a90ec5fbb6a4ad5206a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/sl2x4.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "1f6e1562ecf4136ec2a8fb526504ec176d012b4027a7f896ca0f81092db15f43",
+      "delivered_sha256": "1f6e1562ecf4136ec2a8fb526504ec176d012b4027a7f896ca0f81092db15f43",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/span.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "3edaf8e0e8822edbb089c6f9c0f09abd8e94d922aeb68d8c405faad757919a0b",
+      "delivered_sha256": "3edaf8e0e8822edbb089c6f9c0f09abd8e94d922aeb68d8c405faad757919a0b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/t12b_optionB.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "058946e3a1957bf69beb827c6566da4323ca329625786fbf705f55b8512d3687",
+      "delivered_sha256": "058946e3a1957bf69beb827c6566da4323ca329625786fbf705f55b8512d3687",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/t12b_optionB.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "4df2d214e0923c9bb1876855bf6ad760b7ec4632f918e6dbd6db3be3a3a1eb76",
+      "delivered_sha256": "4df2d214e0923c9bb1876855bf6ad760b7ec4632f918e6dbd6db3be3a3a1eb76",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/test_e8e8.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e47a8ee601fdecfb9f66347a497d436911bd4cc25890894893b2000617d42649",
+      "delivered_sha256": "e47a8ee601fdecfb9f66347a497d436911bd4cc25890894893b2000617d42649",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/test_e8e8.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "dacc1ac3cbc84ef260db6b6d9c2a595ff5d56dd4da16e6906acf49d6d20e1b19",
+      "delivered_sha256": "dacc1ac3cbc84ef260db6b6d9c2a595ff5d56dd4da16e6906acf49d6d20e1b19",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/w_positivity.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "813aa6d2aa9d781067f97443db537825f62192c25c9b19ea47e489e55a749bae",
+      "delivered_sha256": "813aa6d2aa9d781067f97443db537825f62192c25c9b19ea47e489e55a749bae",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/w_positivity.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d96864778af6606e68e868692a48e694a73bc62396083a802c99cc80b13b85d8",
+      "delivered_sha256": "d96864778af6606e68e868692a48e694a73bc62396083a802c99cc80b13b85d8",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/weights_W.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b96294923e0d93e49bebe33151e1972516b0cee88b9759ca3acb4004dda57518",
+      "delivered_sha256": "b96294923e0d93e49bebe33151e1972516b0cee88b9759ca3acb4004dda57518",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3/weights_W.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e5e9fd5284d7c4bc437cc087daaba6f08ef8352ab7e29c534574425e696bcd21",
+      "delivered_sha256": "e5e9fd5284d7c4bc437cc087daaba6f08ef8352ab7e29c534574425e696bcd21",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/check_W1_char.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "9d851cd3d85bd72002fe778d9161a95d319e7350f66150c9fb699324cacf6803",
+      "delivered_sha256": "9d851cd3d85bd72002fe778d9161a95d319e7350f66150c9fb699324cacf6803",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/check_W1_char.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c6797440088277ae3d6000185ec087d14e50bb76490c85118fcc26dfac7f306b",
+      "delivered_sha256": "c6797440088277ae3d6000185ec087d14e50bb76490c85118fcc26dfac7f306b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/compare_R3.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b539fe1199ef96839cb129c646997f0d6a64233037aacc451842f60b668ad044",
+      "delivered_sha256": "b539fe1199ef96839cb129c646997f0d6a64233037aacc451842f60b668ad044",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/compare_R3.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "9550b265e2b83ad1ec8701173118cec315023af738ce9431743b748fcb40e1cd",
+      "delivered_sha256": "9550b265e2b83ad1ec8701173118cec315023af738ce9431743b748fcb40e1cd",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/embed.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "4a34b177c7c0cf2f4304595760499a24ea81adeb5be50992a160dca7f7fa68f6",
+      "delivered_sha256": "4a34b177c7c0cf2f4304595760499a24ea81adeb5be50992a160dca7f7fa68f6",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/embed.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "aae1ddb9d5edcd5886601aaa013915c5b286ed8053771b74fca966b4b75a7ba3",
+      "delivered_sha256": "aae1ddb9d5edcd5886601aaa013915c5b286ed8053771b74fca966b4b75a7ba3",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/G.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e00fcb0a3d98338d9f31533fa14a7af448e2f833011de4b1572c938dd2f2c143",
+      "delivered_sha256": "e00fcb0a3d98338d9f31533fa14a7af448e2f833011de4b1572c938dd2f2c143",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/g_space.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "cfd758b7721d87bf3538e1c2e166b7e591b9bf07add175d02fe401c8b61915f2",
+      "delivered_sha256": "cfd758b7721d87bf3538e1c2e166b7e591b9bf07add175d02fe401c8b61915f2",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/g_space.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "475b393938d600ac722c49886d2aeea0a43c91ec11e317615a0593926c3c21f9",
+      "delivered_sha256": "475b393938d600ac722c49886d2aeea0a43c91ec11e317615a0593926c3c21f9",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/griess.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d66d6ffdb766eb026d5f108078654837b7cdc43b2014242ded08a330592fddd1",
+      "delivered_sha256": "d66d6ffdb766eb026d5f108078654837b7cdc43b2014242ded08a330592fddd1",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/griess.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "73656083779b44f3916e1ebf9919463601fd3fd8de4236c786d5111c62d88c3b",
+      "delivered_sha256": "73656083779b44f3916e1ebf9919463601fd3fd8de4236c786d5111c62d88c3b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/griess.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "988bdd7f1e8f5012f22220b0e3d84089f186a6f50a173662ed947b35f7b7c706",
+      "delivered_sha256": "988bdd7f1e8f5012f22220b0e3d84089f186a6f50a173662ed947b35f7b7c706",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/groebner.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "22a08a06c94c550cbb5ab4db7fce16cd1425b9d8f3e4788837bc9ab4629ffa0e",
+      "delivered_sha256": "22a08a06c94c550cbb5ab4db7fce16cd1425b9d8f3e4788837bc9ab4629ffa0e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/lat.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "91f0eae87bbf132a568bfe2308297ef7fb0ea26f145da73eb30a0037ab3fe77d",
+      "delivered_sha256": "91f0eae87bbf132a568bfe2308297ef7fb0ea26f145da73eb30a0037ab3fe77d",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/phi_chi.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "53cef27852f58121c0599810594100b664e686b08022d0e0770707476ace5a07",
+      "delivered_sha256": "53cef27852f58121c0599810594100b664e686b08022d0e0770707476ace5a07",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/phi_chi.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c8e9d450de9a0d70e51468bca9923af950290b5181ffd06df9f9d4574e0d403e",
+      "delivered_sha256": "c8e9d450de9a0d70e51468bca9923af950290b5181ffd06df9f9d4574e0d403e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/q4.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "5727247e34933c1ce41bf5dae442d3e94c6c4e30965ea61b86b230e58e12be71",
+      "delivered_sha256": "5727247e34933c1ce41bf5dae442d3e94c6c4e30965ea61b86b230e58e12be71",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/s2_check.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ae86acbf30efa9abe8da6f94416ba63197e12f16bfad927e774080fc998ec17e",
+      "delivered_sha256": "ae86acbf30efa9abe8da6f94416ba63197e12f16bfad927e774080fc998ec17e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/s2_check_0.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "43d94725705ed22c8fb266559c31d519feab6f3b1eaa6bd5fb177d93d94f2f2e",
+      "delivered_sha256": "43d94725705ed22c8fb266559c31d519feab6f3b1eaa6bd5fb177d93d94f2f2e",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/s2_space.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "db1f86e354982e593eb5dc8d0dba75dd45f2d062918aebab8424f4874994ad08",
+      "delivered_sha256": "db1f86e354982e593eb5dc8d0dba75dd45f2d062918aebab8424f4874994ad08",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/s2_space_0_all.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "10f697bea441fb479c52bd3f93f2e87e1bccf4ff9ce998f9f4d081449a2bde66",
+      "delivered_sha256": "10f697bea441fb479c52bd3f93f2e87e1bccf4ff9ce998f9f4d081449a2bde66",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/s2_space_0_all.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b4d9295f40dd78dc39665f5d1b9f2078825b31f89cbf042aa57a7b37da4c0577",
+      "delivered_sha256": "b4d9295f40dd78dc39665f5d1b9f2078825b31f89cbf042aa57a7b37da4c0577",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/s2_space_0_dominant.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "70b8406a909ae101e48ffb9d919b5e253e22febdf9271f4fcbc0c3e46fc42502",
+      "delivered_sha256": "70b8406a909ae101e48ffb9d919b5e253e22febdf9271f4fcbc0c3e46fc42502",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/s2_space_3_dominant.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "bc52cef6460e6223a05d82b458d2f9e0e757f450352447fe0c6784a1a99901d4",
+      "delivered_sha256": "bc52cef6460e6223a05d82b458d2f9e0e757f450352447fe0c6784a1a99901d4",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/setup_system.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "6742f0dfab1d0d9b1d8e1685cacf035066e6ffa4b60eedc22e78f093425fd523",
+      "delivered_sha256": "6742f0dfab1d0d9b1d8e1685cacf035066e6ffa4b60eedc22e78f093425fd523",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/setup_system.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e5e49dcf9465094fbf8d621e57ba5997eab56880900684423702f7f6bc84ccb1",
+      "delivered_sha256": "e5e49dcf9465094fbf8d621e57ba5997eab56880900684423702f7f6bc84ccb1",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/sl2_4.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7f9251757545eedb5beb840d33bf22c888288ed0bc39f6ec95d7f6505427b8e7",
+      "delivered_sha256": "7f9251757545eedb5beb840d33bf22c888288ed0bc39f6ec95d7f6505427b8e7",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/solutions.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c6ccc811699313360837e1a643775da06f268ba1645e031b05faff9f68c02336",
+      "delivered_sha256": "c6ccc811699313360837e1a643775da06f268ba1645e031b05faff9f68c02336",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/solve_groebner.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "84b307fa6f7a170a494a2cfeb97e0d453341de061f15afc50d6f750792ac06ab",
+      "delivered_sha256": "84b307fa6f7a170a494a2cfeb97e0d453341de061f15afc50d6f750792ac06ab",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/solve_groebner.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "e781ef3a6aa44bb9c0741c26a2830504dc6f1ded1cd1d572709abc25d39cfb33",
+      "delivered_sha256": "e781ef3a6aa44bb9c0741c26a2830504dc6f1ded1cd1d572709abc25d39cfb33",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/solve_signs.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "1704a44432b4c5d1066dc3d972b84ca8d6fa1566a9b8ac9320f070d01c26e629",
+      "delivered_sha256": "1704a44432b4c5d1066dc3d972b84ca8d6fa1566a9b8ac9320f070d01c26e629",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/solve_signs.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d9b666d25671af6e8adedca30120be1e86ca6afb30ec1cbe959d19b6f278a0e1",
+      "delivered_sha256": "e5a070c3589a3f627bcafe8d05f0c78ddaa5c5937ab80f3ea050eb8876b13a3a",
+      "unchanged": false
+    },
+    {
+      "path": "C3/run/R3-verif/system.pkl",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "75f2c61894ab25a577f7e9df49edb9c8d919855e67062dac83dd57f636ef382f",
+      "delivered_sha256": "75f2c61894ab25a577f7e9df49edb9c8d919855e67062dac83dd57f636ef382f",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/test_voa.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "fa315e104d615a7d3cb33cbcfdcb4f101b3b29046c8a541d9e6a58d048b9b8ef",
+      "delivered_sha256": "fa315e104d615a7d3cb33cbcfdcb4f101b3b29046c8a541d9e6a58d048b9b8ef",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/test_voa.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "78d2fd289cd37cb55bc8f4452a7fa545c65aab3fdaf7004d6938daff12943753",
+      "delivered_sha256": "78d2fd289cd37cb55bc8f4452a7fa545c65aab3fdaf7004d6938daff12943753",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/twist_check.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "791c054a55ffdc96a8311a96ebd322525213eb310bea8c7c52e44d69c8454bc9",
+      "delivered_sha256": "791c054a55ffdc96a8311a96ebd322525213eb310bea8c7c52e44d69c8454bc9",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/twist_check.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "4510ed84e7196037dd19701fc5be2ab81d4012f6c9c5685e2309955ba7a3d991",
+      "delivered_sha256": "4510ed84e7196037dd19701fc5be2ab81d4012f6c9c5685e2309955ba7a3d991",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/verify_solutions.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "2418267e97f8ecb81cc23e7b9d64132c3a333e6d272e21cdd6ae37d4ca8dd7eb",
+      "delivered_sha256": "2418267e97f8ecb81cc23e7b9d64132c3a333e6d272e21cdd6ae37d4ca8dd7eb",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/verify_solutions.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ce90a36445063053ad15889106e5c84b6bd098971d051a97dc5caad0d72d9890",
+      "delivered_sha256": "ce90a36445063053ad15889106e5c84b6bd098971d051a97dc5caad0d72d9890",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/R3-verif/voa.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "3da4f6febe232beff7a39c4cdd1a90e8e831178ab7211ca7699ed74ce8e92c81",
+      "delivered_sha256": "3da4f6febe232beff7a39c4cdd1a90e8e831178ab7211ca7699ed74ce8e92c81",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/reexport-comparison.json",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d2682f7b036a83a8715b77e30a0f545040f9b3306a8328e71493717fb8e5737c",
+      "delivered_sha256": "d2682f7b036a83a8715b77e30a0f545040f9b3306a8328e71493717fb8e5737c",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/reexport.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "6344a9ec10f8d910206922f66938f5fd53052a124f7905ce3116d29439f4a683",
+      "delivered_sha256": "6344a9ec10f8d910206922f66938f5fd53052a124f7905ce3116d29439f4a683",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/F1/e8facts.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "2ab274958bdd5f4d63b9d1340e9ad797ea6371b56f76d6f07204b4198db8655b",
+      "delivered_sha256": "2ab274958bdd5f4d63b9d1340e9ad797ea6371b56f76d6f07204b4198db8655b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/F1/e8facts.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "405024b76be856ea0a3587d929f1d06eeba7f0f9e354fdcf0a0d1b067c56b783",
+      "delivered_sha256": "405024b76be856ea0a3587d929f1d06eeba7f0f9e354fdcf0a0d1b067c56b783",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/F1/enum_sl2.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ae946d3caa4af6a4dd5bb2925565bf6b85007bdd575f598142ce3b04019334c1",
+      "delivered_sha256": "ae946d3caa4af6a4dd5bb2925565bf6b85007bdd575f598142ce3b04019334c1",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/F1/enum_sl2.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "2c7263ad3a1f3ef80f7d78f1b8b4fd3b723f62a4aa08ca7cb648cc578db2e854",
+      "delivered_sha256": "2c7263ad3a1f3ef80f7d78f1b8b4fd3b723f62a4aa08ca7cb648cc578db2e854",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/F1/sectors.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "830b377eec1e4934fba2b335b7da8063040c4d0ffbddb6f0dc2d05fe8de5741a",
+      "delivered_sha256": "830b377eec1e4934fba2b335b7da8063040c4d0ffbddb6f0dc2d05fe8de5741a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/F1/sectors.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "41752c176f6b91f70f064a07d5af0dc59e7846fadd6eb2d5984b7356b059e316",
+      "delivered_sha256": "41752c176f6b91f70f064a07d5af0dc59e7846fadd6eb2d5984b7356b059e316",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/R3P/check_gb.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "5d65a8781faabed68b1582943e28e79d58ab69696e34cea026ed0bedef342aaa",
+      "delivered_sha256": "5d65a8781faabed68b1582943e28e79d58ab69696e34cea026ed0bedef342aaa",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/R3P/check_gb.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "3176c480a32997c7b648bd6c57772b695d441418e76cdac1a92156c6b20a2e3a",
+      "delivered_sha256": "3176c480a32997c7b648bd6c57772b695d441418e76cdac1a92156c6b20a2e3a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/R3P/G.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "75b13df794a5db193143fdf0f70a7c22314ffae58cb4534e8b2a787ba0247d25",
+      "delivered_sha256": "75b13df794a5db193143fdf0f70a7c22314ffae58cb4534e8b2a787ba0247d25",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/R3P/gb_sympy.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "dc546b4b0c6ff129d057e6697e79396c9f0d2a9dbb8a90b7cf0441504991d0e8",
+      "delivered_sha256": "dc546b4b0c6ff129d057e6697e79396c9f0d2a9dbb8a90b7cf0441504991d0e8",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/R3P/gb_sympy.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "b0fd54bab2f57dc1d786251c42c820cd574d76286e7a083f116db62993c77e22",
+      "delivered_sha256": "b0fd54bab2f57dc1d786251c42c820cd574d76286e7a083f116db62993c77e22",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/scripts-rapporteurs/R3P/Gr.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7a846e5cf835062c4707b026fd28610d4500aa15ccf2b5cc1fc4bbd68922f191",
+      "delivered_sha256": "7a846e5cf835062c4707b026fd28610d4500aa15ccf2b5cc1fc4bbd68922f191",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/verification-independante/independent_kernel.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "d6a82c451c8f29c1b246f4db3909ecdf101fd6e76acc2069e903e6e1cf176bc9",
+      "delivered_sha256": "d6a82c451c8f29c1b246f4db3909ecdf101fd6e76acc2069e903e6e1cf176bc9",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/verification-independante/independent_tensors.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c3f1a82361c4cf73f7269e8c4974abf8d0b3a7ae8c56e2b42f69b0c78eaa713a",
+      "delivered_sha256": "c3f1a82361c4cf73f7269e8c4974abf8d0b3a7ae8c56e2b42f69b0c78eaa713a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/verification-independante/independent_tensors.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "147bd7a5348cf05d1d272075018ad975b0d31a4135226278895da5d8aa576af6",
+      "delivered_sha256": "147bd7a5348cf05d1d272075018ad975b0d31a4135226278895da5d8aa576af6",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/verification-independante/independent_triples.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "3030924a25716bb094745c5dbb47ea7299afe983ea7400116ffcd1bc02034043",
+      "delivered_sha256": "3030924a25716bb094745c5dbb47ea7299afe983ea7400116ffcd1bc02034043",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/verify_omega_certificate.out",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c81bb1b8962573071bcb0e34ac0f0078c3e8abe115f5883d12fda9ec8dc92f39",
+      "delivered_sha256": "c81bb1b8962573071bcb0e34ac0f0078c3e8abe115f5883d12fda9ec8dc92f39",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run/verify_omega_certificate.py",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "46d17de1837641e491a78c9c0fb8ee7f35041cc1000ad58e326313659613b26a",
+      "delivered_sha256": "46d17de1837641e491a78c9c0fb8ee7f35041cc1000ad58e326313659613b26a",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run_extra_chain.sh",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "12e8c386207fb965ab3d79398cd0d031b144dba0a271ad528199ef6f55495f1b",
+      "delivered_sha256": "12e8c386207fb965ab3d79398cd0d031b144dba0a271ad528199ef6f55495f1b",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run_one.sh",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "130aceb021e7b0a6f5aff4cdd01089c76637799c60527c804f4e9ddef60a6d1d",
+      "delivered_sha256": "14227c8f4bd6580e5fa4c80f1a5549e7ee030bbae919e422f467f00163a1fb1f",
+      "unchanged": false
+    },
+    {
+      "path": "C3/run_R3_chain.sh",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "c99296757edea2a1c2a5b8e08dae1a04988210b92a19f7a2fdd14598afa3d50c",
+      "delivered_sha256": "c99296757edea2a1c2a5b8e08dae1a04988210b92a19f7a2fdd14598afa3d50c",
+      "unchanged": true
+    },
+    {
+      "path": "C3/run_R3verif_chain.sh",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "ab45ab80da081059bae72464f81792d8a279f5da4da7ad8515f252d17859f100",
+      "delivered_sha256": "ab45ab80da081059bae72464f81792d8a279f5da4da7ad8515f252d17859f100",
+      "unchanged": true
+    },
+    {
+      "path": "README.txt",
+      "origin_archive": "Calculs-III-A1-A4-C3-v10.zip",
+      "origin_archive_sha256": "f944686505d097ac50d43c4f161a2da1c3ff9ed2d9b93eb8fe5708d0c85e3b4b",
+      "origin_sha256": "7dd112749b54b798eef3721fafc02e00d521c3e473f9df4ba92b068f28a9e76d",
+      "delivered_sha256": "d68040f12d466b612d9d9c108dd0263b5ba4b94c34e99cf4fb57305abe64bd3c",
+      "unchanged": false
+    }
+  ],
+  "additions": "Current documentation, dependency locks, standalone launchers, public verification receipts and manifest checkers are versioned in this delivery. Mathematical origin files are listed individually above.",
+  "original_algorithms_unchanged": false,
+  "C3_adaptations": [
+    {
+      "path": "C3/run/data/t12_table.py",
+      "source_II_tag": "article-II-v14-supplements-v03",
+      "sha256": "851b7a3cefc7a3fb9c5c0917c8dcc82141d668d36665f9e85bcfce62ee8fa1bb"
+    },
+    {
+      "path": "C3/run/data/t12_e8split.py",
+      "source_II_tag": "article-II-v14-supplements-v03",
+      "sha256": "2f9f11da8e83bf56aaf5d0ad2d2d53d9b9e0889e93885b21c3025cbb4554da72"
+    },
+    {
+      "path": "C3/run/R3-verif/solve_signs.py",
+      "source_II_tag": "article-II-v14-supplements-v03",
+      "sha256": "e5a070c3589a3f627bcafe8d05f0c78ddaa5c5937ab80f3ea050eb8876b13a3a"
+    },
+    {
+      "path": "C3/a3_c3_compare.py",
+      "purpose": "Compare to the fixed public II delivery and explicitly list III-only files."
+    }
+  ]
+}

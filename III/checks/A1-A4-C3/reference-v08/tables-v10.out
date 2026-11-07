@@ -1,0 +1,71 @@
+input data/t12_table.json  sha256 7d8849f5a7f2c35efb4465465f4b12763f3e8a6e03da3ebe8250c7bd82a81124
+input data/t12_W1.json  sha256 3de49b22420656c53d5cf01ae387570512ca14aa930bbc158801ab6379c32e88
+input Article I  sha256 014411724bed4a391e204ccc9c0c19251e0dd92f6f76fcdaa52fd065b927cbd7
+input Article III  sha256 4d60e712e926d4aae08f87c81fe8adcb3697042b67fe58c05bd01f9f3d809e1e
+OK    T12: dimR coherent avec la decomposition R_z (12 labels) : {}
+OK    T12: dim U2 = 120 : 120
+OK    T12: bornes des niveaux (a <= 3, b <= 13) sur les R_z
+OK    A-I Table 2: en-tete « Case (I), levels (1,39) | Case (II), levels (3,13) » (colonne 3 = cas II) : & Case (I), levels $(1,39)$ & Case (II), levels $(3,13)$\\
+OK    A-I Table 2: onze lignes R_z lues (b, a, c0, c1, c2, d1..d6) et la ligne U_2 : lues: a, b, c0, c1, c2, d1, d2, d3, d4, d5, d6
+OK    A-I eq:lowest-spaces: douze labels lus : 0, a, b, c0, c1, c2, d1, d2, d3, d4, d5, d6
+OK    A-I eq:lowest-spaces (gamma = 0, epsilon = 1): dim R_z = dim de la ligne de Table 2 (12 labels) : {'0': ('1', 1), 'b': ('80', 80), 'a': ('81', 81), 'c0': ('81', 81), 'c1': ('3', 3), 'c2': ('27', 27), 'd1': ('7', 7), 'd2': ('42', 42), 'd3': ('119', 119), 'd4': ('5', 5), 'd5': ('13', 13), 'd6': ('14', 14)}
+OK    A-I: dim U_2 (Table 2, cas II) = 120 = eq:lowest-spaces (gamma = 0) : 120
+OK    T12 = A-I Table 2 (cas II): decompositions R_z (types et multiplicites) pour les 12 labels : les 12 egalites exactes
+OK    T12 = A-I eq:lowest-spaces: poids h_z (gamma = 0, epsilon = 1) pour les 12 labels : {'0': '0', 'b': '1', 'a': '1', 'c0': '1', 'c1': '1/3', 'c2': '2/3', 'd1': '6/13', 'd2': '11/13', 'd3': '15/13', 'd4': '5/13', 'd5': '7/13', 'd6': '8/13'}
+OK    T12 = A-I: U_2 (cas II) : 4(0,0) + (0,2) + 2(0,4) + (1,1) + (1,3) + (1,5) + (1,7) + (2,0) + 2(2,2) + (2,6) + (3,3) + (4,0)
+OK    Article III zhu:table:blocks: douze labels lus : 0, a, b, c0, c1, c2, d1, d2, d3, d4, d5, d6
+OK    Article III zhu:table:blocks: colonne dim = dim de la decomposition
+OK    Article III zhu:table:blocks: n_i = somme des multiplicites m_{i,v} (dimension du module simple du coin D) : {'0': (1, 1), 'b': (11, 11), 'a': (12, 12), 'c0': (12, 12), 'c1': (1, 1), 'c2': (5, 5), 'd1': (2, 2), 'd2': (7, 7), 'd3': (16, 16), 'd4': (2, 2), 'd5': (2, 2), 'd6': (3, 3)}
+OK    T12 = Article III zhu:table:blocks: decompositions R_z pour les 12 labels : les 12 egalites exactes
+OK    T12 = Article III zhu:table:blocks: poids h_i pour les 12 labels : les 12 egalites exactes
+OK    Article III texte: liste lambda_0..lambda_11 lue (12 paires) : [(0, 0), (0, 2), (1, 1), (2, 0), (0, 4), (1, 3), (2, 2), (3, 1), (0, 6), (1, 5), (2, 4), (3, 3)]
+input Calculs/zhu-exact/specfib/specfib_blocks.json  sha256 a7c9b2a284a14e39d106a71b5e63db3ffb204dd62cce07d17451b395d320d285
+input Calculs/zhu-exact/specfib/z4_upper_algebra_modp.json  sha256 346d20995f577eef332d86beea898b1d978a222a338692bd434b61fc6d3d893b
+input Calculs/zhu-exact/rows_exact_reduced_modp.pkl  sha256 3dd706e5d01b2dca25fbbc0fe85950734915a177b0796695d0e20941915f1273
+input reference/exactZ.json  sha256 18f34e277075b29eb24a94284d8ec2f933cfc8a677948caed7f07e1619112501
+OK    ZHU rows_exact_reduced_modp.pkl: 16 constituants, sommets 0..11 simples, 12 et 13 doubles : v -> types: {0: [(0, 0)], 1: [(0, 2)], 2: [(1, 1)], 3: [(2, 0)], 4: [(0, 4)], 5: [(1, 3)], 6: [(2, 2)], 7: [(3, 1)], 8: [(0, 6)], 9: [(1, 5)], 10: [(2, 4)], 11: [(3, 3)], 12: [(1, 7), (2, 6)], 13: [(0, 8), (3, 5)]}
+OK    ZHU: types des sommets 0..11 = liste lambda_0..lambda_11 du texte de l’Article III
+OK    ZHU specfib_blocks.json: les 10 racines c de L_Z et les coins e_v ker(L_Z - c) e_v redonnent les R_z de T12 (9 blocs simples, et le triple b+a+c0 pour c = 1) : 
+      c=0 -> 0 : module (0,0), n_i=1, dim ker=1 : egal
+      c=1/3 -> c1 : module (0,2), n_i=1, dim ker=1 : egal
+      c=5/13 -> d4 : module (0,0) + (1,1), n_i=2, dim ker=4 : egal
+      c=6/13 -> d1 : module (0,2) + (1,1), n_i=2, dim ker=4 : egal
+      c=7/13 -> d5 : module (0,4) + (1,3), n_i=2, dim ker=4 : egal
+      c=8/13 -> d6 : module (0,2) + (1,3) + (2,0), n_i=3, dim ker=9 : egal
+      c=2/3 -> c2 : module (0,0) + (0,4) + (1,1) + (1,3) + (2,2), n_i=5, dim ker=25 : egal
+      c=11/13 -> d2 : module (0,0) + (0,2) + (0,4) + (1,1) + (1,3) + (1,5) + (2,2), n_i=7, dim ker=49 : egal
+      c=15/13 -> d3 : module 2(0,0) + (0,2) + 2(0,4) + (0,6) + 2(1,1) + 2(1,3) + 2(1,5) + 2(2,2) + (2,4) + (3,3), n_i=16, dim ker=256 : egal
+      c=1 -> b+a+c0 : sommes de carres des rangs {1: 12, 2: 9, 3: 2, 4: 6, 5: 12, 6: 3, 7: 1, 8: 2, 9: 3, 10: 3}, dim ker=409=11^2+12^2+12^2 : egal
+OK    ZHU z4_upper_algebra_modp.json: multi-ensemble des 12 blocs (taille n_i, rangs de sommets -> types) = les 12 R_z de T12 (a et c0 indistinguables, tous deux de taille 12) : tailles: [1, 1, 2, 2, 2, 3, 5, 7, 11, 12, 12, 16] ; dimension 762 ; statut du fichier: modular discovery (p = 8388571); not a proof
+OK    ZHU: taille n_i = somme des rangs de sommets dans chaque bloc
+OK    ZHU exactZ.json: ensemble H des racines du polynome annulateur exact de Z = {h_z}, product_vanishes : H = ['0', '1/3', '5/13', '6/13', '7/13', '8/13', '2/3', '11/13', '1', '15/13']
+OK    t12_W1.json: pi est une involution de l ensemble des 12 labels : {'c1': 'c2', 'c2': 'c1', 'd1': 'd5', 'd2': 'd3', 'd3': 'd2', 'd4': 'd6', 'd5': 'd1', 'd6': 'd4'}
+OK    t12_W1.json: h_z + h_pi(z) entier pour tout z : {'0': '0', 'b': '2', 'a': '2', 'c0': '2', 'c1': '1', 'c2': '1', 'd1': '1', 'd2': '2', 'd3': '2', 'd4': '1', 'd5': '1', 'd6': '1'}
+OK    t12_W1.json: W_1 = (S_1 x 1) + (1 x S_1) + sum_{h_z + h_pi(z) = 1} R_z x R_pi(z) recalcule a partir de T12 = champ W1 du fichier (20 types), dim 496 : paires de poids 1: [('c1', 'c2'), ('c2', 'c1'), ('d1', 'd5'), ('d4', 'd6'), ('d5', 'd1'), ('d6', 'd4')] ; dim 496 ; types 20
+OK    t12_W1.json: indices de Dynkin de W_1 par facteur = 60 x (3, 13, 3, 13) : [180, 780, 180, 780]
+input omega_certificate.json  sha256 43005717f128906dd12e2216762ee1bf8ee32837fbaea2032136135a3e39a4fc
+OK    certificat: lowest_weights = h_z de T12 pour les six secteurs de poids un (c1, c2, d1, d5, d4, d6) : {'c1': '1/3', 'c2': '2/3', 'd1': '6/13', 'd5': '7/13', 'd4': '5/13', 'd6': '8/13'}
+OK    certificat: les 20 espaces de multiplicite (type sl2^4, multi-ensemble des secteurs S1x1 / 1xS1 / R_z x R_pi(z)) = ceux deduits de T12 et de pi
+      valeurs propres attendues h_z - h_A(a,b) de o(omega_{C x 1}) par type (a,b,c,d) et secteur :
+        0,0,0,2        1xS1: 0 ; c2: 2/3 ; d4: 5/13
+        0,0,1,3        d4: 5/13
+        0,0,2,0        1xS1: 0 ; d4: 5/13
+        0,2,0,0        S1x1: 0 ; c1: 1/5 ; d6: 94/195
+        0,2,0,4        c1: 1/5 ; d1: 64/195
+        0,2,1,1        c1: 1/5 ; d6: 94/195
+        0,2,1,3        c1: 1/5 ; d1: 64/195
+        0,2,2,2        c1: 1/5
+        0,4,0,2        c2: 4/15 ; d5: 9/65
+        0,4,1,1        d5: 9/65
+        1,1,0,2        c2: 7/15 ; d4: 12/65
+        1,1,0,4        d1: 17/65
+        1,1,1,3        d1: 17/65 ; d4: 12/65
+        1,1,2,0        d4: 12/65
+        1,3,0,0        d6: 14/65
+        1,3,0,2        c2: 4/15 ; d5: 9/65
+        1,3,1,1        d5: 9/65 ; d6: 14/65
+        2,0,0,0        S1x1: 0 ; d6: 14/65
+        2,0,1,1        d6: 14/65
+        2,2,0,2        c2: 2/15
+
+RESULTAT : EGALITE EXACTE des douze decompositions (types, multiplicites) et des douze poids h_z entre T12, Article I (Table 2 cas II + eq:lowest-spaces gamma = 0), Article III zhu:table:blocks et certificats Zhu

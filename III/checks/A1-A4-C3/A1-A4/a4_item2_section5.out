@@ -1,0 +1,51 @@
+====================================================================================================
+A4 item 2 : DJX Section 5 (L_0, L_H, s, t, T, sigma, tau)
+====================================================================================================
+INFO  lambda = (p+b)/2   [(mpq(2,1), mpq(3,1), mpq(3,1), mpq(3,1), mpq(2,1), mpq(1,1), mpq(1,1), mpq(1,1))]
+INFO  s = (p+b)/4   [(mpq(1,1), mpq(3,2), mpq(3,2), mpq(3,2), mpq(1,1), mpq(1,2), mpq(1,2), mpq(1,2))]
+INFO  t = (13p-3b)/4   [(mpq(1,1), mpq(7,2), mpq(15,2), mpq(7,2), mpq(1,1), mpq(-3,2), mpq(-3,2), mpq(-3,2))]
+VRAI  lambda^2 = 8   [8]
+VRAI  s^2 = 2   [2]
+VRAI  t^2 = 78   [78]
+VRAI  (s, t) = 0
+VRAI  p = (3s+t)/4 and b = (13s-t)/4  (5.2)
+VRAI  (s, p) = 3/2   [3/2]
+VRAI  t has HALF-INTEGER alpha^J coordinates: t is NOT in L_J (Table 1 'Here t is a lattice vector' must be read as t in L_H)   [(mpq(1,1), mpq(7,2), mpq(15,2), mpq(7,2), mpq(1,1), mpq(-3,2), mpq(-3,2), mpq(-3,2))]
+VRAI  t in s + L_0 subset L_H (t - s has integer coordinates with even sum), lambda = 2s in L_0, s not in L_J   [t - s = (mpq(0,1), mpq(2,1), mpq(6,1), mpq(2,1), mpq(0,1), mpq(-2,1), mpq(-2,1), mpq(-2,1))]
+VRAI  (s, b) = 13/2, (t, p) = 39/2, (t, b) = -39/2 (consequences)
+VRAI  G lambda = (1,1,-1,1,1,-1,1,1)^T   [(mpq(1,1), mpq(1,1), mpq(-1,1), mpq(1,1), mpq(1,1), mpq(-1,1), mpq(1,1), mpq(1,1))]
+VRAI  hence L_0 = {x in L_J : (lambda,x) in 2Z} = integer vectors with even coordinate sum (G lambda = all-ones mod 2)
+VRAI  p has odd coordinate sum (represents the odd coset), L_J = L_0 u (p + L_0)   [9]
+VRAI  coordinate sum of lambda = 2s is even: 2s in L_0   [16]
+VRAI  columns of B = (2e1, e2-e1, e3+e1, e4-e1, e5-e1, 2s, e7-e1, e8-e1) lie in L_0 and det B = +-2 : B is a basis of L_0   [det B = 2]
+VRAI  det of the coordinate matrix of B_H (5.4) is +-1 (covolume of L_H = covolume of L_J)   [det = 1]
+VRAI  Gram matrix of B_H is integral, even on the diagonal, det 9 : L_H is an even lattice of determinant 9   [det = 9, diag = [mpq(8,1), mpq(6,1), mpq(4,1), mpq(4,1), mpq(4,1), mpq(2,1), mpq(4,1), mpq(4,1)]]
+VRAI  (s, b_i) in Z for the basis b_i of L_0, i.e. (s, L_0) in Z
+VRAI  L_H = L_0 + Zs = L_0 u (s + L_0): 2s in L_0 and s not in L_0 (index 2)
+INFO  r_i in alpha^J coordinates (columns of R)   [(0, mpq(1,2), mpq(-1,2), mpq(-1,2), 0, mpq(-1,2), mpq(-1,2), mpq(-1,2)); (0, mpq(-1,2), mpq(-1,2), mpq(-1,2), -1, mpq(-1,2), mpq(1,2), mpq(1,2)); (1, mpq(3,2), mpq(5,2), mpq(3,2), 1, mpq(3,2), mpq(-1,2), mpq(-1,2)); (-1, mpq(-1,2), mpq(-1,2), mpq(-1,2), 0, mpq(-1,2), mpq(1,2), mpq(1,2)); (0, mpq(-1,2), mpq(-1,2), mpq(1,2), 0, mpq(-1,2), mpq(-1,2), mpq(-1,2)); (-1, -2, -3, -2, -1, -1, 0, 0); (0, mpq(-1,2), mpq(-1,2), mpq(-1,2), 0, mpq(-1,2), mpq(1,2), mpq(-1,2)); (0, mpq(-1,2), mpq(-1,2), mpq(-1,2), 0, mpq(-1,2), mpq(-1,2), mpq(1,2))]
+VRAI  all r_i lie in L_H (= L_0 or s + L_0): r_i - (s if odd) has even integer coordinates
+INFO  which r_i lie in the odd coset s + L_0   [[1, 2, 3, 4, 5, 7, 8]]
+VRAI  Gram matrix of (r_1..r_8) equals G : R^T G R = G
+VRAI  determinant of the r_i relative to B_H is +-1 : (r_i) is a basis of L_H   [det = 1]
+VRAI  det R = +-1 (R maps L (det 9) onto L_H (det 9))   [1]
+VRAI  T ell = R ell = s   [(mpq(1,1), mpq(3,2), mpq(3,2), mpq(3,2), mpq(1,1), mpq(1,2), mpq(1,2), mpq(1,2))]
+VRAI  T h = R h = t   [(mpq(1,1), mpq(7,2), mpq(15,2), mpq(7,2), mpq(1,1), mpq(-3,2), mpq(-3,2), mpq(-3,2))]
+VRAI  hence T is a lattice isometry L -> L_H with T ell = s, T h = t (Proposition 5.1)
+VRAI  R^{-1} has integer entries on L_H: R^{-1} b_i in Z^8 for the basis of L_0 and R^{-1} s in Z^8
+VRAI  R^{-1} p = (3 ell + h)/4 (so tau = exp(2 pi i p(0)) reads exp(pi i (3HL + HR)_0 / 2) on the Huang copy)   [(mpq(1,2), mpq(1,2), mpq(0,1), mpq(1,2), mpq(1,2), mpq(-3,2), mpq(1,2), mpq(1,2))]
+VRAI  R^{-1} lambda = 2 ell (lambda = 2s = 2 T ell); note R^{-1} b = (13 ell - h)/4
+VRAI  tau = exp(2 pi i p(0)) is +1 on L_0 : (p, b_i) in Z for all basis vectors of L_0
+VRAI  tau is -1 on s + L_0 : (p, s) = 3/2 (half-integer)
+VRAI  sigma = exp(pi i lambda(0)) is +1 on L_0 : (lambda, b_i) even for all basis vectors
+VRAI  sigma is -1 on p + L_0 : (lambda, p) = 3 odd   [3]
+VRAI  (V_LH)^tau = V_L0 = (V_LJ)^sigma as graded spaces (5.7) : both even parts are the L_0 part
+VRAI  tau fixes HL, HR, omega (momentum 0) and u: ((3ell+h)/4, x) in Z for x in {a, d, c}   [[mpq(4,1)]]
+VRAI  tau negates EL, FL: ((3ell+h)/4, +-ell) = +-3/2
+VRAI  tau negates ER, FR: ((3ell+h)/4, +-alpha_i) = +-1/2
+VRAI  sigma fixes PH, BH, omega, u26, u17: (lambda, x) even on all momenta of u26, u17   [([mpq(4,1)], [mpq(4,1)])]
+VRAI  sigma negates PE, PF, BE, BF: (lambda, x) odd on all their momenta
+VRAI  sigma = exp(pi i (PH+BH)_0 / 2) : lambda = (p+b)/2
+VRAI  R is not a permutation of the root basis (Remark 5.2: the neighbor comparison is a genuine isometry)
+----------------------------------------------------------------------------------------------------
+A4 item 2 : DJX Section 5 (L_0, L_H, s, t, T, sigma, tau) : 40 checks, 0 FAUX
+[   0.03 s] done

@@ -1,0 +1,100 @@
+====================================================================================================
+A4 item 1 : lattice E6+A2 (DJX 4.1), glue vector (4.4), Huang (4.6)-(4.8), Jiao (4.11)-(4.14), tables
+====================================================================================================
+INFO  Gram matrix G (4.1), rows   [[2, -1, 0, 0, 0, 0, 0, 0]; [-1, 2, -1, 0, 0, 0, 0, 0]; [0, -1, 2, -1, 0, -1, 0, 0]; [0, 0, -1, 2, -1, 0, 0, 0]; [0, 0, 0, -1, 2, 0, 0, 0]; [0, 0, -1, 0, 0, 2, 0, 0]; [0, 0, 0, 0, 0, 0, 2, -1]; [0, 0, 0, 0, 0, 0, -1, 2]]
+VRAI  G is the Cartan matrix of E6 (chain 1-2-3-4-5, 6 attached to 3) + A2 ({7,8}); off-diagonal -1 exactly at P
+VRAI  det G = 9   [det G = 9]
+VRAI  G mu = (1,0,0,0,0,0,1,0)^T   [G mu = (mpq(1,1), mpq(0,1), mpq(0,1), mpq(0,1), mpq(0,1), mpq(0,1), mpq(1,1), mpq(0,1))]
+VRAI  mu^2 = 2   [mu^2 = 2]
+VRAI  3 mu in L   [3mu = (mpq(4,1), mpq(5,1), mpq(6,1), mpq(4,1), mpq(2,1), mpq(3,1), mpq(2,1), mpq(1,1))]
+VRAI  mu not in L (so L~ = L + Z mu has index 3)
+VRAI  (alpha_1..alpha_7, mu) is a basis of L~ (coordinate determinant = +-1/3)   [det = 1/3]
+VRAI  Gram matrix of L~ is integral with even diagonal   [diag = [mpq(2,1), mpq(2,1), mpq(2,1), mpq(2,1), mpq(2,1), mpq(2,1), mpq(2,1), mpq(2,1)]]
+VRAI  det Gram(L~) = 1 : L~ is even unimodular of rank 8, hence isometric to E8   [det = 1]
+INFO  (4.5) VE8 = VL + VL+mu + VL-mu : cocycle extension not re-verified here (not needed for Thm 7.3)
+VRAI  ell^2 = 2   [2]
+VRAI  h^2 = 78   [78]
+VRAI  (ell, h) = 0
+VRAI  ell = -q (negative of the highest root q of E6)
+VRAI  (ell, alpha_i) = 0 for i in I = {1,2,3,4,5,7,8} and (ell, alpha_6) = -1
+VRAI  (h, alpha_i) = 2 for i in I   [(h,alpha_i) = [2, 2, 2, 2, 2, -9, 2, 2]]
+VRAI  A5-chain principal Cartan (5,8,9,8,5,0,0,0) has norm 70 = 2*35 (level 35) and A2 part (2,2) norm 8 = 2*4 (level 4)   [70, 8]
+VRAI  p^2 = 6   [6]
+VRAI  b^2 = 26   [26]
+VRAI  (p, b) = 0
+VRAI  rho_1, rho_2, rho_3 are roots (norm 2), mutually orthogonal, and p = rho_1 + rho_2 + rho_3
+VRAI  q is a root, q = p + 2 alpha_6, (q, rho_i) = 0, (q, alpha_i) = 0 for i in {1,2,4,5,7,8}
+VRAI  b = 2(alpha_1+alpha_2) + 2(alpha_4+alpha_5) + 2(alpha_7+alpha_8) + q
+VRAI  (p, alpha_i) = 0 for i in {1,2,4,5,7,8} and (p, q) = 0 (momenta of B_E, B_F orthogonal to p)
+VRAI  (p, rho_i) = 2 for i = 1,2,3
+[   0.01 s] generators built
+VRAI  Huang left (level 1): E_0F=H, H_0E=2E, H_0F=-2F, E_1F=k1, H_1H=2k1, E_0E=F_0F=E_1E=F_1F=0, H_1E=H_1F=E_1H=0, H_0H=0
+VRAI  Huang right (level 39): E_0F=H, H_0E=2E, H_0F=-2F, E_1F=k1, H_1H=2k1, E_0E=F_0F=E_1E=F_1F=0, H_1E=H_1F=E_1H=0, H_0H=0
+VRAI  Jiao P (level 3): E_0F=H, H_0E=2E, H_0F=-2F, E_1F=k1, H_1H=2k1, E_0E=F_0F=E_1E=F_1F=0, H_1E=H_1F=E_1H=0, H_0H=0
+VRAI  Jiao B (level 13): E_0F=H, H_0E=2E, H_0F=-2F, E_1F=k1, H_1H=2k1, E_0E=F_0F=E_1E=F_1F=0, H_1E=H_1F=E_1H=0, H_0H=0
+VRAI  HL = (EL)_0 FL and HR = (ER)_0 FR
+VRAI  the two Huang triples commute (a_n b = 0, n = 0,1)
+VRAI  the two Jiao triples commute (a_n b = 0, n = 0,1)
+VRAI  Huang right triple = diagonal of A5 principal (level 35) : sl2 relations
+VRAI  Huang right triple = diagonal of external A2 principal (level 4) : sl2 relations
+VRAI  the A5 and A2 sub-triples commute
+VRAI  Jiao B triple component A2{1,2} (level 4) : sl2 relations
+VRAI  Jiao B triple component A2{4,5} (level 4) : sl2 relations
+VRAI  Jiao B triple component A2{7,8} (level 4) : sl2 relations
+VRAI  Jiao B triple component root q (level 1) : sl2 relations
+VRAI  the four components of the B triple commute pairwise (levels 4+4+4+1 = 13)
+VRAI  P triple = diagonal of the three commuting root triples rho_i (levels 1+1+1 = 3)
+[   0.07 s] sl2 checks
+VRAI  omega (4.3) is a Virasoro vector of central charge 8   [c = 8]
+VRAI  omega_L Virasoro with c = 1   [c = 1]
+VRAI  omega_R Virasoro with c = 117/41   [c = 117/41]
+VRAI  omega_P Virasoro with c = 9/5   [c = 9/5]
+VRAI  omega_B^aff Virasoro with c = 13/5   [c = 13/5]
+VRAI  omega - omega_L - omega_R Virasoro with c = 170/41   [c = 170/41]
+VRAI  omega - omega_P - omega_B Virasoro with c = 18/5   [c = 18/5]
+VRAI  omega_L, omega_R commute with the affine generators of the other triple (a_n w = 0, n=0,1,2)
+[   5.79 s] Virasoro checks
+VRAI  a, d, c have norm 4 (so u has weight 2)
+VRAI  u is homogeneous of weight 2
+VRAI  (EL)_0 u = 0 and (ER)_0 u = 0
+VRAI  (HL)_0 u = 1 u and (HR)_0 u = 13 u  (highest weight (1,13))
+VRAI  (ell,a)=(ell,d)=(ell,c)=1 and (h,a)=(h,d)=(h,c)=13
+VRAI  (r+3xi)(r-3xi) = 40
+VRAI  all 14 lattice vectors of the u_{2,6}, u_{1,7} table have norm 4
+VRAI  the 7 + 7 lattice vectors of the table are distinct within each generator
+VRAI  (PE)_0 u26 = 0, (BE)_0 u26 = 0
+VRAI  (PH)_0 u26 = 2 u26, (BH)_0 u26 = 6 u26  (highest weight (2,6))
+VRAI  (PE)_0 u17 = 0, (BE)_0 u17 = 0
+VRAI  (PH)_0 u17 = 1 u17, (BH)_0 u17 = 7 u17  (highest weight (1,7))
+INFO  (p,x),(b,x) on supp u26   [[(2, 6)]]
+INFO  (p,x),(b,x) on supp u17   [[(1, 7)]]
+[   5.80 s] highest weight checks
+VRAI  a_H = kappa_H(ell) = 5^-2 8^-4 9^-3 = 1/74649600   [1/74649600]
+VRAI  8640^2 = 74649600 and 8640 = 5*8^2*27
+VRAI  theta_H(EL) = -a_H FL
+VRAI  theta_H(FL) = -a_H^{-1} EL
+VRAI  theta_H(ER) = -FR and theta_H(FR) = -ER
+VRAI  theta_J(PE) = -PF, theta_J(PF) = -PE
+VRAI  theta_J(BE) = -BF, theta_J(BF) = -BE
+VRAI  theta_H(HL) = -HL, theta_H(HR) = -HR, theta_J(PH) = -PH, theta_J(BH) = -BH
+VRAI  theta_H(omega) = omega = theta_J(omega)
+VRAI  kappa_H(a) = 4, kappa_H(d) = kappa_H(c) = 40
+VRAI  theta_H(u) = 4e^{-a} + 2(r-3xi)e^{-d} + 2(r+3xi)e^{-c}
+INFO  (u,u)_kappaH   [12]
+INFO  (u26,u26)_kappaJ, (u17,u17)_kappaJ   [(13/3, 13)]
+INFO  (omega_L,omega_L)_kappaH = 1/2 ?   [1/2]
+INFO  (omega_R,omega_R)_kappaH = 117/82 ?   [117/82]
+VRAI  (omega_L,omega_L) = 1/2 and (omega_R,omega_R) = 117/82 (A.9)
+VRAI  (omega_c, omega_c)_kappaH = 85/41 with omega_c = omega - omega_L - omega_R
+VRAI  (EL)_0^dagger = a_H (FL)_0 and (ER)_0^dagger = (FR)_0 for (.,.)_kappaH on test vectors
+VRAI  (PE)_0^dagger = (PF)_0 and (BE)_0^dagger = (BF)_0 for (.,.)_kappaJ on test vectors
+[   6.48 s] involution checks
+VRAI  number of roots of E6+A2 = 72 + 6 = 78   [78]
+VRAI  number of norm-4 vectors of E6+A2 reached = 702 = 270 (E6) + 0 (A2) + 72*6   [702]
+VRAI  max |(h,x)| over x^2 <= 4 is <= 17 (DJX: < sqrt 312) and max |(ell,x)| <= 2   [max |(h,x)| = 16, max |(ell,x)| = 2]
+INFO  dim (VL)_2 = 8 + 36 + 8*78 + 702   [1370]
+VRAI  all table vectors (u, u26, u17) are among the enumerated norm-4 vectors
+[   8.89 s] lattice enumeration
+----------------------------------------------------------------------------------------------------
+A4 item 1 : lattice E6+A2 (DJX 4.1), glue vector (4.4), Huang (4.6)-(4.8), Jiao (4.11)-(4.14), tables : 79 checks, 0 FAUX
+[   8.89 s] done

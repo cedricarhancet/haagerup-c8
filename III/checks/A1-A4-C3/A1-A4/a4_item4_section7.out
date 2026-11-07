@@ -1,0 +1,92 @@
+====================================================================================================
+A4 item 4 : DJX Section 7 -- identities (7.6), (7.7), (7.9), (7.10), (7.11), Prop 7.2 conditions
+====================================================================================================
+VRAI  (7.6): :PE^3: = (PE)_{-1}(PE)_{-1}PE = -6 e^p
+VRAI  (7.6): :PF^3: = 6 e^{-p}
+VRAI  ((PE)_{-1}PE)_{-1}PE = (PE)_{-1}(PE)_{-1}PE (associativity, regular OPE)
+VRAI  P = :PE^2: = -2 sum_{i<j} e^{rho_i+rho_j}
+VRAI  Q = :PF^2: = -2 sum_{i<j} e^{-rho_i-rho_j}
+VRAI  (P,P)_kappaJ = 12 and (Q,Q)_kappaJ = 12 (A.2 table)   [(12, 12)]
+VRAI  P, Q are sigma-fixed and PH-weight +-4, BH-weight 0
+[   0.02 s] (7.6)
+VRAI  2s = lambda = (2,3,3,3,2,1,1,1) is in L_0 and (2s)^2 = 8 (weight 4)
+VRAI  (7.7): (u26)_{-1} u17 = -(13 xi/3) e^{2s}   [[(-13/3)*xi] e^(2, 3, 3, 3, 2, 1, 1, 1)]
+VRAI  kappa_J(2s) = 2^{-2+3-3+2-1+1} = 1, so theta_J(e^{2s}) = e^{-2s}
+VRAI  (u17)_{-1} u26 = (u26)_{-1} u17 (skew-symmetry, no derivative terms since (u26)_n u17 = 0 for n >= 0 ?)   [(u26)_0 u17 = 0 terms, (u26)_1 u17 = 0 terms]
+[   0.02 s] (7.7)
+VRAI  X = (u17)_1 theta_J(u26) has weight 2 and (X,X) = 988/9   [988/9]
+INFO  (Z0,Z0) for the readings (coef of P_1Q, coef of (PH)_{-1}PH, coef of dPH)   [{('1/4', '1/3', 1): '14', ('14', '13', 1): '109780', ('1/4', '13', 1): '11110', ('14', '1/3', 1): '165564'}]
+VRAI  reading Z0 = (1/4) P_1 Q - omega - (1/3) (PH)_{-1}PH - dPH gives (Z0,Z0) = 14 (A.2 table)   [14]
+VRAI  in this reading the dPH terms cancel: (1/4)P_1Q contains exactly + dPH = p(-2)1   [oscillator-(-2) terms left in Z0: 0]
+INFO  Z0 (explicit)   [[1] e^(-1, -1, 0, 1, 1, 0, 0, 0)
+[1] e^(-1, 0, 0, 1, 0, 0, 0, 0)
+[1] e^(0, -1, 0, 0, 1, 0, 0, 0)
+[-2/3] a1(-1)a4(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-1/3] a1(-1)a5(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-1] a1(-1)a6(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-1/3] a2(-1)a4(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-2/3] a2(-1)a5(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-2] a2(-1)a6(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-3] a3(-1)a6(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-2] a4(-1)a6(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-1] a5(-1)a6(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-1] a6(-1)a6(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-1/3] a7(-1)a7(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-1/3] a7(-1)a8(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[-1/3] a8(-1)a8(-1)e^(0, 0, 0, 0, 0, 0, 0, 0)
+[1] e^(0, 1, 0, 0, -1, 0, 0, 0)
+[1] e^(1, 0, 0, -1, 0, 0, 0, 0)
+[1] e^(1, 1, 0, -1, -1, 0, 0, 0)]
+INFO  (Y,Y) with Y = (Z0)_1 X + (4/3) X  and with + (3/4) X   [('104', '32695/324')]
+VRAI  reading Y = (Z0)_1 X + (4/3) X (Appendix A.2 'Y = (Z0)_1 X + 4X/3') gives (Y,Y) = 104; the display (7.8) '34 X' is the flattened fraction 4/3   [104]
+VRAI  (R0,R0) = 416/3 with R0 = P_1 X   [416/3]
+VRAI  X, Z0, Y, R0 all have weight 2, are sigma-fixed (momenta in L_0)
+VRAI  (A.5): R0 = P_1 X = sum_{i in I0} r_i e^{alpha_i - alpha_6} + d(-1) e^{p+alpha_6} with the printed r_i and d
+VRAI  R0 has 12 Fock monomials   [12]
+VRAI  (A.6): Y = -(1/2) d(-1) sum_j e^{rho_j+alpha_6} + sum_j [(-2+2xi/3) e^{mu_j+alpha_7} + (-1-xi/3) e^{mu_j+alpha_8}] + k0(e^{mu1+a1}+e^{mu1+a4}) + k1(e^{mu3+a2}+e^{mu3+a5}) + k1 (a2-a5)(-1)e^{mu4} + k0 (a1-a4)(-1)e^{mu5}
+VRAI  Y has 32 Fock monomials   [32]
+[   0.22 s] (7.8), (A.5), (A.6)
+VRAI  (7.9): (P_1 X)_1 Y = -(32/3) :PE BE:
+VRAI  (A.7): (A,A) = 13312/3, (A,B) = -416, (B,B) = 39 with A = (R0)_1 Y, B = (PE)_{-1} BE   [(13312/3, -416, 39)]
+VRAI  zero-norm test |A + (32/3)B|^2 = 13312/3 - 64*416/3 + 1024*39/9 = 0
+VRAI  :PE BE: has weight 2, is sigma-fixed, PH-weight 2, BH-weight 2
+[   0.27 s] (7.9)
+VRAI  (7.10a): Q_1 :PE BE: = 4 :PF BE:
+VRAI  (7.10b): theta_J(:PE BE:) = :PF BF:
+VRAI  (7.10c): P_1 :PF BF: = 4 :PE BF:
+VRAI  also theta_J(:PF BE:) = :PE BF: and theta_J(X) = (u26)_1 theta_J(u17) [theta_J antilinear automorphism]
+[   0.29 s] (7.10)
+VRAI  (7.11): P_{-5} P_{-3} P = -48 e^{2p}   [[-48] e^(2, 4, 6, 4, 2, 0, 0, 0)]
+VRAI  (7.11): Q_{-5} Q_{-3} Q = -48 e^{-2p}   [[-48] e^(-2, -4, -6, -4, -2, 0, 0, 0)]
+VRAI  P_{-3} P = 4 sum_j (sign) e^{p+rho_j}: pure exponentials of weight 6   [[8] e^(1, 2, 4, 3, 2, 0, 0, 0)
+[8] e^(1, 3, 4, 3, 1, 0, 0, 0)
+[8] e^(2, 3, 4, 2, 1, 0, 0, 0)]
+VRAI  (2p)^2 = 24, weight 12
+[   0.29 s] (7.11)
+VRAI  S_{-p} PE is a nonzero scalar multiple of Q = :PF^2:   [S_{-p}PE = (1/2) Q]
+VRAI  S_{p} PF is a nonzero scalar multiple of P = :PE^2:   [S_{p}PF = (-1/2) P]
+VRAI  (p, x) = 0 for all momenta x of BE, BF
+VRAI  (:PE^2:)_{-1}(:PE B_d:) = :PE^3 B_d: = -6 :e^p B_d: = -6 S_p B_d and (:PF^2:)_{-1}(:PF B_d:) = 6 S_{-p} B_d, d = E, F   [[('BE', True, True, True), ('BE negative', True), ('BF', True, True, True), ('BF negative', True)]]
+VRAI  (PE)_n B_d = 0 and (PF)_n B_d = 0 for n >= 0 (regular OPE between the two affine algebras)
+VRAI  sigma(e^p) = -e^p : (lambda, p) = 3 odd ; e^{+-p} in V by (7.6) and PH = p(-1)1 in V, so V_{Zp} subset V
+VRAI  e^{+-2p} are sigma-fixed and (lambda, 2p) = 6 even
+[   0.32 s] Prop 7.2 shifts
+VRAI  all eight generators of W (7.4), transported by Phi, have momenta in L_0 (sigma-fixed) -- condition (1) modulo membership in V
+VRAI  Phi(HL) = (PH+BH)/4, Phi(HR) = (13PH-3BH)/4 (linear combinations of Jiao's Cartans, hence in V)
+VRAI  Phi(u) = cP P, Phi((EL)_{-1}ER) = c26 u26, Phi((EL)_{-1}FR) = c17 u17 (so these lie in V)
+VRAI  e^{2s} = -(3/(13 xi)) (u26)_{-1}u17 in V ; e^{-2s} = theta_J(e^{2s}) in V once theta_J(V) = V
+VRAI  the Huang-side generators omega, HL, HR, u, (EL)_{-1}ER, (EL)_{-1}FR, e^{+-2ell} are tau-even (momenta in R_*^{-1}L_0)
+VRAI  Phi(e^{2ell}) is a scalar multiple of e^{2s}   [Phi(e^{2ell}) = (-7/2388787200 + (-1/477757440)*r*xi) e^{2s}]
+VRAI  (ell, alpha_i) = 0 for i in I: (EL)_{-1}ER = S_ell(ER) and (EL)_{-1}FR = S_ell(FR) exactly (the right root generators are recovered by the shift -ell)
+VRAI  tau(e^ell) = -e^ell : ((3ell+h)/4, ell) = 3/2 ; e^{+-ell} = EL, -FL in U, HL in U : V_{Zell} subset U
+VRAI  S_{2u} S_{-2u} = eps(2u,-2u) id, eps(2ell,-2ell) = eps(2p,-2p) = 1 (nonzero)
+[   0.36 s] condition (1)
+VRAI  u26 = c26^{-1} Phi((EL)_{-1}ER), u17 = c17^{-1} Phi((EL)_{-1}FR), P = cP^{-1} Phi(u), Q = cP Phi(theta_H u)
+VRAI  :PE BE: = -(3/32) ((P_1 X)_1 Y) with X = (u17)_1 theta_J(u26), Y = (Z0)_1 X + (4/3)X, Z0 = (1/4)P_1Q - omega - (1/3)(PH)_{-1}PH - dPH
+VRAI  :PF BE: = (1/4) Q_1 :PE BE:, :PF BF: = theta_J :PE BE:, :PE BF: = (1/4) P_1 :PF BF:
+VRAI  e^{2p} = -(1/48) P_{-5}P_{-3}P, e^{-2p} = -(1/48) Q_{-5}Q_{-3}Q
+VRAI  theta_H tau = tau theta_H on V_L (phases): theta_H(e^x) ~ e^{-x} and ((3ell+h)/4, -x) = -((3ell+h)/4, x): same parity
+[   0.37 s] condition (2)
+----------------------------------------------------------------------------------------------------
+A4 item 4 : DJX Section 7 -- identities (7.6), (7.7), (7.9), (7.10), (7.11), Prop 7.2 conditions : 54 checks, 0 FAUX
+[   0.37 s] done
