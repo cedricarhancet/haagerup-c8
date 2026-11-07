@@ -12,14 +12,14 @@
   "local_v14": {
     "filename": "Haagerup-reseaux-conformes-c8-v14-arxiv.tex",
     "sha256": "9710fe5a994646e5c557bae4b361be21dff76f4decd333e38da51f5b4885e5cc",
-    "difference_from_hexagon": "Deux commandes Rep remplacÃ©es par mathrm{Rep} dans le rÃ©sumÃ© ; aucune autre diffÃ©rence de texte."
+    "difference_from_hexagon": "Deux commandes Rep remplacées par mathrm{Rep} dans le résumé ; aucune autre différence de texte."
   },
   "input_calculation_archive": {
     "filename": "Calculs-HU-v08.zip",
     "bytes": 1497524,
     "sha256": "8b6ab4030fede23d296e72ff87422b9c8c22722d4374cfd23cb3d58de035fcf6"
   },
-  "supplement_tag": "article-II-v14-supplements-v02",
+  "supplement_tag": "article-II-v14-supplements-v03",
   "dependency_I": {
     "article": "I",
     "tag": "article-I-v14-supplements-v01",
@@ -30,7 +30,7 @@
     "source_url": "https://github.com/cedricarhancet/haagerup-c8/releases/download/article-I-v14-supplements-v01/Haagerup-c8-article-I-v14-arxiv.tex",
     "supplement_url": "https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-I-v14-supplements-v01",
     "supplement_archive_sha256": "6b68aba299fdca14518a0e85ec41ac5ef9f2f2013fc5c0abb18b61243616148a",
-    "scope": "Table 2 et eq:lowest-spaces, donnÃ©es du cas (II) ; les fondations et la C2-cofinitude de I sont importÃ©es, non recalculÃ©es ici."
+    "scope": "Table 2 et eq:lowest-spaces, données du cas (II) ; les fondations et la C2-cofinitude de I sont importées, non recalculées ici."
   },
   "III": {
     "identifier": "2611.00164v1",
@@ -58,5 +58,10 @@
       62
     ]
   },
-  "completed_extended_replay": "checks/release-II-v14-v02/SUMMARY.json"
+  "completed_extended_replay": "checks/release-II-v14-v02/SUMMARY.json",
+  "metadata_revision_v03": {
+    "previous_tag": "article-II-v14-supplements-v02",
+    "previous_commit": "56fcf99d9f3249d2d39e55789ab8e89b2a34baf6",
+    "scope": "Correct UTF-8 decoding of two French descriptions in local_v14 and dependency_I. Mathematical data, code, completed v02 computation logs and manuscript v16 are unchanged. The v16 manuscript cites v02, which remains available with identical mathematical data."
+  }
 }

@@ -1,8 +1,10 @@
-# Suppléments de II — livraison v02, diagnostics achevés
+# Suppléments de II — livraison v03, diagnostics achevés
+
+La v03 corrige l'encodage de deux descriptions de provenance dans VERSION-CONCORDANCE. Les calculs achevés de v02, leurs résultats et le manuscrit v16 sont conservés sans changement. Le lien de disponibilité du PDF v16 cite v02, qui reste accessible et fournit les mêmes données mathématiques. Voir RELEASE-v03.md.
 
 Cette livraison accompagne **Haagerup symmetries of the E8 theory and conformal nets at central charge eight**, de Cédric Arhancet, dans la version [Hexagon 2611.00034v2](https://hexagonmath.org/2611.00034v2), source II v14. La v16 documentaire jointe actualise le lien de reproduction ; elle ne modifie aucun énoncé mathématique de la copie locale précédente et n'est pas présentée comme déjà diffusée sur Hexagon ou arXiv.
 
-[Release figée](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v02) · [Archive autonome](https://github.com/cedricarhancet/haagerup-c8/releases/download/article-II-v14-supplements-v02/Haagerup-c8-article-II-v14-supplements-v02.zip) · [État détaillé](STATUS.md) · [Énoncés et programmes](COMPUTATIONS.md) · [Reproduction](REPRODUCIBILITY.md) · [Concordance](VERSION-CONCORDANCE.json).
+[Release figée](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v03) · [Archive autonome](https://github.com/cedricarhancet/haagerup-c8/releases/download/article-II-v14-supplements-v03/Haagerup-c8-article-II-v14-supplements-v03.zip) · [État détaillé](STATUS.md) · [Énoncés et programmes](COMPUTATIONS.md) · [Reproduction](REPRODUCIBILITY.md) · [Concordance](VERSION-CONCORDANCE.json).
 
 La v02 termine le diagnostic de fermeture S2 interrompu dans [v01](https://github.com/cedricarhancet/haagerup-c8/releases/tag/article-II-v14-supplements-v01) et rejoue les autres diagnostics annoncés : espaces S2 des quatre candidats, PCT sur les espaces régénérés, reconstruction secondaire complète en poids deux, positivité et forme rationnelle. Quinze nouvelles commandes s'ajoutent aux 43 commandes vérifiées de v01. Le candidat 0 est contrôlé sur 1 200 paires ; les trois autres sur les 180 paires de leur parcours annoncé. Le détail des périmètres est dans STATUS.
 
