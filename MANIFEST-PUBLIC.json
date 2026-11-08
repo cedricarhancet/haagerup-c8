@@ -5740,8 +5740,8 @@
     "sha256": "b52768e5df3eed38619ef55bec97cb7e75c6b2697e56c512366b0137c587e763"
   },
   "README.md": {
-    "bytes": 6236,
-    "sha256": "12b62a3590fe210279ae7a20d22b8de60327587638da85bd382aa3ddfc99b700"
+    "bytes": 6479,
+    "sha256": "fe3048e9bef7d057dfd8561365264661b7e77add79fda22c0bd57baafe9f7252"
   },
   "RELEASE-ASSETS.md": {
     "bytes": 976,
@@ -5890,5 +5890,77 @@
   "VERSION-CONCORDANCE.md": {
     "bytes": 2161,
     "sha256": "10b97b384bc52d80572a96f135c6128daa65eebd6b19a1a720265077161320b2"
+  },
+  "c6/README.md": {
+    "bytes": 3953,
+    "sha256": "0ff590574c45bacd2f6e3b6b710828e86c1f4b4b5653a5fce992ddebec4ef49b"
+  },
+  "c6/SHA256SUMS.txt": {
+    "bytes": 1769,
+    "sha256": "ec07a2c443c22ce634053a3bd77513a585aea8438cf0ec33a04a86f4fa2a1b21"
+  },
+  "c6/independent/independent_complements_recheck.json": {
+    "bytes": 354,
+    "sha256": "557a2b03e1623b7c023f4e67552c3c32f0a27328aa66f9727a32ebc066246594"
+  },
+  "c6/independent/independent_complements_recheck.py": {
+    "bytes": 1309,
+    "sha256": "113f68c3a5c63a2726b26ad9746074db52758dec33b68ad0c2b394237677b52d"
+  },
+  "c6/independent/independent_lattice_recheck.json": {
+    "bytes": 8109,
+    "sha256": "b60f7b3fc9097447ef77f9d6c56787707baada717a502df88c13d5bcb49016d5"
+  },
+  "c6/independent/independent_lattice_recheck.py": {
+    "bytes": 3489,
+    "sha256": "23c3a3570b74f066b6c3f59d3a840fd62d928020eb40e55754b3164116a5d6ed"
+  },
+  "c6/independent/mixed-pointed-bulk-arithmetic.json": {
+    "bytes": 859,
+    "sha256": "cc68dc800d39d030da67bbb89260c0eb66b56224f73ec96a15f71703ad6762ed"
+  },
+  "c6/independent/verify_mixed_pointed_bulk.py": {
+    "bytes": 1605,
+    "sha256": "ebe7255b5b3bba5fc34a1c36aa1f603433083da6335fa0c7cc07acf00587d7ed"
+  },
+  "c6/independent/verify_weyl_isotropic_permutation.py": {
+    "bytes": 2121,
+    "sha256": "c8a65f890337307d4b05a4a426af3e0308a4eef4c050a8b34007af32396a8b99"
+  },
+  "c6/independent/weyl-isotropic-permutation.json": {
+    "bytes": 970,
+    "sha256": "682b51c2858d6c8e27ec52f6aba04ae1bf5025e5482a512e1899caa1aeb0019b"
+  },
+  "c6/lattice/verify_c6_complements_v12-output.txt": {
+    "bytes": 504,
+    "sha256": "facf51be536cbbcc77240934454d48c3f991abb2cd8b4118c47e532a4a66bf79"
+  },
+  "c6/lattice/verify_c6_complements_v12.py": {
+    "bytes": 5873,
+    "sha256": "cd2eb6d99f4aa8b6d342029655a1ddff49304886119e86d261b7d8693107b20f"
+  },
+  "c6/lattice/verify_c6_section6_v01-output.txt": {
+    "bytes": 1981,
+    "sha256": "1090e39daf607a503f598b7f47a72e8b8fcbcac68e482606744dc92981ea8be1"
+  },
+  "c6/lattice/verify_c6_section6_v01.py": {
+    "bytes": 14010,
+    "sha256": "8488e53ac0b2e1943fecc0d6bccc94a1d78090c72550e4fa16d1ce5fc1696698"
+  },
+  "c6/manuscript/Haagerup-CFT-c6-reseaux-v12.pdf": {
+    "bytes": 713436,
+    "sha256": "25ab2af39d25a24650ac402a4c34ee186cbdd3c6e6019e7610554da458a3e80c"
+  },
+  "c6/manuscript/Haagerup-CFT-c6-reseaux-v12.tex": {
+    "bytes": 169351,
+    "sha256": "c0b110abc92ddae2d6ea6f04b9b0977f7244b6cbc3c8568aff3c1a84f8c47fd6"
+  },
+  "c6/requirements.txt": {
+    "bytes": 29,
+    "sha256": "5b37b1d3325f5d72e736458b04d2854f1da5fde8c03094dc988441a84db3b26a"
+  },
+  "c6/run_all.py": {
+    "bytes": 2955,
+    "sha256": "c007fab510c95b7f4ecad17345e5667ef5e40a79b264fe2853a035c7f87d2602"
   }
 }

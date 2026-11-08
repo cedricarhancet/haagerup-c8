@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "field": "F3",
+  "vectors_checked": 27,
+  "quadratic_form_numerator": "xy+2z^2",
+  "isotropic_lines": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2
+    ]
+  ],
+  "weyl_action": "(x,y,z) -> (x,y,-z)",
+  "permutation": {
+    "(0, 1, 0)": [
+      0,
+      1,
+      0
+    ],
+    "(1, 0, 0)": [
+      1,
+      0,
+      0
+    ],
+    "(1, 1, 1)": [
+      1,
+      1,
+      2
+    ],
+    "(1, 1, 2)": [
+      1,
+      1,
+      1
+    ]
+  },
+  "pure_lines_fixed": 2,
+  "mixed_lines_exchanged": 2,
+  "pointed_isometries": [
+    1,
+    14,
+    25,
+    38
+  ],
+  "individual_weyl_multipliers": [
+    14,
+    25
+  ],
+  "product_multiplier": 38,
+  "momentum_pairs_checked": 1521,
+  "scope": "Finite metric-group arithmetic only; the actual VOA/graph action is proved and audited separately."
+}

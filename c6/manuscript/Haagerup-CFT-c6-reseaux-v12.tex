@@ -1,0 +1,1540 @@
+\documentclass[leqno]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{enumerate}
+\usepackage{vmargin}
+\usepackage[all]{xy}
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{lmodern}
+\usepackage{slashed}
+\usepackage[colorlinks=true,linkcolor=blue,pagebackref=true,hyperfootnotes=false]{hyperref}
+\setmarginsrb{3cm}{3cm}{3.5cm}{3cm}{0cm}{0cm}{1.5cm}{3cm}
+\usepackage{comment}
+\newlength{\dhatheight}
+\newcommand{\doublehat}[1]{
+    \settoheight{\dhatheight}{\ensuremath{\hat{#1}}}
+    \addtolength{\dhatheight}{-0.2ex}
+    \hat{\vphantom{\rule{1pt}{\dhatheight}}
+    \smash{\hat{#1}}}}
+\footskip1.3cm
+\newcommand{\A}{\ensuremath{\mathcal{A}}}
+\newcommand{\Cbb}{\ensuremath{\mathbb{C}}}
+\newcommand{\C}{\mathrm{C}}
+\newcommand{\D}{\mathrm{D}}
+\newcommand{\E}{\ensuremath{\mathbb{E}}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\B}{\mathrm{B}} 
+\let\H\relax 
+\newcommand{\H}{\mathrm{H}}
+\newcommand{\I}{\mathrm{I}} 
+\newcommand{\II}{\mathrm{II}} 
+\newcommand{\K}{\ensuremath{\mathbb{K}}}
+\newcommand{\KP}{\ensuremath{\mathbb{KP}}}
+\let\L\relax 
+\newcommand{\L}{\mathrm{L}}
+\let\O\relax 
+\newcommand{\J}{\mathcal{J}} 
+\newcommand{\O}{\ensuremath{\mathbb{O}}}
+\let\P\relax 
+\newcommand{\P}{\mathsf{P}} 
+\newcommand{\Q}{\mathrm{Q}}
+\newcommand{\IV}{\mathrm{IV}} 
+\newcommand{\V}{\mathrm{V}} 
+\newcommand{\VI}{\mathrm{VI}} 
+\newcommand{\SG}{\mathrm{SG}} 
+\newcommand{\BMO}{\mathrm{BMO}} 
+\newcommand{\Mult}{\mathrm{Mult}}
+\newcommand{\scr}{\mathscr}
+\newcommand{\SU}{\mathrm{SU}}
+\newcommand{\Tron}{\mathcal{T}}
+\newcommand{\SO}{\mathrm{SO}}
+\newcommand{\Aut}{\mathrm{Aut}} 
+\newcommand{\QG}{\ensuremath{\mathbb{G}}}
+\newcommand{\M}{\mathrm{M}}
+\newcommand{\CAR}{\mathrm{CAR}} 
+\newcommand{\CB}{\mathrm{CB}} 
+\newcommand{\diag}{\mathrm{diag}} 
+\newcommand{\RCD}{\mathrm{RCD}}
+\newcommand{\dist}{\mathrm{d}}
+\newcommand{\meas}{\mu}
+\newcommand{\CC}{\mathrm{CC}}
+\newcommand{\HS}{\mathrm{HS}}
+\newcommand{\absco}{\mathrm{absco}} 
+\newcommand{\NP}{\mathrm{NP}}
+\newcommand{\PPT}{\mathrm{PPT}}
+\newcommand{\inv}{\diamond}
+\newcommand{\Mat}{\ensuremath{\mathbb{M}}}
+\let\div\relax
+\newcommand{\div}{\mathrm{div}}
+\let\cal\relax
+\newcommand{\cal}{\mathcal}
+\newcommand{\conv}{\mathrm{conv}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Zc}{\mathrm{Z}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\T}{\ensuremath{\mathbb{T}}}
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\W}{\mathrm{W}}
+\newcommand{\sgn}{\mathrm{sgn}}
+\let\j\relax 
+\newcommand{\j}{\frak{j}} 
+\let\S\relax 
+\newcommand{\S}{\mathrm{S}} 
+\newcommand{\vect}{\ensuremath{\mathop{\rm Span}\nolimits}}
+\newcommand{\clos}{\ensuremath{\mathop{\rm closure}\nolimits}}
+\newcommand{\Id}{\mathrm{Id}}
+\newcommand{\PL}{\mathrm{PL}}
+\newcommand{\VN}{\mathrm{VN}} 
+\newcommand{\Asym}{\mathrm{Asym}} 
+\newcommand{\Sym}{\mathrm{Sym}} 
+\newcommand{\Reg}{\mathrm{Reg}} 
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\EA}{\mathrm{EA}} 
+\newcommand{\CPAP}{\mathrm{CPAP}}
+\newcommand{\CD}{\mathrm{CD}}
+\newcommand{\flip}{\mathrm{flip}}
+\newcommand{\CBAP}{\mathrm{CBAP}}
+\newcommand{\MK}{\mathrm{MK}} 
+\newcommand{\CCAP}{\mathrm{CBAP}}
+\newcommand{\ccb}{\mathrm{ccb}} 
+\newcommand{\cocb}{\mathrm{cocb}}
+\renewcommand{\leq}{\ensuremath{\leqslant}}
+\renewcommand{\geq}{\ensuremath{\geqslant}}
+\newcommand{\qed}{\hfill \vrule height6pt  width6pt depth0pt}
+\newcommand{\bnorm}[1]{ \big\| #1  \big\|}
+\newcommand{\Bnorm}[1]{ \Big\| #1  \Big\|}
+\newcommand{\bgnorm}[1]{ \bigg\| #1  \bigg\|}
+\newcommand{\Bgnorm}[1]{ \Bigg\| #1  \Bigg\|}
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\Wa}{\mathcal{W}} 
+\newcommand{\mk}{\medskip}
+\newcommand{\xra}{\xrightarrow}
+\newcommand{\co}{\colon}
+\newcommand{\otp}{\widehat{\ot}}
+\newcommand{\otpb}{\hat{\ot}}
+\newcommand{\ot}{\otimes}
+\newcommand{\ovl}{\overline}
+\newcommand{\otvn}{\ovl\ot}
+\newcommand{\ul}{\mathcal{U}}
+\newcommand{\dec}{\mathrm{dec}}
+\newcommand{\pdec}{\mathrm{pdec}}
+\newcommand{\reg}{\mathrm{reg}}
+\newcommand{\Dec}{\mathrm{Dec}}
+\newcommand{\cb}{\mathrm{cb}}
+\newcommand{\fin}{\mathrm{fin}} 
+\newcommand{\TRO}{\mathrm{TRO}}
+\newcommand{\Ch}{\mathrm{Ch}}
+\newcommand{\PDec}{\mathrm{PDec}}
+\newcommand{\QWEP}{\mathrm{QWEP}}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\op}{\mathrm{op}} 
+\let\i\relax 
+\newcommand{\i}{\mathrm{i}}
+\let\j\relax 
+\newcommand{\j}{\mathrm{j}} 
+\let\k\relax 
+\newcommand{\k}{\mathrm{k}} 
+\newcommand{\loc}{\mathrm{loc}}
+\newcommand{\ov}{\overset}
+\newcommand{\sa}{\mathrm{sa}}
+\newcommand{\JW}{\mathrm{JW}}
+\newcommand{\JC}{\mathrm{JC}}
+\newcommand{\JB}{\mathrm{JB}}
+\newcommand{\kR}{\mathfrak{R}}
+\newcommand{\JBW}{\mathrm{JBW}}
+\newcommand{\Vol}{\mathrm{Vol}}
+\newcommand{\fix}{\mathrm{fix}}
+\newcommand{\ORNP}{\mathrm{ORNP}}
+\newcommand{\MD}{\mathrm{MD}} 
+\newcommand{\LMD}{\mathrm{LMD}} 
+\newcommand{\RMD}{\mathrm{RMD}} 
+\newcommand{\w}{\mathrm{w}} 
+\newcommand{\wo}{\mathrm{wo}} 
+\newcommand{\leftsupp}{{\mathrm{leftsupp}}}
+\newcommand{\epsi}{\varepsilon}
+\renewcommand{\d}{\mathop{}\mathopen{}\mathrm{d}} 
+\newcommand{\e}{\mathrm{e}} 
+\renewcommand{\d}{\mathop{}\mathopen{}\mathrm{d}} 
+\newcommand{\bra}[1]{\langle{#1}|}
+\newcommand{\ket}[1]{|{#1}\rangle}
+\newcommand{\Pol}{\mathrm{Pol}} 
+\def\kb{ \ket \bra }
+\newcommand{\proj}[1]{ | #1 \kb  #1|}
+\DeclareMathOperator{\Span}{span} 
+\DeclareMathOperator{\Lip}{\mathrm{Lip}} 
+\DeclareMathOperator{\lip}{\mathrm{lip}} 
+\DeclareMathOperator{\aut}{Aut} 
+\DeclareMathOperator{\supp}{supp} 
+\DeclareMathOperator{\Fix}{Fix} 
+\DeclareMathOperator{\tr}{Tr} 
+\DeclareMathOperator{\Tr}{Tr} 
+\let\ker\relax 
+\DeclareMathOperator{\ker}{Ker} 
+\DeclareMathOperator{\Ran}{Ran} 
+\DeclareMathOperator{\dom}{dom} 
+\DeclareMathOperator{\rank}{rank} 
+\let\Re\relax 
+\DeclareMathOperator{\Re}{Re} 
+\let\Im\relax 
+\DeclareMathOperator{\Im}{Im} 
+\DeclareMathOperator{\card}{card} 
+\DeclareMathOperator{\Irr}{Irr} 
+\DeclareMathOperator{\Rep}{Rep} 
+\DeclareMathOperator{\Ind}{Ind} 
+\DeclareMathOperator*{\esssup}{esssup} 
+\DeclareMathOperator*{\Lie}{Lie} 
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\Sp}{Sp}
+\selectlanguage{english}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{defi}[thm]{Definition}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{quest}[thm]{Question}
+\newtheorem{Property}[thm]{Property}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{fact}[thm]{Fact}
+\newtheorem{remark}[thm]{Remark}
+\newtheorem{example}[thm]{Example}
+\newtheorem{prob}[thm]{Problem}
+\newenvironment{proof}[1][]{\noindent {\it Proof #1} : }{\hbox{~}\qed
+\smallskip
+}
+\usepackage{tocloft}
+\setlength{\cftbeforesecskip}{0pt}
+\numberwithin{equation}{section}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 0.3ex}
+\interlinepenalty=10000
+}
+\newcommand\reallywidehat[1]{\arraycolsep=0pt\relax
+\begin{array}{c}
+\stretchto{
+  \scaleto{
+    \scalerel*[\widthof{\ensuremath{#1}}]{\kern-.5pt\bigwedge\kern-.5pt}
+    {\rule[-\textheight/2]{1ex}{\textheight}} 
+  }{\textheight} 
+}{0.5ex}\\           
+#1\\                 
+\rule{-1ex}{0ex}
+\end{array}
+}
+
+
+\begin{document}
+\selectlanguage{english}
+\title{\bfseries{Haagerup symmetry in a rank-six\newline lattice conformal field theory}}
+\date{}
+\author{\bfseries{C\'edric Arhancet}}
+\maketitle
+
+\begin{abstract}
+Let $U$ be a positive strongly rational vertex operator algebra of central charge eight with $\Rep(U) \cong Z(\cal H_3)$. We show that its Cartan Heisenberg commutant $\Omega$ embeds conformally into a lattice algebra $V_K$, where $K$ has rank six, determinant $39$ and root system $A_2\oplus A_2\oplus A_1$. The diagonal theory of $V_K$ has a unique vacuum and carries each of the three Haagerup fusion categories through three nonconjugate embeddings of $\Omega$. We show that, up to isomorphism fixing $\Omega$, there are exactly five conformal extensions of $\Omega$ with positive strongly rational target and global representation-category dimension $39$, and that their images in $V_K$ form four conjugacy classes. We also determine the common invariant relevant spectrum of the three canonical actions, their normalized cubic constants and their invariant genus-zero field algebra. We work in the TFT framework of rational full conformal field theory.
+\end{abstract}
+
+\makeatletter
+\renewcommand{\@makefntext}[1]{#1}
+\makeatother
+\footnotetext{2020 {\it Mathematics subject classification:} 17B69, 18M20, 81T40, 11H56.\\
+{\it Key words}: Haagerup fusion category, vertex operator algebra, conformal field theory, lattice, topological defect.}
+
+{
+  \hypersetup{linkcolor=blue}
+ \tableofcontents
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\label{sec:intro}
+
+Symmetries of a two-dimensional conformal field theory can be described by topological lines, which can be moved across a correlation function until they meet a field insertion. Joining two such lines gives their fusion product. Ordinary group symmetries give invertible lines, whereas a general rational theory can also have noninvertible lines. Fixing a rational chiral algebra and restricting to lines that preserve its left and right actions gives a finite category of lines and junctions. In the TFT construction, these lines are described by bimodules over the algebra specifying the full theory \cite{FRS02,FFRS07}. For a simple such algebra, they form a fusion category.
+
+The Haagerup fusion categories arise from finite-index subfactors and provide a test for realizing categorical symmetries in conformal field theory \cite[Section II]{AHKZ26}. In $\cal H_3$, the noninvertible simple objects have fusion dimension $\frac{3+\sqrt{13}}2$, whereas a simple line implementing a group element has dimension one. The question is to construct a full theory whose lines contain one of these categories, and to identify its fields and the action of the lines. Albert, Honda, Kaidi and Zheng proposed Haagerup symmetries in the $(\mathfrak e_8)_1$ theory and suggested related theories at central charges two and six, supported by modular bootstrap calculations \cite[Section III pp.~4--5]{AHKZ26}. We construct a theory at central charge six from a Haagerup vertex operator algebra at central charge eight. Its full bulk space has a unique vacuum: the space of states of weights $(0,0)$ is one-dimensional. The theory is the diagonal theory of an explicit rank-six lattice, and it carries all three Haagerup categories through different conformal subalgebras.
+
+The Haagerup lines preserve a conformal subalgebra $\Omega$ on the left and right, but not the maximal lattice algebra, whose representation category is pointed (Remark \ref{rem:VK-lines}). The main step is therefore the determination of this inclusion, including the multiplication of its extension algebra. The relation between conformal extensions and categorical symmetries is discussed in \cite[Sections 7.1--7.4]{MoR24}.
+
+We call a vertex operator algebra $U$ a \emph{Haagerup algebra} if it is positive and strongly rational, has central charge eight and admits a braided equivalence $\Rep(U) \cong Z(\cal H_3)$. Here $Z(\cal H_3)$ is the Drinfeld center of the Haagerup fusion category $\cal H_3$. We recall the definitions and conventions in Section \ref{preliminaries}. The construction uses the rank-two associated lattice $L$ of $U$ and the common Heisenberg commutant $\Omega$ of its two lattice realizations \cite[Section 12]{Arh26a}. A holomorphic extension of $U$ places $L$ primitively in $E_8$. Taking its orthogonal complement produces a conformal inclusion $\Omega \subset V_K$. The extension algebra of this inclusion is a Haagerup Lagrangian algebra tensored with the unit of the remaining pointed factor. This factorization gives the Haagerup lines at central charge six.
+
+\begin{thm}
+\label{thm:main-six}
+Let $U$ be a Haagerup algebra. Let $\mathfrak h$ be a Cartan subalgebra of $U_1$, put $\Omega = \operatorname{Com}_U(M(\mathfrak h))$ and let $L$ be the associated lattice, defined by $\operatorname{Com}_U(\Omega) \cong V_L$. Then the following assertions hold.
+\begin{enumerate}
+\item The vertex operator algebra $\Omega$ is positive, strongly rational and completely unitary of central charge six, and $\Omega_1 = 0$.
+\item There is a positive-definite even lattice $K$ of rank six and determinant $39$, with Gram matrix \eqref{eq:K-gram}. For each $i \in \{1,2,3\}$, the holomorphic extension of $U$ attached to $\cal H_i$ gives a conformal embedding $\iota_i \co \Omega \to V_K$. Under the braided equivalence $\Rep(\Omega) \cong Z(\cal H_3)\boxtimes\cal C(L)^{\mathrm{rev}}$ of Section \ref{sec:inputs}, its extension algebra is $L_i\boxtimes\mathbf1$, where $L_i$ is the Lagrangian algebra with $Z(\cal H_3)_{L_i} \cong \cal H_i$.
+\item For each $i$, the diagonal theory of $V_K$, regarded as a theory over $\iota_i(\Omega)\ot\overline{\iota_i(\Omega)}$, has central charges $c_{\mathrm L} = c_{\mathrm R} = 6$, a unique vacuum and a category of topological lines preserving this chiral algebra that contains a full fusion subcategory equivalent to $\cal H_i$. The three embeddings are pairwise non-conjugate, even up to automorphisms of $\Omega$.
+\item There are exactly five conformal extensions of $\Omega$ with positive strongly rational target and global module dimension $39$, up to isomorphisms fixing $\Omega$. Every target is isomorphic to $V_K$. There are exactly four $\operatorname{Aut}(V_K)$-orbits of conformal subalgebras isomorphic to $\Omega$: the three pure classes above and one mixed class.
+\end{enumerate}
+For each $i$, the noninvertible simple Haagerup lines do not preserve both chiral actions of any full-rank finite-index lattice subalgebra $V_N \subset V_K$ pointwise (Proposition \ref{prop:no-pointwise-finite-index-lattice-preservation}).
+\end{thm}
+
+The equality of the three complement lattices requires proof. The genus of $K$ has two classes, with different root systems (Proposition \ref{prop:genus-K}), so the discriminant form alone does not determine the lattice. We identify the complement for all three holomorphic extensions, and give its Gram matrix and explicit bases. More generally, every positive strongly rational conformal extension of $\Omega$ with global representation-category dimension $39$ has twenty currents (Theorem \ref{thm:dimension39-extension-currents}). This excludes the other lattice algebra in the genus. The fixed-source classification then gives five extensions (Theorem \ref{thm:five-dimension39-extensions}). Current Weyl automorphisms identify the two mixed extensions after a change of parametrization of the source, giving the four image classes of Theorem \ref{thm:four-image-orbits}.
+
+The invariant fields describe the perturbations compatible with the Haagerup lines of both chiralities. They are determined through the representation of the fusion algebra of the lines on the multiplicity spaces of the bulk fields (Lemma \ref{lem:fusion-algebra-bulk-blocks} and Proposition \ref{prop:three-haagerup-invariant-spectra}). For each of the three embeddings, there are eight nonvacuum invariant relevant scalar fields, with scaling dimensions $\frac43$, $\frac{24}{13}$ and $\frac{76}{39}$ and multiplicities two, two and four. There is no invariant field of weights $(1,1)$ (Corollary \ref{cor:haagerup-no-invariant-marginals} and Proposition \ref{prop:all-haagerup-invariant-relevant-fields}). We determine their nonzero relevant cubic couplings and fix their absolute values in unit two-point normalization (Proposition \ref{prop:normalized-haagerup-cubic-coefficients}). The three actions have isomorphic invariant full field algebras and the same normalized genus-zero vacuum correlators (Proposition \ref{prop:three-invariant-bulk-algebras}).
+
+We also compare the invariant relevant fields with affine coset stresses of $\Omega$. Four relevant fields commute with an affine-coset stress of charge $\frac{18}{5}$, while four have nonzero weight for this stress (Proposition \ref{prop:invariant-fields-spectator-stress}). A unitary conformal endpoint that retains it as a commuting conformal component has central charge at least $\frac{18}{5}$ (Remark \ref{cor:spectator-central-charge-bound}). This stress is itself the sum of two commuting Virasoro vectors of central charges $\frac{182}{95}$ and $\frac{32}{19}$ \cite[Theorem 10.5 p.~30]{Arh26a}, and the four fields of nonzero weight have nonzero weight for each of them. Using the realization of $\Omega$ with current levels $(1,39)$, we find a second affine-coset stress, of charge $\frac{170}{41}$, which commutes with one pair of the four other relevant fields, and its conjugate by a Weyl involution commutes with the last pair. Thus each of the eight invariant relevant fields commutes with an affine-coset stress of charge at least $\frac{18}{5}$ (Proposition \ref{prop:second-spectator-stress}). Corollary \ref{cor:single-weak-pair-selection} shows that finite operator products of either single weak pair have zero coefficients on all six other relevant lowest-weight lines. We do not construct a perturbed theory or an infrared fixed point.
+
+The existence of the initial Haagerup algebra is an input. The explicit algebra $S$ of \cite[Theorem 10.10 p.~33]{Arh26a} is a Haagerup algebra by \cite[Theorem 6.1 p.~25]{Arh26c}, see also \cite{Jia26} for a computer-assisted proof for an algebra isomorphic to $S$ \cite[Theorem 10.24 p.~42]{Arh26a}, and \cite{Hua26,Rie26,DJX26} for the algebras whose currents have levels $(1,39)$. Theorem \ref{thm:main-six} applies to $S$ and its twin, which have the same Heisenberg commutant \cite[Theorem 12.3(1) p.~64]{Arh26a}.
+
+We work in the TFT construction of rational full conformal field theory. Its correlators satisfy covariance and boundary and bulk factorization \cite[Theorems 2.2 p.~7, 2.9 p.~16 and 2.13 p.~19]{FFRS06}. The full center and bimodule descriptions are recalled in Section \ref{preliminaries}. The fourth, mixed image class has a pointed bulk algebra with thirteen diagonal summands (Proposition \ref{prop:pointed-bulk-mixed-extension}). Its full defect category and the relation of its lines to the Haagerup categories remain open.
+
+\paragraph{Structure of the paper}
+Section \ref{preliminaries} recalls the definitions and constructions used below. Section \ref{sec:inputs} describes the associated lattice and proves the positivity of $\Omega$. Section \ref{sec:extension} identifies the commutant and its extension algebra. Section \ref{sec:full} constructs the full theory and its lines, and shows that the noninvertible Haagerup lines preserve no finite-index lattice subalgebra pointwise. Section \ref{sec:explicit-K} gives the explicit lattice and its genus, and classifies the conformal extensions of global dimension $39$ and their images. Section \ref{sec:invariant-fields} determines the invariant fields, their operator products and the affine coset stresses which commute with them.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Preliminaries}
+\label{preliminaries}
+
+\paragraph{Vertex operator algebras and commutants}
+We write $Y(v,z) = \sum_{n \in \Z} v_{(n)}z^{-n-1}$ for the vertex operator of $v$, and $Y(\omega_V,z) = \sum_{n \in \Z}L_V(n)z^{-n-2}$ for the conformal vector of a vertex operator algebra $V$. Its central charge is denoted by $c(V)$. The algebra is of CFT type if $V = \bigoplus_{n \geq 0}V_n$ and $V_0 = \Cbb\mathbf1$. We call $V$ \emph{strongly rational} if it is simple, of CFT type, self-contragredient, rational and $C_2$-cofinite. Self-contragredience means that the graded dual $V' = \bigoplus_n V_n^*$ is isomorphic to $V$ as a $V$-module. Rationality means complete reducibility of admissible modules, whose nonnegative integer grading is compatible with the modes. Here $C_2(V)$ is the span of the vectors $u_{(-2)}v$, and $C_2$-cofiniteness means that $V/C_2(V)$ is finite-dimensional. An irreducible ordinary module has finite-dimensional $L(0)$-eigenspaces and a lowest conformal weight $h$, with weights in $h+\N$. The algebra is \emph{positive} if every irreducible ordinary module other than $V$ has strictly positive lowest conformal weight. A holomorphic algebra is a strongly rational algebra whose only irreducible ordinary module is itself. We use the module and mode conventions of \cite{LL04}.
+
+A unitary structure consists of a positive definite invariant Hermitian form and a compatible antilinear PCT involution, with $\norm{\mathbf1} = 1$. On a unitary module, $L(n)^* = L(-n)$ on the algebraic direct sum of the conformal-weight spaces. We use complete unitarity in the sense of the companion results quoted in Section \ref{sec:inputs}. In particular, all irreducible ordinary modules are unitarizable, and the representation category carries the compatible unitary tensor structure. For the definitions of unitary vertex operator algebras and modules, see \cite[Section 5]{CKLW18}.
+
+An inclusion $W \subset V$ is \emph{conformal} if it preserves the vacuum and conformal vector. For a vertex subalgebra $W$ with a possibly different conformal vector $\omega_W$, put
+\[
+\operatorname{Com}_V(W) = \{v \in V:w_{(n)}v = 0\text{ for all }w \in W\text{ and }n \geq 0\}.
+\]
+Whenever we give this commutant the conformal vector $\omega_V-\omega_W$, we require that this difference be a Virasoro vector belonging to $\operatorname{Com}_V(W)$. Its field then commutes with all fields of $W$, in particular with the Virasoro field of $\omega_W$, and the central charges add to $c(V)$. This condition holds for the Heisenberg and affine Sugawara subalgebras used below, with their standard conformal vectors, by the coset construction \cite{FZ92}. A \emph{dual pair} consists of two such subalgebras, each equal to the commutant of the other.
+
+For a conformal extension $V \subset T$ of strongly rational vertex operator algebras, the restriction of $T$ is a finite direct sum of ordinary $V$-modules. Indeed, rationality gives a direct-sum decomposition, there are only finitely many irreducible $V$-modules, and the multiplicity of a module of lowest weight $h$ is bounded by the finite dimension of $T_h$. Thus this restriction is an object of $\Rep(V)$, as required by the extension correspondence used below \cite{HKL15}.
+
+\paragraph{Even lattices}
+For an even positive-definite lattice $L$, put $L' = \{x \in L \ot_\Z\R:\langle x,L\rangle \subset \Z\}$, $A_L = L'/L$ and $q_L(x+L) = \frac{|x|^2}{2}+\Z$. The associated lattice vertex operator algebra $V_L$ has central charge $\rank L$. Its irreducible modules are $V_{x+L}$, with fusion given by addition in $A_L$, and their lowest weights are $\min_{y \in x+L}\frac{|y|^2}{2}$ \cite[Chapter 8]{FLM88}, \cite{Don93}, see also \cite[Theorem 6.5.1 p.~240 and Theorem 6.5.20 p.~259]{LL04}. We denote its pointed modular category by $\cal C(L)$. The twist of the object labelled by $x+L$ is $\exp(2\pi\mathrm i q_L(x+L))$. Even overlattices of $L$ correspond to isotropic subgroups of $(A_L,q_L)$. A primitive sublattice and its orthogonal complement in an even unimodular lattice have anti-isometric discriminant forms \cite{Nik80}.
+
+\paragraph{Fusion categories and algebra objects}
+A fusion category is a finite semisimple rigid $\Cbb$-linear tensor category with simple tensor unit. We write $\Irr(\cal C)$ for its simple objects and $\operatorname{FPdim}(X)$ for the Frobenius--Perron dimension. Its global dimension is
+\[
+\operatorname{FPdim}(\cal C) = \sum_{X \in \Irr(\cal C)}\operatorname{FPdim}(X)^2.
+\]
+In a unitary fusion category the canonical categorical dimensions are positive and equal to these dimensions. An object is invertible if it has a tensor inverse, and a fusion category is pointed if its simple objects are invertible. We write $Z(\cal C)$ for the Drinfeld center, whose objects are objects of $\cal C$ equipped with a compatible half-braiding \cite{EGNO15}.
+
+A modular category is a ribbon fusion category with nondegenerate braiding. For a braided category $\cal C$, the notation $\cal C^{\mathrm{rev}}$ means that the braiding and twist are reversed. The notation $\cal C^{\mathrm{op}}$ used for tensor categories below means reversal of the order of the tensor product. The first convention describes the opposite chiral orientation, and the second occurs in the composition of module endofunctors. The tensor product of linear categories is denoted by $\boxtimes$, and $X^\vee$ denotes the dual of $X$.
+
+An algebra object $A$ in a braided fusion category is \emph{connected} if $\dim\operatorname{Hom}(\mathbf1,A) = 1$, and \emph{\'etale} if its multiplication is commutative and separable. Separability means that the multiplication has an $A$-$A$-bimodule section. We denote the category of right $A$-modules by $\cal C_A$ and its subcategory of local modules by $\cal C_A^0$. A right module $(M,\rho)$ is local if its action is unchanged by double braiding with $A$, that is, $\rho c_{A,M}c_{M,A} = \rho$. For a connected \'etale algebra in a nondegenerate braided fusion category,
+\[
+\operatorname{FPdim}(\cal C_A) = \frac{\operatorname{FPdim}(\cal C)}{\operatorname{FPdim}(A)},
+\quad
+\operatorname{FPdim}(\cal C_A^0) = \frac{\operatorname{FPdim}(\cal C)}{\operatorname{FPdim}(A)^2}.
+\]
+Such an algebra is \emph{Lagrangian} if $\operatorname{FPdim}(A)^2 = \operatorname{FPdim}(\cal C)$, equivalently if $\cal C_A^0$ is the category of finite-dimensional vector spaces. For an $A$-module $M$, its module dimension is $\operatorname{FPdim}_{\cal C_A}(M) = \frac{\operatorname{FPdim}_{\cal C}(M)}{\operatorname{FPdim}_{\cal C}(A)}$. These facts and extension in stages are recalled in \cite[Sections 3 and 3.6]{DMNO13}. A connected \'etale algebra with trivial twist and the VOA extension hypotheses determines a conformal extension, whose ordinary modules are its local modules \cite{HKL15}. We apply this correspondence to the extensions specified in the text.
+
+A Frobenius algebra has multiplication $\mu$, unit $\eta$, coproduct $\Delta$ and counit $\epsi$, with $\Delta\mu = (\mu\ot\Id)(\Id\ot\Delta) = (\Id\ot\mu)(\Delta\ot\Id)$. It is special if $\mu\Delta$ and $\epsi\eta$ are nonzero scalar multiples of the respective identities, and symmetric if the two maps from $A$ to its dual induced by the invariant pairing $\epsi\mu$ agree. With multiplication and unit fixed, replacing the counit by $t\epsi$ requires replacing the coproduct by $t^{-1}\Delta$ for $t \neq 0$. The algebraic normalized-special structures used for full centers and their vacuum-normalized counits are distinguished explicitly in Subsection \ref{subsec:universal-invariant-bulk-algebra}.
+
+\paragraph{Full theories and topological lines}
+We use the TFT construction of rational full conformal field theory \cite{FRS02}. For a positive strongly rational chiral algebra $V$, a special symmetric Frobenius algebra $A$ in $\Rep(V)$ determines correlators, and its full center $Z_{\Rep(V)}(A)$ is a commutative algebra in $\Rep(V)\boxtimes\Rep(V)^{\mathrm{rev}}$ encoding the bulk fields \cite{KoR08}. When $A$ is commutative and gives a local extension $T$ of $V$, the extended left and right chiral algebras are $T$ \cite[Section 5.5]{FRS02}. The full center is then a direct sum of objects $M\boxtimes\Phi(M)$, where $M$ runs over the simple local $A$-modules and $\Phi(M)$ is the simple local module attached to $M$ by the contravariant equivalence of categories of local modules of \cite[Theorem 2.5.1 p.~1328]{Dav10}. For the extension algebras of Section \ref{sec:full} we show that $\Phi(M) \cong M^\vee$ and that the bulk algebra is that of the diagonal theory of $T$ expressed over $V\ot\overline V$. Topological lines preserving the specified chiral algebra correspond to $A$-$A$-bimodules, with fusion given by the relative tensor product over $A$ \cite{FFRS07}. Note that a line preserving $V\ot\overline V$ need not preserve $T\ot\overline T$, see Remark \ref{rem:VK-lines}.
+
+We distinguish the physical antiholomorphic notation from the categorical labels. For a unitary chiral module $M$, the Hilbert-space notation $M\ot\overline M$ denotes its diagonal left-right sector. In $\Rep(V)\boxtimes\Rep(V)^{\mathrm{rev}}$, we express the right factor using contragredient labels, so this sector is written $M\boxtimes M^\vee$.
+
+For a simple object $x$ in a specified unitary category of lines, let $d_x$ denote its positive fusion dimension and let $D_x$ denote its closed defect operator. The invariant vectors are those satisfying $D_xv = d_xv$ for every simple $x$. The dimension factor is the value of a contractible $x$-loop. Thus invariance under a noninvertible line is expressed by its dimension eigenvalue. The projector onto these vectors is given in Lemma \ref{lem:fusion-algebra-bulk-blocks}.
+
+A bulk field has left and right conformal weights $(h,\overline h)$, scaling dimension $\Delta = h+\overline h$ and spin $h-\overline h$. A scalar field has $h = \overline h$. A nonvacuum scalar is relevant if $\Delta < 2$, and a field of weights $(1,1)$ is marginal. These conditions concern the spectrum of the unperturbed theory. The additional hypotheses needed for a renormalization-group endpoint are stated in Remark \ref{cor:spectator-central-charge-bound}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The associated lattice and positivity}
+\label{sec:inputs}
+
+We use the lattice and commutant conventions of Section \ref{preliminaries}. In particular, $\cal C(L)$ denotes the pointed modular category of the discriminant form $(A_L,q_L)$.
+
+We use the following results of \cite[Section 12]{Arh26a}. The pair $(V_L,\Omega)$ is a dual pair in $U$, that is, each of these two subalgebras is the commutant of the other, where $L$ is an even positive-definite lattice of rank two and determinant $39$, and \cite[Proposition 12.2 p.~62]{Arh26a}
+\begin{equation}
+\label{eq:branching}
+U = \bigoplus_{\alpha \in A_L} \Omega^{\tau(\alpha)} \ot V_{\alpha+L}.
+\end{equation}
+Here $\tau$ is a ribbon-reversing equivalence from $\cal C(L)$ onto the full subcategory of invertible objects of $\Rep(\Omega)$, the algebra $\Omega$ is strongly rational of central charge six with $\Omega_1 = 0$, and
+\begin{equation}
+\label{eq:category-factorization}
+\Rep(\Omega) \cong Z(\cal H_3) \boxtimes \cal C(L)^{\mathrm{rev}}.
+\end{equation}
+We fix the equivalence \eqref{eq:category-factorization} as follows. The subcategory $\cal D = \tau(\cal C(L))$ of invertible objects is modular, so $\Rep(\Omega) \cong \cal D' \boxtimes \cal D$ by Müger's decomposition theorem \cite{Mu03}, where $\cal D'$ is the centralizer of $\cal D$. The algebra $U$ is the extension of $\Omega \ot V_L$ given by the graph algebra $G = \bigoplus_\alpha \tau(\alpha) \boxtimes \alpha$ \cite{HKL15}. Since $G$ is Lagrangian in $\cal D \boxtimes \cal C(L)$, the functor $c \mapsto c \boxtimes G$ is a braided equivalence from $\cal D'$ onto the category of local $G$-modules, which is braided equivalent to $\Rep(U)$ \cite{HKL15}. We identify $\cal D'$ with $\Rep(U) \cong Z(\cal H_3)$ and $\cal D$ with $\cal C(L)^{\mathrm{rev}}$ through $\tau$. In a suitable basis, the two possible Gram matrices of $L$ are \cite[Lemma 12.1 p.~61]{Arh26a}
+\begin{equation}
+\label{eq:binary-grams}
+\begin{bmatrix}2&1\\1&20\end{bmatrix}
+\quad\text{and}\quad
+\begin{bmatrix}6&3\\3&8\end{bmatrix},
+\end{equation}
+corresponding to the levels $(1,39)$ and $(3,13)$ of the currents of $U$ \cite[Theorem 8.5 p.~23 and Proposition 12.2(3) p.~62]{Arh26a}. Replacing $U$ by its twin exchanges these two lattices and leaves the Heisenberg commutant unchanged \cite[Theorem 12.3(1) p.~64]{Arh26a}.
+
+Every Haagerup algebra is completely unitary by \cite[Theorem 8.6 p.~60]{Arh26b}. All Cartan subalgebras of $U_1$ are conjugate under inner automorphisms of $U$, and $\Omega$ and $L$ do not depend on this choice up to isomorphism \cite[Section 12]{Arh26a}, \cite[p.~57]{Arh26b}. For a Cartan subalgebra stable under the PCT operator, the Heisenberg commutant $\Omega$ is completely unitary by \cite[Lemma 8.2 p.~57]{Arh26b}. In particular, every irreducible ordinary $\Omega$-module is unitarizable, in the sense of \cite[Section 5]{CKLW18}.
+
+\begin{lemma}
+\label{lem:positive}
+Let $V$ be a simple strongly rational vertex operator algebra with a unitary structure. Suppose that every irreducible ordinary $V$-module is unitarizable. Then $V$ is positive.
+\end{lemma}
+
+\begin{proof}
+Let $M$ be an irreducible ordinary module with an invariant positive definite Hermitian form. Take a nonzero vector $m$ in its lowest conformal-weight space, of weight $h$. Unitarity and $L_M(1)m = 0$ give
+\[
+0 \leq \norm{L_M(-1)m}^2 = \langle m | L_M(1)L_M(-1)m\rangle = 2h\norm m^2.
+\]
+Thus $h \geq 0$. If $h = 0$, then $L_M(-1)m = 0$. Fix $a \in V$. If $a_{(n)}m \neq 0$ for an integer $n \geq 0$, take $n$ maximal, using lower truncation. The translation identity gives
+\[
+0 = L_M(-1)a_{(n+1)}m-a_{(n+1)}L_M(-1)m = -(n+1)a_{(n)}m,
+\]
+a contradiction. Hence $m$ is vacuum-like for every field of $V$. The map $V \to M$, $a \mapsto a_{(-1)}m$, is a nonzero module map \cite[Section 4.7]{LL04}. Simplicity of $V$ and irreducibility of $M$ give $M \cong V$. This proves the assertion.
+\end{proof}
+
+For $\Omega$, the inequality $h \geq 0$ is also part 2 of \cite[Proposition 12.2 p.~62]{Arh26a}, which does not use unitarity. The unitary structure is used to exclude $h = 0$. Lemma \ref{lem:positive} applied to $\Omega$, together with the facts recalled above, proves the first assertion of Theorem \ref{thm:main-six}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The holomorphic extensions and the commutant}
+\label{sec:extension}
+
+By \cite[Proposition 3.3 p.~16 and Theorem 3.9 p.~19]{Arh26b}, the algebra $U$ has exactly three holomorphic extensions $B_1$, $B_2$, $B_3$ up to isomorphism, each of them is isomorphic to $V_{E_8}$, and the algebra $L_i$ of $\Rep(U)$ attached to $B_i$ is the Lagrangian algebra with $\Rep(U)_{L_i} \cong \cal H_i$. The three fusion categories $\cal H_1$, $\cal H_2$, $\cal H_3$ are pairwise inequivalent, so $\cal A_{\cal H} = L_3$ is the unique Lagrangian algebra of $Z(\cal H_3)$ whose category of right modules is equivalent to $\cal H_3$.
+
+\begin{lemma}
+\label{lem:actual-lattice}
+Let $B$ be a holomorphic extension of $U$. There is an isomorphism $B \cong V_{E_8}$ mapping $\mathfrak h$ into the Cartan subalgebra $E_8 \ot_\Z \Cbb$ of $(V_{E_8})_1$. For such an isomorphism, the lattice $L$ is a primitive sublattice of $E_8$. If $K = E_8 \cap L^\perp$, then $K$ is even, positive-definite, of rank six and determinant $39$, with $(A_K,q_K) \cong (A_L,-q_L)$, and
+\begin{equation}
+\label{eq:lattice-commutant}
+\operatorname{Com}_{V_{E_8}}(V_L) = V_K.
+\end{equation}
+The induced inclusion $\Omega \subset V_K$ is conformal.
+\end{lemma}
+
+\begin{proof}
+Fix an isomorphism $B \cong V_{E_8}$. As a $U$-module, $B$ is a finite direct sum of irreducible $U$-modules. Since $\Omega \ot V_L$ is rational, each of them is a direct sum of irreducible $\Omega \ot V_L$-modules $\Omega^\nu \ot V_{\gamma+L}$ with $\gamma \in L'$, since the irreducible $V_L$-modules are the modules $V_{\gamma+L}$ \cite{Don93}. For $x \in \mathfrak h$, the operator $x_{(0)}$ acts on $V_{\gamma+L}$ diagonalizably, with eigenvalues $\langle x,\mu\rangle$, $\mu \in \gamma+L$, where $\langle\cdot,\cdot\rangle$ is the normalized invariant form of $U$ on $\mathfrak h$ and $L$ is regarded as a subset of $\mathfrak h$. Thus $\mathfrak h$ is a commutative subalgebra of the Lie algebra $(V_{E_8})_1 \cong \mathfrak e_8$ consisting of semisimple elements. It is contained in a Cartan subalgebra, and the Cartan subalgebras of $\mathfrak e_8$ are conjugate under the group generated by the automorphisms $\exp(\operatorname{ad} y)$ with $y$ ad-nilpotent. Since each $(V_{E_8})_n$ is a finite-dimensional $\mathfrak e_8$-module, $y_{(0)}$ is locally nilpotent for such $y$, and the automorphisms $\exp(y_{(0)})$ of $V_{E_8}$ induce these automorphisms on $(V_{E_8})_1$. Composing with one of them gives the first assertion.
+
+Assume now that $\mathfrak h \subset E_8 \ot_\Z \Cbb$. The normalized invariant forms of $U$ and of $V_{E_8}$ coincide on $U_1$, since both are given by $a_{(1)}b = \langle a,b\rangle\mathbf 1$. For $x \in L$, the operator $x_{(0)}$ acts on $\Cbb e^\mu \subset V_{E_8}$ by $\langle x,\mu\rangle$ for $\mu \in E_8$, and by the preceding paragraph its eigenvalues on $B$ are integers, since $\langle L,L'\rangle \subset \Z$. Hence $\langle x,\mu\rangle \in \Z$ for every $\mu \in E_8$, and $x \in E_8$ by unimodularity. Thus $L \subset E_8$ isometrically, and the real span of $L$ is contained in $E_8 \ot_\Z \R$.
+
+For $\lambda \in L$, the vector $e^\lambda \in V_L$ has Heisenberg momentum $\lambda$ and conformal weight $\frac{|\lambda|^2}{2}$. A lattice state contributing to its image in $V_{E_8}$ has a momentum $\mu \in E_8$ whose orthogonal projection onto the real span of $L$ is $\lambda$, and has conformal weight $\frac{|\mu|^2}{2}+n$ with $n \geq 0$. Hence
+\[
+\frac{1}{2}|\lambda|^2 = \frac{1}{2}|\mu|^2+n
+= \frac{1}{2}|\lambda|^2+\frac{1}{2}|\mu-\lambda|^2+n.
+\]
+Positive definiteness gives $\mu = \lambda$ and $n = 0$. Consequently the given lattice subalgebra of $U$ is the lattice vertex operator algebra of $L \subset E_8$. If the saturation of $L$ in $E_8$ has index $k$, then $k^2$ divides $\det L = 39$. This integer is squarefree, so $k = 1$.
+
+Put $K = E_8 \cap L^\perp$. Primitivity and unimodularity imply that the orthogonal projection $E_8 \to L'$ is surjective with kernel $K$. Thus $[E_8:L \oplus K] = |A_L| = 39$. The determinant identity gives $\det K = 39$, and the image of $E_8/(L \oplus K)$ in $A_L \oplus A_K$ is the graph of an anti-isometry, because $E_8$ is even and unimodular. The commutant of $V_L$ in $V_{E_8}$ is contained in the commutant of its Heisenberg subalgebra, which consists of the lattice momenta orthogonal to $L$ and the oscillators in their span, and $V_K$ commutes with $V_L$. This proves \eqref{eq:lattice-commutant}. Finally $\Omega = \operatorname{Com}_U(V_L)$, and the conformal vectors of $\Omega$ and $V_K$ both equal $\omega_{E_8}-\omega_L$, since $B$ and $U$ have the same conformal vector. This proves the assertion.
+\end{proof}
+
+We now identify the extension algebra of $\Omega \subset V_K$ for the holomorphic extension $B_3$. Put $\cal C = Z(\cal H_3)$, with $\cal D = \cal C(L)^{\mathrm{rev}}$ as in Section \ref{sec:inputs}. In the category
+$\cal E = \cal C \boxtimes \cal D \boxtimes \cal D^{\mathrm{rev}} \cong \Rep(\Omega \ot V_L)$, consider the graph algebra
+\[
+G = \bigoplus_{\alpha \in A_L} \tau(\alpha) \boxtimes \alpha
+\quad\text{and}\quad \widetilde G = \mathbf 1_{\cal C} \boxtimes G,
+\]
+where $\tau(\alpha) \in \cal D$ and $\alpha \in \cal C(L) = \cal D^{\mathrm{rev}}$. The simple objects of $\cal D$ are invertible. The graph algebra is Lagrangian in $\cal D \boxtimes \cal D^{\mathrm{rev}}$, and $U$ is the extension of $\Omega \ot V_L$ corresponding to $\widetilde G$ \cite{HKL15}. Its multiplication is determined up to isomorphism by the underlying object, since simple current extensions are unique \cite[Proposition 5.3]{DoM04}.
+
+The equivalence $\cal C \to (\cal E_{\widetilde G})^0$ of Section \ref{sec:inputs} sends $c$ to $c \boxtimes G$. Its tensor constraint is induced by multiplication of $G$ through
+\[
+(c \boxtimes G) \ot_{\widetilde G} (c' \boxtimes G) \cong (c \ot c') \boxtimes G.
+\]
+Consequently, extension in stages sends the algebra $\cal A_{\cal H}$ to the algebra $\cal A_{\cal H} \boxtimes G$ in $\cal E$, by the correspondence of commutative algebras over $\widetilde G$ with commutative algebras in $(\cal E_{\widetilde G})^0$ \cite[Section 3.6 and Proposition 3.16 p.~12]{DMNO13}. Its multiplication is $\mu_{\cal A_{\cal H}} \boxtimes \mu_G$.
+
+The vacuum $V_L$-module occurs in $G$ precisely for $\alpha = 0$. The commutant $\operatorname{Com}_{V_{E_8}}(V_L)$ is the multiplicity space of the vacuum $V_L$-module in $V_{E_8}$, and the vertex operators of $V_{E_8}$ restrict to it. In terms of algebras, it is the image of $\cal A_{\cal H} \boxtimes G$ under the lax tensor functor $\operatorname{Hom}_{\cal D^{\mathrm{rev}}}(\mathbf 1,-)$ from $\cal C \boxtimes \cal D \boxtimes \cal D^{\mathrm{rev}}$ to $\cal C \boxtimes \cal D$. This gives the algebra
+\begin{equation}
+\label{eq:extension-algebra}
+A = \cal A_{\cal H} \boxtimes \mathbf 1_{\cal D}
+\quad\text{in}\quad \Rep(\Omega) \cong \cal C \boxtimes \cal D,
+\end{equation}
+whose product is the restriction of $\mu_{\cal A_{\cal H}} \boxtimes \mu_G$, that is, the product of $\cal A_{\cal H}$. By Lemma \ref{lem:actual-lattice}, this is the extension algebra of $\Omega \subset V_K$. Its category of right modules is $\cal H_3 \boxtimes \cal D$, and its category of local modules is $\cal D$, in accordance with $\Rep(V_K) \cong \cal C(K) \cong \cal C(L)^{\mathrm{rev}}$. This proves the second assertion of Theorem \ref{thm:main-six}, the Gram matrix being computed in Proposition \ref{prop:explicit-K}. The same argument applies to $B_1$ and $B_2$, with $\cal A_{\cal H}$ replaced by $L_1$ and $L_2$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The full theory and its topological lines}
+\label{sec:full}
+
+Let $\cal R = \Rep(\Omega) \cong Z(\cal H_3) \boxtimes \cal D$. Consider the indecomposable $\cal R$-module category $\cal M = \cal H_3 \boxtimes \cal D$, where $Z(\cal H_3)$ acts through its forgetful functor \cite[Proposition 2.2(1) p.~10]{Arh26b} and $\cal D$ acts by its regular action. Equivalently, $\cal M$ is the category of right modules over the algebra $A$ of \eqref{eq:extension-algebra}. This algebra is a connected étale algebra in the modular category $\cal R$, with trivial twist and positive dimension, hence a haploid special symmetric Frobenius algebra \cite[Section 3]{DMNO13}, and it defines a rational full theory over $\Omega \ot \overline\Omega$ \cite{FRS02}. Its bulk space is the full center $Z(A)$ \cite{KoR08}. The simple local $A$-modules are the objects $\cal A_{\cal H}\boxtimes g$, $g \in \Irr(\cal D)$, underlying the simple $V_K$-modules. The left and right centers of the commutative algebra $A$ are $A$, by their universal property \cite[Section 2.4 p.~1327]{Dav10}. Hence \cite[Theorem 2.5.1 p.~1328]{Dav10} gives
+\[
+Z(A) \cong \bigoplus_{g \in \Irr(\cal D)}(\cal A_{\cal H}\boxtimes g)\boxtimes(\cal A_{\cal H}\boxtimes g'),
+\]
+where $\cal A_{\cal H}\boxtimes g'$ is the simple local module attached to $\cal A_{\cal H}\boxtimes g$ by the contravariant equivalence of loc. cit.
+
+On the other hand, $Z(A)$ is the left center, which is the image of an idempotent, of the algebra $(A\boxtimes\mathbf1)\ot\cal T$, where $\cal T = \bigoplus_x x\boxtimes x^\vee$ over the simple objects $x$ of $\cal R$ \cite[Definitions 2.4 and 2.6]{KoR08}, \cite[Section 2.4 p.~1327]{Dav10}. In particular it is a subobject of $(A\boxtimes\mathbf1)\ot\cal T$. The summand $(\mathbf1\boxtimes g)\boxtimes(\mathbf1\boxtimes g')$ occurs in $(A\ot x)\boxtimes x^\vee$ only for $x^\vee \cong \mathbf1\boxtimes g'$, and then $A\ot x \cong \cal A_{\cal H}\boxtimes g'^\vee$ contains $\mathbf1\boxtimes g$ only if $g' \cong g^\vee$. Thus $Z(A) \cong \bigoplus_{\lambda \in A_K}V_{\lambda+K}\boxtimes V_{\lambda+K}^\vee$ as an object.
+
+Moreover the two parents of $Z(A)$ are $A$, where the parents are its subalgebras in $\cal R\boxtimes\mathbf1$ and $\mathbf1\boxtimes\cal R^{\mathrm{rev}}$ \cite[Section 2.5]{Dav10}. Their inclusions and the multiplication give a unital algebra morphism $A\boxtimes A \to Z(A)$. The algebra $A\boxtimes A$ is connected and separable. Hence its regular bimodule is simple, since $\operatorname{Hom}_{A\boxtimes A|A\boxtimes A}(A\boxtimes A,A\boxtimes A)$ is contained in $\operatorname{Hom}_{A\boxtimes A}(A\boxtimes A,A\boxtimes A) \cong \operatorname{Hom}(\mathbf1,A\boxtimes A)$, which is one-dimensional. The kernel of this unital morphism is a proper two-sided ideal and must vanish. Thus this morphism identifies $A\boxtimes A$ with a subalgebra of $Z(A)$. Through \cite[Proposition 3.16 p.~12]{DMNO13}, it therefore corresponds to a connected \'etale algebra in $\cal C(K)\boxtimes\cal C(K)^{\mathrm{rev}}$ with underlying object $\bigoplus_\lambda\lambda\boxtimes\lambda^\vee$. The nondegenerate pairing of this connected \'etale algebra gives nonzero products between opposite homogeneous components. Associativity then forces every homogeneous multiplication component to be nonzero. Its support is the diagonal subgroup, which is cyclic, and $H^2(\Z_{39},\Cbb^\times) = 0$, so that this algebra is isomorphic to the full center of the unit of $\cal C(K)$. Hence this full theory is the diagonal theory of the extended chiral algebra $V_K$, regarded as a theory over $\Omega \ot \overline\Omega$. The same argument applies to the algebras $L_i\boxtimes\mathbf1$ of Corollary \ref{cor:three-categories}. The left and right central charges of this theory are both six.
+
+The algebra $A$ is haploid. It is therefore simple, since the space $\operatorname{Hom}_{A|A}(A,A)$ is contained in $\operatorname{Hom}_A(A,A) \cong \operatorname{Hom}(\mathbf 1,A)$. Hence $Z(A)$ is haploid \cite[Proposition 2.7(ii)]{KoR08}. Thus the vacuum object occurs in the bulk object with multiplicity one. In fact, the bulk space is $\bigoplus_{\lambda \in A_K} V_{\lambda+K} \ot \overline{V_{\lambda+K}}$, and a vector of weights $(0,0)$ lies in $V_K \ot \overline{V_K}$, since the conformal weights of $V_{\lambda+K}$ are at least $\min_{\mu \in \lambda+K}\frac{|\mu|^2}{2} > 0$ for $\lambda \notin K$. Hence the physical vacuum is unique.
+
+By \cite{FFRS07}, the category of topological lines preserving $\Omega \ot \overline\Omega$ is the category of $A$-$A$-bimodules in $\cal R$, that is, up to reversal of the tensor product, the dual category $\operatorname{Fun}_{\cal R}(\cal M,\cal M)$. Proposition 7.13.8 of \cite[p.~163]{EGNO15} identifies the dual of $\cal H_3 \boxtimes \cal H_3^{\mathrm{op}}$ on $\cal H_3$ with $Z(\cal H_3)$. Applying the double-dual theorem \cite[Theorem 7.12.11 pp.~156--157]{EGNO15}, we obtain the full dual category, with composition as tensor product,
+\[
+\operatorname{Fun}_{\cal R}(\cal M,\cal M) \cong (\cal H_3 \boxtimes \cal H_3^{\mathrm{op}}) \boxtimes \cal D^{\mathrm{op}}.
+\]
+Here $\mathrm{op}$ reverses the tensor product. The factor $\cal D^{\mathrm{op}}$ comes from the identity $R_g \circ R_k = R_{k \ot g}$ for the right multiplications $R_g$ of $\cal D$. The full fusion subcategory $\cal H_3 \boxtimes \mathbf 1 \boxtimes \mathbf 1$ gives a fully faithful tensor functor
+\begin{equation}
+\label{eq:line-inclusion}
+\cal H_3 \to \operatorname{Fun}_{\cal R}(\cal M,\cal M).
+\end{equation}
+This proves the third assertion of Theorem \ref{thm:main-six} for $i = 3$. The other two cases are proved in Corollary \ref{cor:three-categories}.
+
+\begin{remark}\normalfont
+\label{rem:VK-lines}
+The lines corresponding to a noninvertible simple object $X$ of $\cal H_3$ do not preserve $V_K \ot \overline{V_K}$. Indeed, the diagonal theory of $V_K$ is the Cardy case of the TFT construction over $V_K \ot \overline{V_K}$, so its lines preserving $V_K \ot \overline{V_K}$ correspond to the objects of $\Rep(V_K) \cong \cal C(K)$ \cite{FFRS07}. This category is pointed, so every such line is a finite direct sum of invertible lines, and its defect operator acts on the vacuum by a positive integer. Let $M_X$ denote the $A$-$A$-bimodule attached to $X \in \cal H_3$. The vacuum eigenvalue of its defect operator is
+\[
+\operatorname{FPdim}_{A|A}(M_X)
+= \frac{\operatorname{FPdim}_{\cal R}(M_X)}{\operatorname{FPdim}_{\cal R}(A)}
+= \operatorname{FPdim}_{\cal H_3}(X)
+= \frac{3+\sqrt{13}}{2}
+\]
+by the bimodule dimension formula \cite{FFRS07}. Thus the lines attached to the noninvertible simple objects of $\cal H_3$ preserve $\Omega \ot \overline\Omega$ but not $V_K \ot \overline{V_K}$. Note also that $\Rep(\Omega)$ is not equivalent to $Z(\cal H_3)$, because of the nontrivial pointed factor $\cal D$ of \eqref{eq:category-factorization}.
+\end{remark}
+
+\paragraph{Pointwise preservation of finite-index lattice algebras}
+We now show that the noninvertible Haagerup lines do not preserve pointwise the two chiral actions of any full-rank finite-index lattice subalgebra of $V_K$.
+
+A topological defect of a full theory whose bulk contains the chiral algebra $W\ot\overline W$ \emph{preserves the two $W$ actions pointwise} if it is transparent to all fields of $W\ot\overline W$, that is, if these fields can be moved across the defect without change, with the identity gluing on both sides. In the TFT construction over $W$ with algebra $A$, these defects are the $A$-$A$-bimodules in $\Rep(W)$, and the dimension of a defect is the vacuum eigenvalue of its defect operator \cite{FFRS07}.
+
+\begin{lemma}
+\label{lem:pointed-extension-integral-defects}
+Let $\cal B$ be a pointed unitary fusion category with abelian group $D$ of simple objects. Let $A = \bigoplus_{h \in H} h$ be a connected separable algebra supported on a subgroup $H \subset D$, whose multiplication between each pair of homogeneous components is nonzero. Then every simple $A$-$A$-bimodule has positive integer Frobenius--Perron dimension in the bimodule fusion category.
+\end{lemma}
+
+\begin{proof}
+Write the underlying object of a bimodule $M$ as $\bigoplus_{g \in D} M_g \ot g$, with ordinary finite-dimensional multiplicity spaces $M_g$. The action of each $h \in H$ maps a component to the component with label $g+h$. This map is invertible: compose it with the action of $-h$ and use the module axiom, the nonzero multiplication $h \ot (-h) \to \mathbf1$ and the unit axiom. The associator introduces only a nonzero scalar. Thus the dimensions of the $M_g$ are constant on every coset of $H$. A sum over one coset is stable under both module actions. If $M$ is simple, its support is exactly one coset $g+H$, and all its nonzero multiplicity spaces have the same positive integer dimension $r$. Hence $\operatorname{FPdim}_{\cal B}(M) = |H|r$, while $\operatorname{FPdim}_{\cal B}(A) = |H|$. The normalized dimension formula for the bimodule category \cite{FFRS07} gives $\operatorname{FPdim}_{A\text{-}A}(M) = \frac{\operatorname{FPdim}_{\cal B}(M)}{\operatorname{FPdim}_{\cal B}(A)} = r$. This proves the assertion.
+\end{proof}
+
+\begin{prop}
+\label{prop:no-pointwise-finite-index-lattice-preservation}
+Let $K$ be an even positive-definite lattice and let $N \subset K$ have full rank and finite index. In the rational TFT construction of the diagonal $V_K$ theory over $V_N$, every nonzero topological defect preserving the two $V_N$ actions pointwise has positive integer dimension. Consequently a unitary topological line of irrational dimension cannot have this preservation property for any such $N$.
+\end{prop}
+
+\begin{proof}
+The representation category of $V_N$ is pointed, with group $D = N'/N$. The extension $V_N \subset V_K$ has algebra $A = \bigoplus_{h \in K/N} h$, with nonzero homogeneous multiplication. The defects preserving the two $V_N$ actions pointwise are the $A$-$A$-bimodules. The lemma proves integrality for every simple defect, and dimensions are additive under finite direct sums. This proves the assertion.
+\end{proof}
+
+This proposition concerns defects preserving the two specified lattice chiral actions pointwise in the above sense. It makes no assertion about gluing through automorphisms or about defects preserving a smaller nonlattice chiral algebra. For the three Haagerup categories, all noninvertible simple dimensions are irrational, so none of their noninvertible lines in the rank-six realization can preserve any such $V_N$ pointwise on both sides.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The rank-six lattice and the extensions of \texorpdfstring{$\Omega$}{Omega}}
+\label{sec:explicit-K}
+
+By \cite[Proposition 4.1 p.~11 and Theorem 8.5 p.~23]{Arh26a}, after an automorphism, $U$ is contained in $V_Q$, where $Q = E_6 \oplus A_2$, and its Cartan subalgebra is spanned by one of the two pairs of vectors of \eqref{eq:cartan-columns} below. By \cite[(2.8) p.~13 and Theorem 3.9(2) p.~19]{Arh26b}, the extensions $B_2$ and $B_3$ are the two lattice extensions of $V_Q$ to $V_{E_8^\pm}$, with $E_8^\pm$ as below. The automorphisms of $V_Q$ used in \cite{Arh26a} are generated by zero modes of $(V_Q)_1$, hence extend to both lattice extensions. The root convention and Cartan coordinates are fixed in \cite[Section 10.1 p.~27 and the proof of Lemma 10.26 p.~44]{Arh26a}. Fix an ordered root basis $e_1,\ldots,e_8$ of $Q$ with all norms equal to two. The nonzero off-diagonal scalar products are $-1$ on the edges
+\[
+\{1,3\},\ \{2,4\},\ \{3,4\},\ \{4,5\},\ \{5,6\},\ \{7,8\}.
+\]
+Write $G_Q$ for this Gram matrix and put
+$g = \frac13(4,3,5,6,4,2,2,1)^\mathsf T$. The two even unimodular overlattices are $E_8^+ = Q+\Z g$ and $E_8^- = Q+\Z s(g)$, where $s$ exchanges the last two root coordinates. The Cartan columns in the two cases are
+\begin{equation}
+\label{eq:cartan-columns}
+\begin{array}{c|cc}
+& h_1^\mathsf T & h_2^\mathsf T\\ \hline
+\mathrm I &(0,0,0,1,0,0,0,0)&(8,10,14,19,14,8,2,2)\\
+\mathrm {II}&(0,-1,1,0,1,0,0,0)&(4,5,7,10,7,4,2,2)
+\end{array}
+\end{equation}
+The columns $h_1$ and $\frac{h_1+h_2}{2}$ form a basis of $L$ \cite[Proposition 12.2(3) p.~62]{Arh26a}, with Gram matrices \eqref{eq:binary-grams}, respectively.
+
+\begin{prop}
+\label{prop:explicit-K}
+For either Cartan embedding in \eqref{eq:cartan-columns} and either overlattice $E_8^\pm$, the orthogonal complement of $L$ is isometric to the even lattice with Gram matrix
+\begin{equation}
+\label{eq:K-gram}
+G_K =
+\begin{bmatrix}
+2&-1&0&0&0&-1\\
+-1&2&0&0&0&0\\
+0&0&2&-1&0&-1\\
+0&0&-1&2&0&0\\
+0&0&0&0&2&-1\\
+-1&0&-1&0&-1&4
+\end{bmatrix}.
+\end{equation}
+It has determinant $39$, discriminant form $q_K(g_K) = \frac{17}{39}+\Z$ on a generator $g_K$ of order $39$, and root system $A_2 \oplus A_2 \oplus A_1$.
+\end{prop}
+
+\begin{proof}
+In $E_8^+$, use the following columns in the two cases:
+\begin{equation}
+\label{eq:K-basis-I}
+B_{\mathrm I} = \frac13
+\begin{bmatrix}
+1&1&-2&1&1&0\\
+0&0&0&-3&0&0\\
+2&-1&-1&-1&-1&3\\
+0&0&0&-3&0&3\\
+-2&1&1&-2&1&3\\
+-1&2&2&-1&-1&0\\
+-1&-1&-1&2&-1&0\\
+1&-2&1&1&1&-3
+\end{bmatrix},
+\end{equation}
+\begin{equation}
+\label{eq:K-basis-II}
+B_{\mathrm {II}} = \frac13
+\begin{bmatrix}
+1&1&-1&2&-2&1\\
+0&0&0&3&0&-3\\
+-1&2&-2&4&-1&-1\\
+0&3&0&3&0&-6\\
+1&1&2&2&1&-5\\
+-1&2&1&1&2&-1\\
+-1&-1&1&-2&-1&2\\
+1&-2&-1&-1&1&1
+\end{bmatrix}.
+\end{equation}
+Each column belongs to $Q+\Z g$. Direct matrix multiplication gives, for $\nu = \mathrm I,\mathrm {II}$,
+\begin{equation}
+\label{eq:K-matrix-check}
+B_\nu^\mathsf T G_Q h_1 = B_\nu^\mathsf T G_Q h_2 = 0,
+\quad B_\nu^\mathsf T G_Q B_\nu = G_K.
+\end{equation}
+The upper left block $G_R$ of size five in \eqref{eq:K-gram} is the Gram matrix of $R = A_2 \oplus A_2 \oplus A_1$. It has determinant $18$, and its Schur complement in $G_K$ is $\frac{13}{6}$. Hence $G_K$ is positive-definite and $\det G_K = 39$. Since $h_1$ and $\frac{h_1+h_2}{2}$ lie in $Q$ and $\det L = 39$ is squarefree, $L$ is a primitive sublattice of $E_8^+$, and its orthogonal complement has determinant $39$, as in the proof of Lemma \ref{lem:actual-lattice}. Consequently the columns of $B_\nu$ span that complement, with index one. The isometry $s$ fixes both Cartan columns in \eqref{eq:cartan-columns} and sends $E_8^+$ to $E_8^-$. It therefore identifies their orthogonal complements.
+
+Let $k_1,\ldots,k_6$ be the basis in \eqref{eq:K-gram}. The first dual vector has coordinates
+\[
+g_K = \frac1{39}(34,17,8,4,6,12)^\mathsf T.
+\]
+It has order $39$ modulo $K$, and $\frac{1}{2}|g_K|^2 = \frac{17}{39}$. Since $|A_K| = 39$, it generates the discriminant group. If $g_L$ is the first dual vector for either matrix in \eqref{eq:binary-grams}, then its order is $39$ and its quadratic value is $\frac{10}{39}$ in case I and $\frac{4}{39}$ in case II. The assignments $g_L \mapsto 2g_K$ and $g_L \mapsto 5g_K$, respectively, give explicit anti-isometries of the discriminant forms.
+
+Finally write a lattice vector as $x+zk_6$, with $x \in R$ and $z \in \Z$. Completing the square in its norm gives a nonnegative term in the first five coordinates and $\frac{13}{6}z^2$. If $z \neq 0$, its norm is strictly greater than two. Thus all roots lie in $R$, which has fourteen roots. This proves the assertion.
+\end{proof}
+
+The vector $v = 4k_1+2k_2+4k_3+2k_4+3k_5+6k_6$ is orthogonal to $R$ and has norm $78$. Thus $R \oplus \Z v$ has index six in $K$. The weight-one Lie algebra of $V_K$ is
+\[
+(V_K)_1 \cong \mathfrak{sl}_3 \oplus \mathfrak{sl}_3 \oplus \mathfrak{sl}_2 \oplus \Cbb.
+\]
+There are $14$, $96$ and $156$ vectors of norms two, four and six in $K$. Therefore its vacuum character begins
+\[
+\operatorname{ch}_{V_K}(q) = q^{-\frac{1}{4}}(1+20q+207q^2+1208q^3+\cdots).
+\]
+The scripts accompanying this paper verify these matrix identities, shell counts and discriminant forms in exact arithmetic.
+
+\begin{prop}
+\label{prop:genus-K}
+\begin{enumerate}
+\item The genus of $K$ consists of exactly two isometry classes, $K$ and a lattice $K^\flat$ whose $30$ roots form a root system of type $A_5$. The orders of the orthogonal groups are $|O(K)| = 288$ and $|O(K^\flat)| = 2880$.
+\item For each $i \in \{1,2,3\}$ and each isomorphism $B_i \cong V_{E_8}$ as in Lemma \ref{lem:actual-lattice}, the lattice $K_i = E_8 \cap L^\perp$ is isometric to $K$.
+\end{enumerate}
+\end{prop}
+
+\begin{proof}
+1. Put $K^\flat$ equal to the lattice with Gram matrix
+\[
+\begin{bmatrix}
+2&-1&-1&1&-1&-1\\
+-1&2&1&0&0&1\\
+-1&1&2&0&0&0\\
+1&0&0&2&-1&-1\\
+-1&0&0&-1&2&0\\
+-1&1&0&-1&0&8
+\end{bmatrix}.
+\]
+The two displayed Gram matrices are positive definite and have determinant $39$. For $K$, the first dual basis vector has order $39$ and quadratic value $\frac{17}{39}$. For $K^\flat$, the second dual basis vector has the same properties. The signature and discriminant form therefore put them in the same genus \cite[Corollary 1.9.4]{Nik80}. Their numbers of roots are $14$ and $30$, so they are not isometric.
+
+We compute the mass of this genus with the mass formula \cite[(2) and (3) p.~263]{CS88}. Write $\chi(a) = \left(\frac{a}{39}\right)$ and $B_3(x) = x^3-\frac32 x^2+\frac12 x$. The exact finite sum gives
+\[
+B_{3,\chi} = 39^2 \sum_{a=1}^{39} \chi(a) B_3\left(\frac a{39}\right) = 528,
+\quad L(3,\chi) = \frac{2\pi^3 B_{3,\chi}}{3 \cdot 39^{5/2}}.
+\]
+Here the value of $L(3,\chi)$ is the generalized Bernoulli number formula, see \cite[Section 8 p.~267]{CS88}. By \cite[(7) p.~266 and Table 3 p.~267]{CS88}, the standard mass is $\frac{\zeta_{-39}(3)}{360\pi^3}$. By \cite[(9) p.~266]{CS88}, $\zeta_{-39}(3)$ is the sum of $\chi(m)m^{-3}$ over the odd integers $m \geq 1$, since $\left(\frac{-39}{m}\right) = \left(\frac{m}{39}\right)$ for odd $m$ by quadratic reciprocity. As $\chi(2) = 1$, we obtain $\zeta_{-39}(3) = (1-2^{-3})L(3,\chi) = \frac78 L(3,\chi)$. The mass is the standard mass multiplied by the ratios $\frac{m_p(K)}{\operatorname{std}_p(K)}$ for $p \in \{2,3,13\}$, where $\operatorname{std}_p(K)$ is given by \cite[(6) p.~266]{CS88} with $\epsi = 0$. At $p = 2$, the form $K\ot\Z_2$ is unimodular of type II, of dimension six and determinant $39 \equiv -1$ modulo $8$. Hence its octane value is $0$, it is free and its species is $6+$ \cite[Table 1 p.~264 and p.~265]{CS88}. By \cite[(3) p.~263 and (5) p.~265]{CS88}, $m_2(K)$ is the diagonal factor $\frac1{2(1-2^{-2})(1-2^{-4})(1-2^{-3})}$ multiplied by the type factor $2^{-6}$. At $p \in \{3,13\}$, the group $A_K$ being cyclic of order $39$, the Jordan constituents of $K\ot\Z_p$ have dimensions five and one, with scales $1$ and $p$. Their diagonal factors are $\frac1{2(1-p^{-2})(1-p^{-4})}$ and $\frac12$, and the cross-term is $p^{\frac52}$ \cite[(3) p.~263 and (5) p.~265]{CS88}. Since $\operatorname{std}_q(K) = \frac1{2(1-q^{-2})(1-q^{-4})}$ for $q \in \{2,3,13\}$, we obtain
+\[
+\frac{m_2(K)}{\operatorname{std}_2(K)} = \frac{2^{-6}}{1-2^{-3}} = \frac1{56},
+\quad
+\frac{m_p(K)}{\operatorname{std}_p(K)} = \frac{p^{\frac52}}{2},
+\quad p \in \{3,13\}.
+\]
+Consequently the mass is
+\[
+\frac{\frac78 L(3,\chi)}{360\pi^3} \cdot \frac1{56} \cdot \frac{39^{5/2}}4 = \frac{B_{3,\chi}}{138240} = \frac{11}{2880}.
+\]
+For a Gram matrix $G$, the image $u_j$ of its $j$-th basis vector under an isometry satisfies $u_j^{\mathsf T}G u_j = G_{jj}$ and
+\[
+|(u_j)_r|^2 \leq G_{jj}(G^{-1})_{rr}.
+\]
+We enumerate the integral vectors within these finite bounds, and retain the ordered tuples satisfying $u_i^{\mathsf T}G u_j = G_{ij}$. The resulting matrix $M$ satisfies $M^{\mathsf T}GM = G$, so taking determinants gives $\det M = \pm1$. Thus this procedure enumerates every integral isometry and no extra matrices. Applied to the two Gram matrices, it gives $|O(K)| = 288$ and $|O(K^\flat)| = 2880$. Their contributions $\frac1{288}+\frac1{2880}$ exhaust the mass. Every further class would contribute positively, so these are all the classes in the genus.
+
+2. By Lemma \ref{lem:actual-lattice}, $K_i$ is even, positive-definite, of rank six and with discriminant form isometric to $(A_L,-q_L)$, hence in the genus of $K$. We have $V_{K_i} = \operatorname{Com}_{B_i}(M(\mathfrak h))$, so that $(V_{K_i})_1$ is the space of vectors $x \in (B_i)_1$ with $y_{(0)}x = 0$ and $y_{(1)}x = 0$ for all $y \in \mathfrak h$. As a $U$-module, $B_i$ is the sum of $U$ and of modules $M_z$, $z \in \{b,a,c_0\}$, with multiplicities given by $L_1 \cong 0 \oplus b \oplus a \oplus c_0$, $L_2 \cong 0 \oplus b \oplus 2a$ and $L_3 \cong 0 \oplus b \oplus 2c_0$ \cite[Corollary 3.8 p.~18]{Arh26b}. The lowest conformal weight of $M_z$ is one \cite[(4.1) p.~11]{Arh26a}, and its lowest weight space $R_z$ is the $U_1$-module given in \cite[Table 2 p.~24]{Arh26a}. The vectors of $U_1$ of $\mathfrak h$-weight zero form $\mathfrak h$, on which $y_{(1)}$ is given by the nondegenerate normalized form. For $x \in R_z$, we have $y_{(1)}x \in (M_z)_0 = 0$. Since the irreducible $\mathfrak{sl}_2 \oplus \mathfrak{sl}_2$-module $V(a,b)$ has a nonzero vector of weight zero if and only if $a$ and $b$ are even, in which case this vector is unique up to scalar, Table 2 of \cite{Arh26a} gives zero-weight spaces of dimensions $6$ for $R_b$ and $7$ for $R_a$ and $R_{c_0}$, in both cases (I) and (II). Hence $\dim(V_{K_i})_1 = 6+7+7 = 6+2 \cdot 7 = 20$ for each $i$. Since $\dim(V_{K_i})_1$ is six plus the number of roots of $K_i$, the lattice $K_i$ has $14$ roots. By part 1, $K_i$ is isometric to $K$.
+\end{proof}
+
+For $i \in \{2,3\}$, part 2 agrees with Proposition \ref{prop:explicit-K}. For $i = 1$, the extension $B_1$ has no vertex subalgebra strictly between $U$ and $B_1$ \cite[Theorem 3.9(3) p.~19]{Arh26b}, in particular no intermediate copy of $V_Q$, so that the coordinates of Proposition \ref{prop:explicit-K} are not available, and $K_1$ is identified by part 2 only.
+
+\begin{cor}
+\label{cor:three-categories}
+For each $i \in \{1,2,3\}$, there is a conformal embedding $\Omega \subset V_K$ whose extension algebra is $L_i \boxtimes \mathbf 1$ under \eqref{eq:category-factorization}. For this embedding, the diagonal theory of $V_K$, regarded as a theory over $\Omega \ot \overline\Omega$, has a unique vacuum, and its category of topological lines preserving $\Omega \ot \overline\Omega$ contains a full fusion subcategory equivalent to $\cal H_i$.
+\end{cor}
+
+\begin{proof}
+By Lemma \ref{lem:actual-lattice} and Proposition \ref{prop:genus-K}, we have $\Omega \subset V_{K_i}$ conformally with $K_i$ isometric to $K$. An isometry $K_i \to K$ induces an isomorphism of vertex operator algebras $V_{K_i} \to V_K$, since a lattice vertex operator algebra does not depend, up to isomorphism, on the choice of the central extension of the lattice \cite[Proposition 6.5.5 p.~244]{LL04}. The arguments of Sections \ref{sec:extension} and \ref{sec:full} apply with $\cal A_{\cal H}$ replaced by $L_i$, the category of right modules being $\cal H_i \boxtimes \cal D$. Since $Z(\cal H_3)_{L_i} \cong \cal H_i$, the free module functor gives a braided equivalence $Z(\cal H_3) \cong Z(\cal H_i)$ under which the action on $\cal H_i$ is given by the forgetful functor \cite[Proposition 2.2(1) p.~10]{Arh26b}. Hence the dual category is $(\cal H_i \boxtimes \cal H_i^{\mathrm{op}}) \boxtimes \cal D^{\mathrm{op}}$, as in Section \ref{sec:full}, and it contains $\cal H_i \boxtimes \mathbf 1 \boxtimes \mathbf 1$.
+\end{proof}
+
+For $i \in \{1,2,3\}$, let $\iota_i \co \Omega \to V_K$ be the embedding of Corollary \ref{cor:three-categories}. These three embeddings are pairwise non-conjugate, even up to automorphisms of $\Omega$. Indeed, suppose that $\iota_j = g \circ \iota_i \circ \phi$ with $g \in \operatorname{Aut}(V_K)$ and $\phi \in \operatorname{Aut}(\Omega)$. Then $g$ is an isomorphism of algebras in $\Rep(\Omega)$ from the extension algebra of $\iota_i \circ \phi$, which is the image of $L_i \boxtimes \mathbf 1$ under the braided autoequivalence $\phi^*$ of $\Rep(\Omega)$ given by twisting with $\phi$, onto the extension algebra $L_j \boxtimes \mathbf 1$ of $\iota_j$. The autoequivalence $\phi^*$ preserves the invertible objects, hence $\cal D$ and its centralizer $Z(\cal H_3) \boxtimes \mathbf 1$. Thus $\phi^*(L_i \boxtimes \mathbf 1) \cong \cal L \boxtimes \mathbf 1$ for a Lagrangian algebra $\cal L$ of $Z(\cal H_3)$ with $Z(\cal H_3)_{\cal L} \cong \cal H_i$. Since $\cal L \cong L_j$, we obtain $\cal H_i \cong \cal H_j$, that is, $i = j$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Conformal extensions with global dimension thirty-nine}
+\label{subsec:dimension39-extensions}
+
+Put $\cal C = Z(\cal H_3)$ and $\cal P = \cal C(\Z/39\Z,q)$, where $q(p) = \frac{17p^2}{39}+\Z$. We use the factorization $\Rep(\Omega) \cong \cal C \boxtimes \cal P$ obtained from \eqref{eq:category-factorization}, where the pointed factor $\cal D = \cal C(L)^{\mathrm{rev}} \cong \cal C(K)$ is identified with $\cal P$ through the generator $g_K$ of Proposition \ref{prop:explicit-K}. The labels $0,b,a,c_0,c_1,c_2,d_1,\ldots,d_6$ of $\cal C$ are those of \cite[Section 2]{Arh26a}. Recall that $d = \frac{3+\sqrt{13}}{2}$ and $\operatorname{FPdim}(\cal H_3) = 6+9d$.
+
+\begin{lemma}
+\label{lem:dimension39-algebra-objects}
+Let $A$ be a connected \'etale algebra with trivial twist in $\cal C \boxtimes \cal P$, and suppose that the category of local $A$-modules has Frobenius--Perron dimension $39$. Then its underlying object is one of
+\begin{equation}
+\label{eq:dimension39-algebra-objects}
+L_1 \boxtimes \mathbf 1,\quad L_2 \boxtimes \mathbf 1,\quad L_3 \boxtimes \mathbf 1,\quad
+(0\boxtimes 0)\oplus(b\boxtimes 0)\oplus(c_1\boxtimes 13)\oplus(c_1\boxtimes 26),
+\end{equation}
+where the underlying objects of the three Lagrangian algebras are $L_1 = 0\oplus b\oplus a\oplus c_0$, $L_2 = 0\oplus b\oplus 2a$ and $L_3 = 0\oplus b\oplus 2c_0$ \cite[Corollary 3.8 p.~18]{Arh26b}.
+\end{lemma}
+
+\begin{proof}
+The dimension formula for local modules \cite[Corollary 3.32 p.~15]{DMNO13} gives $\operatorname{FPdim}(A) = 6+9d$. The simple objects of trivial twist in $\cal C\boxtimes\cal P$ are exactly
+\[
+(0,0),\quad(b,0),\quad(a,0),\quad(c_0,0),\quad(c_1,13),\quad(c_1,26).
+\]
+Indeed, the twists of the first four central labels are one, and $q(p) = 0$ implies $p = 0$. For $c_j$, the vanishing of the thirteenth-primary part forces $p = 13s$. Then $q(p) = \frac{2s^2}{3}+\Z$, which cancels the twist of $c_1$ exactly for $s = \pm1$ and never cancels the twist of $c_2$. For $d_l$, cancellation would force $p = 3r$ and $6l^2+12r^2 = 0$ modulo $13$. This is impossible for $1 \leq l \leq 6$, since $-2$ is a nonsquare modulo $13$.
+
+Let $r$ be the multiplicity of $(b,0)$ and let $s$ be the sum of the multiplicities of the remaining four nonvacuum objects. Their dimensions are $1+3d$ and $2+3d$, respectively. Connectedness and the irrationality of $d$ give $r+2s = 5$ and $r+s = 3$, hence $r = 1$ and $s = 2$. An \'etale algebra is self-dual \cite[Remark 3.4 p.~7]{DMNO13}. The two summands $(c_1,13)$ and $(c_1,26)$ are dual, whereas the other four objects are self-dual. This gives precisely \eqref{eq:dimension39-algebra-objects}.
+\end{proof}
+
+We shall also use the uniqueness, up to algebra isomorphism, of a connected \'etale algebra with underlying object $0\oplus b$ in $\cal C$, which we now prove. Let $A_0$ be the algebra of the extension $U \subset V_{E_6\oplus A_2}$. It is a connected \'etale algebra with underlying object $0\oplus b$, and $L_2$ and $L_3$ contain it, whereas $L_1$ does not \cite[Proposition 3.5(3) p.~17]{Arh26b}. Let $A'$ be any connected \'etale algebra with underlying object $0\oplus b$. Then $\cal C_{A'}^0$ is Witt equivalent to $\cal C$ and has dimension nine. It is a Drinfeld center by \cite[Propositions 5.4 and 5.8 pp.~22--23]{DMNO13}. Choose a Lagrangian algebra in this center and lift it through the correspondence of \cite[Proposition 3.16 p.~12]{DMNO13}. This embeds $A'$ into a Lagrangian algebra $L_i$ of $\cal C$. By \cite[Theorem 4.10 p.~18]{DMNO13}, the connected \'etale subalgebras of $L_i$ correspond to the fusion subcategories of $\cal H_i$, and $A'$ corresponds to one of dimension $\frac{6+9d}{2+3d} = 3$, since the two dimensions multiply to $\operatorname{FPdim}(\cal H_i)$ \cite[Proposition 2.2(3) p.~10]{Arh26b}. The category $\cal H_1$ has no such subcategory, and $\cal H_2$ and $\cal H_3$ each have exactly one, their pointed subcategory \cite[Proposition 2.1(4) p.~9]{Arh26b}. Hence $i \in \{2,3\}$, and $A'$ and $A_0$ are the subalgebras of $L_i$ attached to the same fusion subcategory. Thus $A'$ is isomorphic to $A_0$.
+
+Let $Q = E_6\oplus A_2$ in the fixed lattice realization, and put $N = Q\cap\mathfrak h^\perp$. The extension of $\Omega$ corresponding to $A_0\boxtimes\mathbf 1$ is $V_N$. To check the algebra structure, let $G$ be the graph algebra in $\cal P\boxtimes\cal C(L)$ defining $U$ over $\Omega\ot V_L$. The equivalence from the centralizer $\cal C$ to local $G$-modules sends an algebra $A_0$ to the algebra $A_0\boxtimes G$. The algebra of $\Omega\ot V_L \subset V_Q$ is therefore $A_0\boxtimes G$. Taking the $V_L$-vacuum multiplicity space, equivalently the Heisenberg commutant, gives $A_0\boxtimes\mathbf1$. The induced multiplication is exactly that of $A_0$. The Heisenberg commutant of $V_Q$ is $V_{Q\cap\mathfrak h^\perp}$. In case (II), $N$ has Gram matrix
+\begin{equation}
+\label{eq:rootless-N-gram}
+\begin{bmatrix}
+4&-1&-2&-2&-1&-1\\
+-1&4&-1&-1&2&2\\
+-2&-1&4&1&-1&-1\\
+-2&-1&1&4&1&1\\
+-1&2&-1&1&4&1\\
+-1&2&-1&1&1&4
+\end{bmatrix}.
+\end{equation}
+It has determinant $351$ and no roots. There are exactly four even overlattices of $N$ of index three. Their generating classes, written as $\frac13 v+N$ in the basis of \eqref{eq:rootless-N-gram}, are
+\begin{equation}
+\label{eq:rootless-N-isotropic-lines}
+(1,0,2,0,1,2),\quad(1,0,2,0,2,1),\quad
+(1,1,2,1,1,2),\quad(1,1,2,1,2,1).
+\end{equation}
+Each overlattice has fourteen roots. These assertions follow by enumerating the vectors $v \in \{0,1,2\}^6$ such that $G_Nv \in 3\Z^6$ and $v^{\mathrm T}G_Nv \in 18\Z$, modulo multiplication by $-1$. For completeness of the root count, a vector $x$ of norm two in a lattice of Gram matrix $G$ satisfies $|x_i|^2\leq 2(G^{-1})_{ii}$. The exact coordinate bounds and root lists are included in the accompanying certificate, together with bases in $Q$. The same calculation in case (I) gives the same root counts.
+
+\begin{thm}
+\label{thm:dimension39-extension-currents}
+Let $T$ be a positive strongly rational conformal extension of $\Omega$. Suppose that $\operatorname{FPdim}(\Rep(T)) = 39$. Then $\dim T_1 = 20$.
+\end{thm}
+
+\begin{proof}
+The extension algebra $A$ of $\Omega \subset T$ is connected \'etale with trivial twist, and $\Rep(T) \cong \Rep(\Omega)_A^0$, by \cite{HKL15} and \cite[Lemma 2.3 p.~12]{Arh26b}. We apply Lemma \ref{lem:dimension39-algebra-objects}.
+
+Assume first that $A$ is supported on $\cal C\boxtimes\mathbf 1$. Then it is a Lagrangian algebra of $\cal C$, so its multiplication is isomorphic to one of the three $L_i$ by \cite[Proposition 3.3 p.~16]{Arh26b}. The lowest-weight-one spaces of the $\Omega$-modules with labels $(b,0)$, $(a,0)$ and $(c_0,0)$ have dimensions six, seven and seven. These are the zero-Cartan-weight spaces in the lowest weight spaces of $M_b$, $M_a$ and $M_{c_0}$, as read from \cite[Table 2 p.~24]{Arh26a}. The positive Heisenberg modes vanish on these lowest spaces. Since $\Omega_1 = 0$, each of the three underlying objects in \eqref{eq:dimension39-algebra-objects} supported at $p = 0$ therefore gives $\dim T_1 = 20$.
+
+Now assume that $A$ has the fourth underlying object. Write $A = \bigoplus_pA_{(p)}$ for its decomposition according to the pointed label, so that $A_{(0)} = (0\oplus b)\boxtimes0$. The multiplication maps $A_{(p)}\ot A_{(q)}$ to $A_{(p+q)}$. Hence $A_{(0)}$ is a commutative subalgebra, connected since $A$ is. Let $\epsi \co A \to \mathbf1$ be the projection with $\epsi\eta = \Id_{\mathbf1}$. The pairing $\epsi\mu$ of $A$ is nondegenerate \cite[Remark 3.4 p.~7]{DMNO13}, and it vanishes on $A_{(p)}\ot A_{(q)}$ unless $p+q = 0$, since the unit lies in degree zero. Its restriction to $A_{(0)}$ is therefore nondegenerate. The categorical dimension of $A_{(0)}$ equals $\operatorname{FPdim}(A_{(0)}) = 2+3d \neq 0$, since the ribbon structure of $\Rep(\Omega)$ is unitary, and $\theta_{A_{(0)}} = \Id$. Hence $A_{(0)}$ is rigid in the sense of \cite[Definition 1.11 p.~10]{KiO02}, and its category of modules is semisimple by \cite[Theorem 3.3 p.~17]{KiO02}, whose proof uses the trivial twist. For a commutative algebra, left and right modules are equivalent. Thus $A_{(0)}$ is separable \cite[Proposition 2.7 p.~5]{DMNO13}, hence connected \'etale. By the uniqueness just proved, it is isomorphic to $A_0\boxtimes\mathbf1$, and its extension is $V_N$.
+
+The extension algebra of $V_N \subset T$ has dimension $\frac{\operatorname{FPdim}(A)}{\operatorname{FPdim}(A_0)} = 3$. The module category of $V_N$ is pointed, so connected \'etale algebras of dimension three correspond to isotropic subgroups of order three of $N'/N$. The lattice extension construction identifies $T$ with the lattice vertex operator algebra of the corresponding even overlattice of $N$ \cite{Don93,HKL15}. Here the subgroup is cyclic, so the multiplication is unique up to isomorphism, since $H^2(\Z_3,\Cbb^\times) = 0$. The four possibilities are exactly \eqref{eq:rootless-N-isotropic-lines}. Each has fourteen roots and rank six, hence $\dim T_1 = 6+14 = 20$. This proves the assertion.
+\end{proof}
+
+\begin{cor}
+\label{cor:no-Kflat-embedding}
+Let $K^\flat$ be the lattice of rank six and determinant $39$ with thirty roots described above. There is no conformal embedding $\Omega \to V_{K^\flat}$.
+\end{cor}
+
+\begin{proof}
+The lattice algebra is positive and strongly rational, and $\operatorname{FPdim}(\Rep(V_{K^\flat})) = 39$. Its weight-one space has dimension $6+30 = 36$, contrary to Theorem \ref{thm:dimension39-extension-currents}.
+\end{proof}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The five conformal extensions with fixed source}
+\label{subsec:five-fixed-source-extensions}
+
+An extension of $\Omega$ will mean a pair $(T,\iota)$, where $T$ is a positive strongly rational vertex operator algebra and $\iota \co \Omega \to T$ is a conformal embedding. Two such extensions are isomorphic if there is a vertex operator algebra isomorphism $f \co T \to T'$ with $f\iota = \iota'$. Thus the source $\Omega$ is fixed in this equivalence relation.
+
+\begin{lemma}
+\label{lem:rank-two-etale-automorphisms}
+Let $\cal C$ be a braided fusion category and let $A_0$ be a connected \'etale algebra with underlying object $\mathbf1\oplus b$, where $b$ is simple, $b \not \cong \mathbf1$ and $\operatorname{FPdim}(b) > 1$. Then $\operatorname{Aut}_{\mathrm{alg}}(A_0) = \{\Id\}$.
+\end{lemma}
+
+\begin{proof}
+We omit the associativity and unit constraints in the following identities. Let $\epsi \co A_0 \to \mathbf1$ be the projection with $\epsi\eta = \Id_{\mathbf1}$. The pairing $\epsi\mu$ is nondegenerate by \cite[Remark 3.4 p.~7]{DMNO13}. Since $b \not \cong \mathbf1$, its restriction $e \co b\ot b \to \mathbf1$ is nonzero. Every algebra automorphism acts by the identity on $\mathbf1$ and by a scalar $\lambda$ on $b$. Multiplicativity on the component $b\ot b \to \mathbf1$ gives $\lambda^2 = 1$.
+
+Assume that $\lambda = -1$. The component of $\mu$ from $b\ot b$ to $b$ then vanishes. Associativity on $b\ot b\ot b$ gives $e\ot\Id_b = \Id_b\ot e$. By semisimplicity, choose $c \co \mathbf1 \to b\ot b$ with $ec = \Id_{\mathbf1}$. Composing the associativity identity with $c\ot\Id_b$ gives $(\Id_b\ot e)(c\ot\Id_b) = \Id_b$. Tensoring the same identity by $\Id_b$ on the left and composing with $c\ot\Id_b\ot\Id_b$ gives
+\[
+\Id_{b\ot b}
+= (\Id_b\ot e\ot\Id_b)(c\ot\Id_b\ot\Id_b)
+= (\Id_b\ot\Id_b\ot e)(c\ot\Id_b\ot\Id_b)
+= ce.
+\]
+Consequently $e$ and $c$ are inverse isomorphisms between $b\ot b$ and $\mathbf1$. But $\operatorname{FPdim}(b) > 1$. Hence $\lambda = 1$, which proves the assertion.
+\end{proof}
+
+Recall the connected \'etale algebra $A_0$ with underlying object $0\oplus b$ in $\cal C = Z(\cal H_3)$, unique up to isomorphism, and the corresponding extension $\Omega \subset V_N$ constructed above. Its nonvacuum summand has dimension $1+3d$, where $d = \frac{3+\sqrt{13}}{2}$. The correspondence between conformal extensions and their commutative algebra objects \cite{HKL15} identifies the automorphisms of $V_N$ fixing $\Omega$ pointwise with the automorphisms of $A_0\boxtimes\mathbf1$. The lemma therefore gives
+\begin{equation}
+\label{eq:relative-automorphism-N}
+\operatorname{Aut}(V_N/\Omega) = \{\Id\}.
+\end{equation}
+
+\begin{thm}
+\label{thm:five-dimension39-extensions}
+Up to isomorphism fixing $\Omega$, there are exactly five positive strongly rational conformal extensions $(T,\iota)$ with $\operatorname{FPdim}(\Rep(T)) = 39$. Three have extension algebras $L_i\boxtimes\mathbf1$, $i \in \{1,2,3\}$, and the other two have underlying object
+\begin{equation}
+\label{eq:two-mixed-extension-object}
+(0\boxtimes0)\oplus(b\boxtimes0)\oplus(c_1\boxtimes13)\oplus(c_1\boxtimes26).
+\end{equation}
+All five target vertex operator algebras are isomorphic to $V_K$. Exactly four of the five extensions contain the extension $V_N$ of $\Omega$, and its embedding over $\Omega$ is unique in each of these four extensions. Consequently, there are exactly five orbits of conformal embeddings $\Omega \to V_K$ under postcomposition by $\operatorname{Aut}(V_K)$.
+\end{thm}
+
+\begin{proof}
+We use Lemma \ref{lem:dimension39-algebra-objects} and the identification of the degree-zero algebra in the proof of Theorem \ref{thm:dimension39-extension-currents}. The three pure extension algebras are the three $L_i\boxtimes\mathbf1$ by \cite[Proposition 3.3 p.~16 and Theorem 3.9 p.~19]{Arh26b}. The algebras $L_2$ and $L_3$ contain $A_0$, whereas $L_1$ does not \cite[Proposition 3.5(3) p.~17]{Arh26b}. Every mixed extension algebra contains its pointed-degree-zero algebra, isomorphic to $A_0\boxtimes\mathbf1$, as proved above.
+
+In each of the three pure objects and in \eqref{eq:two-mixed-extension-object}, the summands $(0,0)$ and $(b,0)$ have multiplicity one. It follows that any algebra embedding of $A_0\boxtimes\mathbf1$ has the same underlying image, namely the sum of these two summands. If two such embeddings exist, they differ by an automorphism of $A_0\boxtimes\mathbf1$. This automorphism is the identity by \eqref{eq:relative-automorphism-N}. Thus the intermediate extension $V_N$ is unique whenever it exists. Moreover, every isomorphism of the resulting $\Omega$-extensions intertwines these embeddings of $V_N$.
+
+The correspondence of algebras in stages \cite[Proposition 3.16 p.~12]{DMNO13} now identifies the extensions containing $V_N$ with the extensions of $V_N$ having algebra dimension three. Since $\Rep(V_N)$ is pointed, their supports are isotropic subgroups of order three in $N'/N$. There are exactly four, listed in \eqref{eq:rootless-N-isotropic-lines}. Each subgroup is cyclic, so its multiplication is unique up to algebra isomorphism, since $H^2(\Z_3,\Cbb^\times) = 0$. The lattice extension construction \cite{Don93,HKL15} gives one positive strongly rational extension for each subgroup. Its determinant is $\frac{351}{3^2} = 39$, so it has the required global module dimension. Distinct subgroups give distinct extensions fixing $V_N$, and hence, by uniqueness of the intermediate embedding, distinct extensions fixing $\Omega$.
+
+Two of these four extensions are the ones attached to $L_2$ and $L_3$. Neither can be the $L_1$ extension, which does not contain $A_0$. The other two therefore both have the mixed underlying object \eqref{eq:two-mixed-extension-object}. This proves that there are four extensions containing $V_N$, together with precisely one further extension, attached to $L_1$.
+
+Each of the four even overlattices of $N$ has determinant $39$ and fourteen roots. Its discriminant form is $\ell^\perp/\ell$, where $\ell$ is the corresponding isotropic line of $N'/N$. Under the isometry $N'/N \cong A_Q \oplus A_K$ given by \eqref{eq:N-category-graph-factorization} below, the thirteen-primary part of $\ell^\perp/\ell$ is that of $(A_K,q_K)$, and its three-primary part is generated by a class of quadratic value $\frac23 = q_K(13)$, as one checks on the four lines of the proof of Theorem \ref{thm:four-image-orbits}. Thus the four overlattices are in the genus of $K$ \cite[Corollary 1.9.4]{Nik80}, and they are isometric to $K$ by Proposition \ref{prop:genus-K}, since $K^\flat$ has thirty roots. The accompanying script also checks these isometries directly. Their target vertex operator algebras are therefore all isomorphic to $V_K$. The target attached to $L_1$ is also $V_K$, by Corollary \ref{cor:three-categories}.
+
+Finally, every conformal embedding $\Omega \to V_K$ is an extension of the type just classified, since $\operatorname{FPdim}(\Rep(V_K)) = 39$. On extensions with the fixed target $V_K$, isomorphism fixing $\Omega$ is postcomposition by $\operatorname{Aut}(V_K)$. This proves the assertion.
+\end{proof}
+
+Precomposition by $\operatorname{Aut}(\Omega)$ defines a coarser equivalence relation on the five embeddings. It is determined in Subsection \ref{subsec:four-conformal-images}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Conformal images and current Weyl automorphisms}
+\label{subsec:four-conformal-images}
+
+We now allow precomposition by automorphisms of $\Omega$. In this equivalence relation, two conformal embeddings have equivalent images if an automorphism of $V_K$ maps the image of one onto the image of the other.
+
+\begin{lemma}
+\label{lem:weyl-action-on-N-modules}
+There is an involution $\sigma \in \operatorname{Aut}(\Omega)$ and an involution $w \in \operatorname{Aut}(V_N)$ extending $\sigma$ such that the induced permutation of the simple $V_N$-modules, under
+\begin{equation}
+\label{eq:N-category-graph-factorization}
+\Rep(V_N) \cong \cal C_{A_0}^0\boxtimes\cal P \cong \Rep(V_Q)\boxtimes\cal P,
+\end{equation}
+is the identity on $\Rep(V_Q)$ and inversion on $\cal P$.
+\end{lemma}
+
+\begin{proof}
+Choose current triples $e_j,f_j,h_j$, $j \in \{1,2\}$, for the two commuting affine $\mathfrak{sl}_2$-algebras in $U \subset V_Q$. Their zero modes act locally finitely on each homogeneous space of $V_Q$. Hence
+\[
+W = \prod_{j=1}^2
+\exp((e_j)_{(0)})\exp(-(f_j)_{(0)})\exp((e_j)_{(0)})
+\]
+is an automorphism of both $U$ and $V_Q$. The two factors commute and each sends $h_j$ to $-h_j$. Thus $W$ preserves the Cartan Heisenberg algebra, its commutants $\Omega$ and $V_N$, and the associated lattice algebra $V_L = \operatorname{Com}_U(\Omega)$. Put $w = W|_{V_N}$ and $\sigma = W|_\Omega$.
+
+The square of each Weyl representative on a finite-dimensional $\mathfrak{sl}_2$-module is $\exp(\pi\i(h_j)_{(0)})$. Every vector of $V_N$ has zero Cartan momentum, since $V_N$ is the Heisenberg commutant. Consequently $w^2 = \Id$ and $\sigma^2 = \Id$.
+
+We check the action in \eqref{eq:N-category-graph-factorization} on the vertex operator algebra extensions. The restriction of $W$ to $V_L$ sends its Heisenberg currents to their negatives, so it sends the simple lattice module of class $\alpha \in L'/L$ to the module of class $-\alpha$. The branching rule of $U$ over $\Omega\ot V_L$ therefore shows that $\sigma$ sends the pointed $\Omega$-module of label $p$ to that of label $-p$. Induction through the algebra $A_0\boxtimes\mathbf1$ embeds this same pointed factor into $\Rep(V_N)$, with objects $A_0\boxtimes p$. Since $w$ extends $\sigma$, twisting by $w$ sends the module induced from an $\Omega$-module $M$ to the module induced from the twist of $M$ by $\sigma$. Hence $w$ acts by inversion on this induced factor. It also preserves its braided centralizer, which is $\cal C_{A_0}^0$.
+
+The extension $V_N\ot V_L \subset V_Q$ has graph algebra $\mathbf1_{\cal C_{A_0}^0}\boxtimes G$, where $G$ is the graph algebra in $\cal P\boxtimes\cal C(L)$. Condensation gives the braided equivalence
+\[
+\cal C_{A_0}^0 \to \Rep(V_Q),\quad z \mapsto z\boxtimes G.
+\]
+This equivalence intertwines the actions of $w$ and $W$. Indeed, its equivariance is supplied by the automorphism $W$ of the extension $V_Q$, which preserves both $V_N$ and $V_L$ and hence its graph algebra with its multiplication.
+
+Finally the action of $W$ on $\Rep(V_Q)$ is tensor naturally isomorphic to the identity. On every ordinary $V_Q$-module, the same finite products of current-zero-mode exponentials implement the twist by $W$. These operators are compatible with intertwining operators: for a current $x$ and an intertwining operator $\mathcal Y$, the zero-mode commutator is $[x_{(0)},\mathcal Y(v,z)] = \mathcal Y(x_{(0)}v,z)$, and exponentiation gives the required compatibility coefficient by coefficient. The equivalence above therefore identifies the action on $\cal C_{A_0}^0$ with the identity on simple objects. Together with inversion on $\cal P$, this proves the assertion.
+\end{proof}
+
+\begin{prop}
+\label{prop:pointed-automorphism-section}
+Let $\chi \co \operatorname{Aut}(\Omega) \to O(\cal P)$ be the action on the pointed module labels by transport of structure. Then $\chi$ admits a section. More precisely, the two current Weyl representatives give commuting involutions $\sigma_1,\sigma_2 \in \operatorname{Aut}(\Omega)$ whose actions on $p \in \Z/39\Z$ are respectively $p \mapsto 14p$ and $p \mapsto 25p$.
+\end{prop}
+
+\begin{proof}
+Use the current realization with levels $(3,13)$ of the common Heisenberg commutant. Let $W_j = \exp((e_j)_{(0)})\exp(-(f_j)_{(0)})\exp((e_j)_{(0)})$ and put $\sigma_j = W_j|_\Omega$. The argument of Lemma \ref{lem:weyl-action-on-N-modules} applies to each factor separately. Each $W_j$ preserves $U$ and normalizes the Cartan Heisenberg algebra, hence preserves $\Omega$. Its square is $\exp(\pi\i(h_j)_{(0)})$, which is the identity on $\Omega$. The two representatives commute because the current algebras commute.
+
+In the case $(3,13)$ coordinates, a Cartan momentum $(m,n)$ has pointed label $p = 26m+21n$ modulo $39$. The first representative changes $m$ to $-m$ and the second changes $n$ to $-n$. Since
+\[
+14\cdot26 \equiv -26,\quad 14\cdot21 \equiv 21,\quad
+25\cdot26 \equiv 26,\quad 25\cdot21 \equiv -21\pmod {39},
+\]
+their actions on the pointed labels are multiplication by $14$ and $25$.
+
+An isometry of $(\Z/39\Z,q)$ is multiplication by a unit $u$ with $u^2 = 1$ modulo $39$. The four solutions are $1,14,25,38$. The commuting involutions $\sigma_1,\sigma_2$ therefore define a group homomorphism $s \co O(\cal P) \to \operatorname{Aut}(\Omega)$ by $s(14) = \sigma_1$ and $s(25) = \sigma_2$, and $\chi s = \Id$. This proves the assertion. The actions $14$ and $25$ of the two Weyl reflections on $L'/L$ and the surjectivity of $\chi$ are also in \cite[Lemma 12.1(4) p.~61 and Theorem 12.3(2) p.~64]{Arh26a}, and the proposition adds an explicit splitting by Weyl involutions of $\Omega$. Note that the involution $\sigma$ of Lemma \ref{lem:weyl-action-on-N-modules} is $\sigma_1\sigma_2 = s(38)$, which acts by inversion on the pointed labels.
+\end{proof}
+
+\begin{thm}
+\label{thm:four-image-orbits}
+There are exactly four $\operatorname{Aut}(V_K)$-orbits of conformal vertex subalgebras of $V_K$ isomorphic to $\Omega$. Three are represented by the extensions $L_i\boxtimes\mathbf1$, $i \in \{1,2,3\}$, and the fourth is represented by either of the two mixed extensions of Theorem \ref{thm:five-dimension39-extensions}.
+\end{thm}
+
+\begin{proof}
+By Theorem \ref{thm:five-dimension39-extensions}, there are five classes when the source $\Omega$ is fixed. Passing to images amounts to allowing precomposition by $\operatorname{Aut}(\Omega)$. We first show that the two mixed classes are identified by this action.
+
+Write the discriminant form of $Q = E_6\oplus A_2$ as $\frac{2e^2+t^2}{3}$ on $(\Z/3\Z)^2$. With $x = t+e$ and $y = t-e$, this is $\frac{xy}{3}$. The three-primary part of $\cal P$ is generated by the class $13$, of quadratic value $\frac23$. Thus the three-primary part of $\Rep(V_N)$ has quadratic form
+\[
+q_3(x,y,z) = \frac{xy+2z^2}{3}+\Z.
+\]
+Its four isotropic lines are generated by $(1,0,0)$, $(0,1,0)$, $(1,1,1)$ and $(1,1,-1)$. The first two are the pure extensions attached to $L_2$ and $L_3$, while the latter two are the mixed extensions. Lemma \ref{lem:weyl-action-on-N-modules} makes the action of $w$ on this group $(x,y,z) \mapsto (x,y,-z)$. Hence it fixes the two pure lines and exchanges the two mixed lines.
+
+The connected \'etale algebra supported on each of these cyclic isotropic lines is unique up to isomorphism. Twisting a mixed $V_N$-extension by $w$ therefore gives the other mixed extension. By the correspondence of vertex operator algebra extensions and their algebra objects, there is an isomorphism between their target algebras restricting to $w$ on $V_N$, hence to $\sigma$ on $\Omega$. Identifying both targets with $V_K$ shows that their images of $\Omega$ are conjugate.
+
+The three pure classes remain distinct even after precomposition by $\operatorname{Aut}(\Omega)$, by the argument following Corollary \ref{cor:three-categories}. Moreover a mixed class cannot become pure. The full pointed subcategory $\cal P \subset \Rep(\Omega)$ is intrinsic: it consists of all invertible objects. Every automorphism of $\Omega$ preserves $\cal P$ and its braided centralizer $\cal C\boxtimes\mathbf1$. A pure extension algebra lies in this centralizer, whereas a mixed extension algebra has the nonzero pointed components $\pm13$. Twisting by an automorphism preserves this distinction. Thus the five fixed-source classes give precisely three pure image classes and one mixed image class. This proves the assertion.
+\end{proof}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Invariant fields and operator products}
+\label{sec:invariant-fields}
+
+We keep the notation $\cal C = Z(\cal H_3)$ and $\cal P = \cal C(\Z/39\Z,q)$ of Section \ref{sec:explicit-K}, with $q(p) = \frac{17p^2}{39}+\Z$ and $\cal P \cong \cal C(K)$. This section determines the fields invariant under the three Haagerup actions of Corollary \ref{cor:three-categories}, their operator products, and the affine coset stresses which commute with them.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The invariant fields of the three canonical actions}
+\label{subsec:three-haagerup-actions}
+
+Put $\cal H = \cal H_3$. Write $\Omega_{z,p}$ for the simple modules in the factorization $\Rep(\Omega) \cong \cal C \boxtimes \cal P$, and let $E_p$ denote the simple $V_K$-module of label $p$. The diagonal bulk space is $\mathscr H = \bigoplus_p E_p \ot \overline{E_p}$.
+
+For $i \in \{1,2,3\}$, the lines preserving $\iota_i(\Omega)\ot\overline{\iota_i(\Omega)}$ are the $(L_i\boxtimes\mathbf1)$-bimodules in $\cal C\boxtimes\cal P$. Since $L_i\boxtimes\mathbf1$ is an external product, they form the category $\cal C_{L_i|L_i}\boxtimes\cal P$, where $\cal C_{L_i|L_i}$ is the category of $L_i$-$L_i$-bimodules in $\cal C$. By Section \ref{sec:full} and Corollary \ref{cor:three-categories}, the category $\cal C_{L_i|L_i}$ is generated by the two canonical Haagerup factors $\cal H_i\boxtimes\mathbf1\boxtimes\mathbf1$ and $\mathbf1\boxtimes\cal H_i^{\mathrm{op}}\boxtimes\mathbf1$ of the dual category $(\cal H_i\boxtimes\cal H_i^{\mathrm{op}})\boxtimes\cal D^{\mathrm{op}}$. We put
+\[
+\cal G_i = \cal C_{L_i|L_i}\boxtimes\mathbf1.
+\]
+A bulk field $v$ is \emph{invariant} under $\cal G_i$ if $D_Xv = d_Xv$ for every simple object $X$ of $\cal G_i$, where $D_X$ is the defect operator of $X$ and $d_X$ its positive dimension. Since $X \mapsto D_X$ is multiplicative, this means invariance under the simple lines of both canonical factors. We write $\mathscr H^{\cal H_i,\cal H_i}$ for the space of invariant fields.
+
+\begin{lemma}
+\label{lem:fusion-algebra-bulk-blocks}
+Let $\cal C$ be a unitary modular category and let $\cal L$ be a Lagrangian algebra in $\cal C$, a haploid special symmetric Frobenius algebra as in Section \ref{sec:full}. Put $n_z = \dim\operatorname{Hom}_{\cal C}(z,\cal L)$ and
+\[
+M_{z,z'} = \operatorname{Hom}_{\cal L|\cal L}\bigl(z\ot^+\cal L\ot^-z'^\vee,\cal L\bigr)
+\]
+for simple objects $z,z'$ of $\cal C$, where $z\ot^+\cal L\ot^-z'^\vee$ is the $\cal L$-$\cal L$-bimodule of \cite[Section 2.2]{FFRS07}. In the TFT construction for $(\cal C,\cal L)$, let $D_X$ be the defect operator of an $\cal L$-$\cal L$-bimodule $X$ on the bulk fields and let $d_X$ be its dimension. Then
+\[
+\bigl\{v \in M_{z,z'}:D_Xv = d_Xv\text{ for every simple }X\bigr\} =
+\begin{cases}
+M_{\mathbf1,\mathbf1} \cong \Cbb,&z = z' = \mathbf1,\\
+0,&\text{otherwise}.
+\end{cases}
+\]
+Moreover, with $\dim(\cal C_{\cal L|\cal L}) = \sum_Xd_X^2$, the operator $\frac1{\dim(\cal C_{\cal L|\cal L})}\sum_Xd_XD_X$ is an idempotent whose range is this space on each $M_{z,z'}$.
+\end{lemma}
+
+\begin{proof}
+We use the following facts of the TFT construction.
+\begin{enumerate}
+\item The space $M_{z,z'}$ is the multiplicity space of the bulk fields of type $(z,z')$ \cite[Section 2.2]{FFRS07}, with the convention of Section \ref{preliminaries} for the right label. Its dimension is the multiplicity of $z\boxtimes z'^\vee$ in the full center $Z(\cal L)$ \cite{KoR08}. Since $\cal L$ is commutative, its left and right centers are $\cal L$, and its only simple local module is $\cal L$, in $\cal C$ as in $\cal C^{\mathrm{rev}}$. Hence $Z(\cal L) \cong \cal L\boxtimes \cal L$ \cite[Theorem 2.5.1 p.~1328]{Dav10}, and $\cal L \cong \cal L^\vee$ \cite[Remark 3.4 p.~7]{DMNO13}. Thus $\dim M_{z,z'} = n_zn_{z'}$.
+\item The map $X \mapsto D_X$ is a representation, on each $M_{z,z'}$, of the complexified fusion algebra $\cal K$ of the fusion category $\cal C_{\cal L|\cal L}$ of $\cal L$-$\cal L$-bimodules \cite[Section 2.3]{FFRS07}.
+\item The operators $D_X$, for $X$ simple, are linearly independent on $\bigoplus_{z,z'}M_{z,z'}$. Indeed, the proof of \cite[Proposition 2.8]{FFRS07}, which applies since $\cal L$ is simple, is linear in the multiplicities of the simple bimodules and rests on the nondegeneracy of the matrix of \cite[Lemma 2.10]{FFRS07}, so that it applies to complex linear combinations.
+\item The number of simple $\cal L$-$\cal L$-bimodules is $\operatorname{tr}(ZZ^{\mathsf T}) = \sum_{z,z'}(\dim M_{z,z'})^2$ \cite[Remark 5.19(ii)]{FRS02}.
+\item The operator $D_X$ acts on the vacuum field by $d_X = \frac{\dim(X)}{\dim(\cal L)}$ \cite[Lemma 4.1]{FFRS07}, which is the Frobenius--Perron dimension of $X$ in $\cal C_{\cal L|\cal L}$, as in Remark \ref{rem:VK-lines}.
+\end{enumerate}
+The algebra $\cal K$ is semisimple, since $\cal C_{\cal L|\cal L}$ is a unitary fusion category, and its dimension is the number of simple bimodules. Write $\cal K \cong \bigoplus_k\operatorname{End}(S_k)$ with $s_k = \dim S_k$, so that $\dim\cal K = \sum_ks_k^2$, and let $m_{z,z',k}$ be the multiplicity of $S_k$ in $M_{z,z'}$. By 3, the representation on $\bigoplus_{z,z'}M_{z,z'}$ is faithful, so that every $k$ occurs in some $M_{z,z'}$. By 4,
+\[
+\dim\cal K = \sum_{z,z'}\Bigl(\sum_km_{z,z',k}s_k\Bigr)^2 \geq \sum_{z,z'}\sum_km_{z,z',k}^2s_k^2 \geq \sum_ks_k^2 = \dim\cal K.
+\]
+Hence both inequalities are equalities. Consequently, every nonzero $M_{z,z'}$ is irreducible, and two distinct nonzero spaces $M_{z,z'}$ and $M_{w,w'}$ are not isomorphic. Since $\cal L$ is connected, $M_{\mathbf1,\mathbf1}$ is one-dimensional, spanned by the vacuum, and by 5 it carries the character $X \mapsto d_X$. A nonzero vector $v$ of $M_{z,z'}$ with $D_Xv = d_Xv$ for every $X$ spans a subrepresentation isomorphic to this character. Thus $(z,z') = (\mathbf1,\mathbf1)$.
+
+For the last assertion, write $[X]$ for the basis element of $\cal K$ attached to $X$. Frobenius reciprocity gives $\sum_Yd_YN_{XY}^Z = d_Xd_Z$, so that $\Pi = \frac1{\dim(\cal C_{\cal L|\cal L})}\sum_Xd_X[X]$ satisfies $[X]\Pi = d_X\Pi = \Pi[X]$ and $\Pi^2 = \Pi$. Its range in any representation consists of the vectors on which every $[X]$ acts by $d_X$. This proves the assertion.
+\end{proof}
+
+\begin{prop}
+\label{prop:three-haagerup-invariant-spectra}
+Let $i \in \{1,2,3\}$, and identify the simple $V_K$-modules with $p \in \Z/39\Z$ through the local modules of $L_i\boxtimes\mathbf1$. Then
+\begin{equation}
+\label{eq:three-haagerup-invariants}
+\mathscr H^{\cal H_i,\cal H_i} = \bigoplus_{p \in \Z/39\Z}\Omega_{1,p}\ot\overline{\Omega_{1,p}}
+\end{equation}
+as conformally graded spaces, where $\Omega_{1,p}$ is the summand of $E_p$ of label $(\mathbf1,p)$. The invariant fields in $V_K\ot\overline{\mathbf1}$ form $\iota_i(\Omega)\ot\overline{\mathbf1}$. The graded space \eqref{eq:three-haagerup-invariants} does not depend on $i$.
+\end{prop}
+
+\begin{proof}
+Since $L_i\boxtimes\mathbf1$ is an external product, the structures of the TFT construction for $(\cal C\boxtimes\cal P,L_i\boxtimes\mathbf1)$ are external products of those for $(\cal C,L_i)$ and $(\cal P,\mathbf1)$. The multiplicity space of the bulk fields of type $((z,p),(z',p'))$ is $M_{z,z'}\ot M^{\cal P}_{p,p'}$, where $M^{\cal P}_{p,p'} = \operatorname{Hom}_{\cal P}(p\ot p'^\vee,\mathbf1)$, since bimodule morphisms over $L_i\boxtimes\mathbf1$ between external products factor. The defect operator of $X\boxtimes\mathbf1$ is $D_X\ot\Id$. Indeed, a defect operator is given by an explicit morphism built from the bulk morphism, the actions of the bimodule, braidings and dualities \cite[equation (4.14)]{FFRS07}. For $\cal C\boxtimes\cal P$ these structures are componentwise, and for the trivial algebra and the trivial bimodule of $\cal P$ the second component is the identity. By Lemma \ref{lem:fusion-algebra-bulk-blocks} applied to $(\cal C,L_i)$, a nonzero bulk field of type $((z,p),(z',p'))$ is invariant under $\cal G_i$ if and only if $z = z' = \mathbf1$. Since $M^{\cal P}_{p,p'}$ is one-dimensional for $p' = p$ and zero otherwise, the invariant fields are the fields of type $((\mathbf1,p),(\mathbf1,p))$, which occur with multiplicity one. In $E_p\ot\overline{E_p}$ they form $\Omega_{1,p}\ot\overline{\Omega_{1,p}}$. This proves \eqref{eq:three-haagerup-invariants}. A field of $V_K\ot\overline{\mathbf1}$ has type $((z,0),(\mathbf1,0))$, and it is invariant if and only if $z = \mathbf1$, that is, if it lies in $\iota_i(\Omega)\ot\overline{\mathbf1}$. The right-hand side of \eqref{eq:three-haagerup-invariants} is defined in terms of the fixed factorization of $\Rep(\Omega)$ only. This proves the assertion.
+\end{proof}
+
+The identifications of the local module labels used in Proposition \ref{prop:three-haagerup-invariant-spectra} may differ from a fixed discriminant labeling of $V_K$. This difference is an isometry of $(\Z/39\Z,q)$, where $q(p) = \frac{17p^2}{39}+\Z$. Every such isometry is multiplication by a unit $u$ satisfying $u^2 = 1$ modulo $39$, hence $u \in \{1,14,25,38\}$. These four permutations preserve the sets $\{\pm13\}$, $\{\pm3\}$ and $\{\pm4,\pm17\}$. Thus the following spectral conclusions also hold with a fixed lattice discriminant labeling. The same four isometries permute the sector triples of Proposition \ref{prop:haagerup-relevant-cubic-support} among themselves and preserve the subgroups $3\Z/39\Z$ and $13\Z/39\Z$, so that the statements below do not depend on the labeling.
+
+\begin{cor}
+\label{cor:haagerup-no-invariant-marginals}
+For each $i$, no nonzero vector of $(V_K)_1\ot\overline{\mathbf1}$ or of $\mathscr H_{1,1}$ is invariant under $\cal G_i$. In particular, no nonzero Narain tangent vector is invariant under these lines.
+\end{cor}
+
+\begin{proof}
+If a $V_K$-module $E_p$ contains a vector of integral weight, then its twist is one, so $39$ divides $17p^2$. Since $39$ is squarefree and coprime to $17$, this forces $p = 0$ modulo $39$. Hence $\mathscr H_{1,1} = (V_K)_1\ot\overline{(V_K)_1}$. By Proposition \ref{prop:three-haagerup-invariant-spectra}, the invariant vectors of $E_0\ot\overline{E_0}$ lie in $\iota_i(\Omega)\ot\overline{\iota_i(\Omega)}$, whose spaces of weights $(1,0)$ and $(1,1)$ vanish since $\Omega_1 = 0$. Current-current Narain perturbations form a subspace of $\mathscr H_{1,1}$. This proves the assertion.
+\end{proof}
+
+\begin{prop}
+\label{prop:all-haagerup-invariant-relevant-fields}
+For each $i \in \{1,2,3\}$, the nonvacuum scalar states of $\mathscr H^{\cal H_i,\cal H_i}$ of scaling dimension less than two have precisely the following dimensions:
+\begingroup
+\renewcommand{\arraystretch}{1.55}
+\[
+\begin{array}{c|c|c}
+(h,\overline h)&\Delta&\dim_{\Cbb}\mathscr H_{h,\overline h}^{\cal H_i,\cal H_i}\\
+\hline
+(\frac23,\frac23)&\frac43&2\\
+(\frac{12}{13},\frac{12}{13})&\frac{24}{13}&2\\
+(\frac{38}{39},\frac{38}{39})&\frac{76}{39}&4.
+\end{array}
+\]
+\endgroup
+Thus their total complex dimension is eight. The real vector space of Hermitian such scalar fields has dimension eight.
+\end{prop}
+
+\begin{proof}
+By \eqref{eq:three-haagerup-invariants}, it suffices to determine the spaces of $\Omega_{1,p}$ of weight less than one. For $p = 0$ only the vacuum occurs in this range. For $p \neq 0$, put $q_p = \frac{17p^2}{39}$ modulo $\Z$, with $0<q_p<1$. Strict positivity and the twist show that any weight of $\Omega_{1,p}$ below one must equal $q_p$.
+
+Use the case $(3,13)$ realization. In momentum coordinates $(m,n)$, the dual lattice is given by $m,n \in \Z$ with $m \equiv n$ modulo two, and its Heisenberg energy is
+\[
+e(m,n) = \frac{m^2}{12}+\frac{n^2}{52}.
+\]
+For the first dual generator of $L$, the second dual generator has class $24$ times that generator. Under the anti-isometry sending the first dual generator to $5g_K$, the pointed label of this momentum is therefore
+\[
+p(m,n) = 5\left(m+24\frac{m+n}{2}\right) \pmod {39}.
+\]
+Every class has a representative of energy at most $\frac{16}{13}$. The complete list of minima is obtained by enumerating $|m|\leq3$, $|n|\leq8$, subject to the parity condition and $e(m,n)\leq\frac{16}{13}$. These bounds are exhaustive, since any vector under this energy bound satisfies $m^2\leq\frac{192}{13}$ and $n^2\leq64$. The supplied rational-arithmetic script lists all thirty-nine classes. The only classes with minimum energy at least one are
+\[
+\begin{array}{c|c|c}
+p&\min e&\text{chosen minimum representatives}\\
+\hline
+\pm4,\ \pm17&\frac{40}{39}&(\pm1,\pm7)\\
+\pm12&\frac{16}{13}&(\pm3,\pm5).
+\end{array}
+\]
+For the first row all four signs give the four distinct pointed classes. For the second row the four momenta belong to the two indicated classes. These are chosen representatives attaining the minima. The other minimizing momenta are $(\pm2,\pm6)$ for the first row and $(0,\pm8)$ for the second row. The argument below applies to any minimizing momentum, and the multiplicities one and zero of the weights $(\pm2,\pm6)$ and $(0,\pm8)$ in $U_2$, coming from the primary type $V(2,6)$ and from the bound $b \leq 6$ on the second labels of summands whose first label is even, agree with those found below.
+
+Let $e_p$ be a minimum and choose a momentum attaining it. The branching decomposition of $U$ contains the entire module $\Omega_{1,p}$ tensored with its corresponding lattice module. At total grade $n_p = e_p+q_p$, its weight space at this fixed momentum is exactly the weight-$q_p$ space of $\Omega_{1,p}$: any Heisenberg oscillator or positive-grade $\Omega$ descendant would force a smaller, and hence negative, weight with the same fractional part. Here $n_p$ is one or two. Consequently that ambient weight multiplicity determines whether $q_p$ occurs and determines its dimension.
+
+If $e_p<1$ and $p\neq0$, then $n_p = 1$. The only nonzero root weights in $U_1$ are $(\pm2,0)$ and $(0,\pm2)$. They give $p = \pm13$ with $q_p = \frac23$, and $p = \pm3$ with $q_p = \frac{12}{13}$, respectively, each with multiplicity one.
+
+For the six remaining classes, $n_p = 2$. In case $(3,13)$ the affine-primary types in $U_2$ are
+\[
+(0,4),\ (1,1),\ (1,3),\ (1,5),\ (1,7),\ (2,2),\ (2,6),\ (3,3),
+\]
+each with multiplicity one, by \cite[Theorem 10.5 p.~30]{Arh26a}. The affine descendants have types $(4,0)$, $(2,0)$, $(0,4)$, $(0,2)$, $(2,2)$ and twice $(0,0)$, while the affine commutant contributes two further trivial copies. Thus each weight $(\pm1,\pm7)$ occurs once, and no weight $(\pm3,\pm5)$ occurs. This gives the four additional one-dimensional spaces at $p = \pm4,\pm17$, of weight $\frac{38}{39}$, and excludes $p = \pm12$.
+
+No other class can contribute below one. These spaces are lowest-weight spaces and are one-dimensional, so \eqref{eq:three-haagerup-invariants} gives the displayed scalar multiplicities. Hermitian conjugation interchanges $p$ and $-p$. The eight sectors form four pairs, and each pair contributes two real dimensions of Hermitian fields. This proves the assertion.
+\end{proof}
+
+The three spaces $\mathscr H^{\cal H_i,\cal H_i}$ are subspaces of the same bulk space $\mathscr H$ with the same graded dimensions, although the images of the embeddings $\iota_i$ are pairwise non-conjugate under $\operatorname{Aut}(V_K)$ by Theorem \ref{thm:four-image-orbits}. We do not determine their intersections.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Operator products for the canonical \texorpdfstring{$\cal H_3$}{H3} action}
+\label{subsec:invariant-relevant-ope}
+
+In this subsection and the next one we fix the canonical $\cal H_3$ action, with the case $(3,13)$ realization used for the pointed labels, and we write $\Phi_p$ for the invariant fields below.
+
+For $p \in \{\pm3,\pm4,\pm13,\pm17\} \subset \Z/39\Z$, choose a nonzero scalar lowest-weight field $\Phi_p$ in $\Omega_{1,p} \ot \overline{\Omega_{1,p}}$, with $\Phi_{-p} = \Phi_p^\dagger$. The chiral lowest-weight spaces are one-dimensional by Proposition \ref{prop:all-haagerup-invariant-relevant-fields}. We denote their weights by $h_p$. Thus $h_{\pm3} = \frac{12}{13}$, $h_{\pm13} = \frac23$ and $h_{\pm4} = h_{\pm17} = \frac{38}{39}$.
+
+\begin{lemma}
+\label{lem:pointed-invariant-bulk-product}
+The joint invariant state space in \eqref{eq:three-haagerup-invariants} is closed under the bulk operator product. Its multiplication has a nonzero component from sectors $p,q$ to sector $p+q$ for every $p,q \in \Z/39\Z$. A three-point function of fields in sectors $p,q,r$ vanishes unless $p+q+r = 0$.
+\end{lemma}
+
+\begin{proof}
+The extension algebra in $\Rep(\Omega) = \cal C \boxtimes \cal P$ is $\cal A_{\cal H} \boxtimes \mathbf1$. Regrouping the factors in the two chiral representation categories, its full center is the external product of the full center of $\cal A_{\cal H}$ in $\cal C$ and the diagonal algebra in $\cal P \boxtimes \cal P^{\mathrm{rev}}$. The joint invariant part in the first factor is its unit, by Proposition \ref{prop:three-haagerup-invariant-spectra}. Multiplication restricts to this unit, so the invariant bulk algebra is the image of the diagonal pointed algebra under the unit of the first full-center factor.
+
+The simple objects $\Omega_{1,p}$ are invertible and satisfy $\Omega_{1,p} \boxtimes_\Omega \Omega_{1,q} \cong \Omega_{1,p+q}$. In the diagonal pointed algebra, every such multiplication component is nonzero: its two chiral factors are the corresponding mutually dual isomorphisms between invertible simple objects. This proves closure and the assertion about multiplication. Finally a three-point function pairs the product with the vacuum. Its sector can be zero only when $p+q+r = 0$. This proves the assertion.
+\end{proof}
+
+\begin{prop}
+\label{prop:haagerup-relevant-cubic-support}
+Up to permutation, the only nonzero three-point functions among the eight nonvacuum joint invariant relevant fields have sector labels
+\[
+(13,13,13),\quad (-13,-13,-13),\quad (4,-17,13),\quad (-4,17,-13).
+\]
+Moreover, each of these four permitted three-point functions is nonzero. Every three-point function among the eight fields involving $\Phi_3$ or $\Phi_{-3}$ vanishes.
+\end{prop}
+
+\begin{proof}
+The sector condition of Lemma \ref{lem:pointed-invariant-bulk-product} gives the four displayed triples by addition in $\Z/39\Z$. It remains to prove that their coefficients on the lowest-weight vectors are nonzero.
+
+We first treat $(4,-17,13)$. Use the case $(3,13)$ realization of $U$. Let $e,f,h'$ be the level-three current triple, so $[e,f] = h'$ and $[h',e] = 2e$. By \cite[Theorem 10.5 p.~30]{Arh26a}, $U_2$ contains an affine-primary summand of type $V(1,7)$ with multiplicity one. Choose a highest-weight vector $u$ in this summand, of Cartan weight $(1,7)$, and put $a = f_{(0)}u$, of weight $(-1,7)$. The doublet relation gives $e_{(0)}a = u$.
+
+Let $\beta$ be a nondegenerate invariant bilinear form on $U$. The form pairs the irreducible summand $V(1,7)$ nondegenerately with itself. Choose $b$ in its weight space $(-1,-7)$ such that $\beta(b,u) \neq 0$. Both $a$ and $b$ are Virasoro-primary of weight two: positive Virasoro modes commute with the current zero modes and would map this summand to the absent type $V(1,7)$ in $U_1$ or $U_0$. Invariance and skew-symmetry give
+\[
+\beta(a_{(2)}b,e) = \beta(b,a_{(0)}e) = -\beta(b,e_{(0)}a) = -\beta(b,u) \neq 0.
+\]
+Indeed, the correction terms in $a_{(0)}e = -e_{(0)}a$ vanish because $a$ is affine-primary and $e_{(n)}a = 0$ for $n \geq 1$. The vector $a_{(2)}b$ belongs to the weight space $(-2,0)$ in $U_1$, which is spanned by $f$. Thus its coefficient on $f$ is nonzero.
+
+The pointed label of a momentum $(m,n)$ is $26m+21n$ modulo $39$, by the calculation in Proposition \ref{prop:all-haagerup-invariant-relevant-fields}. Therefore $a,b,f$ have pointed labels $4,-17,-13$, respectively. The Heisenberg ground-state energies of $a,b,f$ are $\frac{40}{39},\frac{40}{39},\frac13$. Their $\Omega$-weights are $\frac{38}{39},\frac{38}{39},\frac23$. In the Heisenberg factorization, the component just found is the product of the nonzero Heisenberg ground-state coefficient and the coefficient on the lowest-weight vector of $\Omega_{1,-13}$. Hence the latter coefficient is nonzero. The PCT operator of $U$ reverses the momenta and maps $a$, $b$, $f$ to vectors of labels $-4$, $17$, $13$, so the conjugate coefficient, which enters the antiholomorphic factor, is also nonzero. Lemma \ref{lem:pointed-invariant-bulk-product} now gives a nonzero bulk three-point function for $(4,-17,13)$. Hermitian conjugation gives the triple $(-4,17,-13)$.
+
+For $(13,13,13)$, the current $e$ has pointed label $13$ and factors into a lowest-weight vector of $\Omega_{1,13}$ and the Heisenberg ground vector of momentum $\lambda = \frac{h'}{3}$. In the simple affine algebra at level three, $e_{(-1)}^2\mathbf1$ is nonzero. For example, its squared Hermitian norm, with the usual root normalization, is $2 \cdot 3 \cdot (3-1) = 12$. Its Heisenberg momentum is $2\lambda$, of energy $\frac43$, while its total weight is two. Its $\Omega$-weight is therefore $\frac23$. Since $2\lambda+L = -\lambda+L$, this is the lowest-weight vector of $\Omega_{1,-13}$, with nonzero coefficient in the product of two lowest-weight vectors of $\Omega_{1,13}$. The bulk three-point function is nonzero by the same factorization argument. Conjugation gives $(-13,-13,-13)$. This proves the assertion.
+\end{proof}
+
+\begin{cor}
+\label{cor:weak-fields-quadratic-closure}
+Put $\cal W = \operatorname{span}_{\Cbb}\{\Phi_4,\Phi_{-4},\Phi_{17},\Phi_{-17}\}$. There is a nonzero constant $c_{\cal W}$ such that, for a Hermitian field
+\[
+X = g_4\Phi_4+\overline{g_4}\Phi_{-4}+g_{17}\Phi_{17}+\overline{g_{17}}\Phi_{-17},
+\]
+the relevant lowest-weight terms in $X(z,\overline z)X(0)$ are
+\[
+|z|^{-\frac{100}{39}}\left(2c_{\cal W}g_4\overline{g_{17}}\Phi_{-13}
++2\overline{c_{\cal W}}\overline{g_4}g_{17}\Phi_{13}\right).
+\]
+Consequently the nonvacuum relevant projection of this product is zero if and only if $g_4 = 0$ or $g_{17} = 0$. In particular, $\cal W$ is not closed under the relevant projection of the operator product.
+\end{cor}
+
+\begin{proof}
+The only sums of two labels in $\{\pm4,\pm17\}$ which belong to the relevant set are $4-17 = -13$ and $-4+17 = 13$. Their coefficients are nonzero by Proposition \ref{prop:haagerup-relevant-cubic-support}. The two ordered products give the factor two. The radial power is $\frac43-2\frac{76}{39} = -\frac{100}{39}$. Hermitian conjugation gives the displayed coefficients. The two output lines are linearly independent, and $c_{\cal W} \neq 0$, so both coefficients vanish precisely when $g_4\overline{g_{17}} = 0$. This proves the assertion.
+\end{proof}
+
+The mixed term gives a power divergence in a cutoff integral: the radial integral is proportional to $\int_\epsi^R r^{-\frac{61}{39}} dr$, whose leading term is proportional to $\epsi^{-\frac{22}{39}}$. Thus this nonzero operator-product coefficient gives a power-law ultraviolet contribution, and not a logarithmic coefficient of a renormalization-group equation.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Normalized invariant three-point functions}
+\label{subsec:normalized-haagerup-ope}
+
+We fix the canonical $\cal H_3$ action and the pointed labels used in Proposition \ref{prop:haagerup-relevant-cubic-support}. We normalize the scalar fields by
+\begin{equation}
+\label{eq:unit-invariant-two-point}
+\langle\Phi_p(z,\overline z)\Phi_{-p}(0)\rangle = |z|^{-4h_p},
+\quad \Phi_{-p} = \Phi_p^\dagger.
+\end{equation}
+The vacuum has norm one. For $p$ in the relevant set $\{\pm3,\pm4,\pm13,\pm17\}$, the lowest-weight space of $\Omega_{1,p}\ot\overline{\Omega_{1,p}}$ is one-dimensional. For nonzero vectors $\Psi_p$ in these lines, let $G_p$ be the coefficient of the two-point function of $\Psi_p$ and $\Psi_{-p}$. For $p$, $q$ and $p+q$ in the relevant set, let $m_{p,q}(\Psi)$ be the coefficient of $\Psi_{p+q}$ in the leading term of the operator product of $\Psi_p$ and $\Psi_q$. Put
+\begin{equation}
+\label{eq:rescaling-invariant-cubic}
+\rho_{p,q} = \frac{m_{p,q}(\Psi)m_{-p,-q}(\Psi)G_{p+q}}{G_pG_q}.
+\end{equation}
+Multiplying each $\Psi_p$ by a nonzero scalar does not change $\rho_{p,q}$. For fields normalized by \eqref{eq:unit-invariant-two-point}, the coefficient $m_{p,q}$ is the three-point constant $C_{p,q,-p-q}$, and Hermitian conjugation gives $m_{-p,-q} = \overline{m_{p,q}}$, hence $\rho_{p,q} = |C_{p,q,-p-q}|^2$. Here Hermitian conjugation is that of the diagonal lattice theory of $V_K$, transported through the identification below. On each chiral factor we use the positive definite Hermitian forms of the unitary modules $V_{\kappa+K}$ of the unitary vertex operator algebra $V_K$ \cite[Theorem 4.12 p.~24]{DoL14}. This Hermitian structure is used only to pass from $\rho_{p,q}$ to $|C_{p,q,-p-q}|$. Thus the normalized absolute values are determined by the bulk operator product and its vacuum functional, and they can be computed in any realization of these data. The same expression defines $\rho_{p,q}$ for nonzero vectors of a vertex operator algebra, with the vacuum coefficient of the product of $\Psi_p$ and $\Psi_{-p}$ in place of $G_p$.
+
+We compute these quantities in lattice realizations. Put $J_p = \Omega_{1,p}$, the invariant summand of $E_p = V_{\kappa_p+K}$ (Proposition \ref{prop:three-haagerup-invariant-spectra}). Let $B$ be the holomorphic extension of $U$ attached to $\cal H_3$, realized as $V_{E_8} \supset V_K\ot V_L$ as in Lemma \ref{lem:actual-lattice}. Fix a bimultiplicative map $\epsi^0_K \co K\times K \to \{\pm1\}$ with $\epsi^0_K(x,y)\epsi^0_K(y,x) = (-1)^{\langle x,y\rangle}$, put $\epsi_K(\kappa,\kappa') = \epsi^0_K(39\kappa,39\kappa')$ on $K'\times K'$, and define $\epsi_L$ on $L'\times L'$ in the same way. Let $\mathcal Y_K$ be the operator on $\bigoplus_{\kappa \in K'/K}V_{\kappa+K}$ given by the lattice vertex-operator formulas \cite[(6.4.62) p.~233 and (6.4.68) p.~234]{LL04} for the rational lattice $K'$, with the central extension of $K'$ by $\{\pm1\}$ defined by $\epsi_K$, and define $\mathcal Y_L$ in the same way. The map $\epsi_K$ restricts to $\epsi^0_K$ on $K\times K$. It also satisfies the mixed commutator identity
+\[
+\frac{\epsi_K(x,\kappa)}{\epsi_K(\kappa,x)}
+= (-1)^{39^2\langle x,\kappa\rangle}
+= (-1)^{\langle x,\kappa\rangle}
+\quad (x \in K,\ \kappa \in K'),
+\]
+since $\langle x,\kappa\rangle \in \Z$ and $39^2$ is odd. By the first identity, this central extension satisfies the condition \cite[(6.4.87) p.~237]{LL04}, so that the restrictions of $\mathcal Y_K$ give the standard $V_K$-module structures on the cosets $V_{\kappa+K}$ \cite[Theorem 6.5.20 p.~259]{LL04}. The same argument applies to $L$. Since $39^2$ is odd and $\langle K',K'\rangle$ and $\langle L',L'\rangle$ lie in $\frac1{39}\Z$, the map $\epsi(\kappa+\lambda,\kappa'+\lambda') = \epsi_K(\kappa,\kappa')\epsi_L(\lambda,\lambda')$ is a bimultiplicative cocycle on $E_8$ with commutator $(-1)^{\langle\alpha,\beta\rangle}$ for $\alpha,\beta \in E_8$. We realize $V_{E_8}$ with this cocycle, which changes it only up to isomorphism \cite[Proposition 6.5.5 p.~244]{LL04}. The exponential factors, the Heisenberg modes and the operators $z^\alpha$ factor for the orthogonal decomposition of $E_8\ot_\Z\R$ into $K\ot_\Z\R$ and $L\ot_\Z\R$. Hence, for $a \in V_{\kappa+K}$ and $a' \in V_{\lambda+L}$ with $\kappa+\lambda \in E_8$, the vertex operator of $a\ot a'$ in $B$ is $\mathcal Y_K(a,z)\ot\mathcal Y_L(a',z)$. Likewise, the diagonal theory of $V_K$ is the lattice full vertex algebra $F_{\Lambda_K,p}$ of the even self-dual lattice $\Lambda_K = \{(\alpha,\beta) \in K'\oplus K'(-1):\alpha-\beta \in K\}$, where $p$ is the orthogonal projection onto the positive definite subspace $(K'\oplus0)\ot_\Z\R$ \cite[Theorem 4.14 p.~43 and Section 5.4 p.~52]{Mor23}. Its lattice vertex operators are products of left and right factors given by the same formula, in $z$ and in $\overline z$, since the left and right Heisenberg modes commute and the right-moving form $-(\overline p\cdot,\overline p\cdot)$ is positive definite \cite[(4.2) and the definition of $e^\alpha(z)$, pp.~39--40]{Mor23}. The map $((\alpha,\beta),(\alpha',\beta')) \mapsto \epsi_K(\alpha,\alpha')\epsi_K(\beta,\beta')$ is a cocycle on $\Lambda_K$ with the required commutator, by the same parity argument. Identifying each right-moving Fock space with the corresponding left-moving one, the vertex operator of $a\ot\overline b$, for $a,b \in V_{\kappa+K}$, is therefore $\mathcal Y_K(a,z)\ot\mathcal Y_K(b,\overline z)$. The algebra of this full vertex algebra in $\cal C(K)\boxtimes\cal C(K)^{\mathrm{rev}}$ \cite{Kon07} is commutative, with underlying object $\bigoplus_pp\boxtimes p^\vee$ and nonzero homogeneous products. Its support is cyclic and $H^2(\Z_{39},\Cbb^\times) = 0$, so that it is isomorphic to the full center of the unit, as is the bulk algebra of Section \ref{sec:full}. The resulting isomorphism of full field algebras is linear over $V_K\ot\overline{V_K}$. It therefore preserves the lines $J_p\ot\overline{J_p}$ and rescales each of them by a nonzero scalar, which does not change \eqref{eq:rescaling-invariant-cubic}.
+
+Fix nonzero vectors $w_p$ in the lowest-weight lines of the modules $J_p$. Let $a_{p,q}$ be the component of $\mathcal Y_K(w_p,z)w_q$ along $w_{p+q}$, and let $g_p$ be the vacuum component of $\mathcal Y_K(w_p,z)w_{-p}$, both at the leading power of $z$. The quantity
+\[
+\rho^K_{p,q} = \frac{a_{p,q}a_{-p,-q}g_{p+q}}{g_pg_q}
+\]
+does not change when the vectors $w_p$ are rescaled. In $U$, choose momenta $\lambda,\mu \in L'$ in the classes attached to $p$ and $q$, and consider the vectors $w_{\pm p}\ot e^{\pm\lambda}$, $w_{\pm q}\ot e^{\pm\mu}$ and $w_{\pm(p+q)}\ot e^{\pm(\lambda+\mu)}$, where $e^\nu$ is the Heisenberg ground vector of momentum $\nu$. The component of $\mathcal Y_L(e^\lambda,z)e^\mu$ along its Heisenberg ground space is $\epsi_L(\lambda,\mu)z^{\langle\lambda,\mu\rangle}e^{\lambda+\mu}$, and its vacuum component for $\mu = -\lambda$ is $\epsi_L(\lambda,-\lambda)z^{-|\lambda|^2}\mathbf1$. The coefficients of $\mathcal Y_K(w_p,z)w_q$ lie in $J_{p+q}$. Indeed, the vertex operators of $U$ restrict to an intertwining operator of $\Omega\ot V_L$-modules from $J_p\ot V_{\lambda+L}$ and $J_q\ot V_{\mu+L}$ to $U$, which is $\mathcal Y_K\ot\mathcal Y_L$ by the factorization above. Since $J_p\boxtimes_\Omega J_q \cong J_{p+q}$ and $V_{\lambda+L}\boxtimes V_{\mu+L} \cong V_{\lambda+\mu+L}$, its image lies in the summand $J_{p+q}\ot V_{\lambda+\mu+L}$ of $U$, which occurs once in \eqref{eq:branching}. Taking the component along $e^{\lambda+\mu}$, whose coefficient $\epsi_L(\lambda,\mu)z^{\langle\lambda,\mu\rangle}$ is nonzero, proves the claim. The six vectors in $U$ are indexed by their momenta $\pm\lambda$, $\pm\mu$ and $\pm(\lambda+\mu)$, and not only by their pointed residue classes. In particular, when $p+q = -p$, the output momentum $\lambda+\mu$ need not equal the input-pairing momentum $-\lambda$. We define $\rho^U_{\lambda,\mu}$ using the multiplication coefficients for these three chosen momentum lines and their three vacuum pairings. It is invariant under independent rescaling of the six chosen vectors, by the same cancellation as in \eqref{eq:rescaling-invariant-cubic}. Since $U$ is a vertex subalgebra of $B$, factorization and bimultiplicativity give
+\[
+\begin{aligned}
+\rho^U_{\lambda,\mu}
+&= \frac{\epsi_L(\lambda,\mu)\epsi_L(-\lambda,-\mu)\epsi_L(\lambda+\mu,-\lambda-\mu)}{\epsi_L(\lambda,-\lambda)\epsi_L(\mu,-\mu)}\rho^K_{p,q}\\
+&= \epsi_L(\lambda,\mu)\epsi_L(\mu,\lambda)\rho^K_{p,q}.
+\end{aligned}
+\]
+The additional factor belongs to $\{1,-1\}$. In the bulk theory, the fields $w_p\ot\overline{w_p}$, where $\overline{w_p}$ denotes $w_p$ in the right-moving copy, give in the same way $\rho_{p,q} = (\rho^K_{p,q})^2$.
+
+Finally we use the unitarity of $U$. Let $c_{p,q}$ be the coefficient of a unit vector $x_{p+q}$ of the above form in the product of unit vectors $x_p$ and $x_q$ of the above form. These vectors are quasi-primary. The notation $c_{p,q}$ refers to the chosen momentum representatives and to these three lines in $U$. Since $\rho^U_{\lambda,\mu}$ does not depend on the scaling, we may compute it by choosing in each of the three opposite momentum lines the PCT conjugate of its chosen unit vector, independently. We denote the PCT operator by $\theta$. We choose $\mathfrak h$ stable under $\theta$, as in Section \ref{sec:inputs}. Then $\theta$ acts by $-1$ on the Hermitian currents of $\mathfrak h$, so that it reverses the Heisenberg momenta. The antilinear automorphism $\theta$ makes the coefficient for the three opposite momentum lines equal to $\overline{c_{p,q}}$. Let $(\cdot,\cdot)$ be the invariant bilinear form of $U$ determined by the Hermitian form and $\theta$, so that $(x,\theta(x)) = \norm{x}^2$ for any $x \in U$ \cite[Section 5]{CKLW18}. For a quasi-primary vector $x$ of weight $h$ and any $y \in U_h$, the invariance of $(\cdot,\cdot)$ shows that the vacuum coefficient of $Y(x,z)y$ at the power $z^{-2h}$ is $(-1)^h(x,y)$. Consequently the vacuum coefficient of the product of $x_p$ and $\theta(x_p)$ is $(-1)^h\norm{x_p}^2 = (-1)^h$, where $h \in \{1,2\}$ is the weight of $x_p$ in $U$. Hence $\rho^U_{\lambda,\mu} = \pm|c_{p,q}|^2$. In particular $\rho^U_{\lambda,\mu}$ and $\rho^K_{p,q}$ are real, and we obtain
+\[
+\rho_{p,q} = (\rho^K_{p,q})^2 = |c_{p,q}|^4.
+\]
+This equality uses the unitary structure of $U$ and no Hermitian structure on the bulk theory. Since $\rho_{p,q} = |C_{p,q,-p-q}|^2$ for the Hermitian structure fixed above, we obtain
+\begin{equation}
+\label{eq:bulk-chiral-coefficient-square}
+|C_{p,q,-p-q}| = |c_{p,q}|^2.
+\end{equation}
+
+\begin{prop}
+\label{prop:normalized-haagerup-cubic-coefficients}
+In the notation \eqref{eq:rescaling-invariant-cubic}, we have $\rho_{13,13} = \frac{16}9$ and $\rho_{4,-17} = \frac19$. With the normalization \eqref{eq:unit-invariant-two-point} and the Hermitian structure fixed above, and up to permutation of the insertions, the absolute values of the four nonzero relevant three-point constants are
+\[
+|C_{13,13,13}| = |C_{-13,-13,-13}| = \frac43,
+\quad
+|C_{4,-17,13}| = |C_{-4,17,-13}| = \frac13.
+\]
+All three-point constants whose label triples are not permutations of the displayed triples vanish among the eight nonvacuum relevant fields. The phases of the fields can be chosen, compatibly with Hermitian conjugation, so that the four displayed constants are positive.
+\end{prop}
+
+\begin{proof}
+For the mixed triple, choose a unit affine-primary highest-weight vector $u$ of type $V(1,7)$ in $U_2$, and put $a=f_{(0)}u$. The level-three doublet relation and unitarity give $\norm a = 1$. Choose the unit vector $b$ in the opposite extreme weight so that $|\beta(b,u)| = 1$, using the PCT conjugate of $u$ and the normalized invariant bilinear form $\beta$. The Ward calculation in Proposition \ref{prop:haagerup-relevant-cubic-support} gives $|\beta(a_{(2)}b,e)| = 1$. Since $|\beta(f,e)| = 3$ and $\norm f = \sqrt3$, the coefficient on the unit output $\frac{f}{\sqrt3}$ has absolute value $\frac1{\sqrt3}$.
+
+The three unit states $a$, $b$ and $\frac{f}{\sqrt3}$ are of the form $w_p\ot e^\lambda$ above, with $p = 4,-17,-13$. Hence $|c_{4,-17}| = \frac1{\sqrt3}$, and \eqref{eq:bulk-chiral-coefficient-square} gives the bulk value $\frac13$.
+
+For the cubic order-three channel, take the two unit inputs $\frac{e}{\sqrt3}$. The vector $e_{(-1)}^2\mathbf1$ has squared norm $12$, so the coefficient on its unit normalization is $\frac{\sqrt{12}}3 = \frac2{\sqrt3}$. Its momentum is $\frac{2h'}{3}$ and its $\Omega$ factor is the one-dimensional lowest-weight space of $J_{-13}$. Factoring the unit Heisenberg ground vector and using \eqref{eq:bulk-chiral-coefficient-square} gives the bulk value $\frac43$. Hermitian conjugation gives the two conjugate constants. The vanishing statements are those of Proposition \ref{prop:haagerup-relevant-cubic-support}. The values $\rho_{13,13} = |c_{13,13}|^4 = \frac{16}9$ and $\rho_{4,-17} = |c_{4,-17}|^4 = \frac19$ follow from the same computations and from the equality $\rho_{p,q} = |c_{p,q}|^4$ established before the proposition.
+
+Finally, multiplying $\Phi_{13}$, $\Phi_4$ and $\Phi_{17}$ by $e^{\i\varphi_{13}}$, $e^{\i\varphi_4}$ and $e^{\i\varphi_{17}}$ multiplies the two independent constants by $e^{3\i\varphi_{13}}$ and $e^{\i(\varphi_4-\varphi_{17}+\varphi_{13})}$. These two phases can be prescribed independently. Choosing the conjugate phases for the negative labels makes all four constants positive. This proves the assertion.
+\end{proof}
+
+In this phase convention, the relevant lowest-weight part of the product of the Hermitian weak field from Corollary \ref{cor:weak-fields-quadratic-closure} is
+\[
+\frac23 |z|^{-\frac{100}{39}}
+\left(g_4\overline{g_{17}}\Phi_{-13}+\overline{g_4}g_{17}\Phi_{13}\right).
+\]
+In terms of the level $k = 3$ of the current algebra containing $e$ and $f$, the two constants of Proposition \ref{prop:normalized-haagerup-cubic-coefficients} are $\frac{2(k-1)}{k}$ and $\frac1k$, by the norm $\norm{e_{(-1)}^2\mathbf1}^2 = 2k(k-1)$ and the values $|\beta(f,e)| = \norm f^2 = k$ used in its proof.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The invariant bulk algebra for the three actions}
+\label{subsec:universal-invariant-bulk-algebra}
+
+\begin{prop}
+\label{prop:three-invariant-bulk-algebras}
+For $i \in \{1,2,3\}$, let $F_i$ be the full bulk algebra attached to the extension algebra $L_i \boxtimes\mathbf1$ and let $F_i^{\mathrm{inv}}$ be its joint invariant subobject for the two canonical Haagerup factors. Then there are isomorphisms of unital algebras
+\begin{equation}
+\label{eq:universal-invariant-bulk-algebra}
+\begin{aligned}
+F_i^{\mathrm{inv}} & \cong \Gamma \ov{\mathrm{def}}{=} \mathbf1_{\cal C}\boxtimes\mathbf1_{\cal C^{\mathrm{rev}}}\boxtimes Z_{\cal P}(\mathbf1)\\
+& \cong \bigoplus_{p \in \Z/39\Z} \Omega_{1,p}\boxtimes\Omega_{1,p}^{\vee}.
+\end{aligned}
+\end{equation}
+Here $Z_{\cal P}(\mathbf1)$ has its diagonal algebra multiplication, not merely its underlying module object. These isomorphisms preserve the invariant bilinear forms after normalization of the vacuum two-point function to one. Consequently the invariant conformal full field algebras, and their normalized genus-zero vacuum correlation functions under these identifications, are isomorphic for the three actions.
+\end{prop}
+
+\begin{proof}
+Write $Z_i = Z_{\cal C}(L_i)$ and $\cal Z = Z_{\cal P}(\mathbf1)$. The full-center construction respects external tensor products, so after regrouping the factors we have an algebra isomorphism
+$F_i \cong Z_i\boxtimes \cal Z$.
+Indeed, in the construction $Z(A) = C_l(R(A))$ of \cite[Definition 2.6 p.~9]{KoR08}, the right adjoint $R$, its multiplication and the left-center idempotent all factor for an external product of modular categories. The image of the tensor product of the two idempotents is the external tensor product of their images. The induced multiplication and unit also factor. The isomorphism respects the canonical normalized-special Frobenius structures by \cite[Lemma 2.3(iii) p.~6]{KoR08}.
+
+The algebra $L_i$ is simple, so $Z_i$ is haploid by \cite[Proposition 2.7(ii) p.~9]{KoR08}. Its unique tensor-unit subobject is therefore the image of its unit $\eta_i$. The joint invariant condition selects the unit label in $\cal C$ on both chiral sides by Proposition \ref{prop:three-haagerup-invariant-spectra}. Hence its invariant subobject is precisely the image of
+$j_i = \eta_i\boxtimes\Id_{\cal Z} \co \Gamma \to Z_i\boxtimes \cal Z$.
+The unit relation gives $m_{Z_i}(\eta_i\ot\eta_i) = \eta_i$. Thus $j_i$ is a monomorphism of unital algebras, and its image has the multiplication of $\cal Z$. This proves \eqref{eq:universal-invariant-bulk-algebra}. The last direct sum is the diagonal algebra of \cite[equation (2.8) p.~8]{KoR08}, restricted to the pointed category $\cal P$.
+
+We verify the normalization explicitly. Let $\epsi_{Z_i}$ and $\epsi_{\cal Z}$ be the counits of the canonical normalized-special Frobenius structures. Recall that $\epsi_A\eta_A = \dim A$ in this normalization. Proposition 2.7(ii) of \cite{KoR08} gives
+$\dim Z_i = \operatorname{Dim}(\cal C)$ and $\dim \cal Z = \operatorname{Dim}(\cal P) = 39$.
+Consequently, with $\widehat\epsi_{F_i} = \frac{\epsi_{F_i}}{\dim F_i}$, we obtain
+\begin{equation}
+\label{eq:universal-invariant-vacuum-functional}
+\widehat\epsi_{F_i} j_i
+= \frac{\epsi_{Z_i}\eta_i}{\dim Z_i\dim \cal Z}\epsi_{\cal Z}
+= \frac1{39}\epsi_{\cal Z}.
+\end{equation}
+This is independent of $i$. If $\Delta_{\cal Z}$ denotes the normalized-special coproduct of $\cal Z$, the Frobenius structure determined by the restricted vacuum-normalized bilinear form has counit $\frac1{39}\epsi_{\cal Z}$ and coproduct $39\Delta_{\cal Z}$. Here $j_i$ is a homomorphism for multiplication and unit. Since $j_i$ intertwines the multiplications, the normalized bilinear form $\widehat\epsi_{F_i}m_{F_i}$ restricts to $\frac1{39}\epsi_{\cal Z}m_{\cal Z}$ on $\Gamma$. The latter is nondegenerate. The correspondence between algebra objects and conformal full field algebras in \cite[Theorem 3.11 p.~49 and Theorem 4.15 p.~62]{Kon07} therefore identifies their products and invariant bilinear forms. Iterated products paired with \eqref{eq:universal-invariant-vacuum-functional} give the same normalized genus-zero vacuum correlation functions. This proves the assertion.
+\end{proof}
+
+\begin{remark}\normalfont
+These isomorphisms depend on the fixed chiral algebra $\Omega$ and on the chosen factorization of $\Rep(\Omega)$, they do not identify the invariant subspaces inside a fixed copy of the lattice theory, and they concern genus-zero data only.
+\end{remark}
+
+The normalized absolute constants of Proposition \ref{prop:normalized-haagerup-cubic-coefficients} hold for each of the three canonical actions, under the common pointed labeling. Indeed, the isomorphisms of Proposition \ref{prop:three-invariant-bulk-algebras} preserve the products and the normalized bilinear forms, hence the quantities \eqref{eq:rescaling-invariant-cubic}, which are the squares of these absolute values.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Intermediate algebras of invariant fields}
+\label{subsec:invariant-intermediate-bulk-algebras}
+
+Fix $i \in \{1,2,3\}$ and let $\mathscr F$ be the finite-energy part of $\mathscr H^{\cal H_i,\cal H_i}$. We use the pointed coordinates in which
+\begin{equation}
+\label{eq:invariant-bulk-pointed-components}
+\mathscr F = \bigoplus_{p \in \Z/39\Z}\mathscr F_p,
+\quad \mathscr F_p = \Omega_{1,p}\ot\overline{\Omega_{1,p}}.
+\end{equation}
+An intermediate algebra of fields means a linear subspace $\mathscr E$ with $\mathscr F_0 \subset \mathscr E \subset \mathscr F$, stable under the two $\Omega$ actions and closed under every coefficient of the bulk operator product. We work with algebraic finite-energy spaces. Each $\mathscr F_p$ is an irreducible module for the two commuting chiral actions, and these modules are pairwise inequivalent.
+
+For $p \in \{4,17\}$ and a Hermitian field $X = gv_p+\overline gv_{-p}$ with $g \neq 0$ and $v_{-p} = v_p^\dagger$, put $\mathscr F^{[0]} = \mathscr F_0$. Let $\mathscr F^{[1]}$ be the submodule generated by $\mathscr F_0$ and $X$. Recursively, let $\mathscr F^{[n]}$ be the submodule generated by the coefficients of products of a state of $\mathscr F^{[n-1]}$ with a state of $\mathscr F^{[1]}$. Thus neutral chiral fields and their modes are allowed throughout the filtration.
+
+\begin{prop}
+\label{prop:four-invariant-intermediate-algebras}
+\begin{enumerate}
+\item The intermediate algebras of invariant fields are exactly
+\begin{equation}
+\label{eq:four-invariant-intermediate-algebras}
+\mathscr F_H = \bigoplus_{p \in H}\mathscr F_p,
+\quad
+H \in \bigl\{\{0\},\ 13\Z/39\Z,\ 3\Z/39\Z,\ \Z/39\Z\bigr\}.
+\end{equation}
+Each is closed under Hermitian conjugation, and inclusion of these algebras agrees with inclusion of their supporting subgroups.
+\item Let $p \in \Z/39\Z$ and let $v_p \in \mathscr F_p$ be nonzero. The algebra of fields generated by $\mathscr F_0$ and $v_p$ is $\mathscr F_{\langle p\rangle}$. If $p \neq -p$ and $v_{-p} = v_p^\dagger$, the same holds for the Hermitian field $X = gv_p+\overline gv_{-p}$ whenever $g \neq 0$. In particular, every nonzero Hermitian combination from either one of the pairs $\{\Phi_4,\Phi_{-4}\}$ and $\{\Phi_{17},\Phi_{-17}\}$ generates $\mathscr F$ over $\mathscr F_0$, a field in sector $13$ generates the three-sector intermediate algebra, and a field in sector $3$ generates the thirteen-sector intermediate algebra. These two algebras together generate $\mathscr F$.
+\item For $p \in \{4,17\}$, the filtration defined above satisfies, for every integer $n \geq 0$,
+\begin{equation}
+\label{eq:weak-generation-filtration}
+\mathscr F^{[n]} = \bigoplus_{\substack{r \in \Z/39\Z\\ \ell_p(r) \leq n}}\mathscr F_r,
+\quad
+\ell_p(r) = \min\{|k|:k \in \Z,\ kp = r \text{ in }\Z/39\Z\}.
+\end{equation}
+Consequently $\mathscr F^{[19]} = \mathscr F$, whereas $\mathscr F^{[18]}$ is proper.
+\end{enumerate}
+\end{prop}
+
+\begin{proof}
+1. The decomposition \eqref{eq:invariant-bulk-pointed-components} is multiplicity-free. Since $\Omega$ is strongly rational, every submodule of this finite direct sum is a sum of the displayed simple modules. Thus an intermediate algebra has the form $\mathscr E = \bigoplus_{p \in S}\mathscr F_p$ for a subset $S \subset \Z/39\Z$ containing zero.
+
+The multiplication component from $\mathscr F_p$ and $\mathscr F_q$ to $\mathscr F_{p+q}$ is nonzero. For the canonical $\cal H_3$ action this is Lemma \ref{lem:pointed-invariant-bulk-product}. The same statement holds for each of the other two actions: the full-center factorization for $L_i\boxtimes\mathbf1$ restricts on the joint invariant block to the unit of the first factor and the diagonal pointed algebra in the second factor. Its multiplication between invertible simple components is nonzero.
+
+If $p,q \in S$, closure under the operator product therefore gives a nonzero vector in $\mathscr F_{p+q}$. Stability under the two chiral actions and irreducibility give $\mathscr F_{p+q} \subset \mathscr E$. Hence $S+S \subset S$. A finite subset of a group containing zero and closed under addition is a subgroup: for $p \in S$, repeated addition contains $(\operatorname{ord}(p)-1)p = -p$. Conversely, the sector-addition rule shows that $\mathscr F_H$ is closed under products whenever $H$ is a subgroup. Conjugation maps $\mathscr F_p$ to $\mathscr F_{-p}$, so it preserves each such algebra. The cyclic group of order $39 = 3\cdot13$ has exactly the four subgroups in \eqref{eq:four-invariant-intermediate-algebras}.
+
+2. The smallest intermediate algebra containing $v_p$ contains $\mathscr F_p$, by irreducibility. Part 1 identifies its support with the smallest subgroup containing $p$, which is $\langle p\rangle$.
+
+For the Hermitian field $X$, its projections onto the inequivalent simple modules $\mathscr F_p$ and $\mathscr F_{-p}$ are both nonzero. The chiral submodule generated by $X$ is therefore their direct sum. The first assertion applies. Finally $4$ and $17$ are units modulo $39$, while $13$ and $3$ have orders three and thirteen, respectively. The last assertion follows from $\langle3,13\rangle = \Z/39\Z$.
+
+3. For $n = 0$ the assertion is the definition. For $n = 1$, the two inequivalent projections of $X$ generate $\mathscr F_p\oplus\mathscr F_{-p}$, so the assertion follows. Suppose that it holds at $n-1$. The sector-addition rule bounds the support of $\mathscr F^{[n]}$ by the residues $kp$ with $|k| \leq n$. Conversely, every residue in this set is a sum of a residue $jp$ with $|j| \leq n-1$ and one of $0,p,-p$. The nonzero multiplication component between the corresponding entire modules has image generating the simple target module. This proves \eqref{eq:weak-generation-filtration} by induction.
+
+Since $p$ is a unit modulo $39$, the residues $kp$ for $-19 \leq k \leq19$ are all distinct and exhaust $\Z/39\Z$. Restricting to $-18 \leq k \leq18$ leaves two residues absent. This proves the assertion.
+\end{proof}
+
+For a product containing only $n$ insertions from the lowest-weight pair $\Phi_p,\Phi_{-p}$, the sector rule gives the necessary bound $n \geq \ell_p(r)$ for an output in sector $r$. For $p \in \{4,17\}$, these bounds on the other relevant sectors are
+\begingroup
+\renewcommand{\arraystretch}{1.35}
+\[
+\begin{array}{c|c|c}
+\text{initial pair}&\text{output sectors}&\text{necessary number of insertions}\\
+\hline
+\pm4&\pm3&9\\
+\pm4&\pm13&13\\
+\pm4&\pm17&14\\
+\pm17&\pm3&9\\
+\pm17&\pm13&13\\
+\pm17&\pm4&14.
+\end{array}
+\]
+\endgroup
+Indeed, the inverses of $4$ and $17$ modulo $39$ are $10$ and $23$. These values give the table by taking the least absolute residue.
+
+The filtration \eqref{eq:weak-generation-filtration} allows arbitrary neutral chiral insertions and modes, so its equality uses products of complete simple modules. It does not identify a nonzero lowest-weight scalar coefficient of a product containing only $n$ copies of the original weak fields. The table gives necessary sector bounds for such products. For products of a single weak pair, the corresponding lowest-weight coefficients vanish for every number of insertions, by Corollary \ref{cor:single-weak-pair-selection}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The affine coset stress and the relevant fields}
+\label{subsec:invariant-spectator-stress}
+
+Use the case $(3,13)$ realization of $U$, and let $\omega_3,\omega_{13}$ be the Sugawara conformal vectors of its two simple affine current algebras. Let $\omega_{H,3},\omega_{H,13}$ be the two Cartan Heisenberg conformal vectors. Put
+\[
+\omega_B = \omega_U-\omega_3-\omega_{13},\quad
+\omega_{P,3} = \omega_3-\omega_{H,3},\quad
+\omega_{P,13} = \omega_{13}-\omega_{H,13}.
+\]
+The last two vectors are the conformal vectors of the parafermion algebras $K(\mathfrak{sl}_2,3)$ and $K(\mathfrak{sl}_2,13)$ in $\Omega$.
+
+\begin{prop}
+\label{prop:invariant-fields-spectator-stress}
+The vectors $\omega_B,\omega_{P,3},\omega_{P,13}$ belong to $\Omega$, are pairwise commuting unitary Virasoro vectors and satisfy
+\[
+\omega_\Omega = \omega_B+\omega_{P,3}+\omega_{P,13},\quad
+c_B = \frac{18}{5},\quad c_{P,3} = \frac45,\quad c_{P,13} = \frac85.
+\]
+On the chiral lowest-weight vectors of the eight invariant relevant scalar fields, their respective zero-mode eigenvalues are
+\begingroup
+\renewcommand{\arraystretch}{1.55}
+\[
+\begin{array}{c|c|c|c}
+p&L_B(0)&L_{P,3}(0)&L_{P,13}(0)\\
+\hline
+\pm13&0&\frac23&0\\
+\pm3&0&0&\frac{12}{13}\\
+\pm4,\ \pm17&\frac45&\frac1{15}&\frac7{65}.
+\end{array}
+\]
+\endgroup
+The four fields with labels $\pm3,\pm13$ have regular operator product with the left and right spectator stresses $\omega_B,\overline{\omega_B}$. Among the eight-dimensional invariant relevant space, these four lines are precisely the joint kernels of $L_B(0)$ and $\overline{L_B(0)}$.
+\end{prop}
+
+\begin{proof}
+The affine subalgebras commute. Their Sugawara conformal vectors have central charges $\frac95$ and $\frac{13}{5}$, and their Cartan Heisenberg vectors have central charge one. The affine coset vector $\omega_B$ commutes with both affine subalgebras, as in \cite[Corollary 9.2 p.~26]{Arh26a}. Each parafermion vector commutes with both Cartan Heisenberg algebras. Thus the three displayed vectors lie in $\Omega$, commute with one another, and sum to $\omega_\Omega$. The central charges follow by subtraction. The PCT operator of $U$ preserves the normalized invariant form on $U_1$, hence each simple ideal of $U_1$, since the two levels are distinct. It also preserves $\mathfrak h$. Hence it fixes the Sugawara and Cartan Heisenberg conformal vectors, and therefore the three displayed vectors. These vectors are quasi-primary, so that their modes satisfy $L(n)^* = L(-n)$ \cite[Section 5]{CKLW18}.
+
+The fields with labels $p = \pm13$ are obtained by factorizing the level-three root currents, which belong to the affine subalgebra $L_{\mathfrak{sl}_2}(3,0)$. The spectator modes $L_B(n)$, $n \geq -1$, vanish on these currents, since $\omega_B$ commutes with this affine subalgebra. Factoring out the Cartan Heisenberg ground vectors gives the same vanishing on their $\Omega$ factors. Their $K(\mathfrak{sl}_2,3)$ weight is $1-\frac13 = \frac23$, while their $K(\mathfrak{sl}_2,13)$ weight is zero. This proves the first row and regularity with $\omega_B$. Applying the same argument to the level-thirteen root currents proves the second row, with parafermion weight $1-\frac1{13} = \frac{12}{13}$.
+
+For the four remaining fields, use the unique affine-primary type $V(1,7)$ in $U_2$. Its Sugawara weight is
+\[
+\frac{1(1+2)}{4(3+2)}+\frac{7(7+2)}{4(13+2)} = \frac3{20}+\frac{21}{20} = \frac65.
+\]
+Consequently its spectator weight is $2-\frac65 = \frac45$. Its four extremal weights $(\pm1,\pm7)$ give the relevant labels $\pm4,\pm17$. Subtracting the Cartan energies gives parafermion weights $\frac3{20}-\frac1{12} = \frac1{15}$ and $\frac{21}{20}-\frac{49}{52} = \frac7{65}$. These sum with $\frac45$ to $\frac{38}{39}$, as required. These are simultaneous eigenvectors because the affine-primary decomposition and Cartan factorization diagonalize all three operators. The same calculation holds in the anti-holomorphic factor.
+
+The first four relevant lines have spectator weight zero, and the remaining four have spectator weight $\frac45$. Their direct-sum decomposition therefore gives the asserted joint kernel. This proves the assertion.
+\end{proof}
+
+\begin{remark}\normalfont
+\label{cor:spectator-central-charge-bound}
+Let $\omega_{\mathrm{tot}}$ be the conformal vector of a unitary theory containing $\omega_B$ as a commuting conformal component, that is, such that $\omega_{\mathrm{tot}}-\omega_B$ is a unitary Virasoro vector commuting with $\omega_B$. Then the squared Hermitian norm of $\omega_{\mathrm{tot}}-\omega_B$ is $\frac12(c_{\mathrm{tot}}-\frac{18}{5})$, so that $c_{\mathrm{tot}} \geq \frac{18}{5}$. In particular, a unitary infrared endpoint at which this spectator stress survives as such a component cannot have central charge two.
+\end{remark}
+
+Proposition \ref{prop:invariant-fields-spectator-stress} is an identity in the undeformed vertex operator algebra. It identifies the four-dimensional subspace of relevant invariant fields which commute with a charge-$\frac{18}{5}$ spectator stress. The weak fields of scaling dimension $\frac{76}{39}$ have nonzero spectator weight and hence supply the relevant invariant directions which can break this spectator condition.
+
+The coset vector admits a finer decomposition. By \cite[Theorem 10.5 p.~30]{Arh26a}, we have $\omega_B = \omega_{B,1}+\omega_{B,2}$, where $\omega_{B,1}$ and $\omega_{B,2}$ are commuting Virasoro vectors of central charges $\frac{182}{95}$ and $\frac{32}{19}$, and their weights are $\frac{56}{95}$ and $\frac{4}{19}$ on each of the primary lines of types $V(1,7)$ and $V(2,6)$ in $U_2$. These two vectors commute with the affine subalgebra, hence belong to $\Omega$. They act on the whole affine-primary summand of type $V(1,7)$ by these scalars, hence on the $\Omega$ factor of each of its extremal weight vectors. Consequently, on the chiral lowest-weight vectors with labels $\pm4,\pm17$ the operators $L_{B,1}(0)$ and $L_{B,2}(0)$ have the eigenvalues $\frac{56}{95}$ and $\frac{4}{19}$, whose sum is $\frac45$, whereas on the labels $\pm3,\pm13$ both vanish, as in the proof of Proposition \ref{prop:invariant-fields-spectator-stress}. Thus each of the two components separately distinguishes the four weak fields from the four other relevant fields. If only one of the two components survives as a commuting unitary conformal component, the argument of Remark \ref{cor:spectator-central-charge-bound} gives only $c_{\mathrm{tot}} \geq \frac{182}{95}$ or $c_{\mathrm{tot}} \geq \frac{32}{19}$, and both bounds are smaller than two. A second spectator stress, of central charge $\frac{170}{41}$, is described in Proposition \ref{prop:second-spectator-stress}.
+
+\paragraph{A second spectator stress}
+By \cite[Theorem 12.3(1) and (3) p.~64]{Arh26a}, the algebra $\Omega$ is the Heisenberg commutant of a Haagerup algebra whose currents have levels $(1,39)$, namely $U$ or its twin. We denote it by $U^\natural$ in this subsection. Let $\omega_1^\natural$ and $\omega_{39}^\natural$ be the Sugawara conformal vectors of its two simple affine current algebras and put $\omega_B^\natural = \omega_{U^\natural}-\omega_1^\natural-\omega_{39}^\natural$. As in the proof of Proposition \ref{prop:invariant-fields-spectator-stress}, this vector commutes with both affine subalgebras, hence belongs to $\Omega$, and it is a Virasoro vector of central charge $8-1-\frac{117}{41} = \frac{170}{41}$ \cite[Corollary 9.2 p.~26]{Arh26a}. We write $L_B^\natural(n)$ for its modes.
+
+\begin{prop}
+\label{prop:second-spectator-stress}
+On the chiral lowest-weight vectors of the eight invariant relevant scalar fields, the operator $L_B^\natural(0)$ vanishes on exactly one of the two contragredient pairs of weight $\frac{38}{39}$. It has the eigenvalue $\frac{23}{41}$ on the other pair of weight $\frac{38}{39}$ and on the pair of weight $\frac23$, and the eigenvalue $\frac{33}{41}$ on the pair of weight $\frac{12}{13}$. The two fields of the first pair have regular operator product with $\omega_B^\natural$ and $\overline{\omega_B^\natural}$. Consequently, each of the eight invariant relevant fields has regular operator product with the left and right copies of a Virasoro vector of $\Omega$ of central charge at least $\frac{18}{5}$.
+\end{prop}
+
+\begin{proof}
+We use the momentum coordinates $(m,n)$ given by the weights of the level-one and level-$39$ Cartan currents of $U^\natural$. The dual lattice of the associated lattice consists of the pairs with $m \equiv n$ modulo two, and the Heisenberg energy is
+\[
+e^\natural(m,n) = \frac{m^2}{4}+\frac{n^2}{156}.
+\]
+For the first Gram matrix in \eqref{eq:binary-grams}, the second dual generator has class $37$ times the first one. Under the anti-isometry sending the first dual generator to $2g_K$, the pointed label of $(m,n)$ is therefore $2(m+37\frac{m+n}{2}) \equiv -2n$ modulo $39$. This labeling differs from that of Subsection \ref{subsec:three-haagerup-actions} by an isometry of $(\Z/39\Z,q)$. Such an isometry preserves the sets $\{\pm13\}$, $\{\pm3\}$ and $\{\pm4,\pm17\}$, but it may exchange $\{\pm4\}$ and $\{\pm17\}$. The argument of the proof of Proposition \ref{prop:all-haagerup-invariant-relevant-fields} identifies the lowest-weight space of $\Omega_{1,p}$ with the weight space of $U^\natural$ at a minimizing momentum of the class $p$, in the total grade $e_p^\natural+q_p$.
+
+The level-$39$ root currents have momenta $(0,\pm2)$, energy $\frac1{39}$ and labels $\mp4$. Hence their $\Omega$ factors span the lowest-weight spaces of a contragredient pair of weight $\frac{38}{39}$. Since $\omega_B^\natural$ commutes with the affine subalgebras, the modes $L_B^\natural(n)$, $n \geq -1$, vanish on these currents and on their $\Omega$ factors. This gives the vanishing of $L_B^\natural(0)$ and the regularity for this pair.
+
+For the labels $\pm13$ and $\pm17$, the minimal energies are $\frac43$ and $\frac{40}{39}$, attained exactly at $(\pm1,\pm13)$ and $(\pm1,\pm11)$, and the total grade is two. By \cite[Table 2 p.~24]{Arh26a}, the affine-primary type $V(1,13)$ occurs once in $U_2^\natural$. It is the only type in $U_2^\natural$ containing these weights, since the other types have a first label in $\{0,2\}$ or a second label at most $7$. Hence these lowest-weight vectors are the $\Omega$ factors of vectors of this summand, on which $L_B^\natural(0)$ acts by
+\[
+2-\frac{1 \cdot 3}{12}-\frac{13 \cdot 15}{164} = 2-\frac14-\frac{195}{164} = \frac{23}{41}.
+\]
+For the labels $\pm3$, the minimal energy is $\frac{27}{13}$, attained only at $(0,\pm18)$, and the total grade is three. A positive current mode maps a vector of momentum $(0,\pm18)$ to a vector of grade at most two whose second Cartan label has absolute value at least $16$. Such a vector vanishes, since the second labels in $U_1^\natural$ and $U_2^\natural$ are at most $2$ and $13$ \cite[Table 2 p.~24]{Arh26a}. Thus the one-dimensional weight space is spanned by an affine-primary vector. Its type is $V(0,b)$ with $b$ even and $b \geq 18$, by integrability at level one and the parity of $m = 0$. There is no vector of momentum $(0,20)$ in $U_3^\natural$: its Heisenberg energy would be $\frac{100}{39}$ and its pointed label $-1$. A positive Heisenberg oscillator grade would leave a negative $\Omega$ weight. Thus its $\Omega$ factor would have weight $\frac{17}{39}$, contrary to Proposition \ref{prop:all-haagerup-invariant-relevant-fields}. The same argument excludes momentum $(0,-20)$. If $b \geq 20$, the finite-dimensional module $V(0,b)$ would contain such a weight at grade three. Hence $b = 18$. The spectator eigenvalue is therefore $3-\frac{18\cdot20}{164} = \frac{33}{41}$.
+
+Finally, the involution $\sigma_1$ of Proposition \ref{prop:pointed-automorphism-section} acts on the pointed labels by multiplication by $14$, which exchanges $\{\pm4\}$ and $\{\pm17\}$. For an $\Omega$-module $M$, let $M \circ \sigma_1$ denote the same space with the vertex operators $Y_M(\sigma_1(a),z)$. Since $\sigma_1^2 = \Id$, the vector $\sigma_1(\omega_B^\natural)$ acts on $M \circ \sigma_1$ as $\omega_B^\natural$ acts on $M$. Hence $\sigma_1(\omega_B^\natural)$ is a Virasoro vector of central charge $\frac{170}{41}$ with regular operator product with the fields of the other pair of weight $\frac{38}{39}$. Together with Proposition \ref{prop:invariant-fields-spectator-stress} for the labels $\pm3$ and $\pm13$, and the inequality $\frac{18}{5} < \frac{170}{41}$, this proves the assertion.
+\end{proof}
+
+The argument of Remark \ref{cor:spectator-central-charge-bound} uses only the unitarity of the complementary Virasoro vector $\omega_{\mathrm{tot}}-s$ for a spectator stress $s$. It therefore applies to $s = \omega_B^\natural$ and to $s = \sigma_1(\omega_B^\natural)$, and gives the bound $\frac{170}{41}$ for an endpoint at which one of them survives as a commuting conformal component. The kernels of the two spectator stresses on the invariant relevant space are different.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{cor}
+\label{cor:single-weak-pair-selection}
+Fix one of the two weak pairs $\{\Phi_4,\Phi_{-4}\}$ or $\{\Phi_{17},\Phi_{-17}\}$. Every coefficient of every finite iterated bulk operator product made from this pair and the vacuum has its nonvacuum relevant projection in the span of the same pair. In particular, its coefficients on the six other invariant relevant lowest-weight lines vanish. The same conclusion holds if the fields are replaced by their derivatives.
+\end{cor}
+
+\begin{proof}
+Choose $s$ equal to $\omega_B^\natural$ or $\sigma_1(\omega_B^\natural)$ so that the chosen pair has regular operator product with $s$ and $\overline s$, as in Proposition \ref{prop:second-spectator-stress}. Let $\mathscr C_s$ be the space of finite-energy bulk states with this regularity property. The mode commutator identity gives, for $v \in \mathscr C_s$, commutation of its full vertex operator with all modes of $s$ and $\overline s$. Consequently $\mathscr C_s$ contains the vacuum and is closed under bulk operator-product coefficients and under the two translations. It contains all the iterated coefficients in the assertion. These coefficients are also in the joint invariant algebra, by Lemma \ref{lem:pointed-invariant-bulk-product}.
+
+On the invariant relevant space, the joint kernel of $L_s(0)$ and $\overline{L_s(0)}$ is exactly the chosen pair. Indeed, Proposition \ref{prop:second-spectator-stress} gives the eigenvalues $0$ on this pair, $\frac{23}{41}$ on the other weak pair and on the pair of weight $\frac23$, and $\frac{33}{41}$ on the pair of weight $\frac{12}{13}$. For the conjugate stress the two weak pairs are exchanged. The chiral stress modes preserve the pointed sectors and commute with the total conformal grading. The projection onto the relevant lowest-weight lines therefore preserves this joint kernel. This proves the assertion.
+\end{proof}
+
+Corollary \ref{cor:single-weak-pair-selection} concerns undeformed operator products without additional neutral chiral insertions, unlike the filtration of Proposition \ref{prop:four-invariant-intermediate-algebras}. In particular, the necessary insertion counts $9$, $13$ and $14$ of the table following that proposition are not sufficient: the corresponding lowest-weight coefficients vanish for every number of insertions of a single weak pair.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The pointed bulk part of the mixed extensions}
+\label{subsec:pointed-mixed-bulk}
+
+\begin{prop}
+\label{prop:pointed-bulk-mixed-extension}
+Let $A$ be either of the two mixed extension algebras in $\cal E = \Rep(\Omega) = \cal C\boxtimes\cal P$, and write $X_p = \mathbf1_{\cal C}\boxtimes p$ for $p \in \Z/39\Z$. The maximal subobject of the full center $Z_{\cal E}(A)$ belonging to $\cal P\boxtimes\cal P^{\mathrm{rev}}$ is
+\begin{equation}
+\label{eq:pointed-bulk-mixed-extension}
+\bigoplus_{p \in 3\Z/39\Z} X_p\boxtimes X_p^\vee.
+\end{equation}
+It is a subalgebra, isomorphic to the diagonal algebra of the order-thirteen pointed subcategory of $\cal P$. The nonvacuum scalar states in this pointed bulk part of scaling dimension less than two have labels $p = \pm3$ and scaling dimension $\frac{24}{13}$, with total complex dimension two and Hermitian real dimension two.
+\end{prop}
+
+\begin{proof}
+Let $F(X) = X\ot A$ be the free right $A$-module and let $\operatorname{For}$ be the forgetful functor. Adjunction gives $\operatorname{Hom}_{\cal E_A}(F(X_p),F(X_q)) \cong \operatorname{Hom}_{\cal E}(X_p,X_q\ot A)$, of dimension $\delta_{p,q}$, since only the tensor unit in $A$ has trivial central label. Thus the $F(X_p)$ are simple and pairwise inequivalent. By \cite[Lemma 3.15 p.~11]{DMNO13}, $F(X_p)$ is local if and only if $X_p$ centralizes $A$. The monodromy on its two nonzero pointed degrees is $\exp(\pm2\pi\i\frac{34p}{3})$, so locality is equivalent to $p \in 3\Z/39\Z$.
+
+If a simple local module $M$ contains $X_p$ upon restriction, adjunction and simplicity force $M \cong F(X_p)$. Its pointed restriction is therefore exactly $X_p$, with multiplicity one. Since $F$ is monoidal, the modules $F(X_p)$, $p \in 3\Z/39\Z$, form the subgroup of order thirteen of the group of simple local modules, which is cyclic of order $39$ by Theorem \ref{thm:five-dimension39-extensions}. The left and right centers of the commutative algebra $A$ are $A$, so that \cite[Theorem 2.5.1 p.~1328]{Dav10} gives
+\[
+Z_{\cal E}(A) \cong \bigoplus_{M \in \Irr(\cal E_A^0)}
+\operatorname{For}(M)\boxtimes\operatorname{For}(\Phi(M)),
+\]
+where $\Phi(M)$ is the local $A$-module in $\cal E^{\mathrm{rev}}$ attached to $M$ by the contravariant monoidal equivalence of loc. cit. The local $A$-modules in $\cal E^{\mathrm{rev}}$ have the same simple objects and fusion rules as in $\cal E$. The induced bijection of the group of simple local modules respects the group law up to inversion, so that it preserves the subgroup of order thirteen. Hence the maximal subobject of $Z_{\cal E}(A)$ in $\cal P\boxtimes\cal P^{\mathrm{rev}}$ is $\bigoplus_{p \in 3\Z/39\Z}X_p\boxtimes X_{\psi(p)}$ for a bijection $\psi$ of $3\Z/39\Z$. On the other hand, $Z_{\cal E}(A)$ is the image of an idempotent of the algebra $(A\boxtimes\mathbf1)\ot\cal T$, where $\cal T = \bigoplus_x x\boxtimes x^\vee$ \cite[Definitions 2.4 and 2.6]{KoR08}, \cite[Section 2.4 p.~1327]{Dav10}. A summand $(A\ot x)\boxtimes x^\vee$ contains an object of $\cal P\boxtimes\cal P^{\mathrm{rev}}$ only for $x = X_q$, and then its pointed part is $X_q\boxtimes X_q^\vee$, since only the tensor unit in $A$ has trivial central label. Thus $X_{\psi(p)} \cong X_p^\vee$, which proves \eqref{eq:pointed-bulk-mixed-extension}. Put $R_p = X_p\boxtimes X_p^\vee$. Since $R_p\ot R_q \cong R_{p+q}$, this subobject is closed under multiplication. The nondegenerate pairing of the connected \'etale full center gives a nonzero product $R_q\ot R_{-q} \to \mathbf1$ \cite[Remark 3.4 p.~7]{DMNO13}. Associativity with $R_{-q}$ then forces every product $R_p\ot R_q \to R_{p+q}$ to be nonzero. Its cyclic isotropic support and $H^2(\Z_{13},\Cbb^\times) = 0$ identify the resulting algebra with the diagonal algebra of the order-thirteen pointed subcategory.
+
+Finally, the nonvacuum pointed labels of lowest weight less than one are $\{\pm3,\pm4,\pm13,\pm17\}$, by Proposition \ref{prop:all-haagerup-invariant-relevant-fields}. Their intersection with $3\Z/39\Z$ is $\{\pm3\}$. The two lowest-weight spaces are one-dimensional of weight $\frac{12}{13}$, and their bulk lines are exchanged by Hermitian conjugation. This proves the assertion.
+\end{proof}
+
+\paragraph{AI statement}
+The author acknowledges the use of AI tools for language polishing, LaTeX editing, exploratory mathematical discussions, drafting parts of the arguments, and preparing and checking exact calculations. The author takes responsibility for the mathematical content.
+
+\paragraph{Competing interests} The author declares that he has no competing interests.
+
+\paragraph{Data availability} The exact lattice calculations, the rational mass certificate, the pointed-sector enumeration and the operator-product selection and stress-weight checks used in Sections \ref{sec:explicit-K} and \ref{sec:invariant-fields} accompany this manuscript. The script \texttt{lattice/verify\_c6\_section6\_v01.py} checks in exact arithmetic, in one place, the data of Sections \ref{sec:explicit-K} and \ref{sec:invariant-fields}: the explicit bases of $K$, the lattice $N$ and its four isotropic lines and overlattices, the pointed labels and minimal energies with all minimizing momenta, the cubic sector triples, the stress weights, the trivial-twist objects, the generation table and the pointed labels and minimal energies in the realization of levels $(1,39)$ used in Proposition \ref{prop:second-spectator-stress}. Lowest-weight nonvanishing, the unitary normalization, the extension-algebra reductions and the orbit comparisons are proved in the text. The fixed-source and image classifications use independent exact lattice and Weyl-action certificates. Public supplements are available at \url{https://github.com/cedricarhancet/}.
+
+\small
+\begin{thebibliography}{99}
+
+\bibitem[AHKZ26]{AHKZ26}
+J. Albert, Y. Honda, J. Kaidi and Y. Zheng.
+\newblock Haagerup symmetry in $(E_8)_1$?
+\newblock Phys. Rev. Lett. 136 (2026), 091603. Page and figure references are to arXiv:2512.08225v2.
+
+\bibitem[Arh26a]{Arh26a}
+C. Arhancet.
+\newblock Haagerup vertex operator algebras at central charge eight.
+\newblock Preprint, 2026, \href{https://hexagonmath.org/2610.00733v2}{Hexagon:2610.00733v2}.
+
+\bibitem[Arh26b]{Arh26b}
+C. Arhancet.
+\newblock Haagerup symmetries of the $E_8$ theory and conformal nets at central charge eight.
+\newblock Preprint, 2026, \href{https://hexagonmath.org/2611.00034v2}{Hexagon:2611.00034v2}.
+
+\bibitem[Arh26c]{Arh26c}
+C. Arhancet.
+\newblock The Haagerup center at central charge eight via conformal nets.
+\newblock Preprint, 2026, \href{https://hexagonmath.org/2611.00164v1}{Hexagon:2611.00164v1}.
+
+\bibitem[CKLW18]{CKLW18}
+S. Carpi, Y. Kawahigashi, R. Longo and M. Weiner.
+\newblock From vertex operator algebras to conformal nets and back.
+\newblock Mem. Amer. Math. Soc. 254 (2018), no. 1213.
+
+\bibitem[CS88]{CS88}
+J. H. Conway and N. J. A. Sloane.
+\newblock Low-dimensional lattices. IV. The mass formula.
+\newblock Proc. Roy. Soc. London Ser. A 419 (1988), no. 1857, 259--286.
+
+\bibitem[Dav10]{Dav10}
+A. Davydov.
+\newblock Modular invariants for group-theoretical modular data. I.
+\newblock J. Algebra 323 (2010), no. 5, 1321--1348.
+
+\bibitem[DMNO13]{DMNO13}
+A. Davydov, M. Müger, D. Nikshych and V. Ostrik.
+\newblock The Witt group of non-degenerate braided fusion categories.
+\newblock J. Reine Angew. Math. 677 (2013), 135--177. Page references are to arXiv:1009.2117v2.
+
+\bibitem[Don93]{Don93}
+C. Dong.
+\newblock Vertex algebras associated with even lattices.
+\newblock J. Algebra 161 (1993), no. 1, 245--265.
+
+\bibitem[DJX26]{DJX26}
+C. Dong, X. Jiao and F. Xu.
+\newblock On the Haagerup vertex operator algebras.
+\newblock Preprint, arXiv:2611.04778v1.
+
+\bibitem[DoL14]{DoL14}
+C. Dong and X. Lin.
+\newblock Unitary vertex operator algebras.
+\newblock J. Algebra 397 (2014), 252--277. Page references are to arXiv:1308.2361v1.
+
+\bibitem[DoM04]{DoM04}
+C. Dong and G. Mason.
+\newblock Rational vertex operator algebras and the effective central charge.
+\newblock Int. Math. Res. Not. 2004, no. 56, 2989--3008.
+
+\bibitem[EGNO15]{EGNO15}
+P. Etingof, S. Gelaki, D. Nikshych and V. Ostrik.
+\newblock Tensor categories.
+\newblock Mathematical Surveys and Monographs, 205. American Mathematical Society, Providence, RI, 2015.
+
+\bibitem[FFRS06]{FFRS06}
+J. Fjelstad, J. Fuchs, I. Runkel and C. Schweigert.
+\newblock TFT construction of RCFT correlators. V. Proof of modular invariance and factorisation.
+\newblock Theory Appl. Categ. 16 (2006), 342--433. Page references are to arXiv:hep-th/0503194v2.
+
+\bibitem[FLM88]{FLM88}
+I. Frenkel, J. Lepowsky and A. Meurman.
+\newblock Vertex operator algebras and the Monster.
+\newblock Pure and Applied Mathematics, 134. Academic Press, Boston, MA, 1988.
+
+\bibitem[FZ92]{FZ92}
+I. B. Frenkel and Y. Zhu.
+\newblock Vertex operator algebras associated to representations of affine and Virasoro algebras.
+\newblock Duke Math. J. 66 (1992), no. 1, 123--168.
+
+\bibitem[FFRS07]{FFRS07}
+J. Fröhlich, J. Fuchs, I. Runkel and C. Schweigert.
+\newblock Duality and defects in rational conformal field theory.
+\newblock Nuclear Phys. B 763 (2007), no. 3, 354--430. Section, equation and statement references are to arXiv:hep-th/0607247v2.
+
+\bibitem[FRS02]{FRS02}
+J. Fuchs, I. Runkel and C. Schweigert.
+\newblock TFT construction of RCFT correlators. I. Partition functions.
+\newblock Nuclear Phys. B 646 (2002), no. 3, 353--497.
+
+\bibitem[Hua26]{Hua26}
+T.-C. Huang.
+\newblock Haagerup conformal field theory at central charge eight.
+\newblock Preprint, 2026, arXiv:2610.14441v2.
+
+\bibitem[HKL15]{HKL15}
+Y.-Z. Huang, A. Kirillov Jr. and J. Lepowsky.
+\newblock Braided tensor categories and extensions of vertex operator algebras.
+\newblock Comm. Math. Phys. 337 (2015), no. 3, 1143--1159.
+
+\bibitem[Jia26]{Jia26}
+X. Jiao.
+\newblock An explicit lattice construction for the Haagerup center.
+\newblock Manuscript, version of 4 October 2026.
+
+\bibitem[KiO02]{KiO02}
+A. Kirillov Jr. and V. Ostrik.
+\newblock On a $q$-analogue of the McKay correspondence and the ADE classification of $\widehat{\mathfrak{sl}}_2$ conformal field theories.
+\newblock Adv. Math. 171 (2002), no. 2, 183--227. Page references are to arXiv:math/0101219v3.
+
+\bibitem[Kon07]{Kon07}
+L. Kong.
+\newblock Full field algebras, operads and tensor categories.
+\newblock Adv. Math. 213 (2007), no. 1, 271--340. Page references are to arXiv:math/0603065v3.
+
+\bibitem[KoR08]{KoR08}
+L. Kong and I. Runkel.
+\newblock Morita classes of algebras in modular tensor categories.
+\newblock Adv. Math. 219 (2008), no. 5, 1548--1576. Page references are to arXiv:0708.1897v2.
+
+\bibitem[LL04]{LL04}
+J. Lepowsky and H. Li.
+\newblock Introduction to vertex operator algebras and their representations.
+\newblock Progress in Mathematics 227, Birkhäuser, Boston, 2004.
+
+\bibitem[MoR24]{MoR24}
+S. Möller and B. C. Rayhaun.
+\newblock Equivalence relations on vertex operator algebras, II: Witt equivalence and orbifolds.
+\newblock Preprint, arXiv:2410.18166v2.
+
+\bibitem[Mor23]{Mor23}
+Y. Moriwaki.
+\newblock Two-dimensional conformal field theory, full vertex algebra and current-current deformation.
+\newblock Adv. Math. 427 (2023), article 109125. Section, equation and page references are to arXiv:2007.07327v4.
+
+\bibitem[Mu03]{Mu03}
+M. Müger.
+\newblock On the structure of modular categories.
+\newblock Proc. London Math. Soc. (3) 87 (2003), no. 2, 291--308.
+
+\bibitem[Nik80]{Nik80}
+V. V. Nikulin.
+\newblock Integral symmetric bilinear forms and some of their applications.
+\newblock Math. USSR Izv. 14 (1980), 103--167.
+
+\bibitem[Rie26]{Rie26}
+A. Riesen.
+\newblock The Haagerup VOA at $c = 8$.
+\newblock Preprint, arXiv:2610.13933v1.
+
+\end{thebibliography}
+\end{document}

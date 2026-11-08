@@ -1,0 +1,16 @@
+{
+  "I": {
+    "gram_L": "Matrix([[2, 1], [1, 20]])",
+    "gram_check": true,
+    "orthogonality": true,
+    "all_basis_in_E8plus": true
+  },
+  "II": {
+    "gram_L": "Matrix([[6, 3], [3, 8]])",
+    "gram_check": true,
+    "orthogonality": true,
+    "all_basis_in_E8plus": true
+  },
+  "E8plus_integrality": true,
+  "E8plus_norm_glue": "2"
+}

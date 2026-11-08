@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "arithmetic": "standard-library Fraction",
+  "mixed_support_pointed_degrees": [
+    0,
+    13,
+    26
+  ],
+  "local_pointed_labels": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27,
+    30,
+    33,
+    36
+  ],
+  "order": 13,
+  "restricted_metric": "q(3r)=-r^2/13 modulo1",
+  "pointed_relevant_labels": {
+    "3": "12/13",
+    "36": "12/13"
+  },
+  "scalar_scaling_dimension": "24/13",
+  "complex_dimension": 2,
+  "Hermitian_real_dimension": 2,
+  "premises": "The complete pointed lowest-weight list and one-dimensional tops are imported from the established Omega calculation.",
+  "scope": "Checks finite monodromy arithmetic. Free-module simplicity and the full-center type-I formula are separately proved in pointed-bulk-mixed.tex. No mixed Haagerup action is assumed."
+}

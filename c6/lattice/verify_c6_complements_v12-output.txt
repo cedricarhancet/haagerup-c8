@@ -1,0 +1,6 @@
+mass: B_{3,chi} = 528, 2-adic ratio 1/56, mass 11/2880 = 1/288 + 1/2880 with |O(K)| = 288, |O(K-flat)| = 2880
+levels (1,39): central charge 170/41, eigenvalues 23/41 on +-13 and +-17, 33/41 on +-3 (b = 18 forced)
+cubic quantities: rho^U = 4/3 and -1/3, rho = 16/9 and 1/9, |C| = 4/3 and 1/3
+cocycles: commutator parities on E8 and on Lambda_K checked for all pairs in (1/39)Z, |numerators| <= 78
+mixed bulk: local labels 3Z/39Z, monodromy exp(2 pi i 34p/3), pointed relevant labels +-3
+ALL CHECKS PASSED
